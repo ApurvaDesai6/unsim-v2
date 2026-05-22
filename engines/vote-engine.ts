@@ -24,8 +24,16 @@ function dotProduct(a: PolicyDimensions, b: PolicyDimensions): number {
     "sovereignty", "humanRights", "development", "security", "environment", "decolonization",
   ];
   let sum = 0;
-  for (const k of keys) sum += (a[k] || 0) * (b[k] || 0);
-  return sum / keys.length;
+  let weightSum = 0;
+  for (const k of keys) {
+    const bVal = b[k] || 0;
+    // Weight by resolution's emphasis on each dimension
+    const weight = Math.abs(bVal);
+    sum += (a[k] || 0) * bVal * weight;
+    weightSum += weight;
+  }
+  // Normalize to [-1, 1] range
+  return weightSum > 0 ? Math.max(-1, Math.min(1, sum / weightSum)) : 0;
 }
 
 function softmax3(scores: [number, number, number]): [number, number, number] {
@@ -39,9 +47,15 @@ function computeIdealPointAlignment(
   countryIdealPoint: number,
   resolutionVector: PolicyDimensions,
 ): number {
-  const resolutionPosition = Object.values(resolutionVector).reduce((a, b) => a + b, 0) /
-    Object.keys(resolutionVector).length;
-  return 1 - Math.abs(countryIdealPoint - resolutionPosition);
+  // Resolution position: average of all dimensions gives a rough left-right placement
+  const vals = Object.values(resolutionVector);
+  const resolutionPosition = vals.reduce((a, b) => a + b, 0) / vals.length;
+
+  // Distance-based score: closer = more supportive, farther = more opposed
+  // Output range: -1 (maximally opposed) to +1 (perfectly aligned)
+  const distance = Math.abs(countryIdealPoint - resolutionPosition);
+  // Max possible distance is 2 (from -1 to +1)
+  return 1 - distance * 1.5;
 }
 
 function computeDimensionScore(
@@ -147,11 +161,16 @@ export function computeCountryPosition(
     WEIGHTS.topicHistory * topicScore +
     WEIGHTS.blocPressure * blocScore;
 
-  const abstainBias = (1 - country.democracyIndex) * 0.3;
+  // Abstain calibration: countries abstain when their composite signal is weak
+  // OR when they face cross-pressures (e.g., allies on both sides).
+  const compositeStrength = Math.abs(composite);
+  const crossPressure = (1 - compositeStrength) * 0.6;
+  const regimeCaution = (1 - country.democracyIndex) * 0.2;
+  const abstainBias = crossPressure + regimeCaution;
   const rawScores: [number, number, number] = [
-    composite * 2.5,
-    -composite * 2.5,
-    abstainBias,
+    composite * 3.2,
+    -composite * 3.2,
+    abstainBias - 0.5,
   ];
 
   const [pYes, pNo, pAbstain] = softmax3(rawScores);
