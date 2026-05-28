@@ -52,9 +52,9 @@ interface GraphCoreData {
 // ─── Weights ─────────────────────────────────────────────────────────
 
 const WEIGHTS = {
-  topicHistory: 0.35,
-  allianceSignal: 0.20,
-  policyDimension: 0.20,
+  topicHistory: 0.30,
+  allianceSignal: 0.15,
+  policyDimension: 0.30,
   idealPoint: 0.15,
   blocPressure: 0.10,
 } as const;
@@ -325,12 +325,17 @@ export function simulateWithGraph(
       description: `Peer pressure from ${countryBlocs.join(", ") || "no"} bloc memberships`,
     });
 
-    // Composite score
+    // Resolution intensity: how extreme/binding is the language?
+    // Higher intensity = more contentious = topic history less reliable
+    const resIntensity = Object.values(resolution.policyVector).reduce((s, v) => s + Math.abs(v), 0) / 6;
+    const topicDamping = Math.max(0.3, 1 - resIntensity * 0.7);
+
+    // Composite score — intense resolutions weight dimensions more, topic less
     const composite =
-      WEIGHTS.topicHistory * topicResult.score * (topicResult.confidence > 0.3 ? 1 : 0.5) +
+      WEIGHTS.topicHistory * topicResult.score * topicDamping * (topicResult.confidence > 0.3 ? 1 : 0.5) +
       WEIGHTS.allianceSignal * allianceScore +
-      WEIGHTS.policyDimension * dimScore +
-      WEIGHTS.idealPoint * idealScore +
+      WEIGHTS.policyDimension * dimScore * (1 + resIntensity * 0.5) +
+      WEIGHTS.idealPoint * idealScore * (1 + resIntensity * 0.3) +
       WEIGHTS.blocPressure * blocScore;
 
     // Abstain calibration using empirical abstain rate from graph

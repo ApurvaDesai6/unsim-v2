@@ -119,7 +119,7 @@ function SimulationView() {
     }
   }, [analyzedResolution, resolution]);
 
-  // Handle clause strength change
+  // Handle clause strength change — recomputes policy vector so resimulation produces different results
   const handleStrengthChange = useCallback((clauseIndex: number, newStrength: number) => {
     if (!resolution || !analyzedResolution) return;
     const updatedClauses = resolution.clauses.map((c, i) =>
@@ -127,13 +127,46 @@ function SimulationView() {
     );
     setResolution({ ...resolution, clauses: updatedClauses });
 
-    // Recompute policy vector based on new strengths
-    const updatedAnalyzed = { ...analyzedResolution };
-    const opClauses = (updatedAnalyzed.operativeClauses as ResolutionClause[]) || [];
+    const updatedAnalyzed = { ...analyzedResolution } as Record<string, unknown>;
+    const opClauses = [...((updatedAnalyzed.operativeClauses as ResolutionClause[]) || [])];
     if (opClauses[clauseIndex]) {
       opClauses[clauseIndex] = { ...opClauses[clauseIndex], strength: newStrength };
-      updatedAnalyzed.operativeClauses = opClauses;
     }
+    updatedAnalyzed.operativeClauses = opClauses;
+
+    // Recompute policyVector from clause topics * strengths
+    const topicToDim: Record<string, string> = {
+      sovereignty: "sovereignty", "international-law": "sovereignty",
+      climate: "environment", environment: "environment", water: "environment",
+      "human-rights": "humanRights", refugees: "humanRights", health: "humanRights",
+      development: "development", trade: "development", technology: "development",
+      security: "security", disarmament: "security", nuclear: "security",
+      decolonization: "decolonization",
+    };
+    const newVector: Record<string, number> = { sovereignty: 0, humanRights: 0, development: 0, security: 0, environment: 0, decolonization: 0 };
+    const dimCounts: Record<string, number> = {};
+    const newIssueWeights: Record<string, number> = {};
+
+    for (const clause of opClauses) {
+      for (const topic of (clause.topics || [])) {
+        newIssueWeights[topic] = (newIssueWeights[topic] || 0) + clause.strength;
+        const dim = topicToDim[topic];
+        if (dim) {
+          newVector[dim] = (newVector[dim] || 0) + clause.strength;
+          dimCounts[dim] = (dimCounts[dim] || 0) + 1;
+        }
+      }
+    }
+    for (const key of Object.keys(newVector)) {
+      if (dimCounts[key]) newVector[key] = Math.min(1, Math.max(-1, newVector[key] / dimCounts[key]));
+    }
+    const maxW = Math.max(...Object.values(newIssueWeights), 0.1);
+    for (const key of Object.keys(newIssueWeights)) {
+      newIssueWeights[key] /= maxW;
+    }
+
+    updatedAnalyzed.policyVector = newVector;
+    updatedAnalyzed.issueWeights = newIssueWeights;
     setAnalyzedResolution(updatedAnalyzed);
   }, [resolution, analyzedResolution]);
 
