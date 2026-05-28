@@ -201,7 +201,8 @@ function SimulationView() {
       const res = await fetch(`/api/debate?preset=${preset}`);
       if (res.ok) {
         const data = await res.json();
-        setDebateData(data);
+        const rounds = data.rounds || data.debate || [];
+        setDebateData({ rounds: Array.isArray(rounds) ? rounds : [rounds] });
       }
     } finally {
       setDebateLoading(false);
