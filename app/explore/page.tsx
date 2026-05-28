@@ -1,8 +1,10 @@
 "use client";
 
 import { useState, useEffect, useCallback, useMemo, useRef } from "react";
-import ForceGraph from "@/components/viz/ForceGraph";
+import dynamic from "next/dynamic";
 import type { GraphNodeDatum, GraphEdgeDatum } from "@/components/viz/ForceGraph";
+
+const ForceGraph = dynamic(() => import("@/components/viz/ForceGraph"), { ssr: false });
 
 interface CountryData {
   iso3: string;
@@ -107,6 +109,21 @@ function GraphView({ countries, selectedCountry, onSelectCountry }: { countries:
     loadGraph();
   }, []);
 
+  const filteredEdges = useMemo(() => {
+    if (!graphData) return [];
+    return graphData.edges.filter((e) => {
+      if (e.type === "ALLIES_WITH") return (e.strength || 0) >= edgeThreshold;
+      if (e.type === "RIVALS_WITH") return (e.intensity || 0) >= 0.5;
+      return true;
+    });
+  }, [graphData, edgeThreshold]);
+
+  const visibleEdgeCount = filteredEdges.filter((e) => {
+    if (e.type === "ALLIES_WITH" && !showAlliances) return false;
+    if (e.type === "RIVALS_WITH" && !showRivalries) return false;
+    return true;
+  }).length;
+
   if (!graphData) {
     return (
       <div className="flex items-center justify-center h-full">
@@ -114,20 +131,6 @@ function GraphView({ countries, selectedCountry, onSelectCountry }: { countries:
       </div>
     );
   }
-
-  const filteredEdges = useMemo(() => {
-    return graphData.edges.filter((e) => {
-      if (e.type === "ALLIES_WITH") return (e.strength || 0) >= edgeThreshold;
-      if (e.type === "RIVALS_WITH") return (e.intensity || 0) >= 0.5;
-      return true;
-    });
-  }, [graphData.edges, edgeThreshold]);
-
-  const visibleEdgeCount = filteredEdges.filter((e) => {
-    if (e.type === "ALLIES_WITH" && !showAlliances) return false;
-    if (e.type === "RIVALS_WITH" && !showRivalries) return false;
-    return true;
-  }).length;
 
   return (
     <div ref={containerRef} className="w-full h-full relative">
