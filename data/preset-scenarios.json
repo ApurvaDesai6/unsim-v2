@@ -1,0 +1,224 @@
+[
+  {
+    "id": "climate-treaty",
+    "title": "Global Climate Accountability Treaty",
+    "description": "Binding emissions targets with financial penalties for non-compliance",
+    "committee": "GA_PLENARY",
+    "preamble": [
+      {"id": "pp1", "text": "Recalling the Paris Agreement and the urgent need for accelerated climate action"},
+      {"id": "pp2", "text": "Deeply concerned by the widening gap between current emissions trajectories and the 1.5°C target"},
+      {"id": "pp3", "text": "Recognizing the principle of common but differentiated responsibilities"}
+    ],
+    "operativeClauses": [
+      {"id": "op1", "text": "Establishes legally binding national emissions reduction targets aligned with limiting warming to 1.5°C", "strength": 0.9, "topics": ["climate", "environment"]},
+      {"id": "op2", "text": "Creates an independent International Climate Compliance Body with authority to assess national performance", "strength": 0.7, "topics": ["climate", "international-law"]},
+      {"id": "op3", "text": "Institutes financial penalties for nations exceeding allocated carbon budgets, with revenues directed to adaptation funds", "strength": 0.85, "topics": ["climate", "development", "trade"]},
+      {"id": "op4", "text": "Mandates annual climate finance transfers of at least $200 billion to developing nations for adaptation and mitigation", "strength": 0.8, "topics": ["development", "climate"]}
+    ],
+    "policyVector": {"sovereignty": -0.3, "humanRights": 0.1, "development": 0.5, "security": 0.0, "environment": 0.9, "decolonization": 0.1},
+    "issueWeights": {"climate": 1.0, "environment": 0.8, "development": 0.6, "trade": 0.3}
+  },
+  {
+    "id": "ai-governance",
+    "title": "International AI Governance Framework",
+    "description": "Establishing a UN body to regulate frontier AI development",
+    "committee": "GA_PLENARY",
+    "preamble": [
+      {"id": "pp1", "text": "Noting the rapid advancement of artificial intelligence systems with potential for both benefit and harm"},
+      {"id": "pp2", "text": "Concerned by the concentration of AI development capabilities in a small number of states and corporations"},
+      {"id": "pp3", "text": "Recalling the Secretary-General's New Agenda for Peace and its technology governance provisions"}
+    ],
+    "operativeClauses": [
+      {"id": "op1", "text": "Establishes the International AI Governance Agency (IAGA) as a specialized agency under the UN system", "strength": 0.8, "topics": ["technology", "international-law"]},
+      {"id": "op2", "text": "Requires all states to submit frontier AI systems exceeding defined capability thresholds for mandatory safety assessments", "strength": 0.85, "topics": ["technology", "security"]},
+      {"id": "op3", "text": "Authorizes the IAGA to impose development moratoriums on AI capabilities deemed to pose existential risk", "strength": 0.9, "topics": ["technology", "security", "sovereignty"]},
+      {"id": "op4", "text": "Creates a global AI benefit-sharing mechanism to ensure developing nations access transformative AI capabilities", "strength": 0.7, "topics": ["technology", "development"]}
+    ],
+    "policyVector": {"sovereignty": -0.4, "humanRights": 0.3, "development": 0.4, "security": -0.3, "environment": 0.0, "decolonization": 0.1},
+    "issueWeights": {"technology": 1.0, "security": 0.5, "development": 0.4, "sovereignty": 0.6}
+  },
+  {
+    "id": "nuclear-ban",
+    "title": "Universal Nuclear Disarmament Resolution",
+    "description": "Complete elimination of nuclear weapons with verification regime",
+    "committee": "FIRST_COMMITTEE",
+    "preamble": [
+      {"id": "pp1", "text": "Reaffirming the obligation under Article VI of the Treaty on the Non-Proliferation of Nuclear Weapons"},
+      {"id": "pp2", "text": "Alarmed by the modernization of nuclear arsenals and the erosion of arms control frameworks"},
+      {"id": "pp3", "text": "Welcoming the entry into force of the Treaty on the Prohibition of Nuclear Weapons"}
+    ],
+    "operativeClauses": [
+      {"id": "op1", "text": "Demands the complete elimination of all nuclear weapons and their delivery systems within fifteen years", "strength": 1.0, "topics": ["disarmament", "nuclear", "security"]},
+      {"id": "op2", "text": "Establishes a universal verification regime with mandatory inspections of all nuclear-capable facilities", "strength": 0.9, "topics": ["disarmament", "nuclear"]},
+      {"id": "op3", "text": "Requires all states possessing fissile material to declare stockpiles and submit to international controls", "strength": 0.85, "topics": ["nuclear", "security"]},
+      {"id": "op4", "text": "Provides legally binding security guarantees to states that have disarmed or foregone nuclear acquisition", "strength": 0.8, "topics": ["security", "disarmament"]}
+    ],
+    "policyVector": {"sovereignty": 0.2, "humanRights": 0.2, "development": 0.0, "security": -0.8, "environment": 0.1, "decolonization": 0.1},
+    "issueWeights": {"disarmament": 1.0, "nuclear": 0.9, "security": 0.7}
+  },
+  {
+    "id": "sc-reform",
+    "title": "Security Council Expansion and Veto Reform",
+    "description": "Adding 6 permanent members with modified veto rights",
+    "committee": "GA_PLENARY",
+    "preamble": [
+      {"id": "pp1", "text": "Recognizing that the current composition of the Security Council does not reflect contemporary geopolitical realities"},
+      {"id": "pp2", "text": "Noting that Africa, Latin America, and the majority of Asia have no permanent representation"},
+      {"id": "pp3", "text": "Concerned by the paralysis caused by unilateral veto use on matters of peace and security"}
+    ],
+    "operativeClauses": [
+      {"id": "op1", "text": "Expands the Security Council to 21 members with 6 new permanent seats distributed as: 2 Africa, 2 Asia-Pacific, 1 Latin America, 1 Western European & Others", "strength": 0.9, "topics": ["sovereignty", "international-law", "decolonization"]},
+      {"id": "op2", "text": "Modifies the veto mechanism to require two concurrent vetoes to block a resolution, preventing unilateral obstruction", "strength": 0.85, "topics": ["sovereignty", "international-law"]},
+      {"id": "op3", "text": "Requires P5 members to provide written justification for any veto exercised, subject to General Assembly review", "strength": 0.7, "topics": ["international-law"]},
+      {"id": "op4", "text": "Establishes a 10-year review mechanism to reassess Council composition based on evolving global dynamics", "strength": 0.6, "topics": ["international-law"]}
+    ],
+    "policyVector": {"sovereignty": 0.6, "humanRights": 0.2, "development": 0.3, "security": 0.1, "environment": 0.0, "decolonization": 0.7},
+    "issueWeights": {"sovereignty": 0.9, "decolonization": 0.7, "international-law": 0.8}
+  },
+  {
+    "id": "cyber-norms",
+    "title": "Binding Cyber Warfare Norms",
+    "description": "Prohibiting state-sponsored cyberattacks on civilian infrastructure",
+    "committee": "SECURITY_COUNCIL",
+    "preamble": [
+      {"id": "pp1", "text": "Deeply concerned by the increasing frequency of state-sponsored cyberattacks targeting civilian infrastructure"},
+      {"id": "pp2", "text": "Noting that existing international humanitarian law applies in cyberspace but lacks specific enforcement mechanisms"},
+      {"id": "pp3", "text": "Recalling the UN Group of Governmental Experts reports on responsible state behavior in cyberspace"}
+    ],
+    "operativeClauses": [
+      {"id": "op1", "text": "Prohibits all state-sponsored cyberattacks on civilian critical infrastructure including hospitals, power grids, water systems, and financial networks", "strength": 0.9, "topics": ["security", "technology"]},
+      {"id": "op2", "text": "Establishes an International Cyber Attribution Center with authority to attribute attacks through forensic investigation", "strength": 0.8, "topics": ["security", "technology", "international-law"]},
+      {"id": "op3", "text": "Authorizes proportional collective response measures against states found responsible for attacks on civilian infrastructure", "strength": 0.85, "topics": ["security"]},
+      {"id": "op4", "text": "Creates a capacity-building fund to assist developing nations in protecting critical infrastructure from cyber threats", "strength": 0.6, "topics": ["security", "development", "technology"]}
+    ],
+    "policyVector": {"sovereignty": -0.3, "humanRights": 0.2, "development": 0.2, "security": -0.5, "environment": 0.0, "decolonization": 0.0},
+    "issueWeights": {"security": 1.0, "technology": 0.7, "development": 0.3}
+  },
+  {
+    "id": "water-rights",
+    "title": "Universal Right to Clean Water",
+    "description": "Declaring clean water access a binding human right with enforcement",
+    "committee": "THIRD_COMMITTEE",
+    "preamble": [
+      {"id": "pp1", "text": "Recalling General Assembly resolution 64/292 recognizing access to clean water as a human right"},
+      {"id": "pp2", "text": "Alarmed that 2.2 billion people still lack access to safely managed drinking water"},
+      {"id": "pp3", "text": "Noting the disproportionate impact of water scarcity on women, children, and marginalized communities"}
+    ],
+    "operativeClauses": [
+      {"id": "op1", "text": "Declares access to clean water and adequate sanitation a legally binding human right enforceable under international law", "strength": 0.85, "topics": ["human-rights", "development"]},
+      {"id": "op2", "text": "Requires all member states to submit national water access plans with measurable targets for achieving universal access by 2035", "strength": 0.7, "topics": ["development", "human-rights"]},
+      {"id": "op3", "text": "Establishes a Global Water Access Fund of $50 billion annually, financed through assessed contributions scaled by GDP", "strength": 0.8, "topics": ["development"]},
+      {"id": "op4", "text": "Prohibits the privatization of essential water services where it would restrict access for vulnerable populations", "strength": 0.75, "topics": ["human-rights", "development", "trade"]}
+    ],
+    "policyVector": {"sovereignty": 0.1, "humanRights": 0.7, "development": 0.8, "security": 0.0, "environment": 0.5, "decolonization": 0.2},
+    "issueWeights": {"human-rights": 0.8, "development": 1.0, "climate": 0.3}
+  },
+  {
+    "id": "digital-sovereignty",
+    "title": "Digital Sovereignty and Data Governance",
+    "description": "Establishing national rights over citizen data and digital infrastructure",
+    "committee": "GA_PLENARY",
+    "preamble": [
+      {"id": "pp1", "text": "Concerned by the extraterritorial reach of technology corporations in processing and storing citizen data"},
+      {"id": "pp2", "text": "Recognizing that digital infrastructure constitutes critical national infrastructure"}
+    ],
+    "operativeClauses": [
+      {"id": "op1", "text": "Affirms that all nations have sovereign rights over the data generated by their citizens and within their territories", "strength": 0.85, "topics": ["sovereignty", "technology"]},
+      {"id": "op2", "text": "Requires technology corporations to establish local data processing centers upon reaching defined user thresholds", "strength": 0.7, "topics": ["sovereignty", "trade", "technology"]},
+      {"id": "op3", "text": "Establishes international minimum standards for data protection applicable to all cross-border data transfers", "strength": 0.75, "topics": ["human-rights", "technology"]},
+      {"id": "op4", "text": "Creates a dispute resolution mechanism for conflicts between national data sovereignty and corporate data practices", "strength": 0.6, "topics": ["international-law", "sovereignty"]}
+    ],
+    "policyVector": {"sovereignty": 0.7, "humanRights": 0.3, "development": 0.3, "security": 0.1, "environment": 0.0, "decolonization": 0.2},
+    "issueWeights": {"sovereignty": 0.9, "technology": 0.7, "human-rights": 0.4, "trade": 0.3}
+  },
+  {
+    "id": "pandemic-treaty",
+    "title": "Pandemic Prevention and Response Treaty",
+    "description": "Binding obligations for pathogen sharing, vaccine equity, and early warning",
+    "committee": "GA_PLENARY",
+    "preamble": [
+      {"id": "pp1", "text": "Recalling the devastating global impact of the COVID-19 pandemic and the inequitable distribution of vaccines"},
+      {"id": "pp2", "text": "Noting the failure of voluntary mechanisms to ensure timely access to medical countermeasures for developing nations"}
+    ],
+    "operativeClauses": [
+      {"id": "op1", "text": "Establishes legally binding obligations for pathogen sample sharing through the WHO within 24 hours of detection", "strength": 0.8, "topics": ["health", "international-law"]},
+      {"id": "op2", "text": "Requires pharmaceutical companies receiving public funding to provide vaccine doses to developing nations at cost", "strength": 0.85, "topics": ["health", "development", "trade"]},
+      {"id": "op3", "text": "Creates a standing pandemic response fund of $30 billion with automatic disbursement triggers", "strength": 0.75, "topics": ["health", "development"]},
+      {"id": "op4", "text": "Mandates technology transfer for vaccine manufacturing to ensure regional production capacity on every continent", "strength": 0.8, "topics": ["development", "health", "trade"]}
+    ],
+    "policyVector": {"sovereignty": 0.1, "humanRights": 0.5, "development": 0.7, "security": 0.0, "environment": 0.0, "decolonization": 0.3},
+    "issueWeights": {"human-rights": 0.6, "development": 0.9, "trade": 0.5}
+  },
+  {
+    "id": "space-governance",
+    "title": "Outer Space Arms Control and Governance",
+    "description": "Prohibiting weapons in space and establishing resource-sharing frameworks",
+    "committee": "FIRST_COMMITTEE",
+    "preamble": [
+      {"id": "pp1", "text": "Reaffirming the Outer Space Treaty principle that space shall be used exclusively for peaceful purposes"},
+      {"id": "pp2", "text": "Alarmed by anti-satellite weapons tests and the militarization of orbital space"}
+    ],
+    "operativeClauses": [
+      {"id": "op1", "text": "Prohibits the placement, testing, or use of any weapons system in outer space or on celestial bodies", "strength": 0.9, "topics": ["disarmament", "security"]},
+      {"id": "op2", "text": "Bans anti-satellite weapons tests that generate orbital debris threatening shared space infrastructure", "strength": 0.85, "topics": ["security", "environment"]},
+      {"id": "op3", "text": "Establishes a Space Resource Governance Authority to manage equitable access to lunar and asteroid resources", "strength": 0.7, "topics": ["development", "sovereignty"]},
+      {"id": "op4", "text": "Requires all space-faring nations to contribute to a Space Debris Mitigation Fund proportional to their orbital assets", "strength": 0.65, "topics": ["environment", "development"]}
+    ],
+    "policyVector": {"sovereignty": 0.2, "humanRights": 0.0, "development": 0.3, "security": -0.7, "environment": 0.3, "decolonization": 0.2},
+    "issueWeights": {"disarmament": 0.9, "security": 0.7, "development": 0.4, "environment": 0.3}
+  },
+  {
+    "id": "corporate-accountability",
+    "title": "Binding Treaty on Business and Human Rights",
+    "description": "Mandatory corporate due diligence for human rights and environmental harms",
+    "committee": "THIRD_COMMITTEE",
+    "preamble": [
+      {"id": "pp1", "text": "Noting that the UN Guiding Principles on Business and Human Rights remain voluntary and inadequately implemented"},
+      {"id": "pp2", "text": "Concerned by documented cases of corporate complicity in environmental destruction and labor exploitation"}
+    ],
+    "operativeClauses": [
+      {"id": "op1", "text": "Requires all transnational corporations to conduct mandatory human rights due diligence across their supply chains", "strength": 0.85, "topics": ["human-rights", "trade"]},
+      {"id": "op2", "text": "Establishes an international tribunal with jurisdiction over corporate human rights violations exceeding national enforcement capacity", "strength": 0.8, "topics": ["human-rights", "international-law"]},
+      {"id": "op3", "text": "Creates a victims' compensation fund financed by penalties levied against non-compliant corporations", "strength": 0.75, "topics": ["human-rights", "development"]},
+      {"id": "op4", "text": "Grants affected communities legal standing to bring claims directly against corporations in international fora", "strength": 0.7, "topics": ["human-rights"]}
+    ],
+    "policyVector": {"sovereignty": 0.3, "humanRights": 0.9, "development": 0.5, "security": 0.0, "environment": 0.3, "decolonization": 0.3},
+    "issueWeights": {"human-rights": 1.0, "trade": 0.5, "development": 0.6}
+  },
+  {
+    "id": "climate-refugees",
+    "title": "Legal Framework for Climate Displaced Persons",
+    "description": "Establishing legal status and rights for people displaced by climate change",
+    "committee": "THIRD_COMMITTEE",
+    "preamble": [
+      {"id": "pp1", "text": "Alarmed by projections that climate change may displace up to 1.2 billion people by 2050"},
+      {"id": "pp2", "text": "Noting that the 1951 Refugee Convention does not cover persons displaced by environmental factors"}
+    ],
+    "operativeClauses": [
+      {"id": "op1", "text": "Establishes the legal category of 'climate displaced person' with defined rights under international law", "strength": 0.8, "topics": ["human-rights", "climate", "refugees"]},
+      {"id": "op2", "text": "Requires nations to accept climate displaced persons under a burden-sharing formula weighted by historical emissions", "strength": 0.9, "topics": ["climate", "human-rights", "sovereignty"]},
+      {"id": "op3", "text": "Creates a Climate Displacement Fund financed by major historical emitters to support relocation and adaptation", "strength": 0.8, "topics": ["climate", "development"]},
+      {"id": "op4", "text": "Prohibits the forced return of climate displaced persons to territories rendered uninhabitable by environmental change", "strength": 0.85, "topics": ["human-rights", "refugees"]}
+    ],
+    "policyVector": {"sovereignty": -0.2, "humanRights": 0.8, "development": 0.4, "security": 0.0, "environment": 0.7, "decolonization": 0.3},
+    "issueWeights": {"human-rights": 0.9, "climate": 0.8, "development": 0.5}
+  },
+  {
+    "id": "debt-relief",
+    "title": "Sovereign Debt Restructuring Mechanism",
+    "description": "Creating a binding framework for developing nation debt relief",
+    "committee": "SECOND_COMMITTEE",
+    "preamble": [
+      {"id": "pp1", "text": "Concerned that 60% of low-income countries are in or at high risk of debt distress"},
+      {"id": "pp2", "text": "Noting that current voluntary debt restructuring mechanisms are inadequate and inequitable"}
+    ],
+    "operativeClauses": [
+      {"id": "op1", "text": "Establishes an International Sovereign Debt Authority with binding arbitration powers over creditor-debtor disputes", "strength": 0.85, "topics": ["development", "trade", "international-law"]},
+      {"id": "op2", "text": "Institutes automatic debt service suspension for nations experiencing GDP contraction exceeding 5% or declared humanitarian emergencies", "strength": 0.8, "topics": ["development"]},
+      {"id": "op3", "text": "Requires all creditors including private bondholders to participate in restructuring agreements reached through the Authority", "strength": 0.9, "topics": ["development", "trade"]},
+      {"id": "op4", "text": "Links debt repayment schedules to debtor nations' capacity to meet Sustainable Development Goals", "strength": 0.7, "topics": ["development"]}
+    ],
+    "policyVector": {"sovereignty": 0.4, "humanRights": 0.2, "development": 0.9, "security": 0.0, "environment": 0.1, "decolonization": 0.4},
+    "issueWeights": {"development": 1.0, "trade": 0.7, "sovereignty": 0.4}
+  }
+]

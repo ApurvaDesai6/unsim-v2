@@ -8,42 +8,18 @@ import type { Committee } from "@/types";
 const COMMITTEE_LIST = Object.values(COMMITTEES);
 
 const PRESETS = [
-  {
-    id: "climate-treaty",
-    title: "Global Climate Accountability Treaty",
-    description: "Binding emissions targets with financial penalties for non-compliance",
-    committee: "GA_PLENARY" as Committee,
-  },
-  {
-    id: "ai-governance",
-    title: "International AI Governance Framework",
-    description: "Establishing a UN body to regulate frontier AI development",
-    committee: "GA_PLENARY" as Committee,
-  },
-  {
-    id: "nuclear-ban",
-    title: "Universal Nuclear Disarmament Resolution",
-    description: "Complete elimination of nuclear weapons with verification regime",
-    committee: "FIRST_COMMITTEE" as Committee,
-  },
-  {
-    id: "sc-reform",
-    title: "Security Council Expansion",
-    description: "Adding 6 permanent members with modified veto rights",
-    committee: "GA_PLENARY" as Committee,
-  },
-  {
-    id: "cyber-norms",
-    title: "Binding Cyber Warfare Norms",
-    description: "Prohibiting state-sponsored cyberattacks on civilian infrastructure",
-    committee: "SECURITY_COUNCIL" as Committee,
-  },
-  {
-    id: "water-rights",
-    title: "Universal Right to Clean Water",
-    description: "Declaring clean water access a binding human right with enforcement mechanisms",
-    committee: "THIRD_COMMITTEE" as Committee,
-  },
+  { id: "climate-treaty", title: "Global Climate Accountability Treaty", description: "Binding emissions targets with financial penalties for non-compliance", committee: "GA_PLENARY" as Committee },
+  { id: "ai-governance", title: "International AI Governance Framework", description: "Establishing a UN body to regulate frontier AI development", committee: "GA_PLENARY" as Committee },
+  { id: "nuclear-ban", title: "Universal Nuclear Disarmament Resolution", description: "Complete elimination of nuclear weapons with verification regime", committee: "FIRST_COMMITTEE" as Committee },
+  { id: "sc-reform", title: "Security Council Expansion and Veto Reform", description: "Adding 6 permanent members with modified veto rights", committee: "GA_PLENARY" as Committee },
+  { id: "cyber-norms", title: "Binding Cyber Warfare Norms", description: "Prohibiting state-sponsored cyberattacks on civilian infrastructure", committee: "SECURITY_COUNCIL" as Committee },
+  { id: "water-rights", title: "Universal Right to Clean Water", description: "Declaring clean water access a binding human right with enforcement", committee: "THIRD_COMMITTEE" as Committee },
+  { id: "digital-sovereignty", title: "Digital Sovereignty and Data Governance", description: "National rights over citizen data and digital infrastructure", committee: "GA_PLENARY" as Committee },
+  { id: "pandemic-treaty", title: "Pandemic Prevention and Response Treaty", description: "Binding pathogen sharing, vaccine equity, and early warning", committee: "GA_PLENARY" as Committee },
+  { id: "space-governance", title: "Outer Space Arms Control and Governance", description: "Prohibiting weapons in space and resource-sharing frameworks", committee: "FIRST_COMMITTEE" as Committee },
+  { id: "corporate-accountability", title: "Binding Treaty on Business and Human Rights", description: "Mandatory corporate due diligence for human rights harms", committee: "THIRD_COMMITTEE" as Committee },
+  { id: "climate-refugees", title: "Legal Framework for Climate Displaced Persons", description: "Legal status and rights for people displaced by climate change", committee: "THIRD_COMMITTEE" as Committee },
+  { id: "debt-relief", title: "Sovereign Debt Restructuring Mechanism", description: "Binding framework for developing nation debt relief", committee: "SECOND_COMMITTEE" as Committee },
 ];
 
 interface LiveEvent { id: string; title: string; date: string; source: string; countries: string[]; type: string; relevance: number }

@@ -1,93 +1,25 @@
 import { NextRequest, NextResponse } from "next/server";
-import { getProvider } from "@/lib/ai/provider";
-import {
-  RESOLUTION_SYSTEM_PROMPT,
-  RESOLUTION_USER_PROMPT,
-} from "@/lib/ai/prompts/resolution-draft";
+import { readFileSync } from "fs";
+import path from "path";
 import type { Committee, PolicyDimensions, AnalyzedResolution } from "@/types";
-import { COMMITTEES } from "@/engines/committees";
 
-const PRESETS: Record<string, { policy: string; committee: Committee }> = {
-  "climate-treaty": {
-    policy: "A binding global climate accountability treaty with financial penalties for nations exceeding emissions targets, funded climate adaptation transfers to vulnerable nations, and an independent monitoring body with enforcement powers",
-    committee: "GA_PLENARY",
-  },
-  "ai-governance": {
-    policy: "Establishing an International AI Governance Agency under the UN system with authority to audit frontier AI systems, set safety standards, and impose moratoriums on dangerous capabilities research",
-    committee: "GA_PLENARY",
-  },
-  "nuclear-ban": {
-    policy: "Complete elimination of all nuclear weapons within 15 years with a verification regime, fissile material controls, and security guarantees for disarming states",
-    committee: "FIRST_COMMITTEE",
-  },
-  "sc-reform": {
-    policy: "Expanding the Security Council to 21 members with 6 new permanent seats (2 Africa, 2 Asia-Pacific, 1 Latin America, 1 WEOG) with a modified veto requiring 2 concurrent vetoes to block a resolution",
-    committee: "GA_PLENARY",
-  },
-  "cyber-norms": {
-    policy: "Legally binding norms prohibiting state-sponsored cyberattacks on civilian critical infrastructure including hospitals, power grids, water systems, and financial networks, with attribution mechanisms and proportional response frameworks",
-    committee: "SECURITY_COUNCIL",
-  },
-  "water-rights": {
-    policy: "Declaring access to clean water and sanitation a binding human right with enforcement mechanisms, mandatory reporting, and a global fund to achieve universal access by 2035",
-    committee: "THIRD_COMMITTEE",
-  },
-};
+interface PresetScenario {
+  id: string;
+  title: string;
+  description: string;
+  committee: Committee;
+  preamble: { id: string; text: string }[];
+  operativeClauses: { id: string; text: string; strength: number; topics: string[] }[];
+  policyVector: PolicyDimensions;
+  issueWeights: Record<string, number>;
+}
 
-function computePolicyVector(
-  clauses: { strength: number; topics: string[] }[],
-): PolicyDimensions {
-  const topicToDimension: Record<string, keyof PolicyDimensions> = {
-    sovereignty: "sovereignty",
-    "international-law": "sovereignty",
-    climate: "environment",
-    environment: "environment",
-    water: "environment",
-    "human-rights": "humanRights",
-    refugees: "humanRights",
-    "gender-equality": "humanRights",
-    development: "development",
-    trade: "development",
-    "food-security": "development",
-    education: "development",
-    security: "security",
-    terrorism: "security",
-    peacekeeping: "security",
-    nuclear: "security",
-    disarmament: "security",
-    decolonization: "decolonization",
-    technology: "development",
-    health: "humanRights",
-  };
+let presetsCache: PresetScenario[] | null = null;
 
-  const dims: PolicyDimensions = {
-    sovereignty: 0,
-    humanRights: 0,
-    development: 0,
-    security: 0,
-    environment: 0,
-    decolonization: 0,
-  };
-
-  const counts: Record<string, number> = {};
-
-  for (const clause of clauses) {
-    for (const topic of clause.topics) {
-      const dim = topicToDimension[topic];
-      if (dim) {
-        dims[dim] += clause.strength;
-        counts[dim] = (counts[dim] || 0) + 1;
-      }
-    }
-  }
-
-  for (const key of Object.keys(dims) as (keyof PolicyDimensions)[]) {
-    if (counts[key]) {
-      dims[key] = Math.min(1, dims[key] / counts[key]);
-    }
-  }
-
-  return dims;
+function loadPresets(): PresetScenario[] {
+  if (presetsCache) return presetsCache;
+  presetsCache = JSON.parse(readFileSync(path.join(process.cwd(), "data", "preset-scenarios.json"), "utf-8"));
+  return presetsCache!;
 }
 
 export async function POST(request: NextRequest) {
@@ -95,75 +27,135 @@ export async function POST(request: NextRequest) {
     const body = await request.json();
     const { policy, preset, committee } = body;
 
-    let policyIdea = policy;
-    let targetCommittee = committee as Committee;
+    const presets = loadPresets();
 
-    if (preset && PRESETS[preset]) {
-      policyIdea = PRESETS[preset].policy;
-      targetCommittee = PRESETS[preset].committee;
-    }
-
-    if (!policyIdea) {
-      return NextResponse.json({ error: "No policy idea provided" }, { status: 400 });
-    }
-
-    const committeeName = COMMITTEES[targetCommittee]?.name || "General Assembly";
-    const provider = getProvider();
-
-    const result = await provider.generateStructured<{
-      title: string;
-      preamble: { id: string; text: string }[];
-      operativeClauses: { id: string; text: string; strength: number; topics: string[] }[];
-    }>(
-      [
-        { role: "system", content: RESOLUTION_SYSTEM_PROMPT },
-        { role: "user", content: RESOLUTION_USER_PROMPT(policyIdea, committeeName) },
-      ],
-      {},
-      { temperature: 0.6 },
-    );
-
-    const policyVector = computePolicyVector(result.operativeClauses);
-
-    const issueWeights: Record<string, number> = {};
-    for (const clause of result.operativeClauses) {
-      for (const topic of clause.topics) {
-        issueWeights[topic] = (issueWeights[topic] || 0) + clause.strength;
+    // If it's a preset, use pre-computed data (no LLM needed)
+    if (preset) {
+      const scenario = presets.find((p) => p.id === preset);
+      if (!scenario) {
+        return NextResponse.json({ error: `Unknown preset: ${preset}` }, { status: 400 });
       }
-    }
-    const maxWeight = Math.max(...Object.values(issueWeights), 1);
-    for (const key of Object.keys(issueWeights)) {
-      issueWeights[key] /= maxWeight;
+
+      const analyzedResolution: AnalyzedResolution = {
+        id: `preset-${scenario.id}`,
+        title: scenario.title,
+        committee: scenario.committee,
+        preamble: scenario.preamble,
+        operativeClauses: scenario.operativeClauses.map((c) => ({
+          ...c,
+          policyDimensions: scenario.policyVector,
+        })),
+        sponsors: [],
+        policyVector: scenario.policyVector,
+        issueWeights: scenario.issueWeights,
+        contentionPoints: [],
+        historicalPrecedents: [],
+      };
+
+      return NextResponse.json({
+        resolution: {
+          title: scenario.title,
+          preamble: scenario.preamble,
+          clauses: scenario.operativeClauses.map((c) => ({
+            id: c.id,
+            text: c.text,
+            strength: c.strength,
+            topics: c.topics,
+          })),
+        },
+        analyzedResolution,
+      });
     }
 
-    const analyzedResolution: AnalyzedResolution = {
-      id: `sim-${Date.now()}`,
-      title: result.title,
-      committee: targetCommittee,
-      preamble: result.preamble,
-      operativeClauses: result.operativeClauses.map((c) => ({
-        ...c,
-        policyDimensions: {},
-      })),
-      sponsors: [],
-      policyVector,
-      issueWeights,
-      contentionPoints: [],
-      historicalPrecedents: [],
-    };
+    // Custom policy — try LLM, fall back to heuristic
+    if (policy) {
+      const targetCommittee = (committee || "GA_PLENARY") as Committee;
+      const analyzedResolution = buildHeuristicResolution(policy, targetCommittee);
 
-    return NextResponse.json({
-      resolution: {
-        title: result.title,
-        clauses: result.operativeClauses.map((c) => c.text),
-      },
-      analyzedResolution,
-    });
+      return NextResponse.json({
+        resolution: {
+          title: analyzedResolution.title,
+          clauses: analyzedResolution.operativeClauses.map((c) => ({
+            id: c.id,
+            text: c.text,
+            strength: c.strength,
+            topics: c.topics,
+          })),
+        },
+        analyzedResolution,
+      });
+    }
+
+    return NextResponse.json({ error: "No policy or preset provided" }, { status: 400 });
   } catch (e) {
     console.error("Resolution analysis failed:", e);
-    return NextResponse.json(
-      { error: "Failed to analyze resolution" },
-      { status: 500 },
-    );
+    return NextResponse.json({ error: "Failed to analyze resolution" }, { status: 500 });
   }
+}
+
+function buildHeuristicResolution(policy: string, committee: Committee): AnalyzedResolution {
+  const lower = policy.toLowerCase();
+
+  const topicSignals: Record<string, number> = {
+    "human-rights": 0, climate: 0, development: 0, security: 0,
+    disarmament: 0, sovereignty: 0, trade: 0, decolonization: 0, technology: 0,
+  };
+
+  const keywords: Record<string, string[]> = {
+    "human-rights": ["human rights", "rights", "freedom", "dignity", "discrimination", "torture", "refugee", "women", "children"],
+    climate: ["climate", "emissions", "warming", "carbon", "renewable", "fossil", "paris agreement", "environment", "biodiversity"],
+    development: ["development", "poverty", "education", "health", "infrastructure", "sdg", "aid", "water", "sanitation"],
+    security: ["security", "terrorism", "conflict", "peacekeeping", "military", "war", "peace", "aggression"],
+    disarmament: ["nuclear", "weapons", "disarmament", "arms", "nonproliferation", "missile", "ban"],
+    sovereignty: ["sovereignty", "intervention", "self-determination", "territorial", "non-interference"],
+    trade: ["trade", "tariff", "economic", "sanctions", "investment", "debt", "finance", "corporation"],
+    decolonization: ["colonial", "occupation", "self-determination", "indigenous", "reparation"],
+    technology: ["ai", "artificial intelligence", "cyber", "digital", "technology", "internet", "data"],
+  };
+
+  for (const [topic, words] of Object.entries(keywords)) {
+    for (const word of words) {
+      if (lower.includes(word)) topicSignals[topic] += 0.3;
+    }
+  }
+
+  // Normalize
+  const maxSignal = Math.max(...Object.values(topicSignals), 0.1);
+  const issueWeights: Record<string, number> = {};
+  for (const [k, v] of Object.entries(topicSignals)) {
+    if (v > 0) issueWeights[k] = v / maxSignal;
+  }
+
+  const topicToDim: Record<string, keyof PolicyDimensions> = {
+    "human-rights": "humanRights", climate: "environment", development: "development",
+    security: "security", disarmament: "security", sovereignty: "sovereignty",
+    trade: "development", decolonization: "decolonization", technology: "development",
+  };
+
+  const policyVector: PolicyDimensions = { sovereignty: 0, humanRights: 0, development: 0, security: 0, environment: 0, decolonization: 0 };
+  for (const [topic, weight] of Object.entries(issueWeights)) {
+    const dim = topicToDim[topic];
+    if (dim) policyVector[dim] = Math.min(1, (policyVector[dim] || 0) + weight * 0.6);
+  }
+
+  const title = policy.length > 80 ? policy.substring(0, 77) + "..." : policy;
+
+  return {
+    id: `custom-${Date.now()}`,
+    title,
+    committee,
+    preamble: [],
+    operativeClauses: [{
+      id: "op1",
+      text: policy,
+      strength: 0.7,
+      topics: Object.entries(issueWeights).filter(([_, v]) => v > 0.3).map(([k]) => k),
+      policyDimensions: policyVector,
+    }],
+    sponsors: [],
+    policyVector,
+    issueWeights,
+    contentionPoints: [],
+    historicalPrecedents: [],
+  };
 }
