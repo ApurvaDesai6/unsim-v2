@@ -1,197 +1,127 @@
 {
   "meta": {
-    "generatedAt": "2026-05-22T04:22:34.149Z",
-    "engineVersion": "0.1.0",
-    "dataSource": "Voeten/TidyTuesday UNGA Voting Data (sessions 60-74, 2005-2019)",
-    "dataUrl": "https://github.com/rfordatascience/tidytuesday/tree/master/data/2021/2021-03-23",
-    "originalSource": "Erik Voeten, Harvard Dataverse doi:10.7910/DVN/LEJUQZ",
-    "totalPredictions": 181043,
-    "resolutionsEvaluated": 1077
+    "generatedAt": "2026-05-28T18:48:37.926Z",
+    "engineVersion": "2.0.0-graph-predictor",
+    "dataSource": "Voeten UNGA Voting Data (sessions 60-74, 2005-2019)",
+    "dataUrl": "https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/LEJUQZ",
+    "originalSource": "Bailey, Strezhnev, and Voeten (2017), Journal of Conflict Resolution",
+    "totalPredictions": 180489,
+    "resolutionsEvaluated": 1078
   },
   "overall": {
-    "perVoteAccuracy": 0.6822136177593169,
-    "resolutionOutcomeAccuracy": 0.9972144846796658,
-    "correctPredictions": 123510,
-    "totalPredictions": 181043
+    "perVoteAccuracy": 0.8113846273180083,
+    "resolutionOutcomeAccuracy": 0.9962894248608535,
+    "correctPredictions": 146446,
+    "totalPredictions": 180489,
+    "outcomeCorrect": 1074,
+    "outcomeTotal": 1078
   },
   "perClass": {
     "yes": {
-      "precision": 0.8308907458816567,
-      "recall": 0.8062420948278809,
-      "f1": 0.8183808654676933,
-      "tp": 117925,
-      "fp": 24001,
-      "fn": 28340,
-      "tn": 10777
+      "precision": 0.8229614775966774,
+      "recall": 0.9878957871853076,
+      "f1": 0.8979174588135561,
+      "tp": 144052,
+      "fp": 30989,
+      "fn": 1765
     },
     "no": {
-      "precision": 0.16905716810549928,
-      "recall": 0.17556120288013555,
-      "f1": 0.1722478096755203,
-      "tp": 2487,
-      "fp": 12224,
-      "fn": 11679,
-      "tn": 154653
+      "precision": 0.6440978376462247,
+      "recall": 0.1285916489738146,
+      "f1": 0.21438263229308008,
+      "tp": 1817,
+      "fp": 1004,
+      "fn": 12313
     },
     "abstain": {
-      "precision": 0.1269359993444235,
-      "recall": 0.15030079565301765,
-      "f1": 0.137633835354747,
-      "tp": 3098,
-      "fp": 21308,
-      "fn": 17514,
-      "tn": 139123
+      "precision": 0.21964217738865627,
+      "recall": 0.028088793690974587,
+      "f1": 0.04980793301394104,
+      "tp": 577,
+      "fp": 2050,
+      "fn": 19965
     }
   },
   "byIssue": {
     "Human rights": {
-      "accuracy": 0.601052754708153,
-      "total": 42745,
-      "correct": 25692
+      "accuracy": 0.6734176621060289,
+      "total": 42611,
+      "correct": 28695
     },
     "Economic development": {
-      "accuracy": 0.7061954011446933,
-      "total": 29877,
-      "correct": 21099
+      "accuracy": 0.8462909408837178,
+      "total": 29738,
+      "correct": 25167
     },
     "Palestinian conflict": {
-      "accuracy": 0.6894972987821628,
-      "total": 21842,
-      "correct": 15060
+      "accuracy": 0.9080885716899991,
+      "total": 21858,
+      "correct": 19849
     },
     "Colonialism": {
-      "accuracy": 0.7023965983764979,
-      "total": 25870,
-      "correct": 18171
+      "accuracy": 0.8583872091672796,
+      "total": 25831,
+      "correct": 22173
     },
     "Arms control and disarmament": {
-      "accuracy": 0.7016782713593364,
-      "total": 47251,
-      "correct": 33155
+      "accuracy": 0.8278470790743141,
+      "total": 47057,
+      "correct": 38956
     },
     "Nuclear weapons and nuclear material": {
-      "accuracy": 0.7677961064051122,
-      "total": 13458,
-      "correct": 10333
+      "accuracy": 0.8665073913692698,
+      "total": 13394,
+      "correct": 11606
     }
   },
   "byRegion": {
-    "WEOG": {
-      "accuracy": 0.38387096774193546,
-      "total": 31000,
-      "correct": 11900
-    },
-    "GRULAC": {
-      "accuracy": 0.8541167482723895,
-      "total": 28797,
-      "correct": 24596
+    "APG": {
+      "accuracy": 0.8499251142245057,
+      "total": 52747,
+      "correct": 44831
     },
     "EEG": {
-      "accuracy": 0.40366353121202575,
+      "accuracy": 0.6444934515504748,
       "total": 22219,
-      "correct": 8969
-    },
-    "APG": {
-      "accuracy": 0.7357817657548279,
-      "total": 52714,
-      "correct": 38786
+      "correct": 14320
     },
     "AFRICAN": {
-      "accuracy": 0.8476885539697278,
-      "total": 46313,
-      "correct": 39259
+      "accuracy": 0.9134609075997813,
+      "total": 45725,
+      "correct": 41768
+    },
+    "WEOG": {
+      "accuracy": 0.614302764426954,
+      "total": 31001,
+      "correct": 19044
+    },
+    "GRULAC": {
+      "accuracy": 0.919644407403549,
+      "total": 28797,
+      "correct": 26483
     }
   },
-  "calibration": [
-    {
-      "bucketMin": 0,
-      "bucketMax": 10,
-      "avgPredictedProbability": 0.09375153079397525,
-      "actualRate": 0.03289473684210526,
-      "count": 152
-    },
-    {
-      "bucketMin": 10,
-      "bucketMax": 20,
-      "avgPredictedProbability": 0.16594378078271152,
-      "actualRate": 0.46841426729694885,
-      "count": 2327
-    },
-    {
-      "bucketMin": 20,
-      "bucketMax": 30,
-      "avgPredictedProbability": 0.260655356921449,
-      "actualRate": 0.6979621542940321,
-      "count": 20610
-    },
-    {
-      "bucketMin": 30,
-      "bucketMax": 40,
-      "avgPredictedProbability": 0.3540604696631583,
-      "actualRate": 0.7674360155824572,
-      "count": 23873
-    },
-    {
-      "bucketMin": 40,
-      "bucketMax": 50,
-      "avgPredictedProbability": 0.4521421713455598,
-      "actualRate": 0.7668697990421487,
-      "count": 62849
-    },
-    {
-      "bucketMin": 50,
-      "bucketMax": 60,
-      "avgPredictedProbability": 0.5501739709499449,
-      "actualRate": 0.886634276459941,
-      "count": 52485
-    },
-    {
-      "bucketMin": 60,
-      "bucketMax": 70,
-      "avgPredictedProbability": 0.617996999432129,
-      "actualRate": 0.9458580039472982,
-      "count": 18747
-    },
-    {
-      "bucketMin": 70,
-      "bucketMax": 80,
-      "avgPredictedProbability": 0,
-      "actualRate": 0,
-      "count": 0
-    },
-    {
-      "bucketMin": 80,
-      "bucketMax": 90,
-      "avgPredictedProbability": 0,
-      "actualRate": 0,
-      "count": 0
-    },
-    {
-      "bucketMin": 90,
-      "bucketMax": 100,
-      "avgPredictedProbability": 0,
-      "actualRate": 0,
-      "count": 0
-    }
-  ],
   "methodology": {
-    "approach": "For each historical resolution with a known issue classification, we compute our engine's predicted vote for every country that we can match to our profile database. We compare predicted vote (Yes/No/Abstain) against the actual recorded vote.",
-    "weights": "Ideal Point Alignment (25%), Policy Dimension Matching (30%), Topic History (20% — not yet populated), Bloc Coordination (15% — first pass only), Bilateral Relations (10% — not yet implemented)",
-    "limitations": [
-      "Only evaluates resolutions with issue classifications (5,745 of 6,202)",
-      "Uses static policy vectors per issue category rather than per-resolution analysis",
-      "Topic-specific voting history not yet populated (0% weight effective)",
-      "Bilateral relations not yet modeled (0% weight effective)",
-      "Country name matching may miss some smaller states",
-      "Model uses same ideal points for all years — doesn't capture temporal drift"
+    "approach": "Graph-enhanced multi-signal predictor with intensity-adaptive weighting. For each resolution with known issue classification, computes predicted votes for all 193 countries and compares to actual recorded vote.",
+    "weights": "Topic Voting History (30%, damped by resolution intensity), Policy Dimension Alignment (30%, amplified by intensity), Alliance Network KNN (15%), Ideal Point Alignment (15%, amplified), Bloc Coordination (10%)",
+    "features": [
+      "Multi-topic blended scoring (weighted across all 6 Voeten categories simultaneously)",
+      "Resolution intensity damping: extreme/binding language reduces reliance on historical averages",
+      "Alliance signal from vote-similarity KNN (top-10 neighbors)",
+      "Empirical abstain rate calibration from per-country per-topic graph data",
+      "Two-pass computation: first pass without alliance signal, second pass with peer effects"
     ],
-    "plannedImprovements": [
-      "Per-resolution policy vector computation using resolution text NLP",
-      "Temporal ideal point tracking (yearly drift)",
-      "Full topic-specific voting history from this dataset",
-      "Bilateral relations from alliance/trade data",
-      "Bloc coordination from second-pass peer effects",
-      "Resolution-specific clause analysis affecting position computation"
+    "limitations": [
+      "Uses static policy vectors per issue category rather than per-resolution text analysis",
+      "Country-specific resolutions (naming a particular state) have higher error due to sovereignty dynamics not captured in topic averages",
+      "Temporal drift not modeled — uses same ideal points for all years in validation window",
+      "WEOG accuracy lower because Western countries show more issue-dependent variation"
+    ],
+    "dataSources": [
+      "Erik Voeten UNGA Voting Data (Harvard Dataverse): 869K roll-call votes, ideal points, issue categories",
+      "Vote Similarity Matrix: pairwise cosine similarity from co-voting patterns (sessions 55-74)",
+      "V-Dem v14: democracy indices, regime classification",
+      "Bloc memberships: G77, NAM, EU, African Group, AOSIS, Arab Group, CARICOM"
     ]
   }
 }
