@@ -8,7 +8,6 @@ import VoteTally from "@/components/viz/VoteTally";
 import PlaybackControls from "@/components/viz/PlaybackControls";
 import { getCommitteeConfig } from "@/engines/committees";
 import Timeline from "@/components/viz/Timeline";
-import DebatePanel from "@/components/panel/DebatePanel";
 
 interface ResolutionClause {
   id: string;
@@ -47,10 +46,8 @@ function SimulationView() {
   const [resolution, setResolution] = useState<ResolutionData | null>(null);
   const [analyzedResolution, setAnalyzedResolution] = useState<Record<string, unknown> | null>(null);
   const [error, setError] = useState<string | null>(null);
-  const [activeTab, setActiveTab] = useState<"clauses" | "factors" | "blocs" | "debate" | "amendments">("clauses");
-  const [debateData, setDebateData] = useState<{ rounds: { round: number; speeches: unknown[] }[] } | null>(null);
-  const [debateLoading, setDebateLoading] = useState(false);
-  const [showDebate, setShowDebate] = useState(false);
+  const [activeTab, setActiveTab] = useState<"clauses" | "factors" | "blocs" | "amendments">("clauses");
+
   const [amendments, setAmendments] = useState<{ clauseIndex: number; originalStrength: number; newStrength: number; proposer: string; reason: string; accepted: boolean }[]>([]);
   const [highlightBloc, setHighlightBloc] = useState<string | null>(null);
   const [isResimulating, setIsResimulating] = useState(false);
@@ -190,24 +187,6 @@ function SimulationView() {
       setTimelineLoading(false);
     }
   }, [analyzedResolution]);
-
-  // Fetch debate speeches
-  const fetchDebate = useCallback(async () => {
-    if (debateData) { setShowDebate(true); setActiveTab("debate"); return; }
-    setDebateLoading(true);
-    setShowDebate(true);
-    setActiveTab("debate");
-    try {
-      const res = await fetch(`/api/debate?preset=${preset}`);
-      if (res.ok) {
-        const data = await res.json();
-        const rounds = data.rounds || data.debate || [];
-        setDebateData({ rounds: Array.isArray(rounds) ? rounds : [rounds] });
-      }
-    } finally {
-      setDebateLoading(false);
-    }
-  }, [preset, debateData]);
 
   // Propose amendment (shifts clause strength and records it)
   const proposeAmendment = useCallback((clauseIndex: number, newStrength: number, proposer: string, reason: string) => {
@@ -349,15 +328,15 @@ function SimulationView() {
         <div className="col-span-12 lg:col-span-4 xl:col-span-3 overflow-y-auto rounded-xl border border-[var(--color-border)] bg-white">
           {/* Tabs */}
           <div className="sticky top-0 bg-white border-b border-[var(--color-border)] px-3 py-2 flex gap-1 z-10">
-            {(["clauses", "debate", "amendments", "factors", "blocs"] as const).map((tab) => (
+            {(["clauses", "amendments", "factors", "blocs"] as const).map((tab) => (
               <button
                 key={tab}
-                onClick={() => tab === "debate" ? fetchDebate() : setActiveTab(tab)}
+                onClick={() => setActiveTab(tab)}
                 className={`px-2.5 py-1.5 rounded-md text-[11px] font-medium transition-colors ${
                   activeTab === tab ? "bg-[var(--color-un-blue)] text-white" : "text-[var(--color-muted)] hover:bg-[var(--color-bg)]"
                 }`}
               >
-                {tab === "clauses" ? "Resolution" : tab === "factors" ? "Factors" : tab === "debate" ? "Debate" : tab === "amendments" ? "Amend" : "Blocs"}
+                {tab === "clauses" ? "Resolution" : tab === "factors" ? "Factors" : tab === "amendments" ? "Amend" : "Blocs"}
               </button>
             ))}
           </div>
@@ -457,24 +436,6 @@ function SimulationView() {
               </div>
             )}
 
-            {activeTab === "debate" && (
-              <div className="space-y-3">
-                {debateLoading ? (
-                  <div className="text-center py-8">
-                    <div className="w-6 h-6 border-2 border-[var(--color-un-blue)] border-t-transparent rounded-full animate-spin mx-auto mb-2" />
-                    <p className="text-xs text-[var(--color-muted)]">Loading debate speeches...</p>
-                  </div>
-                ) : debateData ? (
-                  <DebatePanel preset={preset} rounds={debateData.rounds as any} />
-                ) : (
-                  <div className="text-center py-8">
-                    <p className="text-sm text-[var(--color-muted)]">
-                      {preset ? "Click to load debate simulation" : "Debate available for preset scenarios"}
-                    </p>
-                  </div>
-                )}
-              </div>
-            )}
 
             {activeTab === "amendments" && (
               <div className="space-y-3">
@@ -631,14 +592,6 @@ function SimulationView() {
                   className="flex-1 py-2 rounded-lg border border-[var(--color-border)] text-xs text-[var(--color-muted)] hover:border-[var(--color-un-blue)] hover:text-[var(--color-un-blue)] transition-colors"
                 >
                   ⏱ Time Travel
-                </button>
-              )}
-              {preset && !showDebate && (
-                <button
-                  onClick={fetchDebate}
-                  className="flex-1 py-2 rounded-lg border border-[var(--color-border)] text-xs text-[var(--color-muted)] hover:border-[var(--color-un-blue)] hover:text-[var(--color-un-blue)] transition-colors"
-                >
-                  🎤 Watch Debate
                 </button>
               )}
               <button
