@@ -7,3 +7,9 @@ next-env.d.ts
 
 # Raw data (downloadable via scripts — too large for git)
 data/raw/
+
+# Full knowledge graph (45MB, regenerated from build script)
+data/knowledge-graph.json
+
+# Temporal layer (22MB, loaded on-demand)
+data/graph-temporal.json

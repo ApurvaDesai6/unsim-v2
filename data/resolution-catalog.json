@@ -1,0 +1,4167 @@
+[
+  {
+    "rcid": 5549,
+    "session": 72,
+    "date": "2017-11-01",
+    "unres": "A/RES/72/4",
+    "title": "Necessity of ending the economic, commercial and financial embargo imposed by the United States of America against Cuba : resolution / adopted by the General Assembly",
+    "description": "A/72/251 42 - Necessity of ending the economic, commercial and financial embargo imposed by the United States of America against Cuba. - CUBA--UNITED STATES",
+    "topic": "Economic development",
+    "isAmendment": false,
+    "actualVote": {
+      "yes": 191,
+      "no": 2,
+      "abstain": 0
+    },
+    "passed": true,
+    "totalVoters": 193
+  },
+  {
+    "rcid": 5569,
+    "session": 72,
+    "date": "2017-12-19",
+    "unres": "A/RES/72/164",
+    "title": "Strengthening the role of the United Nations in enhancing periodic and genuine elections and the promotion of democratization : resolution / adopted by the General Assembly",
+    "description": "A/72/251 72b - Human rights questions, including alternative approaches for improving the effective enjoyment of human rights and fundamental freedoms. - HUMAN RIGHTS ADVANCEMENT;A/72/251 72b[20] - ELECTION VERIFICATION--UN",
+    "topic": "Human rights",
+    "isAmendment": false,
+    "actualVote": {
+      "yes": 175,
+      "no": 0,
+      "abstain": 13
+    },
+    "passed": true,
+    "totalVoters": 188
+  },
+  {
+    "rcid": 5615,
+    "session": 72,
+    "date": "2017-12-04",
+    "unres": "A/RES/72/32",
+    "title": "Compliance with non-proliferation, arms limitation and disarmament agreements and commitments : resolution / adopted by the General Assembly",
+    "description": "A/72/251 99aa - Compliance with non-proliferation, arms limitation and disarmament agreements and commitments. - NUCLEAR NON-PROLIFERATION--TREATY COMPLIANCE",
+    "topic": "Arms control and disarmament",
+    "isAmendment": false,
+    "actualVote": {
+      "yes": 173,
+      "no": 1,
+      "abstain": 11
+    },
+    "passed": true,
+    "totalVoters": 185
+  },
+  {
+    "rcid": 5556,
+    "session": 72,
+    "date": "2017-12-19",
+    "unres": "A/RES/72/191",
+    "title": "Situation of human rights in the Syrian Arab Republic : resolution / adopted by the General Assembly",
+    "description": "A/72/251 72c - Human rights situations and reports of special rapporteurs and representatives. - HUMAN RIGHTS--REPORTS;A/72/251 72c[9] - HUMAN RIGHTS--SYRIAN ARAB REPUBLIC",
+    "topic": "Human rights",
+    "isAmendment": false,
+    "actualVote": {
+      "yes": 109,
+      "no": 17,
+      "abstain": 58
+    },
+    "passed": true,
+    "totalVoters": 184
+  },
+  {
+    "rcid": 5607,
+    "session": 72,
+    "date": "2017-12-04",
+    "unres": "A/RES/72/50",
+    "title": "United action with renewed determination towards the total elimination of nuclear weapons : resolution / adopted by the General Assembly",
+    "description": "A/72/251 99z - United action with renewed determination towards the total elimination of nuclear weapons. - NUCLEAR WEAPONS--ELIMINATION",
+    "topic": "Colonialism",
+    "isAmendment": false,
+    "actualVote": {
+      "yes": 156,
+      "no": 4,
+      "abstain": 24
+    },
+    "passed": true,
+    "totalVoters": 184
+  },
+  {
+    "rcid": 5585,
+    "session": 72,
+    "date": "2017-12-20",
+    "unres": "A/RES/72/215",
+    "title": "Agricultural technology for sustainable development : resolution / adopted by the General Assembly",
+    "description": "A/72/251 19 - Sustainable development. - SUSTAINABLE DEVELOPMENT",
+    "topic": "Economic development",
+    "isAmendment": false,
+    "actualVote": {
+      "yes": 152,
+      "no": 1,
+      "abstain": 29
+    },
+    "passed": true,
+    "totalVoters": 182
+  },
+  {
+    "rcid": 5575,
+    "session": 72,
+    "date": "2017-12-19",
+    "unres": "A/RES/72/189",
+    "title": "Situation of human rights in the Islamic Republic of Iran : resolution / adopted by the General Assembly",
+    "description": "A/72/251 72c - Human rights situations and reports of special rapporteurs and representatives. - HUMAN RIGHTS--REPORTS;A/72/251 72c[6] - HUMAN RIGHTS--IRAN (ISLAMIC REPUBLIC OF)",
+    "topic": "Human rights",
+    "isAmendment": false,
+    "actualVote": {
+      "yes": 81,
+      "no": 30,
+      "abstain": 70
+    },
+    "passed": true,
+    "totalVoters": 181
+  },
+  {
+    "rcid": 5603,
+    "session": 72,
+    "date": "2017-12-04",
+    "unres": "A/RES/72/43",
+    "title": "Implementation of the Convention on the Prohibition of the Development, Production, Stockpiling and Use of Chemical Weapons and on Their Destruction : resolution / adopted by the General Assembly",
+    "description": "A/72/251 99l - Implementation of the Convention on the Prohibition of the Development, Production, Stockpiling and Use of Chemical Weapons and on Their Destruction. - CHEMICAL WEAPONS--TREATY (1993)",
+    "topic": "Economic development",
+    "isAmendment": false,
+    "actualVote": {
+      "yes": 159,
+      "no": 7,
+      "abstain": 14
+    },
+    "passed": true,
+    "totalVoters": 180
+  },
+  {
+    "rcid": 5617,
+    "session": 72,
+    "date": "2017-12-04",
+    "unres": "A/RES/72/31",
+    "title": "Taking forward multilateral nuclear disarmament negotiations : resolution / adopted by the General Assembly",
+    "description": "A/72/251 99bb - Taking forward multilateral nuclear disarmament negotiations. - NUCLEAR DISARMAMENT NEGOTIATIONS",
+    "topic": "Arms control and disarmament",
+    "isAmendment": false,
+    "actualVote": {
+      "yes": 125,
+      "no": 39,
+      "abstain": 14
+    },
+    "passed": true,
+    "totalVoters": 178
+  },
+  {
+    "rcid": 5551,
+    "session": 72,
+    "date": "2017-11-30",
+    "unres": "A/RES/72/14",
+    "title": "Peaceful settlement of the question of Palestine : resolution / adopted by the General Assembly",
+    "description": "A/72/251 38 - Question of Palestine. - PALESTINE QUESTION",
+    "topic": "Palestinian conflict",
+    "isAmendment": false,
+    "actualVote": {
+      "yes": 157,
+      "no": 7,
+      "abstain": 8
+    },
+    "passed": true,
+    "totalVoters": 172
+  },
+  {
+    "rcid": 5554,
+    "session": 72,
+    "date": "2017-11-30",
+    "unres": "A/RES/72/12",
+    "title": "Special information programme on the question of Palestine of the Department of Public Information of the Secretariat : resolution / adopted by the General Assembly",
+    "description": "A/72/251 38 - Question of Palestine. - PALESTINE QUESTION",
+    "topic": "Palestinian conflict",
+    "isAmendment": false,
+    "actualVote": {
+      "yes": 155,
+      "no": 8,
+      "abstain": 8
+    },
+    "passed": true,
+    "totalVoters": 171
+  },
+  {
+    "rcid": 5588,
+    "session": 72,
+    "date": "2017-12-21",
+    "unres": "A/RES/ES-10/19",
+    "title": "Status of Jerusalem : resolution / adopted by the General Assembly",
+    "description": "A/RES/ES-10/19, Status of Jerusalem",
+    "topic": "Palestinian conflict",
+    "isAmendment": false,
+    "actualVote": {
+      "yes": 127,
+      "no": 9,
+      "abstain": 35
+    },
+    "passed": true,
+    "totalVoters": 171
+  },
+  {
+    "rcid": 5553,
+    "session": 72,
+    "date": "2017-11-30",
+    "unres": "A/RES/72/13",
+    "title": "Committee on the Exercise of the Inalienable Rights of the Palestinian People : resolution / adopted by the General Assembly",
+    "description": "A/72/251 38 - Question of Palestine. - PALESTINE QUESTION",
+    "topic": "Human rights",
+    "isAmendment": false,
+    "actualVote": {
+      "yes": 103,
+      "no": 10,
+      "abstain": 57
+    },
+    "passed": true,
+    "totalVoters": 170
+  },
+  {
+    "rcid": 5634,
+    "session": 72,
+    "date": "2017-12-07",
+    "unres": "A/RES/72/84",
+    "title": "Work of the Special Committee to Investigate Israeli Practices Affecting the Human Rights of the Palestinian People and Other Arabs of the Occupied Territories : resolution / adopted by the General Assembly",
+    "description": "A/72/251 54 - Report of the Special Committee to Investigate Israeli Practices Affecting the Human Rights of the Palestinian People and Other Arabs of the Occupied Territories. - TERRITORIES OCCUPIED BY ISRAEL--HUMAN RIGHTS",
+    "topic": "Colonialism",
+    "isAmendment": false,
+    "actualVote": {
+      "yes": 83,
+      "no": 10,
+      "abstain": 77
+    },
+    "passed": true,
+    "totalVoters": 170
+  },
+  {
+    "rcid": 5555,
+    "session": 72,
+    "date": "2017-11-30",
+    "unres": "A/RES/72/11",
+    "title": "Division for Palestinian Rights of the Secretariat : resolution / adopted by the General Assembly",
+    "description": "A/72/251 38 - Question of Palestine. - PALESTINE QUESTION",
+    "topic": "Human rights",
+    "isAmendment": false,
+    "actualVote": {
+      "yes": 100,
+      "no": 10,
+      "abstain": 59
+    },
+    "passed": true,
+    "totalVoters": 169
+  },
+  {
+    "rcid": 5550,
+    "session": 72,
+    "date": "2017-11-30",
+    "unres": "A/RES/72/15",
+    "title": "Jerusalem : resolution / adopted by the General Assembly",
+    "description": "A/72/251 37 - The situation in the Middle East. - MIDDLE EAST SITUATION",
+    "topic": "Palestinian conflict",
+    "isAmendment": false,
+    "actualVote": {
+      "yes": 151,
+      "no": 6,
+      "abstain": 9
+    },
+    "passed": true,
+    "totalVoters": 166
+  },
+  {
+    "rcid": 5593,
+    "session": 72,
+    "date": "2017-12-24",
+    "unres": "A/RES/72/248",
+    "title": "Situation of human rights in Myanmar : resolution / adopted by the General Assembly",
+    "description": "A/72/251 72c - Human rights situations and reports of special rapporteurs and representatives. - HUMAN RIGHTS--REPORTS",
+    "topic": "Human rights",
+    "isAmendment": false,
+    "actualVote": {
+      "yes": 122,
+      "no": 10,
+      "abstain": 24
+    },
+    "passed": true,
+    "totalVoters": 156
+  },
+  {
+    "rcid": 5528,
+    "session": 71,
+    "date": "2016-12-05",
+    "unres": "A/RES/71/75",
+    "title": "Convention on the Prohibition of the Use of Nuclear Weapons : resolution / adopted by the General Assembly",
+    "description": "A/71/251 99c - Convention on the Prohibition of the Use of Nuclear Weapons. - NUCLEAR WEAPONS USE--TREATIES (DRAFT)",
+    "topic": "Arms control and disarmament",
+    "isAmendment": false,
+    "actualVote": {
+      "yes": 127,
+      "no": 50,
+      "abstain": 9
+    },
+    "passed": true,
+    "totalVoters": 186
+  },
+  {
+    "rcid": 5530,
+    "session": 71,
+    "date": "2016-12-05",
+    "unres": "A/RES/71/86",
+    "title": "Comprehensive Nuclear-Test-Ban Treaty : resolution / adopted by the General Assembly",
+    "description": "A/71/251 104 - Comprehensive Nuclear-Test-Ban Treaty. - NUCLEAR WEAPON TESTS--TREATY",
+    "topic": "Nuclear weapons and nuclear material",
+    "isAmendment": false,
+    "actualVote": {
+      "yes": 182,
+      "no": 1,
+      "abstain": 3
+    },
+    "passed": true,
+    "totalVoters": 186
+  },
+  {
+    "rcid": 5514,
+    "session": 71,
+    "date": "2016-12-05",
+    "unres": "A/RES/71/50",
+    "title": "The Arms Trade Treaty : resolution / adopted by the General Assembly",
+    "description": "A/71/251 98ff - The Arms Trade Treaty. - ARMS TRANSFERS--INTERNATIONAL INSTRUMENTS",
+    "topic": "Economic development",
+    "isAmendment": false,
+    "actualVote": {
+      "yes": 157,
+      "no": 0,
+      "abstain": 27
+    },
+    "passed": true,
+    "totalVoters": 184
+  },
+  {
+    "rcid": 5487,
+    "session": 71,
+    "date": "2016-12-19",
+    "unres": "A/RES/71/203",
+    "title": "Situation of human rights in the Syrian Arab Republic : resolution / adopted by the General Assembly",
+    "description": "A/71/251 68c - Human rights situations and reports of special rapporteurs and representatives. - HUMAN RIGHTS--REPORTS",
+    "topic": "Human rights",
+    "isAmendment": false,
+    "actualVote": {
+      "yes": 116,
+      "no": 15,
+      "abstain": 52
+    },
+    "passed": true,
+    "totalVoters": 183
+  },
+  {
+    "rcid": 5488,
+    "session": 71,
+    "date": "2016-12-19",
+    "unres": "A/RES/71/204",
+    "title": "Situation of human rights in the Islamic Republic of Iran : resolution / adopted by the General Assembly",
+    "description": "A/71/251 68c - Human rights situations and reports of special rapporteurs and representatives. - HUMAN RIGHTS--REPORTS",
+    "topic": "Human rights",
+    "isAmendment": false,
+    "actualVote": {
+      "yes": 85,
+      "no": 34,
+      "abstain": 63
+    },
+    "passed": true,
+    "totalVoters": 182
+  },
+  {
+    "rcid": 5522,
+    "session": 71,
+    "date": "2016-12-05",
+    "unres": "A/RES/71/63",
+    "title": "Nuclear disarmament : resolution / adopted by the General Assembly",
+    "description": "A/71/251 98c - Nuclear disarmament. - NUCLEAR DISARMAMENT",
+    "topic": "Arms control and disarmament",
+    "isAmendment": false,
+    "actualVote": {
+      "yes": 121,
+      "no": 44,
+      "abstain": 17
+    },
+    "passed": true,
+    "totalVoters": 182
+  },
+  {
+    "rcid": 5525,
+    "session": 71,
+    "date": "2016-12-05",
+    "unres": "A/RES/71/69",
+    "title": "Implementation of the Convention on the Prohibition of the Development, Production, Stockpiling and Use of Chemical Weapons and on Their Destruction : resolution / adopted by the General Assembly",
+    "description": "A/71/251 98n - Implementation of the Convention on the Prohibition of the Development, Production, Stockpiling and Use of Chemical Weapons and on Their Destruction. - CHEMICAL WEAPONS--TREATY (1993)",
+    "topic": "Economic development",
+    "isAmendment": false,
+    "actualVote": {
+      "yes": 160,
+      "no": 6,
+      "abstain": 14
+    },
+    "passed": true,
+    "totalVoters": 180
+  },
+  {
+    "rcid": 5540,
+    "session": 71,
+    "date": "2016-12-06",
+    "unres": "A/RES/71/95",
+    "title": "Work of the Special Committee to Investigate Israeli Practices Affecting the Human Rights of the Palestinian People and Other Arabs of the Occupied Territories : resolution / adopted by the General Assembly",
+    "description": "A/71/251 50 - Report of the Special Committee to Investigate Israeli Practices Affecting the Human Rights of the Palestinian People and Other Arabs of the Occupied Territories. - TERRITORIES OCCUPIED BY ISRAEL--HUMAN RIGHTS",
+    "topic": "Colonialism",
+    "isAmendment": false,
+    "actualVote": {
+      "yes": 90,
+      "no": 11,
+      "abstain": 73
+    },
+    "passed": true,
+    "totalVoters": 174
+  },
+  {
+    "rcid": 5489,
+    "session": 71,
+    "date": "2016-12-19",
+    "unres": "A/RES/71/205",
+    "title": "Situation of human rights in the Autonomous Republic of Crimea and the city of Sevastopol (Ukraine) : resolution / adopted by the General Assembly",
+    "description": "A/71/251 68c - Human rights situations and reports of special rapporteurs and representatives. - HUMAN RIGHTS--REPORTS",
+    "topic": "Human rights",
+    "isAmendment": false,
+    "actualVote": {
+      "yes": 70,
+      "no": 25,
+      "abstain": 77
+    },
+    "passed": true,
+    "totalVoters": 172
+  },
+  {
+    "rcid": 5469,
+    "session": 71,
+    "date": "2016-11-30",
+    "unres": "A/RES/71/20",
+    "title": "Committee on the Exercise of the Inalienable Rights of the Palestinian People : resolution / adopted by the General Assembly",
+    "description": "A/71/251 35 - Question of Palestine. - PALESTINE QUESTION",
+    "topic": "Human rights",
+    "isAmendment": false,
+    "actualVote": {
+      "yes": 99,
+      "no": 9,
+      "abstain": 55
+    },
+    "passed": true,
+    "totalVoters": 163
+  },
+  {
+    "rcid": 5470,
+    "session": 71,
+    "date": "2016-11-30",
+    "unres": "A/RES/71/21",
+    "title": "Division for Palestinian Rights of the Secretariat : resolution / adopted by the General Assembly",
+    "description": "A/71/251 35 - Question of Palestine. - PALESTINE QUESTION",
+    "topic": "Human rights",
+    "isAmendment": false,
+    "actualVote": {
+      "yes": 97,
+      "no": 9,
+      "abstain": 57
+    },
+    "passed": true,
+    "totalVoters": 163
+  },
+  {
+    "rcid": 5394,
+    "session": 70,
+    "date": "2015-10-27",
+    "unres": "R/70/5",
+    "title": "",
+    "description": "Necessity of ending the economic, commercial and financial embargo imposed by the United States of America against Cuba : resolution / adopted by the General Assembly",
+    "topic": "Economic development",
+    "isAmendment": false,
+    "actualVote": {
+      "yes": 191,
+      "no": 2,
+      "abstain": 0
+    },
+    "passed": true,
+    "totalVoters": 193
+  },
+  {
+    "rcid": 5458,
+    "session": 70,
+    "date": "2015-12-17",
+    "unres": "R/70/172",
+    "title": "",
+    "description": "Situation of human rights in the Democratic People's Republic of Korea : resolution / adopted by the General Assembly",
+    "topic": "Human rights",
+    "isAmendment": false,
+    "actualVote": {
+      "yes": 119,
+      "no": 19,
+      "abstain": 48
+    },
+    "passed": true,
+    "totalVoters": 186
+  },
+  {
+    "rcid": 5429,
+    "session": 70,
+    "date": "2015-12-07",
+    "unres": "R/70/73",
+    "title": "",
+    "description": "Comprehensive Nuclear-Test-Ban Treaty : resolution / adopted by the General Assembly",
+    "topic": "Nuclear weapons and nuclear material",
+    "isAmendment": false,
+    "actualVote": {
+      "yes": 181,
+      "no": 1,
+      "abstain": 3
+    },
+    "passed": true,
+    "totalVoters": 185
+  },
+  {
+    "rcid": 5459,
+    "session": 70,
+    "date": "2015-12-17",
+    "unres": "R/70/173",
+    "title": "",
+    "description": "Situation of human rights in the Islamic Republic of Iran : resolution / adopted by the General Assembly",
+    "topic": "Human rights",
+    "isAmendment": false,
+    "actualVote": {
+      "yes": 81,
+      "no": 37,
+      "abstain": 67
+    },
+    "passed": true,
+    "totalVoters": 185
+  },
+  {
+    "rcid": 5426,
+    "session": 70,
+    "date": "2015-12-07",
+    "unres": "R/70/58",
+    "title": "",
+    "description": "The Arms Trade Treaty : resolution / adopted by the General Assembly",
+    "topic": "Economic development",
+    "isAmendment": false,
+    "actualVote": {
+      "yes": 157,
+      "no": 0,
+      "abstain": 26
+    },
+    "passed": true,
+    "totalVoters": 183
+  },
+  {
+    "rcid": 5460,
+    "session": 70,
+    "date": "2015-12-22",
+    "unres": "R/70/185",
+    "title": "",
+    "description": "Unilateral economic measures as a means of political and economic coercion against developing countries : resolution / adopted by the General Assembly",
+    "topic": "Economic development",
+    "isAmendment": false,
+    "actualVote": {
+      "yes": 131,
+      "no": 2,
+      "abstain": 49
+    },
+    "passed": true,
+    "totalVoters": 182
+  },
+  {
+    "rcid": 5462,
+    "session": 70,
+    "date": "2015-12-22",
+    "unres": "R/70/198",
+    "title": "",
+    "description": "Agricultural technology for sustainable development : resolution / adopted by the General Assembly",
+    "topic": "Economic development",
+    "isAmendment": false,
+    "actualVote": {
+      "yes": 146,
+      "no": 0,
+      "abstain": 36
+    },
+    "passed": true,
+    "totalVoters": 182
+  },
+  {
+    "rcid": 5435,
+    "session": 70,
+    "date": "2015-12-09",
+    "unres": "R/70/87",
+    "title": "",
+    "description": "Work of the Special Committee to Investigate Israeli Practices Affecting the Human Rights of the Palestinian People and Other Arabs of the Occupied Territories : resolution / adopted by the General Assembly",
+    "topic": "Colonialism",
+    "isAmendment": false,
+    "actualVote": {
+      "yes": 92,
+      "no": 9,
+      "abstain": 75
+    },
+    "passed": true,
+    "totalVoters": 176
+  },
+  {
+    "rcid": 5396,
+    "session": 70,
+    "date": "2015-11-24",
+    "unres": "R/70/12",
+    "title": "",
+    "description": "Committee on the Exercise of the Inalienable Rights of the Palestinian People : resolution / adopted by the General Assembly",
+    "topic": "Human rights",
+    "isAmendment": false,
+    "actualVote": {
+      "yes": 102,
+      "no": 8,
+      "abstain": 57
+    },
+    "passed": true,
+    "totalVoters": 167
+  },
+  {
+    "rcid": 5397,
+    "session": 70,
+    "date": "2015-11-24",
+    "unres": "R/70/13",
+    "title": "",
+    "description": "Division for Palestinian Rights of the Secretariat : resolution / adopted by the General Assembly",
+    "topic": "Human rights",
+    "isAmendment": false,
+    "actualVote": {
+      "yes": 99,
+      "no": 8,
+      "abstain": 59
+    },
+    "passed": true,
+    "totalVoters": 166
+  },
+  {
+    "rcid": 5465,
+    "session": 70,
+    "date": "2015-12-23",
+    "unres": "R/70/234",
+    "title": "",
+    "description": "Situation of human rights in the Syrian Arab Republic : resolution / adopted by the General Assembly",
+    "topic": "Human rights",
+    "isAmendment": false,
+    "actualVote": {
+      "yes": 104,
+      "no": 13,
+      "abstain": 37
+    },
+    "passed": true,
+    "totalVoters": 154
+  },
+  {
+    "rcid": 5313,
+    "session": 69,
+    "date": "2014-10-28",
+    "unres": "R/69/5",
+    "title": "",
+    "description": "Necessity of ending the economic, commercial and financial embargo imposed by the United States of America against Cuba : resolution / adopted by the General Assembly",
+    "topic": "Economic development",
+    "isAmendment": false,
+    "actualVote": {
+      "yes": 188,
+      "no": 2,
+      "abstain": 3
+    },
+    "passed": true,
+    "totalVoters": 193
+  },
+  {
+    "rcid": 5377,
+    "session": 69,
+    "date": "2014-12-18",
+    "unres": "R/69/188",
+    "title": "",
+    "description": "Situation of human rights in the Democratic People's Republic of Korea : resolution / adopted by the General Assembly",
+    "topic": "Human rights",
+    "isAmendment": false,
+    "actualVote": {
+      "yes": 116,
+      "no": 20,
+      "abstain": 53
+    },
+    "passed": true,
+    "totalVoters": 189
+  },
+  {
+    "rcid": 5378,
+    "session": 69,
+    "date": "2014-12-18",
+    "unres": "R/69/189",
+    "title": "",
+    "description": "Situation of human rights in the Syrian Arab Republic : resolution / adopted by the General Assembly",
+    "topic": "Human rights",
+    "isAmendment": false,
+    "actualVote": {
+      "yes": 127,
+      "no": 13,
+      "abstain": 48
+    },
+    "passed": true,
+    "totalVoters": 188
+  },
+  {
+    "rcid": 5379,
+    "session": 69,
+    "date": "2014-12-18",
+    "unres": "R/69/190",
+    "title": "",
+    "description": "Situation of human rights in the Islamic Republic of Iran : resolution / adopted by the General Assembly",
+    "topic": "Human rights",
+    "isAmendment": false,
+    "actualVote": {
+      "yes": 83,
+      "no": 35,
+      "abstain": 68
+    },
+    "passed": true,
+    "totalVoters": 186
+  },
+  {
+    "rcid": 5336,
+    "session": 69,
+    "date": "2014-12-02",
+    "unres": "R/69/52",
+    "title": "",
+    "description": "United action towards the total elimination of nuclear weapons : resolution / adopted by the General Assembly",
+    "topic": "Arms control and disarmament",
+    "isAmendment": false,
+    "actualVote": {
+      "yes": 170,
+      "no": 1,
+      "abstain": 14
+    },
+    "passed": true,
+    "totalVoters": 185
+  },
+  {
+    "rcid": 5348,
+    "session": 69,
+    "date": "2014-12-02",
+    "unres": "R/69/81",
+    "title": "",
+    "description": "Comprehensive Nuclear-Test-Ban Treaty : resolution / adopted by the General Assembly",
+    "topic": "Nuclear weapons and nuclear material",
+    "isAmendment": false,
+    "actualVote": {
+      "yes": 179,
+      "no": 1,
+      "abstain": 3
+    },
+    "passed": true,
+    "totalVoters": 183
+  },
+  {
+    "rcid": 5332,
+    "session": 69,
+    "date": "2014-12-02",
+    "unres": "R/69/44",
+    "title": "",
+    "description": "The Hague Code of Conduct against Ballistic Missile Proliferation : resolution / adopted by the General Assembly",
+    "topic": "Arms control and disarmament",
+    "isAmendment": false,
+    "actualVote": {
+      "yes": 162,
+      "no": 1,
+      "abstain": 17
+    },
+    "passed": true,
+    "totalVoters": 180
+  },
+  {
+    "rcid": 5383,
+    "session": 69,
+    "date": "2014-12-19",
+    "unres": "R/69/227",
+    "title": "",
+    "description": "Towards a new international economic order : resolution / adopted by the General Assembly",
+    "topic": "Economic development",
+    "isAmendment": false,
+    "actualVote": {
+      "yes": 131,
+      "no": 46,
+      "abstain": 3
+    },
+    "passed": true,
+    "totalVoters": 180
+  },
+  {
+    "rcid": 5355,
+    "session": 69,
+    "date": "2014-12-05",
+    "unres": "R/69/90",
+    "title": "",
+    "description": "Work of the Special Committee to Investigate Israeli Practices Affecting the Human Rights of the Palestinian People and Other Arabs of the Occupied Territories : resolution / adopted by the General Assembly",
+    "topic": "Colonialism",
+    "isAmendment": false,
+    "actualVote": {
+      "yes": 88,
+      "no": 9,
+      "abstain": 79
+    },
+    "passed": true,
+    "totalVoters": 176
+  },
+  {
+    "rcid": 5381,
+    "session": 69,
+    "date": "2014-12-19",
+    "unres": "R/69/210",
+    "title": "",
+    "description": "Entrepreneurship for development : resolution / adopted by the General Assembly",
+    "topic": "Economic development",
+    "isAmendment": false,
+    "actualVote": {
+      "yes": 133,
+      "no": 30,
+      "abstain": 7
+    },
+    "passed": true,
+    "totalVoters": 170
+  },
+  {
+    "rcid": 5315,
+    "session": 69,
+    "date": "2014-11-25",
+    "unres": "R/69/20",
+    "title": "",
+    "description": "Committee on the Exercise of the Inalienable Rights of the Palestinian People : resolution / adopted by the General Assembly",
+    "topic": "Human rights",
+    "isAmendment": false,
+    "actualVote": {
+      "yes": 94,
+      "no": 7,
+      "abstain": 56
+    },
+    "passed": true,
+    "totalVoters": 157
+  },
+  {
+    "rcid": 5316,
+    "session": 69,
+    "date": "2014-11-25",
+    "unres": "R/69/21",
+    "title": "",
+    "description": "Division for Palestinian Rights of the Secretariat : resolution / adopted by the General Assembly",
+    "topic": "Human rights",
+    "isAmendment": false,
+    "actualVote": {
+      "yes": 91,
+      "no": 7,
+      "abstain": 59
+    },
+    "passed": true,
+    "totalVoters": 157
+  },
+  {
+    "rcid": 5249,
+    "session": 68,
+    "date": "2013-10-29",
+    "unres": "R/68/8",
+    "title": "CUBA--UNITED STATES",
+    "description": "Necessity of ending the economic, commercial and financial embargo imposed by the United States of America against Cuba : resolution / adopted by the General Assembly",
+    "topic": "Economic development",
+    "isAmendment": false,
+    "actualVote": {
+      "yes": 188,
+      "no": 2,
+      "abstain": 3
+    },
+    "passed": true,
+    "totalVoters": 193
+  },
+  {
+    "rcid": 5302,
+    "session": 68,
+    "date": "2013-12-18",
+    "unres": "R/68/144",
+    "title": "UN. HUMAN RIGHTS COUNCIL--REPORTS",
+    "description": "Report of the Human Rights Council : resolution / adopted by the General Assembly",
+    "topic": "Human rights",
+    "isAmendment": false,
+    "actualVote": {
+      "yes": 94,
+      "no": 71,
+      "abstain": 23
+    },
+    "passed": true,
+    "totalVoters": 188
+  },
+  {
+    "rcid": 5291,
+    "session": 68,
+    "date": "2013-12-18",
+    "unres": "R/68/182",
+    "title": "HUMAN RIGHTS--REPORTS",
+    "description": "Situation of human rights in the Syrian Arab Republic : resolution / adopted by the General Assembly",
+    "topic": "Human rights",
+    "isAmendment": false,
+    "actualVote": {
+      "yes": 127,
+      "no": 13,
+      "abstain": 47
+    },
+    "passed": true,
+    "totalVoters": 187
+  },
+  {
+    "rcid": 5270,
+    "session": 68,
+    "date": "2013-12-05",
+    "unres": "R/68/51",
+    "title": "NUCLEAR WEAPONS--ELIMINATION",
+    "description": "United action towards the total elimination of nuclear weapons : resolution / adopted by the General Assembly",
+    "topic": "Arms control and disarmament",
+    "isAmendment": false,
+    "actualVote": {
+      "yes": 169,
+      "no": 1,
+      "abstain": 14
+    },
+    "passed": true,
+    "totalVoters": 184
+  },
+  {
+    "rcid": 5303,
+    "session": 68,
+    "date": "2013-12-18",
+    "unres": "R/68/184",
+    "title": "HUMAN RIGHTS--REPORTS",
+    "description": "Situation of human rights in the Islamic Republic of Iran : resolution / adopted by the General Assembly",
+    "topic": "Human rights",
+    "isAmendment": false,
+    "actualVote": {
+      "yes": 86,
+      "no": 36,
+      "abstain": 61
+    },
+    "passed": true,
+    "totalVoters": 183
+  },
+  {
+    "rcid": 5267,
+    "session": 68,
+    "date": "2013-12-05",
+    "unres": "R/68/43",
+    "title": "ARMS TRANSFERS--TRANSPARENCY",
+    "description": "Transparency in armaments : resolution / adopted by the General Assembly",
+    "topic": "Arms control and disarmament",
+    "isAmendment": false,
+    "actualVote": {
+      "yes": 154,
+      "no": 0,
+      "abstain": 28
+    },
+    "passed": true,
+    "totalVoters": 182
+  },
+  {
+    "rcid": 5260,
+    "session": 68,
+    "date": "2013-12-05",
+    "unres": "R/68/31",
+    "title": "ARMS TRANSFERS--INTERNATIONAL INSTRUMENTS",
+    "description": "The Arms Trade Treaty : resolution / adopted by the General Assembly",
+    "topic": "Economic development",
+    "isAmendment": false,
+    "actualVote": {
+      "yes": 152,
+      "no": 0,
+      "abstain": 29
+    },
+    "passed": true,
+    "totalVoters": 181
+  },
+  {
+    "rcid": 5305,
+    "session": 68,
+    "date": "2013-12-20",
+    "unres": "R/68/209",
+    "title": "SUSTAINABLE DEVELOPMENT",
+    "description": "Agricultural technology for development : resolution / adopted by the General Assembly",
+    "topic": "Economic development",
+    "isAmendment": false,
+    "actualVote": {
+      "yes": 144,
+      "no": 1,
+      "abstain": 34
+    },
+    "passed": true,
+    "totalVoters": 179
+  },
+  {
+    "rcid": 5284,
+    "session": 68,
+    "date": "2013-12-11",
+    "unres": "R/68/80",
+    "title": "TERRITORIES OCCUPIED BY ISRAEL--HUMAN RIGHTS",
+    "description": "Work of the Special Committee to Investigate Israeli Practices Affecting the Human Rights of the Palestinian People and Other Arabs of the Occupied Territories : resolution / adopted by the General Assembly",
+    "topic": "Colonialism",
+    "isAmendment": false,
+    "actualVote": {
+      "yes": 95,
+      "no": 8,
+      "abstain": 75
+    },
+    "passed": true,
+    "totalVoters": 178
+  },
+  {
+    "rcid": 5254,
+    "session": 68,
+    "date": "2013-11-26",
+    "unres": "R/68/13",
+    "title": "PALESTINE QUESTION",
+    "description": "Division for Palestinian Rights of the Secretariat : resolution / adopted by the General Assembly",
+    "topic": "Human rights",
+    "isAmendment": false,
+    "actualVote": {
+      "yes": 108,
+      "no": 7,
+      "abstain": 59
+    },
+    "passed": true,
+    "totalVoters": 174
+  },
+  {
+    "rcid": 5255,
+    "session": 68,
+    "date": "2013-11-26",
+    "unres": "R/68/12",
+    "title": "PALESTINE QUESTION",
+    "description": "Committee on the Exercise of the Inalienable Rights of the Palestinian People : resolution / adopted by the General Assembly",
+    "topic": "Human rights",
+    "isAmendment": false,
+    "actualVote": {
+      "yes": 110,
+      "no": 7,
+      "abstain": 56
+    },
+    "passed": true,
+    "totalVoters": 173
+  },
+  {
+    "rcid": 5181,
+    "session": 67,
+    "date": "2012-11-13",
+    "unres": "R/67/4",
+    "title": "CUBA--UNITED STATES",
+    "description": "Necessity of ending the economic, commercial and financial embargo imposed by the United States of America against Cuba : resolution / adopted by the General Assembly",
+    "topic": "Economic development",
+    "isAmendment": false,
+    "actualVote": {
+      "yes": 188,
+      "no": 3,
+      "abstain": 2
+    },
+    "passed": true,
+    "totalVoters": 193
+  },
+  {
+    "rcid": 5182,
+    "session": 67,
+    "date": "2012-11-29",
+    "unres": "R/67/19",
+    "title": "PALESTINE QUESTION",
+    "description": "Status of Palestine in the United Nations : resolution / adopted by the General Assembly",
+    "topic": "Palestinian conflict",
+    "isAmendment": false,
+    "actualVote": {
+      "yes": 138,
+      "no": 9,
+      "abstain": 41
+    },
+    "passed": true,
+    "totalVoters": 188
+  },
+  {
+    "rcid": 5240,
+    "session": 67,
+    "date": "2012-12-20",
+    "unres": "R/67/182",
+    "title": "HUMAN RIGHTS--REPORTS",
+    "description": "Situation of human rights in the Islamic Republic of Iran : resolution / adopted by the General Assembly",
+    "topic": "Human rights",
+    "isAmendment": false,
+    "actualVote": {
+      "yes": 86,
+      "no": 32,
+      "abstain": 65
+    },
+    "passed": true,
+    "totalVoters": 183
+  },
+  {
+    "rcid": 5241,
+    "session": 67,
+    "date": "2012-12-20",
+    "unres": "R/67/183",
+    "title": "HUMAN RIGHTS--REPORTS",
+    "description": "Situation of human rights in the Syrian Arab Republic : resolution / adopted by the General Assembly",
+    "topic": "Human rights",
+    "isAmendment": false,
+    "actualVote": {
+      "yes": 135,
+      "no": 12,
+      "abstain": 36
+    },
+    "passed": true,
+    "totalVoters": 183
+  },
+  {
+    "rcid": 5243,
+    "session": 67,
+    "date": "2012-12-21",
+    "unres": "R/67/202",
+    "title": "SUSTAINABLE DEVELOPMENT",
+    "description": "Entrepreneurship for development : resolution / adopted by the General Assembly",
+    "topic": "Economic development",
+    "isAmendment": false,
+    "actualVote": {
+      "yes": 141,
+      "no": 31,
+      "abstain": 11
+    },
+    "passed": true,
+    "totalVoters": 183
+  },
+  {
+    "rcid": 5217,
+    "session": 67,
+    "date": "2012-12-18",
+    "unres": "R/67/118",
+    "title": "TERRITORIES OCCUPIED BY ISRAEL--HUMAN RIGHTS",
+    "description": "Work of the Special Committee to Investigate Israeli Practices Affecting the Human Rights of the Palestinian People and Other Arabs of the Occupied Territories : resolution / adopted by the General Assembly",
+    "topic": "Colonialism",
+    "isAmendment": false,
+    "actualVote": {
+      "yes": 98,
+      "no": 8,
+      "abstain": 72
+    },
+    "passed": true,
+    "totalVoters": 178
+  },
+  {
+    "rcid": 5184,
+    "session": 67,
+    "date": "2012-11-30",
+    "unres": "R/67/21",
+    "title": "PALESTINE QUESTION",
+    "description": "Division for Palestinian Rights of the Secretariat : resolution / adopted by the General Assembly",
+    "topic": "Human rights",
+    "isAmendment": false,
+    "actualVote": {
+      "yes": 103,
+      "no": 7,
+      "abstain": 61
+    },
+    "passed": true,
+    "totalVoters": 171
+  },
+  {
+    "rcid": 5183,
+    "session": 67,
+    "date": "2012-11-30",
+    "unres": "R/67/20",
+    "title": "PALESTINE QUESTION",
+    "description": "Committee on the Exercise of the Inalienable Rights of the Palestinian People : resolution / adopted by the General Assembly",
+    "topic": "Human rights",
+    "isAmendment": false,
+    "actualVote": {
+      "yes": 106,
+      "no": 7,
+      "abstain": 56
+    },
+    "passed": true,
+    "totalVoters": 169
+  },
+  {
+    "rcid": 5163,
+    "session": 66,
+    "date": "2011-10-25",
+    "unres": "R/66/6",
+    "title": "CUBA--UNITED STATES",
+    "description": "Necessity of ending the economic, commercial and financial embargo imposed by the United States of America against Cuba : resolution / adopted by the General Assembly",
+    "topic": "Economic development",
+    "isAmendment": false,
+    "actualVote": {
+      "yes": 186,
+      "no": 2,
+      "abstain": 3
+    },
+    "passed": true,
+    "totalVoters": 191
+  },
+  {
+    "rcid": 5133,
+    "session": 66,
+    "date": "2011-12-19",
+    "unres": "R/66/174",
+    "title": "HUMAN RIGHTS--REPORTS",
+    "description": "Situation of human rights in the Democratic People's Republic of Korea : resolution / adopted by the General Assembly",
+    "topic": "Human rights",
+    "isAmendment": false,
+    "actualVote": {
+      "yes": 123,
+      "no": 16,
+      "abstain": 51
+    },
+    "passed": true,
+    "totalVoters": 190
+  },
+  {
+    "rcid": 5135,
+    "session": 66,
+    "date": "2011-12-19",
+    "unres": "R/66/176",
+    "title": "HUMAN RIGHTS--REPORTS",
+    "description": "Situation of human rights in the Syrian Arab Republic : resolution / adopted by the General Assembly",
+    "topic": "Human rights",
+    "isAmendment": false,
+    "actualVote": {
+      "yes": 133,
+      "no": 11,
+      "abstain": 43
+    },
+    "passed": true,
+    "totalVoters": 187
+  },
+  {
+    "rcid": 5118,
+    "session": 66,
+    "date": "2011-12-19",
+    "unres": "R/66/136",
+    "title": "UN. HUMAN RIGHTS COUNCIL--REPORTS",
+    "description": "Report of the Human Rights Council : resolution / adopted by the General Assembly",
+    "topic": "Human rights",
+    "isAmendment": false,
+    "actualVote": {
+      "yes": 122,
+      "no": 3,
+      "abstain": 59
+    },
+    "passed": true,
+    "totalVoters": 184
+  },
+  {
+    "rcid": 5134,
+    "session": 66,
+    "date": "2011-12-19",
+    "unres": "R/66/175",
+    "title": "HUMAN RIGHTS--REPORTS",
+    "description": "Situation of human rights in the Islamic Republic of Iran : resolution / adopted by the General Assembly",
+    "topic": "Human rights",
+    "isAmendment": false,
+    "actualVote": {
+      "yes": 89,
+      "no": 30,
+      "abstain": 64
+    },
+    "passed": true,
+    "totalVoters": 183
+  },
+  {
+    "rcid": 5157,
+    "session": 66,
+    "date": "2011-12-02",
+    "unres": "R/66/45",
+    "title": "NUCLEAR WEAPONS--ELIMINATION",
+    "description": "United action towards the total elimination of nuclear weapons : resolution / adopted by the General Assembly",
+    "topic": "Arms control and disarmament",
+    "isAmendment": false,
+    "actualVote": {
+      "yes": 169,
+      "no": 1,
+      "abstain": 11
+    },
+    "passed": true,
+    "totalVoters": 181
+  },
+  {
+    "rcid": 5124,
+    "session": 66,
+    "date": "2011-11-30",
+    "unres": "R/66/15",
+    "title": "PALESTINE QUESTION",
+    "description": "Division for Palestininan Rights of the Secretariat : resolution / adopted by the General Assembly",
+    "topic": "Human rights",
+    "isAmendment": false,
+    "actualVote": {
+      "yes": 114,
+      "no": 9,
+      "abstain": 54
+    },
+    "passed": true,
+    "totalVoters": 177
+  },
+  {
+    "rcid": 5119,
+    "session": 66,
+    "date": "2011-11-30",
+    "unres": "R/66/14",
+    "title": "PALESTINE QUESTION",
+    "description": "Committee on the Exercise of the Inalienable Rights of the Palestinian People : resolution / adopted by the General Assembly",
+    "topic": "Human rights",
+    "isAmendment": false,
+    "actualVote": {
+      "yes": 115,
+      "no": 8,
+      "abstain": 53
+    },
+    "passed": true,
+    "totalVoters": 176
+  },
+  {
+    "rcid": 5170,
+    "session": 66,
+    "date": "2011-12-09",
+    "unres": "R/66/76",
+    "title": "TERRITORIES OCCUPIED BY ISRAEL--HUMAN RIGHTS",
+    "description": "Work of the Special Committee to Investigate Israeli Practices Affecting the Human Rights of the Palestinian People and Other Arabs of the Occupied Territories : resolution / adopted by the General Assembly",
+    "topic": "Colonialism",
+    "isAmendment": false,
+    "actualVote": {
+      "yes": 86,
+      "no": 9,
+      "abstain": 75
+    },
+    "passed": true,
+    "totalVoters": 170
+  },
+  {
+    "rcid": 5049,
+    "session": 65,
+    "date": "2010-10-26",
+    "unres": "R/65/6",
+    "title": "CUBA, UNITED STATES",
+    "description": "Necessity of ending the economic, commercial and financial embargo imposed by the United States of America against Cuba : resolution / adopted by the General Assembly",
+    "topic": "Economic development",
+    "isAmendment": false,
+    "actualVote": {
+      "yes": 187,
+      "no": 2,
+      "abstain": 3
+    },
+    "passed": true,
+    "totalVoters": 192
+  },
+  {
+    "rcid": 5107,
+    "session": 65,
+    "date": "2010-12-21",
+    "unres": "R/65/224",
+    "title": "HUMAN RIGHTS ADVANCEMENT",
+    "description": "Combating defamation of religions : resolution / adopted by the General Assembly",
+    "topic": "Human rights",
+    "isAmendment": false,
+    "actualVote": {
+      "yes": 79,
+      "no": 67,
+      "abstain": 40
+    },
+    "passed": true,
+    "totalVoters": 186
+  },
+  {
+    "rcid": 5079,
+    "session": 65,
+    "date": "2010-12-08",
+    "unres": "R/65/72",
+    "title": "NUCLEAR WEAPONS, ELIMINATION",
+    "description": "United action towards the total elimination of nuclear weapons : resolution / adopted by the General Assembly",
+    "topic": "Arms control and disarmament",
+    "isAmendment": false,
+    "actualVote": {
+      "yes": 173,
+      "no": 1,
+      "abstain": 11
+    },
+    "passed": true,
+    "totalVoters": 185
+  },
+  {
+    "rcid": 5100,
+    "session": 65,
+    "date": "2010-12-21",
+    "unres": "R/65/206",
+    "title": "HUMAN RIGHTS ADVANCEMENT",
+    "description": "Moratorium on the use of the death penalty : resolution / adopted by the General Assembly",
+    "topic": "Human rights",
+    "isAmendment": false,
+    "actualVote": {
+      "yes": 109,
+      "no": 41,
+      "abstain": 35
+    },
+    "passed": true,
+    "totalVoters": 185
+  },
+  {
+    "rcid": 5101,
+    "session": 65,
+    "date": "2010-12-21",
+    "unres": "R/65/208",
+    "title": "HUMAN RIGHTS ADVANCEMENT",
+    "description": "Extrajudicial, summary or arbitrary executions : resolution / adopted by the General Assembly",
+    "topic": "Human rights",
+    "isAmendment": false,
+    "actualVote": {
+      "yes": 122,
+      "no": 1,
+      "abstain": 62
+    },
+    "passed": true,
+    "totalVoters": 185
+  },
+  {
+    "rcid": 5070,
+    "session": 65,
+    "date": "2010-12-08",
+    "unres": "R/65/91",
+    "title": "LEAR WEAPON TESTS, TREATY",
+    "description": "Comprehensive Nuclear-Test-Ban Treaty : resolution / adopted by the General Assembly",
+    "topic": "Nuclear weapons and nuclear material",
+    "isAmendment": false,
+    "actualVote": {
+      "yes": 179,
+      "no": 1,
+      "abstain": 3
+    },
+    "passed": true,
+    "totalVoters": 183
+  },
+  {
+    "rcid": 5108,
+    "session": 65,
+    "date": "2010-12-21",
+    "unres": "R/65/225",
+    "title": "HUMAN RIGHTS, DEMOCRATIC PEOPLE'S REPUBLIC OF KOREA",
+    "description": "Situation of human rights in the Democratic People's Republic of Korea : resolution / adopted by the General Assembly",
+    "topic": "Human rights",
+    "isAmendment": false,
+    "actualVote": {
+      "yes": 106,
+      "no": 20,
+      "abstain": 57
+    },
+    "passed": true,
+    "totalVoters": 183
+  },
+  {
+    "rcid": 5110,
+    "session": 65,
+    "date": "2010-12-21",
+    "unres": "R/65/226",
+    "title": "HUMAN RIGHTS--IRAN (ISLAMIC REPUBLIC OF)",
+    "description": "Situation of human rights in the Islamic Republic of Iran : resolution / adopted by the General Assembly",
+    "topic": "Human rights",
+    "isAmendment": false,
+    "actualVote": {
+      "yes": 78,
+      "no": 45,
+      "abstain": 59
+    },
+    "passed": true,
+    "totalVoters": 182
+  },
+  {
+    "rcid": 5066,
+    "session": 65,
+    "date": "2010-12-08",
+    "unres": "R/65/73",
+    "title": "DISARMAMENT, GENERAL AND COMPLETE",
+    "description": "The Hague Code of Conduct against Ballistic Missile Proliferation : resolution / adopted by the General Assembly",
+    "topic": "Arms control and disarmament",
+    "isAmendment": false,
+    "actualVote": {
+      "yes": 162,
+      "no": 1,
+      "abstain": 17
+    },
+    "passed": true,
+    "totalVoters": 180
+  },
+  {
+    "rcid": 5109,
+    "session": 65,
+    "date": "2010-12-21",
+    "unres": "R/65/195",
+    "title": "UN. HUMAN RIGHTS COUNCIL, REPORTS",
+    "description": "Report of the Human Rights Council : resolution / adopted by the General Assembly",
+    "topic": "Human rights",
+    "isAmendment": false,
+    "actualVote": {
+      "yes": 123,
+      "no": 1,
+      "abstain": 55
+    },
+    "passed": true,
+    "totalVoters": 179
+  },
+  {
+    "rcid": 5052,
+    "session": 65,
+    "date": "2010-11-30",
+    "unres": "R/65/13",
+    "title": "PALESTINE QUESTION",
+    "description": "Committee on the Exercise of the Inalienable Rights of the Palestinian People : resolution / adopted by the General Assembly",
+    "topic": "Human rights",
+    "isAmendment": false,
+    "actualVote": {
+      "yes": 112,
+      "no": 9,
+      "abstain": 54
+    },
+    "passed": true,
+    "totalVoters": 175
+  },
+  {
+    "rcid": 5053,
+    "session": 65,
+    "date": "2010-11-30",
+    "unres": "R/65/14",
+    "title": "PALESTINE QUESTION",
+    "description": "Division for Palestinian Rights of the Secretariat : resolution / adopted by the General Assembly",
+    "topic": "Human rights",
+    "isAmendment": false,
+    "actualVote": {
+      "yes": 110,
+      "no": 9,
+      "abstain": 56
+    },
+    "passed": true,
+    "totalVoters": 175
+  },
+  {
+    "rcid": 5082,
+    "session": 65,
+    "date": "2010-12-10",
+    "unres": "R/65/102",
+    "title": "TERRITORIES OCCUPIED BY ISRAEL, HUMAN RIGHTS",
+    "description": "Work of the Special Committee to Investigate Israeli Practices Affecting the Human Rights of the Palestinian People and Other Arabs of the Occupied Territories : resolution / adopted by the General Assembly",
+    "topic": "Colonialism",
+    "isAmendment": false,
+    "actualVote": {
+      "yes": 94,
+      "no": 9,
+      "abstain": 72
+    },
+    "passed": true,
+    "totalVoters": 175
+  },
+  {
+    "rcid": 4979,
+    "session": 64,
+    "date": "2009-10-28",
+    "unres": "R/64/6",
+    "title": "CUBA, UNITED STATES",
+    "description": "Necessity of ending the economic, commercial and financial embargo imposed by the United States of America against Cuba : resolution / adopted by the General Assembly",
+    "topic": "Economic development",
+    "isAmendment": false,
+    "actualVote": {
+      "yes": 187,
+      "no": 3,
+      "abstain": 2
+    },
+    "passed": true,
+    "totalVoters": 192
+  },
+  {
+    "rcid": 5031,
+    "session": 64,
+    "date": "2009-12-18",
+    "unres": "R/64/148",
+    "title": "RACIAL DISCRIMINATION, PROGRAMME IMPLEMENTATION",
+    "description": "Global efforts for the total elimination of racism, racial discrimination, xenophobia and related intolerance and the comprehensive implementation of and follow-up to the Durban Declaration and Programme of Action : resolution / adopted by the",
+    "topic": "Human rights",
+    "isAmendment": false,
+    "actualVote": {
+      "yes": 128,
+      "no": 13,
+      "abstain": 43
+    },
+    "passed": true,
+    "totalVoters": 184
+  },
+  {
+    "rcid": 5035,
+    "session": 64,
+    "date": "2009-12-18",
+    "unres": "R/64/156",
+    "title": "HUMAN RIGHTS ADVANCEMENT, RELIGIOUS INTOLERANCE",
+    "description": "Combating defamation of religions : resolution / adopted by the General Assembly",
+    "topic": "Human rights",
+    "isAmendment": false,
+    "actualVote": {
+      "yes": 80,
+      "no": 61,
+      "abstain": 42
+    },
+    "passed": true,
+    "totalVoters": 183
+  },
+  {
+    "rcid": 5030,
+    "session": 64,
+    "date": "2009-12-18",
+    "unres": "R/64/176",
+    "title": "HUMAN RIGHTS, REPORTS, IRAN (ISLAMIC REPUBLIC OF)",
+    "description": "Situation of human rights in the Islamic Republic of Iran : resolution / adopted by the General Assembly",
+    "topic": "Human rights",
+    "isAmendment": false,
+    "actualVote": {
+      "yes": 74,
+      "no": 49,
+      "abstain": 59
+    },
+    "passed": true,
+    "totalVoters": 182
+  },
+  {
+    "rcid": 4995,
+    "session": 64,
+    "date": "2009-12-02",
+    "unres": "R/64/47",
+    "title": "NUCLEAR WEAPONS, ELIMINATION",
+    "description": "Renewed determination towards the total elimination of nuclear weapons : resolution / adopted by the General Assembly",
+    "topic": "Colonialism",
+    "isAmendment": false,
+    "actualVote": {
+      "yes": 171,
+      "no": 2,
+      "abstain": 8
+    },
+    "passed": true,
+    "totalVoters": 181
+  },
+  {
+    "rcid": 5029,
+    "session": 64,
+    "date": "2009-12-18",
+    "unres": "R/64/175",
+    "title": "HUMAN RIGHTS, REPORTS, DEMOCRATIC PEOPLE'S REPUBLIC OF KOREA",
+    "description": "Situation of human rights in the Democratic People?Ã†s Republic of Korea : resolution / adopted by the General Assembly",
+    "topic": "Human rights",
+    "isAmendment": false,
+    "actualVote": {
+      "yes": 98,
+      "no": 20,
+      "abstain": 63
+    },
+    "passed": true,
+    "totalVoters": 181
+  },
+  {
+    "rcid": 5006,
+    "session": 64,
+    "date": "2009-12-02",
+    "unres": "R/64/69",
+    "title": "NUCLEAR WEAPON TESTS, TREATY",
+    "description": "Comprehensive Nuclear-Test-Ban Treaty : resolution / adopted by the General Assembly",
+    "topic": "Nuclear weapons and nuclear material",
+    "isAmendment": false,
+    "actualVote": {
+      "yes": 175,
+      "no": 1,
+      "abstain": 3
+    },
+    "passed": true,
+    "totalVoters": 179
+  },
+  {
+    "rcid": 5041,
+    "session": 64,
+    "date": "2009-12-21",
+    "unres": "R/64/197",
+    "title": "AGENDA 21, PROGRAMME IMPLEMENTATION",
+    "description": "Agricultural technology for development : resolution / adopted by the General Assembly",
+    "topic": "Economic development",
+    "isAmendment": false,
+    "actualVote": {
+      "yes": 146,
+      "no": 1,
+      "abstain": 32
+    },
+    "passed": true,
+    "totalVoters": 179
+  },
+  {
+    "rcid": 4982,
+    "session": 64,
+    "date": "2009-12-02",
+    "unres": "R/64/17",
+    "title": "PALESTINE QUESTION",
+    "description": "Division for Palestinian Rights of the Secretariat : resolution / adopted by the General Assembly",
+    "topic": "Human rights",
+    "isAmendment": false,
+    "actualVote": {
+      "yes": 112,
+      "no": 9,
+      "abstain": 54
+    },
+    "passed": true,
+    "totalVoters": 175
+  },
+  {
+    "rcid": 5011,
+    "session": 64,
+    "date": "2009-12-10",
+    "unres": "R/64/91",
+    "title": "TERRITORIES OCCUPIED BY ISRAEL, HUMAN RIGHTS",
+    "description": "Work of the Special Committee to Investigate Israel Practices Affecting the Human Rights of the Palestinian People and Other Arabs of the Occupied Territories : resolution / adopted by the General Assembly",
+    "topic": "Colonialism",
+    "isAmendment": false,
+    "actualVote": {
+      "yes": 92,
+      "no": 9,
+      "abstain": 74
+    },
+    "passed": true,
+    "totalVoters": 175
+  },
+  {
+    "rcid": 4981,
+    "session": 64,
+    "date": "2009-12-02",
+    "unres": "R/64/16",
+    "title": "PALESTINE QUESTION",
+    "description": "Committee on the Exercise of the Inalienable Rights of the Palestinian People : resolution / adopted by the General Assembly",
+    "topic": "Human rights",
+    "isAmendment": false,
+    "actualVote": {
+      "yes": 110,
+      "no": 8,
+      "abstain": 54
+    },
+    "passed": true,
+    "totalVoters": 172
+  },
+  {
+    "rcid": 5043,
+    "session": 64,
+    "date": "2009-12-24",
+    "unres": "R/64/238",
+    "title": "HUMAN RIGHTS, REPORTS, MYANMAR",
+    "description": "Situation of human rights in Myanmar : resolution / adopted by the General Assembly",
+    "topic": "Human rights",
+    "isAmendment": false,
+    "actualVote": {
+      "yes": 85,
+      "no": 24,
+      "abstain": 39
+    },
+    "passed": true,
+    "totalVoters": 148
+  },
+  {
+    "rcid": 4833,
+    "session": 63,
+    "date": "2008-10-29",
+    "unres": "R/63/7",
+    "title": "CUBA, UNITED STATES",
+    "description": "Necessity of ending the economic, commercial and financial embargo imposed by the United States of America against Cuba : resolution / adopted by the General Assembly",
+    "topic": "Economic development",
+    "isAmendment": false,
+    "actualVote": {
+      "yes": 185,
+      "no": 3,
+      "abstain": 2
+    },
+    "passed": true,
+    "totalVoters": 190
+  },
+  {
+    "rcid": 4890,
+    "session": 63,
+    "date": "2008-12-18",
+    "unres": "R/63/168",
+    "title": "HUMAN RIGHTS ADVANCEMENT",
+    "description": "Moratorium on the use of the death penalty : resolution / adopted by the General Assembly",
+    "topic": "Human rights",
+    "isAmendment": false,
+    "actualVote": {
+      "yes": 106,
+      "no": 46,
+      "abstain": 34
+    },
+    "passed": true,
+    "totalVoters": 186
+  },
+  {
+    "rcid": 4895,
+    "session": 63,
+    "date": "2008-12-18",
+    "unres": "R/63/160",
+    "title": "UN HUMAN RIGHTS COUNCIL, REPORTS",
+    "description": "Report of the Human Rights Council : resolution / adopted by the General Assembly",
+    "topic": "Human rights",
+    "isAmendment": false,
+    "actualVote": {
+      "yes": 121,
+      "no": 7,
+      "abstain": 58
+    },
+    "passed": true,
+    "totalVoters": 186
+  },
+  {
+    "rcid": 4897,
+    "session": 63,
+    "date": "2008-12-18",
+    "unres": "R/63/171",
+    "title": "HUMAN RIGHTS ADVANCEMENT",
+    "description": "Combating defamation of religions : resolution / adopted by the General Assembly",
+    "topic": "Human rights",
+    "isAmendment": false,
+    "actualVote": {
+      "yes": 85,
+      "no": 53,
+      "abstain": 43
+    },
+    "passed": true,
+    "totalVoters": 181
+  },
+  {
+    "rcid": 4889,
+    "session": 63,
+    "date": "2008-12-18",
+    "unres": "R/63/191",
+    "title": "HUMAN RIGHTS, REPORTS",
+    "description": "Situation of human rights in the Islamic Republic of Iran : resolution / adopted by the General Assembly",
+    "topic": "Human rights",
+    "isAmendment": false,
+    "actualVote": {
+      "yes": 69,
+      "no": 54,
+      "abstain": 57
+    },
+    "passed": true,
+    "totalVoters": 180
+  },
+  {
+    "rcid": 4882,
+    "session": 63,
+    "date": "2008-12-18",
+    "unres": "R/63/190",
+    "title": "HUMAN RIGHTS, REPORTS",
+    "description": "Situation of human rights in the Democratic People's Republic of Korea: resolution / adopted by the General Assembly",
+    "topic": "Human rights",
+    "isAmendment": false,
+    "actualVote": {
+      "yes": 94,
+      "no": 22,
+      "abstain": 63
+    },
+    "passed": true,
+    "totalVoters": 179
+  },
+  {
+    "rcid": 4900,
+    "session": 63,
+    "date": "2008-12-19",
+    "unres": "R/63/224",
+    "title": "GLOBALIZATION",
+    "description": "Towards a New International Economic Order: resolution / adopted by the General Assembly",
+    "topic": "Economic development",
+    "isAmendment": false,
+    "actualVote": {
+      "yes": 123,
+      "no": 1,
+      "abstain": 52
+    },
+    "passed": true,
+    "totalVoters": 176
+  },
+  {
+    "rcid": 4878,
+    "session": 63,
+    "date": "2008-12-05",
+    "unres": "R/63/95",
+    "title": "TERRITORIES OCCUPIED BY ISRAEL, HUMAN RIGHTS",
+    "description": "Work of the Special Comittee to Investigate Israel Practices Affecting the Human Rights of the Palestinian People and Other Arabs of the Occupied Territories : resolution / adopted gy the General Assembly",
+    "topic": "Colonialism",
+    "isAmendment": false,
+    "actualVote": {
+      "yes": 94,
+      "no": 8,
+      "abstain": 73
+    },
+    "passed": true,
+    "totalVoters": 175
+  },
+  {
+    "rcid": 4840,
+    "session": 63,
+    "date": "2008-11-26",
+    "unres": "R/63/26",
+    "title": "PALESTINE QUESTION",
+    "description": "Committee on the Excercise of the Inalienable Rights of the Palestinian People : resolution / adopted by the General Assembly",
+    "topic": "Human rights",
+    "isAmendment": false,
+    "actualVote": {
+      "yes": 107,
+      "no": 8,
+      "abstain": 57
+    },
+    "passed": true,
+    "totalVoters": 172
+  },
+  {
+    "rcid": 4839,
+    "session": 63,
+    "date": "2008-11-26",
+    "unres": "R/63/27",
+    "title": "PALESTINE QUESTION",
+    "description": "Division for Palestinian Rights of the Secretariat : resolution / adopted by the General Assembly",
+    "topic": "Human rights",
+    "isAmendment": false,
+    "actualVote": {
+      "yes": 106,
+      "no": 8,
+      "abstain": 57
+    },
+    "passed": true,
+    "totalVoters": 171
+  },
+  {
+    "rcid": 4903,
+    "session": 63,
+    "date": "2008-12-24",
+    "unres": "R/63/242",
+    "title": "RACIAL DISCRIMINATION",
+    "description": "Global efforts for the elimination of racism, racial discrimination, xenophobia, and related intolerance and the comprehensive implementation of and follow up to the Durban Declaration and Programme of Action: resolution / adopted by the Genera",
+    "topic": "Human rights",
+    "isAmendment": false,
+    "actualVote": {
+      "yes": 109,
+      "no": 13,
+      "abstain": 35
+    },
+    "passed": true,
+    "totalVoters": 157
+  },
+  {
+    "rcid": 4902,
+    "session": 63,
+    "date": "2008-12-24",
+    "unres": "R/63/245",
+    "title": "HUMAN RIGHTS, REPORTS",
+    "description": "Situation of human rights in Myanmar: resolution / adopted by the General Assembly",
+    "topic": "Human rights",
+    "isAmendment": false,
+    "actualVote": {
+      "yes": 80,
+      "no": 25,
+      "abstain": 45
+    },
+    "passed": true,
+    "totalVoters": 150
+  },
+  {
+    "rcid": 4754,
+    "session": 62,
+    "date": "2007-10-30",
+    "unres": "R/62/3",
+    "title": "CUBA, UNITED STATES",
+    "description": "Necessity of ending the economic, commercial and financial embargo imposed by the United States of America against Cuba: resolution / adopted by the General Assembly",
+    "topic": "Economic development",
+    "isAmendment": false,
+    "actualVote": {
+      "yes": 184,
+      "no": 3,
+      "abstain": 2
+    },
+    "passed": true,
+    "totalVoters": 189
+  },
+  {
+    "rcid": 4807,
+    "session": 62,
+    "date": "2007-12-18",
+    "unres": "R/62/169",
+    "title": "HUMAN RIGHTS, REPORTS, BELARUS",
+    "description": "Situation of the human rights in Belarus : resolution / adopted by the General Assembly",
+    "topic": "Human rights",
+    "isAmendment": false,
+    "actualVote": {
+      "yes": 72,
+      "no": 33,
+      "abstain": 78
+    },
+    "passed": true,
+    "totalVoters": 183
+  },
+  {
+    "rcid": 4813,
+    "session": 62,
+    "date": "2007-12-18",
+    "unres": "R/62/167",
+    "title": "HUMAN RIGHTS, REPORTS, DEMOCRATIC PEOPLE'S REPUBLIC OF KOREA",
+    "description": "Situation of human rights in the Democratic People's Republic of Korea : resolution / adopted by the General Assembly",
+    "topic": "Human rights",
+    "isAmendment": false,
+    "actualVote": {
+      "yes": 102,
+      "no": 22,
+      "abstain": 58
+    },
+    "passed": true,
+    "totalVoters": 182
+  },
+  {
+    "rcid": 4814,
+    "session": 62,
+    "date": "2007-12-18",
+    "unres": "R/62/168",
+    "title": "HUMAN RIGHTS, REPORTS, IRAN (ISLAMIC REPUBLIC OF)",
+    "description": "Situation of human rights in the Islamic Republic of Iran : resolution / adopted by the General Assembly",
+    "topic": "Human rights",
+    "isAmendment": false,
+    "actualVote": {
+      "yes": 73,
+      "no": 54,
+      "abstain": 54
+    },
+    "passed": true,
+    "totalVoters": 181
+  },
+  {
+    "rcid": 4815,
+    "session": 62,
+    "date": "2007-12-19",
+    "unres": "R/62/184",
+    "title": "INTERNATIONAL TRADE",
+    "description": "International trade and development : resolution / adopted by the General Assembly",
+    "topic": "Economic development",
+    "isAmendment": false,
+    "actualVote": {
+      "yes": 126,
+      "no": 48,
+      "abstain": 7
+    },
+    "passed": true,
+    "totalVoters": 181
+  },
+  {
+    "rcid": 4818,
+    "session": 62,
+    "date": "2007-12-19",
+    "unres": "R/62/190",
+    "title": "ENVIRONMENT, SUSTAINABLE DEVELOPMENT, CONFERENCES",
+    "description": "Agricultural technology for development : resolution / adopted by the General Assembly",
+    "topic": "Economic development",
+    "isAmendment": false,
+    "actualVote": {
+      "yes": 147,
+      "no": 0,
+      "abstain": 30
+    },
+    "passed": true,
+    "totalVoters": 177
+  },
+  {
+    "rcid": 4789,
+    "session": 62,
+    "date": "2007-12-17",
+    "unres": "R/62/106",
+    "title": "TERRITORIES OCCUPIED BY ISRAEL, HUMAN RIGHTS",
+    "description": "Work of the Special Committee to Investigate Israeli Practices Affecting the Human Rights of the Palestinian People and Other Arabs of the Occupied Territories : resolution / adopted by the General Assembly",
+    "topic": "Colonialism",
+    "isAmendment": false,
+    "actualVote": {
+      "yes": 93,
+      "no": 8,
+      "abstain": 74
+    },
+    "passed": true,
+    "totalVoters": 175
+  },
+  {
+    "rcid": 4780,
+    "session": 62,
+    "date": "2007-12-10",
+    "unres": "R/62/80",
+    "title": "PALESTINE QUESTION",
+    "description": "Commitee on the Exercice of Inalienable Rights of the Palestinian People: resolution / adopted by the General Assembly",
+    "topic": "Human rights",
+    "isAmendment": false,
+    "actualVote": {
+      "yes": 109,
+      "no": 8,
+      "abstain": 55
+    },
+    "passed": true,
+    "totalVoters": 172
+  },
+  {
+    "rcid": 4781,
+    "session": 62,
+    "date": "2007-12-10",
+    "unres": "R/62/81",
+    "title": "PALESTINE QUESTION",
+    "description": "Division for Palestine Rights of the Secretariat: resolution / adopted by the General Assembly",
+    "topic": "Human rights",
+    "isAmendment": false,
+    "actualVote": {
+      "yes": 110,
+      "no": 8,
+      "abstain": 54
+    },
+    "passed": true,
+    "totalVoters": 172
+  },
+  {
+    "rcid": 4827,
+    "session": 62,
+    "date": "2007-12-22",
+    "unres": "R/62/219",
+    "title": "UN HUMAN RIGHTS COUNCIL, REPORTS",
+    "description": "Report of the Human Rights Council : resolution / adopted by the General Assembly",
+    "topic": "Human rights",
+    "isAmendment": false,
+    "actualVote": {
+      "yes": 150,
+      "no": 7,
+      "abstain": 1
+    },
+    "passed": true,
+    "totalVoters": 158
+  },
+  {
+    "rcid": 4820,
+    "session": 62,
+    "date": "2007-12-22",
+    "unres": "R/62/222",
+    "title": "HUMAN RIGHTS, MYANMAR, REPORTS",
+    "description": "Situation of human rights in Myanmar : resolution / adopted by the General Assembly",
+    "topic": "Human rights",
+    "isAmendment": false,
+    "actualVote": {
+      "yes": 83,
+      "no": 22,
+      "abstain": 47
+    },
+    "passed": true,
+    "totalVoters": 152
+  },
+  {
+    "rcid": 4822,
+    "session": 62,
+    "date": "2007-12-22",
+    "unres": "R/62/236",
+    "title": "UN-BUDGET",
+    "description": "Questions relating to the proposed programme budget for the biennium 2008-2009 : resolution / adopted by the General Assembly",
+    "topic": "Economic development",
+    "isAmendment": false,
+    "actualVote": {
+      "yes": 142,
+      "no": 1,
+      "abstain": 0
+    },
+    "passed": true,
+    "totalVoters": 143
+  },
+  {
+    "rcid": 4668,
+    "session": 61,
+    "date": "2006-11-08",
+    "unres": "R/61/11",
+    "title": "CUBA, UNITED STATES",
+    "description": "Necessity of ending the economic, commercial and financial embargo imposed by the United States of America against Cuba : resolution / adopted by the General Assembly",
+    "topic": "Economic development",
+    "isAmendment": false,
+    "actualVote": {
+      "yes": 183,
+      "no": 4,
+      "abstain": 1
+    },
+    "passed": true,
+    "totalVoters": 188
+  },
+  {
+    "rcid": 4745,
+    "session": 61,
+    "date": "2006-12-20",
+    "unres": "R/61/186",
+    "title": "International trade and development: resolution",
+    "description": "International trade and development : resolution / adopted by the General assembly",
+    "topic": "Economic development",
+    "isAmendment": false,
+    "actualVote": {
+      "yes": 130,
+      "no": 2,
+      "abstain": 51
+    },
+    "passed": true,
+    "totalVoters": 183
+  },
+  {
+    "rcid": 4705,
+    "session": 61,
+    "date": "2006-12-14",
+    "unres": "R/61/116",
+    "title": "TERRITORIES OCCUPIED BY ISRAEL, HUMAN RIGHTS",
+    "description": "Work of the Special Comittee to Investigate Israeli Practices Affecting the Human Rights of the Palestinian People and Other Arabs of the Occupied Territories : resolution / adopted by the General Assembly",
+    "topic": "Colonialism",
+    "isAmendment": false,
+    "actualVote": {
+      "yes": 92,
+      "no": 10,
+      "abstain": 78
+    },
+    "passed": true,
+    "totalVoters": 180
+  },
+  {
+    "rcid": 4676,
+    "session": 61,
+    "date": "2006-12-06",
+    "unres": "R/61/89",
+    "title": "DISARMAMENT, GENERAL AND COMPLETE",
+    "description": "Towards an arms treaty : establishing common international standards for the import, export and transfer of conventional arms : resolution / adopted by the General Assembly",
+    "topic": "Arms control and disarmament",
+    "isAmendment": false,
+    "actualVote": {
+      "yes": 153,
+      "no": 1,
+      "abstain": 25
+    },
+    "passed": true,
+    "totalVoters": 179
+  },
+  {
+    "rcid": 4689,
+    "session": 61,
+    "date": "2006-12-06",
+    "unres": "R/61/66",
+    "title": "SMALL ARMS, ILLICIT TRAFFIC",
+    "description": "The illicit trade in small arms and lights weapons in all its aspects : resolution / adopted by the General Assembly",
+    "topic": "Economic development",
+    "isAmendment": false,
+    "actualVote": {
+      "yes": 176,
+      "no": 1,
+      "abstain": 0
+    },
+    "passed": true,
+    "totalVoters": 177
+  },
+  {
+    "rcid": 4723,
+    "session": 61,
+    "date": "2006-12-19",
+    "unres": "R/61/176",
+    "title": "Situation of human rights in the Islamic Republic of Iran: r",
+    "description": "Situation of human rights in the Islamic Republic of Iran : resolution / adopted by the General Assembly",
+    "topic": "Human rights",
+    "isAmendment": false,
+    "actualVote": {
+      "yes": 73,
+      "no": 50,
+      "abstain": 54
+    },
+    "passed": true,
+    "totalVoters": 177
+  },
+  {
+    "rcid": 4725,
+    "session": 61,
+    "date": "2006-12-19",
+    "unres": "R/61/174",
+    "title": "Situation of human rights in the Democratic People's Republi",
+    "description": "Situation of human rights in the Democratic People's Republic of Korea : resolution / adopted by the General Assembly",
+    "topic": "Human rights",
+    "isAmendment": false,
+    "actualVote": {
+      "yes": 99,
+      "no": 21,
+      "abstain": 56
+    },
+    "passed": true,
+    "totalVoters": 176
+  },
+  {
+    "rcid": 4724,
+    "session": 61,
+    "date": "2006-12-19",
+    "unres": "R/61/175",
+    "title": "Situation of human rights in Belarus: resolution",
+    "description": "Situation of human rights in Belarus: resolution / adopted by the General Assembly",
+    "topic": "Human rights",
+    "isAmendment": false,
+    "actualVote": {
+      "yes": 73,
+      "no": 31,
+      "abstain": 69
+    },
+    "passed": true,
+    "totalVoters": 173
+  },
+  {
+    "rcid": 4673,
+    "session": 61,
+    "date": "2006-12-01",
+    "unres": "R/61/23",
+    "title": "PALESTINE QUESTION",
+    "description": "Division for Palestinian Rights of the Secretariat : resolution / adopted by the General Assembly",
+    "topic": "Human rights",
+    "isAmendment": false,
+    "actualVote": {
+      "yes": 101,
+      "no": 7,
+      "abstain": 62
+    },
+    "passed": true,
+    "totalVoters": 170
+  },
+  {
+    "rcid": 4674,
+    "session": 61,
+    "date": "2006-12-01",
+    "unres": "R/61/22",
+    "title": "PALESTINE QUESTION",
+    "description": "Committee on the Exercise of the Inalienable Rights of the Palestinian People : resolution / adopted by the General Assembly",
+    "topic": "Human rights",
+    "isAmendment": false,
+    "actualVote": {
+      "yes": 101,
+      "no": 7,
+      "abstain": 62
+    },
+    "passed": true,
+    "totalVoters": 170
+  },
+  {
+    "rcid": 4749,
+    "session": 61,
+    "date": "2006-12-22",
+    "unres": "R/61/232",
+    "title": "Situation on Human Rights in Myanmar: resolution",
+    "description": "Situation on human rights in Myanmar: resolution / adopted by the General Assemby",
+    "topic": "Human rights",
+    "isAmendment": false,
+    "actualVote": {
+      "yes": 82,
+      "no": 25,
+      "abstain": 45
+    },
+    "passed": true,
+    "totalVoters": 152
+  },
+  {
+    "rcid": 4664,
+    "session": 60,
+    "date": "2005-11-08",
+    "unres": "R/60/12",
+    "title": "Necessity of ending the economic, commercial and financial e",
+    "description": "Necessity of ending the economic, commercial and financial embargo imposed by the United States of America against Cuba : resolution / adopted by the General Assembly",
+    "topic": "Economic development",
+    "isAmendment": false,
+    "actualVote": {
+      "yes": 182,
+      "no": 4,
+      "abstain": 1
+    },
+    "passed": true,
+    "totalVoters": 187
+  },
+  {
+    "rcid": 4600,
+    "session": 60,
+    "date": "2005-12-22",
+    "unres": "R/60/184",
+    "title": "International trade and development : resolution / adopted b",
+    "description": "International trade and development : resolution / adopted by the General Assembly",
+    "topic": "Economic development",
+    "isAmendment": false,
+    "actualVote": {
+      "yes": 121,
+      "no": 1,
+      "abstain": 51
+    },
+    "passed": true,
+    "totalVoters": 173
+  },
+  {
+    "rcid": 4624,
+    "session": 60,
+    "date": "2005-12-08",
+    "unres": "R/60/55",
+    "title": "Compliance with non-proliferation, arms limitation and disar",
+    "description": "Compliance with non-proliferation, arms limitation and disarmament agreements : resolution / adopted by the General Assembly",
+    "topic": "Arms control and disarmament",
+    "isAmendment": false,
+    "actualVote": {
+      "yes": 163,
+      "no": 0,
+      "abstain": 10
+    },
+    "passed": true,
+    "totalVoters": 173
+  },
+  {
+    "rcid": 4662,
+    "session": 60,
+    "date": "2005-12-01",
+    "unres": "R/60/36",
+    "title": "Committee on the Exercise of the Inalienable Rights of the P",
+    "description": "Committee on the Exercise of the Inalienable Rights of the Palestinian People : resolution / adopted by the General Assembly",
+    "topic": "Human rights",
+    "isAmendment": false,
+    "actualVote": {
+      "yes": 106,
+      "no": 8,
+      "abstain": 59
+    },
+    "passed": true,
+    "totalVoters": 173
+  },
+  {
+    "rcid": 4661,
+    "session": 60,
+    "date": "2005-12-01",
+    "unres": "R/60/37",
+    "title": "Division for Palestinian Rights of the Secretariat : resolut",
+    "description": "Division for Palestinian Rights of the Secretariat : resolution / adopted by the General Assembly",
+    "topic": "Human rights",
+    "isAmendment": false,
+    "actualVote": {
+      "yes": 105,
+      "no": 8,
+      "abstain": 59
+    },
+    "passed": true,
+    "totalVoters": 172
+  },
+  {
+    "rcid": 4599,
+    "session": 60,
+    "date": "2005-12-22",
+    "unres": "R/60/185",
+    "title": "Unilateral economic measures as a means of political and eco",
+    "description": "Unilateral economic measures as a means of political and economic coercion against developing countries : resolution / adopted by the General Assembly",
+    "topic": "Economic development",
+    "isAmendment": false,
+    "actualVote": {
+      "yes": 120,
+      "no": 1,
+      "abstain": 50
+    },
+    "passed": true,
+    "totalVoters": 171
+  },
+  {
+    "rcid": 4645,
+    "session": 60,
+    "date": "2005-12-08",
+    "unres": "R/60/104",
+    "title": "Work of the Special Committee to Investigate Israeli Practic",
+    "description": "Work of the Special Committee to Investigate Israeli Practices Affecting the Human Rights of the Palestinian People and Other Arabs of the Occupied Territories : resolution / adopted by the General Assembly",
+    "topic": "Colonialism",
+    "isAmendment": false,
+    "actualVote": {
+      "yes": 86,
+      "no": 10,
+      "abstain": 74
+    },
+    "passed": true,
+    "totalVoters": 170
+  },
+  {
+    "rcid": 4634,
+    "session": 60,
+    "date": "2005-12-08",
+    "unres": "R/60/72",
+    "title": "Follow-up to nuclear disarmament obligations agreed to at th",
+    "description": "Follow-up to nuclear disarmament obligations agreed to at the 1995 and 2000 Review Conferences of the Parties to the Treaty on the Non-Proliferation of Nuclear Weapons : resolution / adopted by the General Assembly",
+    "topic": "Arms control and disarmament",
+    "isAmendment": false,
+    "actualVote": {
+      "yes": 87,
+      "no": 56,
+      "abstain": 26
+    },
+    "passed": true,
+    "totalVoters": 169
+  },
+  {
+    "rcid": 4606,
+    "session": 60,
+    "date": "2005-12-16",
+    "unres": "R/60/171",
+    "title": "Situation of human rights in the Islamic Republic of Iran :",
+    "description": "Situation of human rights in the Islamic Republic of Iran : resolution / adopted by the General Assembly",
+    "topic": "Human rights",
+    "isAmendment": false,
+    "actualVote": {
+      "yes": 75,
+      "no": 50,
+      "abstain": 43
+    },
+    "passed": true,
+    "totalVoters": 168
+  },
+  {
+    "rcid": 4590,
+    "session": 59,
+    "date": "2004-10-28",
+    "unres": "R/59/11",
+    "title": "Necessity of ending the economic, commercial and financial e",
+    "description": "Necessity of ending the economic, commercial and financial embargo imposed by the Unites States of America against Cuba : resolution / adopted by the General Assembly",
+    "topic": "Economic development",
+    "isAmendment": false,
+    "actualVote": {
+      "yes": 179,
+      "no": 4,
+      "abstain": 1
+    },
+    "passed": true,
+    "totalVoters": 184
+  },
+  {
+    "rcid": 4564,
+    "session": 59,
+    "date": "2004-12-03",
+    "unres": "R/59/81",
+    "title": "The Conference on Disarmament decision (CD/1547) of 11 Augus",
+    "description": "The Conference on Disarmament decision (CD/1547) of 11 August 1998 to establish, under item 1 of its agenda entitled \\Cessation of the nuclear arms race and nuclear disarmament\\\\, an ad hoc committee to negotiate, on the basis of the report of ",
+    "topic": "Arms control and disarmament",
+    "isAmendment": false,
+    "actualVote": {
+      "yes": 179,
+      "no": 2,
+      "abstain": 2
+    },
+    "passed": true,
+    "totalVoters": 183
+  },
+  {
+    "rcid": 4529,
+    "session": 59,
+    "date": "2004-12-20",
+    "unres": "R/59/205",
+    "title": "Situation of human rights in the Islamic Republic of Iran :",
+    "description": "Situation of human rights in the Islamic Republic of Iran : resolution / adopted by the General Assemly",
+    "topic": "Human rights",
+    "isAmendment": false,
+    "actualVote": {
+      "yes": 71,
+      "no": 54,
+      "abstain": 55
+    },
+    "passed": true,
+    "totalVoters": 180
+  },
+  {
+    "rcid": 4586,
+    "session": 59,
+    "date": "2004-12-01",
+    "unres": "R/59/29",
+    "title": "Division for Palestinian Rights of the Secretariat : resolut",
+    "description": "Division for Palestinian Rights of the Secretariat : resolution / adopted by the General Assembly",
+    "topic": "Human rights",
+    "isAmendment": false,
+    "actualVote": {
+      "yes": 103,
+      "no": 8,
+      "abstain": 64
+    },
+    "passed": true,
+    "totalVoters": 175
+  },
+  {
+    "rcid": 4526,
+    "session": 59,
+    "date": "2004-12-22",
+    "unres": "R/59/221",
+    "title": "International trade and development : resolution / adopted b",
+    "description": "International trade and development : resolution / adopted by the General Assembly",
+    "topic": "Economic development",
+    "isAmendment": false,
+    "actualVote": {
+      "yes": 166,
+      "no": 2,
+      "abstain": 6
+    },
+    "passed": true,
+    "totalVoters": 174
+  },
+  {
+    "rcid": 4587,
+    "session": 59,
+    "date": "2004-12-01",
+    "unres": "R/59/28",
+    "title": "Committee on the Exercise of Inalienable Rights of the Pales",
+    "description": "Committee on the Exercise of Inalienable Rights of the Palestinian People : resolution / adopted by the General Assembly",
+    "topic": "Human rights",
+    "isAmendment": false,
+    "actualVote": {
+      "yes": 104,
+      "no": 7,
+      "abstain": 63
+    },
+    "passed": true,
+    "totalVoters": 174
+  },
+  {
+    "rcid": 4556,
+    "session": 59,
+    "date": "2004-12-10",
+    "unres": "R/59/121",
+    "title": "Work of the Special Committee to Investigate Israeli Practic",
+    "description": "Work of the Special Committee to Investigate Israeli Practices Affecting the Human Rights of the Palestinian People and Other Arabs of the Occupied Territories : resolution / adopted by the General Assembly",
+    "topic": "Colonialism",
+    "isAmendment": false,
+    "actualVote": {
+      "yes": 84,
+      "no": 9,
+      "abstain": 80
+    },
+    "passed": true,
+    "totalVoters": 173
+  },
+  {
+    "rcid": 4519,
+    "session": 58,
+    "date": "2003-11-04",
+    "unres": "R/58/7",
+    "title": "Necessity of ending the economic, commercial and financial e",
+    "description": "Necessity of ending the economic, commercial and financial embargo imposed by the United States of America against Cuba : resolution / adopted by the General Assembly",
+    "topic": "Economic development",
+    "isAmendment": false,
+    "actualVote": {
+      "yes": 179,
+      "no": 3,
+      "abstain": 2
+    },
+    "passed": true,
+    "totalVoters": 184
+  },
+  {
+    "rcid": 4473,
+    "session": 58,
+    "date": "2003-12-22",
+    "unres": "R/58/157",
+    "title": "Rights of the child : resolution / adopted by the General As",
+    "description": "Rights of the child : resolution / adopted by the General Assembly",
+    "topic": "Human rights",
+    "isAmendment": false,
+    "actualVote": {
+      "yes": 179,
+      "no": 1,
+      "abstain": 0
+    },
+    "passed": true,
+    "totalVoters": 180
+  },
+  {
+    "rcid": 4458,
+    "session": 58,
+    "date": "2003-12-22",
+    "unres": "R/58/193",
+    "title": "Globalization and its impact on the full enjoyment of all hu",
+    "description": "Globalization and its impact on the full enjoyment of all human rights : resolution / adopted by the General Assembly",
+    "topic": "Human rights",
+    "isAmendment": false,
+    "actualVote": {
+      "yes": 123,
+      "no": 51,
+      "abstain": 4
+    },
+    "passed": true,
+    "totalVoters": 178
+  },
+  {
+    "rcid": 4455,
+    "session": 58,
+    "date": "2003-12-22",
+    "unres": "R/58/196",
+    "title": "Situation of human rights in the Democratic Republic of the",
+    "description": "Situation of human rights in the Democratic Republic of the Congo : resolution / adopted by the General Assembly",
+    "topic": "Human rights",
+    "isAmendment": false,
+    "actualVote": {
+      "yes": 81,
+      "no": 2,
+      "abstain": 91
+    },
+    "passed": true,
+    "totalVoters": 174
+  },
+  {
+    "rcid": 4456,
+    "session": 58,
+    "date": "2003-12-22",
+    "unres": "R/58/195",
+    "title": "Situation of human rights in the Islamic Republic of Iran :",
+    "description": "Situation of human rights in the Islamic Republic of Iran : resolution / adopted by the General Assembly",
+    "topic": "Human rights",
+    "isAmendment": false,
+    "actualVote": {
+      "yes": 68,
+      "no": 54,
+      "abstain": 51
+    },
+    "passed": true,
+    "totalVoters": 173
+  },
+  {
+    "rcid": 4484,
+    "session": 58,
+    "date": "2003-12-09",
+    "unres": "R/58/96",
+    "title": "Work of the Special Committee to Investigate Israeli Practic",
+    "description": "Work of the Special Committee to Investigate Israeli Practices Affecting the Human Rights of the Palestinian People and Other Arabs of the Occupied Territories : resolution / adopted by the General Assembly",
+    "topic": "Colonialism",
+    "isAmendment": false,
+    "actualVote": {
+      "yes": 87,
+      "no": 7,
+      "abstain": 78
+    },
+    "passed": true,
+    "totalVoters": 172
+  },
+  {
+    "rcid": 4457,
+    "session": 58,
+    "date": "2003-12-22",
+    "unres": "R/58/194",
+    "title": "Situation of human rights in Turkmenistan : resolution / ado",
+    "description": "Situation of human rights in Turkmenistan : resolution / adopted by the General Assembly",
+    "topic": "Human rights",
+    "isAmendment": false,
+    "actualVote": {
+      "yes": 73,
+      "no": 40,
+      "abstain": 56
+    },
+    "passed": true,
+    "totalVoters": 169
+  },
+  {
+    "rcid": 4485,
+    "session": 58,
+    "date": "2003-12-09",
+    "unres": "R/58/95",
+    "title": "Assistance to Palestine refugees and support for the UN Reli",
+    "description": "Assistance to Palestine refugees and support for the UN Relief and Works Agency for Palestine Refugees in the Near East : resolution / adopted by the General Assembly",
+    "topic": "Palestinian conflict",
+    "isAmendment": false,
+    "actualVote": {
+      "yes": 133,
+      "no": 0,
+      "abstain": 35
+    },
+    "passed": true,
+    "totalVoters": 168
+  },
+  {
+    "rcid": 4517,
+    "session": 58,
+    "date": "2003-12-03",
+    "unres": "R/58/19",
+    "title": "Division for Palestinian Rights of the Secretariat : resolut",
+    "description": "Division for Palestinian Rights of the Secretariat : resolution / adopted by the General Assembly",
+    "topic": "Human rights",
+    "isAmendment": false,
+    "actualVote": {
+      "yes": 98,
+      "no": 6,
+      "abstain": 63
+    },
+    "passed": true,
+    "totalVoters": 167
+  },
+  {
+    "rcid": 4515,
+    "session": 58,
+    "date": "2003-12-03",
+    "unres": "R/58/18",
+    "title": "Committee on the Exercise of the Inalienable Rights of the P",
+    "description": "Committee on the Exercise of the Inalienable Rights of the Palestinian People : resolution / adopted by the General Assembly",
+    "topic": "Human rights",
+    "isAmendment": false,
+    "actualVote": {
+      "yes": 97,
+      "no": 7,
+      "abstain": 60
+    },
+    "passed": true,
+    "totalVoters": 164
+  },
+  {
+    "rcid": 4429,
+    "session": 57,
+    "date": "2002-12-05",
+    "unres": "R/57/205",
+    "title": "HUMAN RIGHTS, GLOBALIZATION",
+    "description": "Globalization and its impact on the full enjoyment of all human rights",
+    "topic": "Human rights",
+    "isAmendment": false,
+    "actualVote": {
+      "yes": 124,
+      "no": 52,
+      "abstain": 5
+    },
+    "passed": true,
+    "totalVoters": 181
+  },
+  {
+    "rcid": 4374,
+    "session": 57,
+    "date": "2002-11-04",
+    "unres": "R/57/11",
+    "title": "CUBA, U.S. EMBARGO",
+    "description": "Necessity of ending the economic, commercial and financial embargo imposed by the United States against Cuba",
+    "topic": "Economic development",
+    "isAmendment": false,
+    "actualVote": {
+      "yes": 172,
+      "no": 3,
+      "abstain": 4
+    },
+    "passed": true,
+    "totalVoters": 179
+  },
+  {
+    "rcid": 4425,
+    "session": 57,
+    "date": "2002-12-05",
+    "unres": "R/57/195",
+    "title": "RACISM, FIGHT AGAINST",
+    "description": "The fight against racism, racial discrimination, xenophobia and related intolerance and the comprehensive implementation of and follow-up to the Durban Declaration and Programme of Action",
+    "topic": "Human rights",
+    "isAmendment": false,
+    "actualVote": {
+      "yes": 173,
+      "no": 3,
+      "abstain": 2
+    },
+    "passed": true,
+    "totalVoters": 178
+  },
+  {
+    "rcid": 4424,
+    "session": 57,
+    "date": "2002-12-05",
+    "unres": "R/57/190",
+    "title": "RIGHTS OF THE CHILD",
+    "description": "Rights of the child",
+    "topic": "Human rights",
+    "isAmendment": false,
+    "actualVote": {
+      "yes": 175,
+      "no": 2,
+      "abstain": 0
+    },
+    "passed": true,
+    "totalVoters": 177
+  },
+  {
+    "rcid": 4440,
+    "session": 57,
+    "date": "2002-12-05",
+    "unres": "R/57/232",
+    "title": "HUMAN RIGHTS, IRAQ",
+    "description": "Situation of human rights in Iraq",
+    "topic": "Human rights",
+    "isAmendment": false,
+    "actualVote": {
+      "yes": 97,
+      "no": 3,
+      "abstain": 77
+    },
+    "passed": true,
+    "totalVoters": 177
+  },
+  {
+    "rcid": 4439,
+    "session": 57,
+    "date": "2002-12-05",
+    "unres": "R/57/230",
+    "title": "HUMAN RIGHTS, SUDAN",
+    "description": "Situation of human rights in the Sudan",
+    "topic": "Human rights",
+    "isAmendment": false,
+    "actualVote": {
+      "yes": 80,
+      "no": 62,
+      "abstain": 33
+    },
+    "passed": true,
+    "totalVoters": 175
+  },
+  {
+    "rcid": 4441,
+    "session": 57,
+    "date": "2002-12-05",
+    "unres": "R/57/233",
+    "title": "HUMAN RIGHTS, DEMOCRATIC CONGO",
+    "description": "Situation of human rights in the Democratic Republic of the Congo",
+    "topic": "Human rights",
+    "isAmendment": false,
+    "actualVote": {
+      "yes": 92,
+      "no": 2,
+      "abstain": 81
+    },
+    "passed": true,
+    "totalVoters": 175
+  },
+  {
+    "rcid": 4391,
+    "session": 57,
+    "date": "2002-11-07",
+    "unres": "R/57/78",
+    "title": "DISARMAMENT, NUCLEAR ELIMINATION",
+    "description": "A path to the total elimination of nuclear weapons",
+    "topic": "Arms control and disarmament",
+    "isAmendment": false,
+    "actualVote": {
+      "yes": 156,
+      "no": 2,
+      "abstain": 13
+    },
+    "passed": true,
+    "totalVoters": 171
+  },
+  {
+    "rcid": 4396,
+    "session": 57,
+    "date": "2002-11-07",
+    "unres": "R/57/97",
+    "title": "NUCLEAR PROLIFERATION, MIDDLE EAST",
+    "description": "Calls upon Israel to become party to the Treaty on the Non-Proliferation of Nuclear Weapons to accede to it without further delay, and not to develop, produce, test or otherwise acquire nuclear weapons and to renounce possession of nuclear weap",
+    "topic": "Arms control and disarmament",
+    "isAmendment": false,
+    "actualVote": {
+      "yes": 158,
+      "no": 3,
+      "abstain": 8
+    },
+    "passed": true,
+    "totalVoters": 169
+  },
+  {
+    "rcid": 4385,
+    "session": 57,
+    "date": "2002-11-07",
+    "unres": "R/57/66",
+    "title": "ARMS TRANSFERS, LEGISLATION",
+    "description": "National legislation on transfer of arms, military equipment and dual-use goods and technology",
+    "topic": "Arms control and disarmament",
+    "isAmendment": false,
+    "actualVote": {
+      "yes": 166,
+      "no": 0,
+      "abstain": 0
+    },
+    "passed": true,
+    "totalVoters": 166
+  },
+  {
+    "rcid": 4410,
+    "session": 57,
+    "date": "2002-12-05",
+    "unres": "R/57/124",
+    "title": "ISRAEL, OCCUPIED TERRITORIES, COMMITTEE",
+    "description": "Work of the Special Committee to Investigate Israeli Practices Affecting the Human Rights of the Palestinian People and Other Arabs of the Occupied Territories",
+    "topic": "Colonialism",
+    "isAmendment": false,
+    "actualVote": {
+      "yes": 86,
+      "no": 6,
+      "abstain": 66
+    },
+    "passed": true,
+    "totalVoters": 158
+  },
+  {
+    "rcid": 4306,
+    "session": 56,
+    "date": "2001-11-04",
+    "unres": "R/56/9",
+    "title": "CUBA, U.S. EMBARGO",
+    "description": "Necessity of ending the economic, commercial and financial embargo imposed by the United States against Cuba",
+    "topic": "Economic development",
+    "isAmendment": false,
+    "actualVote": {
+      "yes": 167,
+      "no": 3,
+      "abstain": 3
+    },
+    "passed": true,
+    "totalVoters": 173
+  },
+  {
+    "rcid": 4360,
+    "session": 56,
+    "date": "2001-12-05",
+    "unres": "R/56/165",
+    "title": "HUMAN RIGHTS, GLOBALIZATION",
+    "description": "Globalization and its impact on the full enjoyment of all human rights",
+    "topic": "Human rights",
+    "isAmendment": false,
+    "actualVote": {
+      "yes": 116,
+      "no": 46,
+      "abstain": 9
+    },
+    "passed": true,
+    "totalVoters": 171
+  },
+  {
+    "rcid": 4352,
+    "session": 56,
+    "date": "2001-12-05",
+    "unres": "R/56/148",
+    "title": "HUMAN RIGHTS, COERCIVE MEASURES",
+    "description": "Human rights and unilateral coercive measures",
+    "topic": "Human rights",
+    "isAmendment": false,
+    "actualVote": {
+      "yes": 114,
+      "no": 51,
+      "abstain": 2
+    },
+    "passed": true,
+    "totalVoters": 167
+  },
+  {
+    "rcid": 4361,
+    "session": 56,
+    "date": "2001-12-05",
+    "unres": "R/56/171",
+    "title": "HUMAN RIGHTS, IRAN",
+    "description": "Situation of human rights in the Islamic Republic of Iran",
+    "topic": "Human rights",
+    "isAmendment": false,
+    "actualVote": {
+      "yes": 72,
+      "no": 49,
+      "abstain": 46
+    },
+    "passed": true,
+    "totalVoters": 167
+  },
+  {
+    "rcid": 4363,
+    "session": 56,
+    "date": "2001-12-05",
+    "unres": "R/56/174",
+    "title": "HUMAN RIGHTS, IRAQ",
+    "description": "Situation of human rights in Iraq",
+    "topic": "Human rights",
+    "isAmendment": false,
+    "actualVote": {
+      "yes": 100,
+      "no": 2,
+      "abstain": 63
+    },
+    "passed": true,
+    "totalVoters": 165
+  },
+  {
+    "rcid": 4325,
+    "session": 56,
+    "date": "2001-11-06",
+    "unres": "R/56/27",
+    "title": "NUCLEAR PROLIFERATION, MIDDLE EAST",
+    "description": "Calls upon Israel to become party to the Treaty on the Non-Proliferation of Nuclear Weapons to accede to it without further delay, and not to develop, produce, test or otherwise acquire nuclear weapons and to renounce possession of nuclear weap",
+    "topic": "Arms control and disarmament",
+    "isAmendment": false,
+    "actualVote": {
+      "yes": 153,
+      "no": 3,
+      "abstain": 6
+    },
+    "passed": true,
+    "totalVoters": 162
+  },
+  {
+    "rcid": 4362,
+    "session": 56,
+    "date": "2001-12-05",
+    "unres": "R/56/173",
+    "title": "HUMAN RIGHTS, DEMOCRATIC CONGO",
+    "description": "Situation of human rights in the Democratic Republic of the Congo",
+    "topic": "Human rights",
+    "isAmendment": false,
+    "actualVote": {
+      "yes": 90,
+      "no": 3,
+      "abstain": 69
+    },
+    "passed": true,
+    "totalVoters": 162
+  },
+  {
+    "rcid": 4322,
+    "session": 56,
+    "date": "2001-11-06",
+    "unres": "R/56/24R",
+    "title": "DISARMAMENT, NUCLEAR",
+    "description": "Nuclear disarmament, general and complete disarmament",
+    "topic": "Arms control and disarmament",
+    "isAmendment": false,
+    "actualVote": {
+      "yes": 103,
+      "no": 41,
+      "abstain": 17
+    },
+    "passed": true,
+    "totalVoters": 161
+  },
+  {
+    "rcid": 4331,
+    "session": 56,
+    "date": "2001-12-03",
+    "unres": "R/56/36",
+    "title": "PALESTINE, PEACEFUL SETTLEMENT",
+    "description": "Expresses its full support for the ongoing peace process which began in Madrid. Stresses the necessity for commitment to the principle of land for peace",
+    "topic": "Palestinian conflict",
+    "isAmendment": false,
+    "actualVote": {
+      "yes": 131,
+      "no": 6,
+      "abstain": 20
+    },
+    "passed": true,
+    "totalVoters": 157
+  },
+  {
+    "rcid": 4241,
+    "session": 55,
+    "date": "2000-11-06",
+    "unres": "R/55/20",
+    "title": "CUBA, U.S. EMBARGO",
+    "description": "Necessity of ending the economic, commercial and financial embargo imposed by the United States against Cuba",
+    "topic": "Economic development",
+    "isAmendment": false,
+    "actualVote": {
+      "yes": 167,
+      "no": 3,
+      "abstain": 4
+    },
+    "passed": true,
+    "totalVoters": 174
+  },
+  {
+    "rcid": 4276,
+    "session": 55,
+    "date": "2000-12-03",
+    "unres": "R/55/102",
+    "title": "HUMAN RIGHTS, GLOBALIZATION",
+    "description": "Globalization and its impact on the full enjoyment of all human rights",
+    "topic": "Human rights",
+    "isAmendment": false,
+    "actualVote": {
+      "yes": 112,
+      "no": 46,
+      "abstain": 15
+    },
+    "passed": true,
+    "totalVoters": 173
+  },
+  {
+    "rcid": 4252,
+    "session": 55,
+    "date": "2000-11-03",
+    "unres": "R/55/33N",
+    "title": "NUCLEAR DANGER",
+    "description": "Reducing nuclear danger",
+    "topic": "Nuclear weapons and nuclear material",
+    "isAmendment": false,
+    "actualVote": {
+      "yes": 110,
+      "no": 45,
+      "abstain": 14
+    },
+    "passed": true,
+    "totalVoters": 169
+  },
+  {
+    "rcid": 4260,
+    "session": 55,
+    "date": "2000-11-03",
+    "unres": "R/55/36",
+    "title": "NUCLEAR PROLIFERATION, MIDDLE EAST",
+    "description": "Calls upon Israel to become party to the Treaty on the Non-Proliferation of Nuclear Weapons to accede to it without further delay, and not to develop, produce, test or otherwise acquire nuclear weapons and to renounce possession of nuclear weap",
+    "topic": "Arms control and disarmament",
+    "isAmendment": false,
+    "actualVote": {
+      "yes": 157,
+      "no": 3,
+      "abstain": 8
+    },
+    "passed": true,
+    "totalVoters": 168
+  },
+  {
+    "rcid": 4279,
+    "session": 55,
+    "date": "2000-12-03",
+    "unres": "R/55/114",
+    "title": "HUMAN RIGHTS, IRAN",
+    "description": "Situation of human rights in the Islamic Republic of Iran",
+    "topic": "Human rights",
+    "isAmendment": false,
+    "actualVote": {
+      "yes": 67,
+      "no": 54,
+      "abstain": 46
+    },
+    "passed": true,
+    "totalVoters": 167
+  },
+  {
+    "rcid": 4247,
+    "session": 55,
+    "date": "2000-11-03",
+    "unres": "R/55/33C",
+    "title": "NUCLEAR WEAPON-FREE WORLD",
+    "description": "Towards a nuclear-weapon-free world: the need for a new agenda",
+    "topic": "Nuclear weapons and nuclear material",
+    "isAmendment": false,
+    "actualVote": {
+      "yes": 154,
+      "no": 3,
+      "abstain": 8
+    },
+    "passed": true,
+    "totalVoters": 165
+  },
+  {
+    "rcid": 4280,
+    "session": 55,
+    "date": "2000-12-03",
+    "unres": "R/55/115",
+    "title": "HUMAN RIGHTS, IRAQ",
+    "description": "Human rights situation in Iraq",
+    "topic": "Human rights",
+    "isAmendment": false,
+    "actualVote": {
+      "yes": 102,
+      "no": 3,
+      "abstain": 60
+    },
+    "passed": true,
+    "totalVoters": 165
+  },
+  {
+    "rcid": 4169,
+    "session": 54,
+    "date": "1999-11-03",
+    "unres": "R/54/21",
+    "title": "CUBA, U.S. EMBARGO",
+    "description": "Necessity of ending the economic, commercial and financial embargo imposed by the United States against Cuba",
+    "topic": "Economic development",
+    "isAmendment": false,
+    "actualVote": {
+      "yes": 155,
+      "no": 2,
+      "abstain": 8
+    },
+    "passed": true,
+    "totalVoters": 165
+  },
+  {
+    "rcid": 4184,
+    "session": 54,
+    "date": "1999-12-04",
+    "unres": "R/54/54D",
+    "title": "DISARMAMENT, NUCLEAR ELIMINATION",
+    "description": "Nuclear disarmament with a view to the ultimate elimination of nuclear weapons",
+    "topic": "Arms control and disarmament",
+    "isAmendment": false,
+    "actualVote": {
+      "yes": 153,
+      "no": 0,
+      "abstain": 12
+    },
+    "passed": true,
+    "totalVoters": 165
+  },
+  {
+    "rcid": 4186,
+    "session": 54,
+    "date": "1999-12-04",
+    "unres": "R/54/54G",
+    "title": "NUCLEAR WEAPON-FREE WORLD",
+    "description": "Towards a nuclear-weapon-free world: the need for a new agenda",
+    "topic": "Nuclear weapons and nuclear material",
+    "isAmendment": false,
+    "actualVote": {
+      "yes": 111,
+      "no": 13,
+      "abstain": 39
+    },
+    "passed": true,
+    "totalVoters": 163
+  },
+  {
+    "rcid": 4197,
+    "session": 54,
+    "date": "1999-12-04",
+    "unres": "R/54/57",
+    "title": "NUCLEAR PROLIFERATION, MIDDLE EAST",
+    "description": "Calls upon Israel to become party to the Treaty on the Non-Proliferation of Nuclear Weapons to accede to it without further delay, and not to develop, produce, test or otherwise acquire nuclear weapons and to renounce possession of nuclear weap",
+    "topic": "Arms control and disarmament",
+    "isAmendment": false,
+    "actualVote": {
+      "yes": 149,
+      "no": 3,
+      "abstain": 9
+    },
+    "passed": true,
+    "totalVoters": 161
+  },
+  {
+    "rcid": 4228,
+    "session": 54,
+    "date": "1999-12-06",
+    "unres": "R/54/177",
+    "title": "HUMAN RIGHTS, IRAN",
+    "description": "Human rights situation in the Islamic Republic of Iran",
+    "topic": "Human rights",
+    "isAmendment": false,
+    "actualVote": {
+      "yes": 61,
+      "no": 47,
+      "abstain": 51
+    },
+    "passed": true,
+    "totalVoters": 159
+  },
+  {
+    "rcid": 4233,
+    "session": 54,
+    "date": "1999-12-06",
+    "unres": "R/54/184",
+    "title": "HUMAN RIGHTS, BOSNIA, CROATIA, YUGOSLAVIA",
+    "description": "Situation of human rights in Bosnia and Herzegovina, the Republic of Croatia and the Federal Republic of Yugoslavia (Serbia and Montenegro)",
+    "topic": "Human rights",
+    "isAmendment": false,
+    "actualVote": {
+      "yes": 123,
+      "no": 2,
+      "abstain": 34
+    },
+    "passed": true,
+    "totalVoters": 159
+  },
+  {
+    "rcid": 4232,
+    "session": 54,
+    "date": "1999-12-06",
+    "unres": "R/54/183",
+    "title": "HUMAN RIGHTS, KOSOVO",
+    "description": "Situation of human rights in Kosovo",
+    "topic": "Human rights",
+    "isAmendment": false,
+    "actualVote": {
+      "yes": 108,
+      "no": 4,
+      "abstain": 45
+    },
+    "passed": true,
+    "totalVoters": 157
+  },
+  {
+    "rcid": 4229,
+    "session": 54,
+    "date": "1999-12-06",
+    "unres": "R/54/178",
+    "title": "HUMAN RIGHTS, IRAQ",
+    "description": "Human rights situation in Iraq",
+    "topic": "Human rights",
+    "isAmendment": false,
+    "actualVote": {
+      "yes": 100,
+      "no": 3,
+      "abstain": 53
+    },
+    "passed": true,
+    "totalVoters": 156
+  },
+  {
+    "rcid": 4234,
+    "session": 54,
+    "date": "1999-12-04",
+    "unres": "R/54/197",
+    "title": "INTERNATIONAL FINANCIAL SYSTEM",
+    "description": "Towards a stable international financial system, responsive to the challenges of development, especially in the developing countries",
+    "topic": "Economic development",
+    "isAmendment": false,
+    "actualVote": {
+      "yes": 155,
+      "no": 1,
+      "abstain": 0
+    },
+    "passed": true,
+    "totalVoters": 156
+  },
+  {
+    "rcid": 4195,
+    "session": 54,
+    "date": "1999-12-04",
+    "unres": "R/54/54V",
+    "title": "SMALL ARMS",
+    "description": "Endorses the recommendations contained in the report on small arms,",
+    "topic": "Arms control and disarmament",
+    "isAmendment": false,
+    "actualVote": {
+      "yes": 119,
+      "no": 0,
+      "abstain": 2
+    },
+    "passed": true,
+    "totalVoters": 121
+  },
+  {
+    "rcid": 4108,
+    "session": 53,
+    "date": "1998-10-04",
+    "unres": "R/53/4",
+    "title": "CUBA, U.S. EMBARGO",
+    "description": "Necessity of ending the economic, commercial and financial embargo imposed by the United States against Cuba",
+    "topic": "Economic development",
+    "isAmendment": false,
+    "actualVote": {
+      "yes": 157,
+      "no": 2,
+      "abstain": 15
+    },
+    "passed": true,
+    "totalVoters": 174
+  },
+  {
+    "rcid": 4153,
+    "session": 53,
+    "date": "1998-12-06",
+    "unres": "R/53/77Y",
+    "title": "NUCLEAR WEAPON-FREE WORLD",
+    "description": "Nuclear-weapon-free world: need for a new agenda",
+    "topic": "Nuclear weapons and nuclear material",
+    "isAmendment": false,
+    "actualVote": {
+      "yes": 115,
+      "no": 18,
+      "abstain": 37
+    },
+    "passed": true,
+    "totalVoters": 170
+  },
+  {
+    "rcid": 4162,
+    "session": 53,
+    "date": "1998-12-04",
+    "unres": "R/53/155",
+    "title": "RIGHT TO DEVELOPMENT",
+    "description": "Right to development",
+    "topic": "Economic development",
+    "isAmendment": false,
+    "actualVote": {
+      "yes": 125,
+      "no": 1,
+      "abstain": 42
+    },
+    "passed": true,
+    "totalVoters": 168
+  },
+  {
+    "rcid": 4165,
+    "session": 53,
+    "date": "1998-12-04",
+    "unres": "R/53/163",
+    "title": "HUMAN RIGHTS, BOSNIA, CROATIA, YUGOSLAVIA",
+    "description": "Human rights in Bosnia and Herzegovina, Republic of Croatia, Federal Republic of Yugoslavia (Serbia and Montenegro)",
+    "topic": "Human rights",
+    "isAmendment": false,
+    "actualVote": {
+      "yes": 141,
+      "no": 0,
+      "abstain": 21
+    },
+    "passed": true,
+    "totalVoters": 162
+  },
+  {
+    "rcid": 4163,
+    "session": 53,
+    "date": "1998-12-04",
+    "unres": "R/53/157",
+    "title": "HUMAN RIGHTS, IRAQ",
+    "description": "Human rights in Iraq",
+    "topic": "Human rights",
+    "isAmendment": false,
+    "actualVote": {
+      "yes": 102,
+      "no": 3,
+      "abstain": 56
+    },
+    "passed": true,
+    "totalVoters": 161
+  },
+  {
+    "rcid": 4141,
+    "session": 53,
+    "date": "1998-12-06",
+    "unres": "R/53/77G",
+    "title": "DISARMAMENT, NUCLEAR TESTING",
+    "description": "Nuclear testing",
+    "topic": "Arms control and disarmament",
+    "isAmendment": false,
+    "actualVote": {
+      "yes": 118,
+      "no": 9,
+      "abstain": 33
+    },
+    "passed": true,
+    "totalVoters": 160
+  },
+  {
+    "rcid": 4164,
+    "session": 53,
+    "date": "1998-12-04",
+    "unres": "R/53/158",
+    "title": "HUMAN RIGHTS, IRAN",
+    "description": "Human rights in the Islamic Republic of Iran",
+    "topic": "Human rights",
+    "isAmendment": false,
+    "actualVote": {
+      "yes": 63,
+      "no": 40,
+      "abstain": 56
+    },
+    "passed": true,
+    "totalVoters": 159
+  },
+  {
+    "rcid": 4166,
+    "session": 53,
+    "date": "1998-12-04",
+    "unres": "R/53/164",
+    "title": "HUMAN RIGHTS, KOSOVO",
+    "description": "Human rights in Kosovo",
+    "topic": "Human rights",
+    "isAmendment": false,
+    "actualVote": {
+      "yes": 122,
+      "no": 3,
+      "abstain": 33
+    },
+    "passed": true,
+    "totalVoters": 158
+  },
+  {
+    "rcid": 4109,
+    "session": 53,
+    "date": "1998-10-02",
+    "unres": "R/53/10",
+    "title": "ECONOMIC COERSION",
+    "description": "Elimination of coercive economic measures as a means of political and economic compulsion",
+    "topic": "Economic development",
+    "isAmendment": false,
+    "actualVote": {
+      "yes": 79,
+      "no": 2,
+      "abstain": 66
+    },
+    "passed": true,
+    "totalVoters": 147
+  },
+  {
+    "rcid": 4095,
+    "session": 52,
+    "date": "1997-12-06",
+    "unres": "R/52/136",
+    "title": "RIGHT TO DEVELOPMENT",
+    "description": "Right to development",
+    "topic": "Economic development",
+    "isAmendment": false,
+    "actualVote": {
+      "yes": 129,
+      "no": 12,
+      "abstain": 32
+    },
+    "passed": true,
+    "totalVoters": 173
+  },
+  {
+    "rcid": 4088,
+    "session": 52,
+    "date": "1997-12-06",
+    "unres": "R/52/114",
+    "title": "PALESTINE, SELF-DETERMINATION",
+    "description": "Right of the Palestinian people to self-determination",
+    "topic": "Colonialism",
+    "isAmendment": false,
+    "actualVote": {
+      "yes": 162,
+      "no": 2,
+      "abstain": 6
+    },
+    "passed": true,
+    "totalVoters": 170
+  },
+  {
+    "rcid": 4097,
+    "session": 52,
+    "date": "1997-12-06",
+    "unres": "R/52/140",
+    "title": "HUMAN RIGHTS, SUDAN",
+    "description": "Human rights situation in the Sudan",
+    "topic": "Human rights",
+    "isAmendment": false,
+    "actualVote": {
+      "yes": 93,
+      "no": 15,
+      "abstain": 59
+    },
+    "passed": true,
+    "totalVoters": 167
+  },
+  {
+    "rcid": 4039,
+    "session": 52,
+    "date": "1997-11-04",
+    "unres": "R/52/10",
+    "title": "CUBA, U.S. EMBARGO",
+    "description": "Necessity of ending the economic, commercial and financial embargo imposed by the United States against Cuba",
+    "topic": "Economic development",
+    "isAmendment": false,
+    "actualVote": {
+      "yes": 143,
+      "no": 3,
+      "abstain": 17
+    },
+    "passed": true,
+    "totalVoters": 163
+  },
+  {
+    "rcid": 4102,
+    "session": 52,
+    "date": "1997-12-06",
+    "unres": "R/52/147",
+    "title": "HUMAN RIGHTS, BOSNIA, CROATIA, YUGOSLAVIA",
+    "description": "Human rights situation in Bosnia and Herzegovina, Croatia, and the Federal Republic of Yugoslavia (Serbia and Montenegro)",
+    "topic": "Human rights",
+    "isAmendment": false,
+    "actualVote": {
+      "yes": 136,
+      "no": 1,
+      "abstain": 26
+    },
+    "passed": true,
+    "totalVoters": 163
+  },
+  {
+    "rcid": 4052,
+    "session": 52,
+    "date": "1997-12-03",
+    "unres": "R/52/38H",
+    "title": "BAN, LAND MINES",
+    "description": "Banning anti-personnel landmines",
+    "topic": "Arms control and disarmament",
+    "isAmendment": false,
+    "actualVote": {
+      "yes": 147,
+      "no": 0,
+      "abstain": 15
+    },
+    "passed": true,
+    "totalVoters": 162
+  },
+  {
+    "rcid": 4098,
+    "session": 52,
+    "date": "1997-12-06",
+    "unres": "R/52/141",
+    "title": "HUMAN RIGHTS, IRAQ",
+    "description": "Human rights situation in Iraq",
+    "topic": "Human rights",
+    "isAmendment": false,
+    "actualVote": {
+      "yes": 99,
+      "no": 4,
+      "abstain": 59
+    },
+    "passed": true,
+    "totalVoters": 162
+  },
+  {
+    "rcid": 4099,
+    "session": 52,
+    "date": "1997-12-06",
+    "unres": "R/52/142",
+    "title": "HUMAN RIGHTS, IRAN",
+    "description": "Human rights situation in the Islamic Republic of Iran",
+    "topic": "Human rights",
+    "isAmendment": false,
+    "actualVote": {
+      "yes": 73,
+      "no": 32,
+      "abstain": 57
+    },
+    "passed": true,
+    "totalVoters": 162
+  },
+  {
+    "rcid": 4104,
+    "session": 52,
+    "date": "1997-12-05",
+    "unres": "R/52/181",
+    "title": "ECONOMIC COERSION",
+    "description": "Unilateral economic measures as a means of political and economic coercion against developing countries",
+    "topic": "Economic development",
+    "isAmendment": false,
+    "actualVote": {
+      "yes": 109,
+      "no": 1,
+      "abstain": 50
+    },
+    "passed": true,
+    "totalVoters": 160
+  },
+  {
+    "rcid": 4001,
+    "session": 51,
+    "date": "1996-12-05",
+    "unres": "R/51/82",
+    "title": "PALESTINE, SELF-DETERMINATION",
+    "description": "The right of the Palestinian people to self-determination",
+    "topic": "Colonialism",
+    "isAmendment": false,
+    "actualVote": {
+      "yes": 158,
+      "no": 3,
+      "abstain": 12
+    },
+    "passed": true,
+    "totalVoters": 173
+  },
+  {
+    "rcid": 4011,
+    "session": 51,
+    "date": "1996-12-05",
+    "unres": "R/51/113",
+    "title": "HUMAN RIGHTS, CUBA",
+    "description": "Situation of human rights in Cuba",
+    "topic": "Human rights",
+    "isAmendment": false,
+    "actualVote": {
+      "yes": 62,
+      "no": 25,
+      "abstain": 84
+    },
+    "passed": true,
+    "totalVoters": 171
+  },
+  {
+    "rcid": 3989,
+    "session": 51,
+    "date": "1996-12-03",
+    "unres": "R/51/45M",
+    "title": "NUCLEAR WEAPONS, LEGALITY",
+    "description": "Advisory opinion of the International Court of Justice on the legality of the threat or use of nuclear weapons",
+    "topic": "Arms control and disarmament",
+    "isAmendment": false,
+    "actualVote": {
+      "yes": 115,
+      "no": 22,
+      "abstain": 32
+    },
+    "passed": true,
+    "totalVoters": 169
+  },
+  {
+    "rcid": 4010,
+    "session": 51,
+    "date": "1996-12-05",
+    "unres": "R/51/112",
+    "title": "HUMAN RIGHTS, SUDAN",
+    "description": "Situation of human rights in the Sudan",
+    "topic": "Human rights",
+    "isAmendment": false,
+    "actualVote": {
+      "yes": 100,
+      "no": 16,
+      "abstain": 50
+    },
+    "passed": true,
+    "totalVoters": 166
+  },
+  {
+    "rcid": 3964,
+    "session": 51,
+    "date": "1996-11-03",
+    "unres": "R/51/17",
+    "title": "CUBA, U.S. EMBARGO",
+    "description": "Necessity of ending the economic, commercial and financial embargo imposed by the United States against Cuba",
+    "topic": "Economic development",
+    "isAmendment": false,
+    "actualVote": {
+      "yes": 137,
+      "no": 3,
+      "abstain": 25
+    },
+    "passed": true,
+    "totalVoters": 165
+  },
+  {
+    "rcid": 3994,
+    "session": 51,
+    "date": "1996-12-03",
+    "unres": "R/51/45S",
+    "title": "BAN, LAND MINES",
+    "description": "An international agreement to ban anti?personnel landmines",
+    "topic": "Arms control and disarmament",
+    "isAmendment": false,
+    "actualVote": {
+      "yes": 155,
+      "no": 0,
+      "abstain": 10
+    },
+    "passed": true,
+    "totalVoters": 165
+  },
+  {
+    "rcid": 4012,
+    "session": 51,
+    "date": "1996-12-05",
+    "unres": "R/51/116",
+    "title": "HUMAN RIGHTS, BOSNIA, CROATIA, YUGOSLAVIA",
+    "description": "Situation of human rights in the Republic of Bosnia and Herzegovina, the Republic of Croatia and Yugoslavia",
+    "topic": "Human rights",
+    "isAmendment": false,
+    "actualVote": {
+      "yes": 136,
+      "no": 1,
+      "abstain": 28
+    },
+    "passed": true,
+    "totalVoters": 165
+  },
+  {
+    "rcid": 4006,
+    "session": 51,
+    "date": "1996-12-05",
+    "unres": "R/51/106",
+    "title": "HUMAN RIGHTS, IRAQ",
+    "description": "Situation of human rights in Iraq",
+    "topic": "Human rights",
+    "isAmendment": false,
+    "actualVote": {
+      "yes": 103,
+      "no": 2,
+      "abstain": 59
+    },
+    "passed": true,
+    "totalVoters": 164
+  },
+  {
+    "rcid": 4007,
+    "session": 51,
+    "date": "1996-12-05",
+    "unres": "R/51/107",
+    "title": "HUMAN RIGHTS, IRAN",
+    "description": "Situation of human rights in the Islamic Republic of Iran",
+    "topic": "Human rights",
+    "isAmendment": false,
+    "actualVote": {
+      "yes": 78,
+      "no": 30,
+      "abstain": 54
+    },
+    "passed": true,
+    "totalVoters": 162
+  },
+  {
+    "rcid": 3966,
+    "session": 51,
+    "date": "1996-11-04",
+    "unres": "R/51/22",
+    "title": "ECONOMIC COERCION",
+    "description": "Elimination of coercive economic measures as a means of political and economic compulsion",
+    "topic": "Economic development",
+    "isAmendment": false,
+    "actualVote": {
+      "yes": 56,
+      "no": 4,
+      "abstain": 76
+    },
+    "passed": true,
+    "totalVoters": 136
+  },
+  {
+    "rcid": 3957,
+    "session": 50,
+    "date": "1995-12-06",
+    "unres": "R/50/191",
+    "title": "HUMAN RIGHTS, IRAQ",
+    "description": "Situation of human rights in Iraq",
+    "topic": "Human rights",
+    "isAmendment": false,
+    "actualVote": {
+      "yes": 111,
+      "no": 3,
+      "abstain": 53
+    },
+    "passed": true,
+    "totalVoters": 167
+  },
+  {
+    "rcid": 3960,
+    "session": 50,
+    "date": "1995-12-06",
+    "unres": "R/50/198",
+    "title": "HUMAN RIGHTS, CUBA",
+    "description": "Situation of human rights in Cuba",
+    "topic": "Human rights",
+    "isAmendment": false,
+    "actualVote": {
+      "yes": 66,
+      "no": 22,
+      "abstain": 78
+    },
+    "passed": true,
+    "totalVoters": 166
+  },
+  {
+    "rcid": 3958,
+    "session": 50,
+    "date": "1995-12-06",
+    "unres": "R/50/193",
+    "title": "HUMAN RIGHTS, BOSNIA, CROATIA, YUGOSLAVIA",
+    "description": "Situation of human rights in the Republic of Bosnia and Herzegovina, the Republic of Croatia and Yugoslavia",
+    "topic": "Human rights",
+    "isAmendment": false,
+    "actualVote": {
+      "yes": 144,
+      "no": 1,
+      "abstain": 20
+    },
+    "passed": true,
+    "totalVoters": 165
+  },
+  {
+    "rcid": 3962,
+    "session": 50,
+    "date": "1996-09-03",
+    "unres": "R/50/245",
+    "title": "COMPREHENSIVE TEST-BAN-TREATY",
+    "description": "Comprehensive Nuclear-Test-Ban Treaty",
+    "topic": "Nuclear weapons and nuclear material",
+    "isAmendment": false,
+    "actualVote": {
+      "yes": 157,
+      "no": 3,
+      "abstain": 5
+    },
+    "passed": true,
+    "totalVoters": 165
+  },
+  {
+    "rcid": 3955,
+    "session": 50,
+    "date": "1995-12-06",
+    "unres": "R/50/188",
+    "title": "HUMAN RIGHTS, IRAN",
+    "description": "Situation of human rights in the Islamic Republic of Iran",
+    "topic": "Human rights",
+    "isAmendment": false,
+    "actualVote": {
+      "yes": 78,
+      "no": 27,
+      "abstain": 58
+    },
+    "passed": true,
+    "totalVoters": 163
+  },
+  {
+    "rcid": 3959,
+    "session": 50,
+    "date": "1995-12-06",
+    "unres": "R/50/197",
+    "title": "HUMAN RIGHTS, SUDAN",
+    "description": "Situation of human rights in the Sudan",
+    "topic": "Human rights",
+    "isAmendment": false,
+    "actualVote": {
+      "yes": 94,
+      "no": 15,
+      "abstain": 54
+    },
+    "passed": true,
+    "totalVoters": 163
+  },
+  {
+    "rcid": 3961,
+    "session": 50,
+    "date": "1995-12-06",
+    "unres": "R/50/199",
+    "title": "HUMAN RIGHTS, NIGERIA",
+    "description": "Situation of human rights in Nigeria",
+    "topic": "Human rights",
+    "isAmendment": false,
+    "actualVote": {
+      "yes": 101,
+      "no": 14,
+      "abstain": 47
+    },
+    "passed": true,
+    "totalVoters": 162
+  },
+  {
+    "rcid": 3941,
+    "session": 50,
+    "date": "1995-12-03",
+    "unres": "R/50/73",
+    "title": "NUCLEAR PROLIFERATION, MIDDLE EAST",
+    "description": "Calls upon Israel to become party to the Treaty on the Non-Proliferation of Nuclear Weapons to accede to it without further delay, and not to develop, produce, test or otherwise acquire nuclear weapons and to renounce possession of nuclear weap",
+    "topic": "Arms control and disarmament",
+    "isAmendment": false,
+    "actualVote": {
+      "yes": 56,
+      "no": 2,
+      "abstain": 100
+    },
+    "passed": true,
+    "totalVoters": 158
+  },
+  {
+    "rcid": 3876,
+    "session": 50,
+    "date": "1995-11-05",
+    "unres": "R/50/10",
+    "title": "CUBA, U.S. EMBARGO",
+    "description": "Necessity of ending the economic, commercial and financial embargo imposed by the United States against Cuba",
+    "topic": "Economic development",
+    "isAmendment": false,
+    "actualVote": {
+      "yes": 116,
+      "no": 3,
+      "abstain": 38
+    },
+    "passed": true,
+    "totalVoters": 157
+  },
+  {
+    "rcid": 3949,
+    "session": 50,
+    "date": "1995-12-04",
+    "unres": "R/50/129",
+    "title": "ISRAEL, SETTLEMENTS",
+    "description": "Economic and social repercussions of the Israeli settlements on the Palestinian people in the Palestinian territory, including Jerusalem, occupied since 1967, and on the Arab population of the Syrian Golan",
+    "topic": "Economic development",
+    "isAmendment": false,
+    "actualVote": {
+      "yes": 126,
+      "no": 2,
+      "abstain": 28
+    },
+    "passed": true,
+    "totalVoters": 156
+  },
+  {
+    "rcid": 3951,
+    "session": 50,
+    "date": "1995-12-05",
+    "unres": "R/50/140",
+    "title": "PALESTINE, SELF-DETERMINATION",
+    "description": "The right of the Palestinian people to self-determination",
+    "topic": "Colonialism",
+    "isAmendment": false,
+    "actualVote": {
+      "yes": 145,
+      "no": 2,
+      "abstain": 9
+    },
+    "passed": true,
+    "totalVoters": 156
+  },
+  {
+    "rcid": 3903,
+    "session": 50,
+    "date": "1995-12-04",
+    "unres": "R/50/38B/VI",
+    "title": "GUAM, SELF-DETERMINATION",
+    "description": "Guam",
+    "topic": "Colonialism",
+    "isAmendment": false,
+    "actualVote": {
+      "yes": 144,
+      "no": 4,
+      "abstain": 7
+    },
+    "passed": true,
+    "totalVoters": 155
+  },
+  {
+    "rcid": 3906,
+    "session": 50,
+    "date": "1995-12-04",
+    "unres": "R/50/38B/IX",
+    "title": "SAINT HELENA, SELF-DETERMINATION",
+    "description": "Requests the administering Power to conduct the constitutional review in st. Helena, taking into account the wishes of its population",
+    "topic": "Colonialism",
+    "isAmendment": false,
+    "actualVote": {
+      "yes": 144,
+      "no": 4,
+      "abstain": 7
+    },
+    "passed": true,
+    "totalVoters": 155
+  },
+  {
+    "rcid": 3897,
+    "session": 50,
+    "date": "1995-12-04",
+    "unres": "R/50/38A",
+    "title": "NON-SELF-GOVERNING TERRITORIES, STATUS",
+    "description": "Questions of American Samoa, Anguilla, Bermuda, the British Virgin Islands, the Cayman Islands, Guam, Montserrat, Pitcairn, St. Helena, Tokelau, the Turks and Caicos Islands and the United States Virgin Islands",
+    "topic": "Colonialism",
+    "isAmendment": false,
+    "actualVote": {
+      "yes": 146,
+      "no": 4,
+      "abstain": 3
+    },
+    "passed": true,
+    "totalVoters": 153
+  },
+  {
+    "rcid": 3948,
+    "session": 50,
+    "date": "1995-12-04",
+    "unres": "R/50/96",
+    "title": "ECONOMIC COERCION",
+    "description": "Economic measures as a means of political and economic coercion against developing countries",
+    "topic": "Economic development",
+    "isAmendment": false,
+    "actualVote": {
+      "yes": 100,
+      "no": 30,
+      "abstain": 22
+    },
+    "passed": true,
+    "totalVoters": 152
+  }
+]
