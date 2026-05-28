@@ -5,11 +5,6 @@ export const metadata: Metadata = {
   title: "UNSim — Interactive UN Policy Simulation",
   description:
     "Simulate how 193 member states debate and vote on UN resolutions. Powered by real voting data, knowledge graphs, and AI-driven diplomacy.",
-  openGraph: {
-    title: "UNSim — Interactive UN Policy Simulation",
-    description: "Test policies against a knowledge graph built from 75 years of UN voting records.",
-    type: "website",
-  },
 };
 
 export default function RootLayout({
