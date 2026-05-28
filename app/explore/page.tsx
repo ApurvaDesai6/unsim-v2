@@ -1,6 +1,8 @@
 "use client";
 
-import { useState, useEffect, useCallback, useMemo } from "react";
+import { useState, useEffect, useCallback, useMemo, useRef } from "react";
+import ForceGraph from "@/components/viz/ForceGraph";
+import type { GraphNodeDatum, GraphEdgeDatum } from "@/components/viz/ForceGraph";
 
 interface CountryData {
   iso3: string;
@@ -31,7 +33,7 @@ interface GraphStats {
   positions: number;
 }
 
-type AnalysisView = "influence" | "blocs" | "polarization" | "bridgers" | "issues";
+type AnalysisView = "graph" | "influence" | "blocs" | "polarization" | "bridgers" | "issues";
 
 interface InfluenceEntity {
   id: string; type: string; name: string; influence: string;
@@ -48,12 +50,97 @@ const REGION_LABELS: Record<string, string> = {
   AFRICAN: "African", APG: "Asia-Pacific", EEG: "E. European", GRULAC: "Latin America", WEOG: "Western",
 };
 
+function GraphView({ countries, selectedCountry, onSelectCountry }: { countries: CountryData[]; selectedCountry: string | null; onSelectCountry: (iso3: string) => void }) {
+  const [graphData, setGraphData] = useState<{ nodes: GraphNodeDatum[]; edges: GraphEdgeDatum[] } | null>(null);
+  const [hoveredNode, setHoveredNode] = useState<string | null>(null);
+  const [showAlliances, setShowAlliances] = useState(true);
+  const [showRivalries, setShowRivalries] = useState(false);
+  const containerRef = useRef<HTMLDivElement>(null);
+  const [dimensions, setDimensions] = useState({ width: 800, height: 500 });
+
+  useEffect(() => {
+    if (containerRef.current) {
+      const rect = containerRef.current.getBoundingClientRect();
+      setDimensions({ width: rect.width, height: rect.height });
+    }
+  }, []);
+
+  useEffect(() => {
+    async function loadGraph() {
+      const res = await fetch("/api/graph/alliance-network");
+      if (!res.ok) return;
+      const data = await res.json();
+
+      const nodes: GraphNodeDatum[] = data.nodes
+        .filter((n: { nodeType: string }) => n.nodeType === "country")
+        .map((n: { id: string; label: string; region: string; size: number }) => ({
+          id: n.id,
+          label: n.label,
+          region: n.region,
+          population: Math.pow(10, (n.size || 3) / 1.5) * 1000,
+          scStatus: ["USA", "GBR", "FRA", "RUS", "CHN"].includes(n.id) ? "P5" : undefined,
+        }));
+
+      const edges: GraphEdgeDatum[] = data.edges
+        .filter((e: { weight: number }) => e.weight > 0.92)
+        .map((e: { source: string; target: string; weight: number }, i: number) => ({
+          id: `e-${i}`,
+          source: e.source,
+          target: e.target,
+          type: "ALLIES_WITH" as const,
+          strength: e.weight,
+        }));
+
+      setGraphData({ nodes, edges });
+    }
+    loadGraph();
+  }, []);
+
+  if (!graphData) {
+    return (
+      <div className="flex items-center justify-center h-full">
+        <div className="w-8 h-8 border-2 border-[var(--color-un-blue)] border-t-transparent rounded-full animate-spin" />
+      </div>
+    );
+  }
+
+  return (
+    <div ref={containerRef} className="w-full h-full relative">
+      <div className="absolute top-2 right-2 z-10 flex gap-2">
+        <button
+          onClick={() => setShowAlliances(!showAlliances)}
+          className={`px-2 py-1 rounded text-[10px] font-medium border ${showAlliances ? "bg-emerald-50 border-emerald-200 text-emerald-700" : "bg-white border-gray-200 text-gray-500"}`}
+        >
+          Alliances
+        </button>
+        <button
+          onClick={() => setShowRivalries(!showRivalries)}
+          className={`px-2 py-1 rounded text-[10px] font-medium border ${showRivalries ? "bg-red-50 border-red-200 text-red-700" : "bg-white border-gray-200 text-gray-500"}`}
+        >
+          Rivalries
+        </button>
+      </div>
+      <ForceGraph
+        nodes={graphData.nodes}
+        edges={graphData.edges}
+        selectedNodeId={selectedCountry}
+        onNodeClick={onSelectCountry}
+        onNodeHover={setHoveredNode}
+        showAlliances={showAlliances}
+        showRivalries={showRivalries}
+        width={dimensions.width || 800}
+        height={dimensions.height || 500}
+      />
+    </div>
+  );
+}
+
 export default function ExplorePage() {
   const [countries, setCountries] = useState<CountryData[]>([]);
   const [stats, setStats] = useState<GraphStats | null>(null);
   const [selectedCountry, setSelectedCountry] = useState<string | null>(null);
   const [selectedData, setSelectedData] = useState<RelationshipData | null>(null);
-  const [activeView, setActiveView] = useState<AnalysisView>("influence");
+  const [activeView, setActiveView] = useState<AnalysisView>("graph");
   const [influenceData, setInfluenceData] = useState<{ entities: InfluenceEntity[]; influence_edges: InfluenceEdge[] } | null>(null);
   const [selectedEntity, setSelectedEntity] = useState<string | null>(null);
   const [issueFilter, setIssueFilter] = useState<string | null>(null);
@@ -157,6 +244,7 @@ export default function ExplorePage() {
         {/* View tabs */}
         <div className="max-w-[1400px] mx-auto px-4 pb-2 flex gap-1">
           {([
+            ["graph", "Interactive Graph"],
             ["influence", "Influence Network"],
             ["polarization", "Polarization Map"],
             ["bridgers", "Bridge Countries"],
@@ -173,6 +261,33 @@ export default function ExplorePage() {
       <div className="max-w-[1400px] mx-auto p-4 grid grid-cols-12 gap-4" style={{ height: "calc(100vh - 90px)" }}>
         {/* Main content area */}
         <div className="col-span-12 lg:col-span-8 overflow-y-auto rounded-xl border border-[var(--color-border)] bg-white">
+          {activeView === "graph" && (
+            <div className="p-6 space-y-6">
+              <div>
+                <h2 className="text-lg font-semibold mb-1" style={{ fontFamily: "var(--font-serif)" }}>Alliance & Rivalry Network</h2>
+                <p className="text-sm text-[var(--color-muted)]">
+                  Interactive force-directed graph of 193 nations. Solid green lines show voting alliances (countries that vote together &gt;90% of the time).
+                  Dashed red lines show rivalries. Click any node to see its relationships. Drag to reposition, scroll to zoom.
+                </p>
+              </div>
+              <div className="border border-[var(--color-border)] rounded-lg overflow-hidden" style={{ height: "500px", position: "relative" }}>
+                <GraphView
+                  countries={countries}
+                  selectedCountry={selectedCountry}
+                  onSelectCountry={(iso3) => fetchCountryData(iso3)}
+                />
+              </div>
+              <div className="grid grid-cols-5 gap-2">
+                {Object.entries(REGION_LABELS).map(([region, label]) => (
+                  <div key={region} className="flex items-center gap-1.5 text-[10px] text-[var(--color-muted)]">
+                    <span className="w-3 h-3 rounded-full" style={{ background: REGION_COLORS[region] }} />
+                    {label}
+                  </div>
+                ))}
+              </div>
+            </div>
+          )}
+
           {activeView === "polarization" && insights && (
             <div className="p-6 space-y-6">
               <div>
