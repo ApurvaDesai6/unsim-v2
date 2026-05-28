@@ -55,6 +55,7 @@ function GraphView({ countries, selectedCountry, onSelectCountry }: { countries:
   const [hoveredNode, setHoveredNode] = useState<string | null>(null);
   const [showAlliances, setShowAlliances] = useState(true);
   const [showRivalries, setShowRivalries] = useState(false);
+  const [edgeThreshold, setEdgeThreshold] = useState(0.93);
   const containerRef = useRef<HTMLDivElement>(null);
   const [dimensions, setDimensions] = useState({ width: 800, height: 500 });
 
@@ -67,31 +68,41 @@ function GraphView({ countries, selectedCountry, onSelectCountry }: { countries:
 
   useEffect(() => {
     async function loadGraph() {
-      const res = await fetch("/api/graph/alliance-network");
+      const res = await fetch(`/api/graph/alliance-network?rivalries=true`);
       if (!res.ok) return;
       const data = await res.json();
 
       const nodes: GraphNodeDatum[] = data.nodes
         .filter((n: { nodeType: string }) => n.nodeType === "country")
-        .map((n: { id: string; label: string; region: string; size: number }) => ({
+        .map((n: { id: string; label: string; region: string; size: number; population?: number }) => ({
           id: n.id,
           label: n.label,
           region: n.region,
-          population: Math.pow(10, (n.size || 3) / 1.5) * 1000,
+          population: n.population || Math.pow(10, (n.size || 3) / 1.5) * 1000,
           scStatus: ["USA", "GBR", "FRA", "RUS", "CHN"].includes(n.id) ? "P5" : undefined,
         }));
 
-      const edges: GraphEdgeDatum[] = data.edges
-        .filter((e: { weight: number }) => e.weight > 0.92)
+      const allianceEdges: GraphEdgeDatum[] = data.edges
+        .filter((e: { type: string; weight: number }) => e.type === "ALLIES_WITH")
         .map((e: { source: string; target: string; weight: number }, i: number) => ({
-          id: `e-${i}`,
+          id: `ally-${i}`,
           source: e.source,
           target: e.target,
           type: "ALLIES_WITH" as const,
           strength: e.weight,
         }));
 
-      setGraphData({ nodes, edges });
+      const rivalryEdges: GraphEdgeDatum[] = data.edges
+        .filter((e: { type: string; weight: number }) => e.type === "RIVALS_WITH")
+        .map((e: { source: string; target: string; weight: number }, i: number) => ({
+          id: `rival-${i}`,
+          source: e.source,
+          target: e.target,
+          type: "RIVALS_WITH" as const,
+          intensity: e.weight,
+        }));
+
+      setGraphData({ nodes, edges: [...allianceEdges, ...rivalryEdges] });
     }
     loadGraph();
   }, []);
@@ -104,25 +115,65 @@ function GraphView({ countries, selectedCountry, onSelectCountry }: { countries:
     );
   }
 
+  const filteredEdges = useMemo(() => {
+    return graphData.edges.filter((e) => {
+      if (e.type === "ALLIES_WITH") return (e.strength || 0) >= edgeThreshold;
+      if (e.type === "RIVALS_WITH") return (e.intensity || 0) >= 0.5;
+      return true;
+    });
+  }, [graphData.edges, edgeThreshold]);
+
+  const visibleEdgeCount = filteredEdges.filter((e) => {
+    if (e.type === "ALLIES_WITH" && !showAlliances) return false;
+    if (e.type === "RIVALS_WITH" && !showRivalries) return false;
+    return true;
+  }).length;
+
   return (
     <div ref={containerRef} className="w-full h-full relative">
-      <div className="absolute top-2 right-2 z-10 flex gap-2">
-        <button
-          onClick={() => setShowAlliances(!showAlliances)}
-          className={`px-2 py-1 rounded text-[10px] font-medium border ${showAlliances ? "bg-emerald-50 border-emerald-200 text-emerald-700" : "bg-white border-gray-200 text-gray-500"}`}
-        >
-          Alliances
-        </button>
-        <button
-          onClick={() => setShowRivalries(!showRivalries)}
-          className={`px-2 py-1 rounded text-[10px] font-medium border ${showRivalries ? "bg-red-50 border-red-200 text-red-700" : "bg-white border-gray-200 text-gray-500"}`}
-        >
-          Rivalries
-        </button>
+      {/* Controls overlay */}
+      <div className="absolute top-3 right-3 z-10 bg-white/95 backdrop-blur-sm rounded-lg border border-[var(--color-border)] p-3 space-y-3 shadow-sm" style={{ width: 200 }}>
+        <div className="flex items-center justify-between">
+          <span className="text-[10px] font-medium text-[var(--color-muted)] uppercase tracking-wide">Edges</span>
+          <span className="text-[10px] text-[var(--color-muted)]">{visibleEdgeCount} visible</span>
+        </div>
+        <div className="space-y-1.5">
+          <button
+            onClick={() => setShowAlliances(!showAlliances)}
+            className={`w-full flex items-center gap-2 px-2 py-1.5 rounded text-[11px] font-medium border transition-colors ${showAlliances ? "bg-emerald-50 border-emerald-200 text-emerald-700" : "bg-white border-gray-200 text-gray-400"}`}
+          >
+            <span className="w-3 h-0.5 bg-emerald-500 rounded" />Alliances
+          </button>
+          <button
+            onClick={() => setShowRivalries(!showRivalries)}
+            className={`w-full flex items-center gap-2 px-2 py-1.5 rounded text-[11px] font-medium border transition-colors ${showRivalries ? "bg-red-50 border-red-200 text-red-700" : "bg-white border-gray-200 text-gray-400"}`}
+          >
+            <span className="w-3 h-0.5 border-t-2 border-dashed border-red-500" />Rivalries
+          </button>
+        </div>
+        <div>
+          <div className="flex items-center justify-between mb-1">
+            <span className="text-[10px] text-[var(--color-muted)]">Alliance strength</span>
+            <span className="text-[10px] font-mono text-[var(--color-un-blue)]">{edgeThreshold.toFixed(2)}</span>
+          </div>
+          <input
+            type="range"
+            min={0.88}
+            max={0.98}
+            step={0.01}
+            value={edgeThreshold}
+            onChange={(e) => setEdgeThreshold(parseFloat(e.target.value))}
+            className="w-full h-1 accent-[var(--color-un-blue)]"
+          />
+          <div className="flex justify-between text-[9px] text-[var(--color-muted)]">
+            <span>More edges</span>
+            <span>Fewer</span>
+          </div>
+        </div>
       </div>
       <ForceGraph
         nodes={graphData.nodes}
-        edges={graphData.edges}
+        edges={filteredEdges}
         selectedNodeId={selectedCountry}
         onNodeClick={onSelectCountry}
         onNodeHover={setHoveredNode}
