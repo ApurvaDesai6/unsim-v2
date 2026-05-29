@@ -189,6 +189,102 @@ function GraphView({ countries, selectedCountry, onSelectCountry }: { countries:
   );
 }
 
+function PathFinder({ countries }: { countries: CountryData[] }) {
+  const [fromCountry, setFromCountry] = useState("");
+  const [toCountry, setToCountry] = useState("");
+  const [pathResult, setPathResult] = useState<{ path: { iso3: string; name: string; region: string }[]; edges: { from: string; to: string; type: string; weight: number }[]; hops: number; interpretation: string } | null>(null);
+  const [loading, setLoading] = useState(false);
+  const [anomalies, setAnomalies] = useState<{ iso3: string; name: string; region: string; deviation: number; interpretation: string }[]>([]);
+
+  useEffect(() => {
+    fetch("/api/graph/analyze?action=anomalies")
+      .then((r) => r.json())
+      .then((d) => setAnomalies(d.anomalies || []))
+      .catch(() => {});
+  }, []);
+
+  const findPath = useCallback(async () => {
+    if (!fromCountry || !toCountry) return;
+    setLoading(true);
+    try {
+      const r = await fetch(`/api/graph/analyze?action=path&from=${fromCountry}&to=${toCountry}`);
+      const data = await r.json();
+      setPathResult(data);
+    } finally {
+      setLoading(false);
+    }
+  }, [fromCountry, toCountry]);
+
+  return (
+    <div className="p-4 space-y-5">
+      <div className="space-y-3">
+        <div className="text-center space-y-1.5 py-4">
+          <div className="text-2xl opacity-40">🗺</div>
+          <h3 className="text-sm font-semibold" style={{ fontFamily: "var(--font-serif)" }}>Diplomatic Path Finder</h3>
+          <p className="text-[11px] text-[var(--color-muted)]">
+            Find the shortest diplomatic connection between any two countries through the alliance network.
+          </p>
+        </div>
+
+        <select value={fromCountry} onChange={(e) => setFromCountry(e.target.value)} className="w-full px-3 py-2 text-sm rounded-lg border border-[var(--color-border)] bg-[var(--color-bg)]">
+          <option value="">From country...</option>
+          {countries.map((c) => <option key={c.iso3} value={c.iso3}>{c.name}</option>)}
+        </select>
+        <select value={toCountry} onChange={(e) => setToCountry(e.target.value)} className="w-full px-3 py-2 text-sm rounded-lg border border-[var(--color-border)] bg-[var(--color-bg)]">
+          <option value="">To country...</option>
+          {countries.map((c) => <option key={c.iso3} value={c.iso3}>{c.name}</option>)}
+        </select>
+        <button onClick={findPath} disabled={!fromCountry || !toCountry || loading} className="w-full py-2 rounded-lg bg-[var(--color-un-blue)] text-white text-xs font-medium disabled:opacity-40">
+          {loading ? "Finding path..." : "Find Connection"}
+        </button>
+      </div>
+
+      {pathResult && pathResult.path && (
+        <div className="p-3 rounded-lg border border-[var(--color-un-blue)]/20 bg-[var(--color-un-blue)]/5 space-y-2">
+          <div className="text-[10px] font-semibold text-[var(--color-un-blue)] uppercase">{pathResult.hops} hop{pathResult.hops !== 1 ? "s" : ""}</div>
+          <div className="flex items-center gap-1 flex-wrap">
+            {pathResult.path.map((p, i) => (
+              <span key={p.iso3} className="flex items-center gap-1">
+                <span className="text-xs font-medium px-2 py-0.5 rounded" style={{ background: REGION_COLORS[p.region] + "20", color: REGION_COLORS[p.region] }}>
+                  {p.name}
+                </span>
+                {i < pathResult.path.length - 1 && (
+                  <span className="text-[var(--color-muted)] text-xs">→</span>
+                )}
+              </span>
+            ))}
+          </div>
+          <p className="text-[11px] text-[var(--color-ink)] leading-relaxed">{pathResult.interpretation}</p>
+        </div>
+      )}
+
+      {pathResult && !pathResult.path && (
+        <p className="text-xs text-[var(--color-muted)] text-center py-2">No alliance path found between these countries.</p>
+      )}
+
+      {/* Anomalies section */}
+      {anomalies.length > 0 && (
+        <div className="pt-3 border-t border-[var(--color-border)]">
+          <h4 className="text-[10px] font-semibold text-[var(--color-muted)] uppercase mb-2">Countries Defying Their Region</h4>
+          <div className="space-y-1.5">
+            {anomalies.slice(0, 6).map((a) => (
+              <div key={a.iso3} className="p-2 rounded-lg bg-[var(--color-bg)]/70 text-[11px]">
+                <div className="flex items-center justify-between mb-0.5">
+                  <span className="font-medium">{a.name}</span>
+                  <span className="text-[9px] font-mono" style={{ color: a.deviation > 0 ? "var(--color-vote-yes)" : "var(--color-vote-no)" }}>
+                    {a.deviation > 0 ? "+" : ""}{a.deviation.toFixed(2)}
+                  </span>
+                </div>
+                <p className="text-[10px] text-[var(--color-muted)] leading-relaxed">{a.interpretation}</p>
+              </div>
+            ))}
+          </div>
+        </div>
+      )}
+    </div>
+  );
+}
+
 export default function ExplorePage() {
   const [countries, setCountries] = useState<CountryData[]>([]);
   const [stats, setStats] = useState<GraphStats | null>(null);
@@ -776,14 +872,7 @@ export default function ExplorePage() {
               </button>
             </div>
           ) : (
-            <div className="h-full flex items-center justify-center p-6 text-center">
-              <div className="space-y-3">
-                <div className="text-3xl opacity-30">🏛</div>
-                <p className="text-sm text-[var(--color-muted)]">
-                  Select a country to explore its diplomatic DNA — alliances, rivalries, and voting patterns grounded in 870K+ recorded votes.
-                </p>
-              </div>
-            </div>
+            <PathFinder countries={countries} />
           )}
         </div>
       </div>
