@@ -286,7 +286,7 @@ export default function ExplorePage() {
             {searchResults.length > 0 && (
               <div className="absolute top-full mt-1 w-full bg-white border border-[var(--color-border)] rounded-lg shadow-lg z-50 overflow-hidden">
                 {searchResults.map((c) => (
-                  <button key={c.iso3} onClick={() => { fetchCountryData(c.iso3); setSearchQuery(""); }} className="w-full px-3 py-2 text-left text-sm hover:bg-[var(--color-bg)] flex items-center justify-between">
+                  <button key={c.iso3} onClick={() => { fetchCountryData(c.iso3); setSearchQuery(""); setActiveView("graph"); }} className="w-full px-3 py-2 text-left text-sm hover:bg-[var(--color-bg)] flex items-center justify-between">
                     <span>{c.name}</span>
                     <span className="text-[10px] px-1.5 py-0.5 rounded" style={{ background: REGION_COLORS[c.region] + "20", color: REGION_COLORS[c.region] }}>{c.region}</span>
                   </button>
@@ -295,18 +295,18 @@ export default function ExplorePage() {
             )}
           </div>
         </div>
-        {/* View tabs */}
-        <div className="max-w-[1400px] mx-auto px-4 pb-2 flex gap-1">
+        {/* Perspective tabs */}
+        <div className="max-w-[1400px] mx-auto px-4 pb-2 flex gap-1 overflow-x-auto">
           {([
-            ["graph", "Interactive Graph"],
-            ["influence", "Influence Network"],
-            ["polarization", "Polarization Map"],
-            ["bridgers", "Bridge Countries"],
-            ["blocs", "Voting Blocs"],
-            ["issues", "Issue Positions"],
-          ] as const).map(([id, label]) => (
-            <button key={id} onClick={() => setActiveView(id)} className={`px-3 py-1.5 rounded-md text-xs font-medium transition-colors ${activeView === id ? "bg-[var(--color-un-blue)] text-white" : "text-[var(--color-muted)] hover:bg-[var(--color-bg)]"}`}>
-              {label}
+            ["graph", "🤝", "Alliance Map"],
+            ["blocs", "🏛", "Bloc Dynamics"],
+            ["issues", "📊", "Issue Landscape"],
+            ["influence", "🕸", "Influence Web"],
+            ["polarization", "🧭", "Polarization"],
+            ["bridgers", "🌉", "Bridge Countries"],
+          ] as const).map(([id, icon, label]) => (
+            <button key={id} onClick={() => setActiveView(id)} className={`flex items-center gap-1.5 px-3 py-1.5 rounded-md text-xs font-medium transition-colors whitespace-nowrap ${activeView === id ? "bg-[var(--color-un-blue)] text-white" : "text-[var(--color-muted)] hover:bg-[var(--color-bg)]"}`}>
+              <span>{icon}</span>{label}
             </button>
           ))}
         </div>
@@ -331,13 +331,32 @@ export default function ExplorePage() {
                   onSelectCountry={(iso3) => fetchCountryData(iso3)}
                 />
               </div>
-              <div className="grid grid-cols-5 gap-2">
-                {Object.entries(REGION_LABELS).map(([region, label]) => (
-                  <div key={region} className="flex items-center gap-1.5 text-[10px] text-[var(--color-muted)]">
-                    <span className="w-3 h-3 rounded-full" style={{ background: REGION_COLORS[region] }} />
-                    {label}
+              {/* Legend + Insights */}
+              <div className="flex gap-4">
+                <div className="flex-1 flex flex-wrap gap-x-4 gap-y-1">
+                  {Object.entries(REGION_LABELS).map(([region, label]) => (
+                    <div key={region} className="flex items-center gap-1.5 text-[10px] text-[var(--color-muted)]">
+                      <span className="w-2.5 h-2.5 rounded-full" style={{ background: REGION_COLORS[region] }} />
+                      {label}
+                    </div>
+                  ))}
+                  <div className="flex items-center gap-1.5 text-[10px] text-[var(--color-muted)]">
+                    <span className="w-4 h-0.5 bg-emerald-500 rounded" /> Alliance
                   </div>
-                ))}
+                  <div className="flex items-center gap-1.5 text-[10px] text-[var(--color-muted)]">
+                    <span className="w-4 h-0.5 border-t-2 border-dashed border-red-500" /> Rivalry
+                  </div>
+                </div>
+              </div>
+
+              {/* Curated insights */}
+              <div className="p-4 rounded-lg border border-[var(--color-un-blue)]/20 bg-[var(--color-un-blue)]/5">
+                <h4 className="text-[10px] font-semibold text-[var(--color-un-blue)] uppercase mb-2">Key Insights</h4>
+                <ul className="space-y-1.5">
+                  <li className="text-[11px] text-[var(--color-ink)] leading-relaxed">• The graph naturally clusters into 2 macro-blocs: Western (WEOG+EU) and Global South (G77+NAM)</li>
+                  <li className="text-[11px] text-[var(--color-ink)] leading-relaxed">• P5 members are structurally central — most countries are 2 hops from a P5 member</li>
+                  <li className="text-[11px] text-[var(--color-ink)] leading-relaxed">• Pacific island states cluster tightly with their respective patrons (US vs China competition visible)</li>
+                </ul>
               </div>
             </div>
           )}
@@ -630,6 +649,53 @@ export default function ExplorePage() {
                   <div className="text-[9px] text-[var(--color-muted)]">Democracy</div>
                 </div>
               </div>
+
+              {/* Explore actions */}
+              <div className="space-y-1.5">
+                <h4 className="text-[10px] font-semibold text-[var(--color-un-blue)] uppercase mb-1">Explore</h4>
+                <div className="grid grid-cols-2 gap-1.5">
+                  <button
+                    onClick={() => { setActiveView("graph"); }}
+                    className="p-2 rounded-lg bg-[var(--color-un-blue)]/5 border border-[var(--color-un-blue)]/20 text-[10px] text-[var(--color-un-blue)] hover:bg-[var(--color-un-blue)]/10 transition-colors text-left"
+                  >
+                    🤝 Show in graph
+                  </button>
+                  <button
+                    onClick={() => setActiveView("issues")}
+                    className="p-2 rounded-lg bg-purple-50 border border-purple-200/50 text-[10px] text-purple-700 hover:bg-purple-100 transition-colors text-left"
+                  >
+                    📊 Issue positions
+                  </button>
+                  <button
+                    onClick={() => setActiveView("blocs")}
+                    className="p-2 rounded-lg bg-amber-50 border border-amber-200/50 text-[10px] text-amber-700 hover:bg-amber-100 transition-colors text-left"
+                  >
+                    🏛 Bloc analysis
+                  </button>
+                  <button
+                    onClick={() => { if (selectedCountry) setComparisonCountry(selectedCountry === "USA" ? "CHN" : "USA"); }}
+                    className="p-2 rounded-lg bg-emerald-50 border border-emerald-200/50 text-[10px] text-emerald-700 hover:bg-emerald-100 transition-colors text-left"
+                  >
+                    ⚖️ Compare countries
+                  </button>
+                </div>
+              </div>
+
+              {/* Ideal point spectrum */}
+              {selectedData.country?.idealPoint !== undefined && (
+                <div>
+                  <div className="flex justify-between text-[9px] text-[var(--color-muted)] mb-1">
+                    <span>Western-aligned</span>
+                    <span>Global South-aligned</span>
+                  </div>
+                  <div className="relative h-2 bg-gradient-to-r from-[var(--color-un-blue)] via-gray-300 to-[var(--color-vote-abstain)] rounded-full">
+                    <div
+                      className="absolute top-1/2 -translate-y-1/2 w-3 h-3 bg-white rounded-full border-2 border-[var(--color-ink)] shadow"
+                      style={{ left: `${((selectedData.country.idealPoint + 1) / 2) * 100}%` }}
+                    />
+                  </div>
+                </div>
+              )}
 
               {/* Allies */}
               {selectedData.allies.length > 0 && (
