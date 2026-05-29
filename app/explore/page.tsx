@@ -62,7 +62,7 @@ function PathResultView({ data }: { data: { path: { iso3: string; name: string; 
       {pathList.map((p, i) => (
         <span key={p.iso3} className="flex items-center gap-1">
           <span className="text-[10px] px-1.5 py-0.5 rounded font-medium" style={{ background: REGION_COLORS[p.region] + "30", color: REGION_COLORS[p.region] }}>{p.name}</span>
-          {i < pathList.length - 1 && <span className="text-gray-600 text-[10px]">→</span>}
+          {i < pathList.length - 1 && <span className="text-[var(--color-muted)] text-[10px]">→</span>}
         </span>
       ))}
     </div>
@@ -215,31 +215,31 @@ export default function ExplorePage() {
 
   if (loading) {
     return (
-      <div className="min-h-screen bg-[#060a12] flex items-center justify-center">
+      <div className="min-h-screen bg-[var(--color-bg)] flex items-center justify-center">
         <div className="text-center space-y-3">
           <div className="w-10 h-10 border-2 border-[#4b92db] border-t-transparent rounded-full animate-spin mx-auto" />
-          <p className="text-sm text-gray-400">Loading knowledge graph...</p>
+          <p className="text-sm text-[var(--color-muted)]">Loading knowledge graph...</p>
         </div>
       </div>
     );
   }
 
   return (
-    <div className="h-screen flex flex-col bg-[#060a12] text-white overflow-hidden">
+    <div className="h-screen flex flex-col bg-[var(--color-bg)] text-[var(--color-ink)] overflow-hidden">
       {/* Header bar */}
-      <header className="flex-none border-b border-white/10 bg-[#0a0f1a]/90 backdrop-blur-md z-40">
+      <header className="flex-none border-b border-[var(--color-border)] bg-white/90 backdrop-blur-md z-40">
         <div className="px-4 py-2.5 flex items-center gap-4">
-          <a href="/" className="text-xs text-gray-500 hover:text-gray-300">&larr; Home</a>
+          <a href="/" className="text-xs text-[var(--color-muted)] hover:text-[var(--color-ink)]">&larr; Home</a>
           <div className="h-4 w-px bg-white/10" />
           <h1 className="text-sm font-semibold">Knowledge Graph</h1>
           {stats && (
-            <span className="text-[10px] text-gray-500 font-mono">
+            <span className="text-[10px] text-[var(--color-muted)] font-mono">
               {stats.countries} nations · {stats.alliances + stats.rivalries} relationships · {stats.positions} positions
             </span>
           )}
           <div className="ml-auto flex items-center gap-3">
-            <a href="/sandbox" className="text-[10px] text-gray-400 hover:text-[#4b92db] transition-colors">What-If Sandbox</a>
-            <a href="/methodology" className="text-[10px] text-gray-400 hover:text-[#4b92db] transition-colors">Methodology</a>
+            <a href="/sandbox" className="text-[10px] text-[var(--color-muted)] hover:text-[#4b92db] transition-colors">What-If Sandbox</a>
+            <a href="/methodology" className="text-[10px] text-[var(--color-muted)] hover:text-[#4b92db] transition-colors">Methodology</a>
           </div>
         </div>
 
@@ -251,9 +251,9 @@ export default function ExplorePage() {
               value={queryInput}
               onChange={(e) => setQueryInput(e.target.value)}
               placeholder="Query the graph: try 'allies:USA', 'path:BRA:JPN', 'anomalies', or a country name..."
-              className="w-full px-4 py-2.5 pl-10 bg-white/5 border border-white/10 rounded-xl text-sm text-white placeholder:text-gray-500 focus:outline-none focus:ring-2 focus:ring-[#4b92db]/40 focus:border-[#4b92db]/50"
+              className="w-full px-4 py-2.5 pl-10 bg-[var(--color-bg)] border border-[var(--color-border)] rounded-xl text-sm text-[var(--color-ink)] placeholder:text-[var(--color-muted)] focus:outline-none focus:ring-2 focus:ring-[#4b92db]/40 focus:border-[#4b92db]/50"
             />
-            <svg className="absolute left-3.5 top-1/2 -translate-y-1/2 w-4 h-4 text-gray-500" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+            <svg className="absolute left-3.5 top-1/2 -translate-y-1/2 w-4 h-4 text-[var(--color-muted)]" fill="none" viewBox="0 0 24 24" stroke="currentColor">
               <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" />
             </svg>
             {queryLoading && (
@@ -268,23 +268,23 @@ export default function ExplorePage() {
         {/* Graph visualization (full width minus panel) */}
         <div className="flex-1 relative" ref={containerRef}>
           {/* Graph controls overlay */}
-          <div className="absolute top-3 left-3 z-10 bg-black/60 backdrop-blur-md rounded-xl border border-white/10 p-3 space-y-3" style={{ width: 180 }}>
+          <div className="absolute top-3 left-3 z-10 bg-white/90 backdrop-blur-md rounded-xl border border-[var(--color-border)] p-3 space-y-3" style={{ width: 180 }}>
             <div className="space-y-1.5">
               <button
                 onClick={() => setShowAlliances(!showAlliances)}
-                className={`w-full flex items-center gap-2 px-2.5 py-1.5 rounded-lg text-[11px] font-medium transition-all ${showAlliances ? "bg-emerald-500/20 text-emerald-400 border border-emerald-500/30" : "text-gray-500 border border-white/5"}`}
+                className={`w-full flex items-center gap-2 px-2.5 py-1.5 rounded-lg text-[11px] font-medium transition-all ${showAlliances ? "bg-emerald-500/20 text-emerald-400 border border-emerald-500/30" : "text-[var(--color-muted)] border border-[var(--color-border)]"}`}
               >
                 <span className="w-3 h-0.5 bg-emerald-400 rounded" /> Alliances
               </button>
               <button
                 onClick={() => setShowRivalries(!showRivalries)}
-                className={`w-full flex items-center gap-2 px-2.5 py-1.5 rounded-lg text-[11px] font-medium transition-all ${showRivalries ? "bg-red-500/20 text-red-400 border border-red-500/30" : "text-gray-500 border border-white/5"}`}
+                className={`w-full flex items-center gap-2 px-2.5 py-1.5 rounded-lg text-[11px] font-medium transition-all ${showRivalries ? "bg-red-500/20 text-red-400 border border-red-500/30" : "text-[var(--color-muted)] border border-[var(--color-border)]"}`}
               >
                 <span className="w-3 h-0.5 border-t border-dashed border-red-400" /> Rivalries
               </button>
             </div>
             <div>
-              <div className="flex justify-between text-[9px] text-gray-500 mb-1">
+              <div className="flex justify-between text-[9px] text-[var(--color-muted)] mb-1">
                 <span>Edge density</span>
                 <span className="text-[#4b92db]">{edgeThreshold.toFixed(2)}</span>
               </div>
@@ -298,9 +298,9 @@ export default function ExplorePage() {
                 className="w-full h-1 accent-[#4b92db] bg-white/10 rounded"
               />
             </div>
-            <div className="pt-2 border-t border-white/5 space-y-1">
+            <div className="pt-2 border-t border-[var(--color-border)] space-y-1">
               {Object.entries(REGION_LABELS).map(([region, label]) => (
-                <div key={region} className="flex items-center gap-1.5 text-[9px] text-gray-400">
+                <div key={region} className="flex items-center gap-1.5 text-[9px] text-[var(--color-muted)]">
                   <span className="w-2 h-2 rounded-full" style={{ background: REGION_COLORS[region] }} />
                   {label}
                 </div>
@@ -310,10 +310,10 @@ export default function ExplorePage() {
 
           {/* Query result overlay */}
           {queryResult && (
-            <div className="absolute top-3 right-3 z-10 bg-black/70 backdrop-blur-md rounded-xl border border-[#4b92db]/30 p-4 max-w-sm">
+            <div className="absolute top-3 right-3 z-10 bg-white/95 backdrop-blur-md rounded-xl border border-[#4b92db]/30 p-4 max-w-sm">
               <div className="flex items-start justify-between gap-2">
                 <p className="text-xs text-[#4b92db] font-medium">{queryResult.description}</p>
-                <button onClick={() => { setQueryResult(null); setHighlightedNodes(new Set()); }} className="text-gray-500 hover:text-white text-sm">✕</button>
+                <button onClick={() => { setQueryResult(null); setHighlightedNodes(new Set()); }} className="text-[var(--color-muted)] hover:text-[var(--color-ink)] text-sm">✕</button>
               </div>
               {queryResult.type === "path" && queryResult.data && (
                 <PathResultView data={queryResult.data as { path: { iso3: string; name: string; region: string }[] }} />
@@ -321,8 +321,8 @@ export default function ExplorePage() {
               {queryResult.type === "anomalies" && Array.isArray(queryResult.data) && (
                 <div className="mt-2 space-y-1 max-h-40 overflow-y-auto">
                   {(queryResult.data as { iso3: string; name: string; deviation: number; interpretation: string }[]).slice(0, 8).map((a) => (
-                    <button key={a.iso3} onClick={() => setSelectedCountry(a.iso3)} className="w-full text-left p-1.5 rounded hover:bg-white/5 text-[10px]">
-                      <span className="text-white font-medium">{a.name}</span>
+                    <button key={a.iso3} onClick={() => setSelectedCountry(a.iso3)} className="w-full text-left p-1.5 rounded hover:bg-[var(--color-bg)] text-[10px]">
+                      <span className="text-[var(--color-ink)] font-medium">{a.name}</span>
                       <span className={`ml-1.5 font-mono ${a.deviation > 0 ? "text-emerald-400" : "text-red-400"}`}>{a.deviation > 0 ? "+" : ""}{a.deviation.toFixed(2)}</span>
                     </button>
                   ))}
@@ -331,9 +331,9 @@ export default function ExplorePage() {
               {queryResult.type === "centrality" && Array.isArray(queryResult.data) && (
                 <div className="mt-2 space-y-1 max-h-40 overflow-y-auto">
                   {(queryResult.data as { iso3: string; name: string; allianceCount: number; rivalryCount: number }[]).slice(0, 10).map((c) => (
-                    <button key={c.iso3} onClick={() => setSelectedCountry(c.iso3)} className="w-full text-left p-1.5 rounded hover:bg-white/5 text-[10px] flex justify-between">
-                      <span className="text-white">{c.name}</span>
-                      <span className="text-gray-500 font-mono">{c.allianceCount}A {c.rivalryCount}R</span>
+                    <button key={c.iso3} onClick={() => setSelectedCountry(c.iso3)} className="w-full text-left p-1.5 rounded hover:bg-[var(--color-bg)] text-[10px] flex justify-between">
+                      <span className="text-[var(--color-ink)]">{c.name}</span>
+                      <span className="text-[var(--color-muted)] font-mono">{c.allianceCount}A {c.rivalryCount}R</span>
                     </button>
                   ))}
                 </div>
@@ -358,21 +358,21 @@ export default function ExplorePage() {
         </div>
 
         {/* Right panel */}
-        <div className="flex-none w-80 border-l border-white/10 bg-[#0a0f1a] overflow-y-auto">
+        <div className="flex-none w-80 border-l border-[var(--color-border)] bg-white overflow-y-auto">
           {selectedCountry && countryDetail ? (
             <div className="p-4 space-y-4">
               {/* Country header */}
               <div className="flex items-start justify-between">
                 <div>
                   <h2 className="text-base font-semibold">{countryDetail.country.name}</h2>
-                  <p className="text-[10px] text-gray-400">{REGION_LABELS[countryDetail.country.region]} · {countryDetail.country.governmentType}</p>
+                  <p className="text-[10px] text-[var(--color-muted)]">{REGION_LABELS[countryDetail.country.region]} · {countryDetail.country.governmentType}</p>
                 </div>
-                <button onClick={() => setSelectedCountry(null)} className="text-gray-600 hover:text-white">✕</button>
+                <button onClick={() => setSelectedCountry(null)} className="text-[var(--color-muted)] hover:text-[var(--color-ink)]">✕</button>
               </div>
 
               {/* Ideal point */}
               <div>
-                <div className="flex justify-between text-[9px] text-gray-500 mb-1">
+                <div className="flex justify-between text-[9px] text-[var(--color-muted)] mb-1">
                   <span>West-aligned</span>
                   <span className="font-mono text-[#4b92db]">{countryDetail.country.idealPoint.toFixed(2)}</span>
                   <span>South-aligned</span>
@@ -384,13 +384,13 @@ export default function ExplorePage() {
 
               {/* Quick metrics */}
               <div className="grid grid-cols-2 gap-2">
-                <div className="p-2.5 rounded-lg bg-white/5 border border-white/5 text-center">
+                <div className="p-2.5 rounded-lg bg-[var(--color-bg)] border border-[var(--color-border)] text-center">
                   <div className="text-sm font-bold font-mono text-emerald-400">{countryDetail.allies.length}</div>
-                  <div className="text-[9px] text-gray-500">Allies</div>
+                  <div className="text-[9px] text-[var(--color-muted)]">Allies</div>
                 </div>
-                <div className="p-2.5 rounded-lg bg-white/5 border border-white/5 text-center">
+                <div className="p-2.5 rounded-lg bg-[var(--color-bg)] border border-[var(--color-border)] text-center">
                   <div className="text-sm font-bold font-mono text-red-400">{countryDetail.rivals.length}</div>
-                  <div className="text-[9px] text-gray-500">Rivals</div>
+                  <div className="text-[9px] text-[var(--color-muted)]">Rivals</div>
                 </div>
               </div>
 
@@ -400,8 +400,8 @@ export default function ExplorePage() {
                   <h4 className="text-[10px] font-semibold text-emerald-400 uppercase tracking-wide mb-2">Voting Allies</h4>
                   <div className="space-y-0.5">
                     {countryDetail.allies.slice(0, 8).map((a) => (
-                      <button key={a.iso3} onClick={() => setSelectedCountry(a.iso3)} className="w-full flex items-center justify-between py-1.5 px-2 rounded-lg hover:bg-white/5 text-xs transition-colors">
-                        <span className="text-gray-200">{a.name}</span>
+                      <button key={a.iso3} onClick={() => setSelectedCountry(a.iso3)} className="w-full flex items-center justify-between py-1.5 px-2 rounded-lg hover:bg-[var(--color-bg)] text-xs transition-colors">
+                        <span className="text-[var(--color-ink)]">{a.name}</span>
                         <span className="text-[10px] font-mono text-emerald-400/70">{(a.strength * 100).toFixed(0)}%</span>
                       </button>
                     ))}
@@ -415,8 +415,8 @@ export default function ExplorePage() {
                   <h4 className="text-[10px] font-semibold text-red-400 uppercase tracking-wide mb-2">Voting Rivals</h4>
                   <div className="space-y-0.5">
                     {countryDetail.rivals.slice(0, 5).map((r) => (
-                      <button key={r.iso3} onClick={() => setSelectedCountry(r.iso3)} className="w-full flex items-center justify-between py-1.5 px-2 rounded-lg hover:bg-white/5 text-xs transition-colors">
-                        <span className="text-gray-200">{r.name}</span>
+                      <button key={r.iso3} onClick={() => setSelectedCountry(r.iso3)} className="w-full flex items-center justify-between py-1.5 px-2 rounded-lg hover:bg-[var(--color-bg)] text-xs transition-colors">
+                        <span className="text-[var(--color-ink)]">{r.name}</span>
                         <span className="text-[10px] font-mono text-red-400/70">{(r.intensity * 100).toFixed(0)}%</span>
                       </button>
                     ))}
@@ -427,15 +427,15 @@ export default function ExplorePage() {
               {/* Issue positions */}
               {countryDetail.positions.length > 0 && (
                 <div>
-                  <h4 className="text-[10px] font-semibold text-gray-400 uppercase tracking-wide mb-2">Voting Record by Issue</h4>
+                  <h4 className="text-[10px] font-semibold text-[var(--color-muted)] uppercase tracking-wide mb-2">Voting Record by Issue</h4>
                   <div className="space-y-2">
                     {countryDetail.positions.map((p) => (
                       <div key={p.issue} className="space-y-1">
                         <div className="flex justify-between text-[10px]">
-                          <span className="text-gray-300">{p.issueName || p.issue}</span>
-                          <span className="text-gray-600 font-mono">n={p.sampleSize}</span>
+                          <span className="text-[var(--color-ink)]">{p.issueName || p.issue}</span>
+                          <span className="text-[var(--color-muted)] font-mono">n={p.sampleSize}</span>
                         </div>
-                        <div className="flex h-1.5 rounded-full overflow-hidden bg-white/5">
+                        <div className="flex h-1.5 rounded-full overflow-hidden bg-[var(--color-bg)]">
                           <div className="bg-emerald-500" style={{ width: `${p.yesRate * 100}%` }} />
                           <div className="bg-amber-500" style={{ width: `${p.abstainRate * 100}%` }} />
                           <div className="bg-red-500" style={{ width: `${p.noRate * 100}%` }} />
@@ -449,7 +449,7 @@ export default function ExplorePage() {
               {/* Blocs */}
               {countryDetail.blocs.length > 0 && (
                 <div>
-                  <h4 className="text-[10px] font-semibold text-gray-400 uppercase tracking-wide mb-2">Bloc Memberships</h4>
+                  <h4 className="text-[10px] font-semibold text-[var(--color-muted)] uppercase tracking-wide mb-2">Bloc Memberships</h4>
                   <div className="flex flex-wrap gap-1.5">
                     {countryDetail.blocs.map((b) => (
                       <span key={b.id} className="text-[10px] px-2 py-0.5 rounded-full bg-[#4b92db]/10 border border-[#4b92db]/20 text-[#4b92db]">{b.name}</span>
@@ -462,25 +462,25 @@ export default function ExplorePage() {
             <div className="p-4 space-y-4">
               {/* Suggested queries */}
               <div>
-                <h3 className="text-xs font-semibold text-gray-300 mb-3">Explore the Graph</h3>
-                <p className="text-[11px] text-gray-500 mb-4">Click a country in the graph, or try these queries:</p>
+                <h3 className="text-xs font-semibold text-[var(--color-ink)] mb-3">Explore the Graph</h3>
+                <p className="text-[11px] text-[var(--color-muted)] mb-4">Click a country in the graph, or try these queries:</p>
                 <div className="space-y-1.5">
                   {SUGGESTED_QUERIES.map((sq) => (
                     <button
                       key={sq.query}
                       onClick={() => { setQueryInput(sq.query); executeQuery(sq.query); }}
-                      className="w-full flex items-center gap-2.5 px-3 py-2 rounded-lg text-left text-[11px] bg-white/[0.03] border border-white/5 hover:border-[#4b92db]/30 hover:bg-[#4b92db]/5 transition-all"
+                      className="w-full flex items-center gap-2.5 px-3 py-2 rounded-lg text-left text-[11px] bg-[var(--color-bg)] border border-[var(--color-border)] hover:border-[#4b92db]/30 hover:bg-[#4b92db]/5 transition-all"
                     >
                       <span className="text-sm">{sq.icon}</span>
-                      <span className="text-gray-300">{sq.label}</span>
+                      <span className="text-[var(--color-ink)]">{sq.label}</span>
                     </button>
                   ))}
                 </div>
               </div>
 
               {/* Data provenance */}
-              <div className="pt-4 border-t border-white/5">
-                <p className="text-[9px] text-gray-600 leading-relaxed">
+              <div className="pt-4 border-t border-[var(--color-border)]">
+                <p className="text-[9px] text-[var(--color-muted)] leading-relaxed">
                   Data: Voeten UNGA Voting Data (Harvard Dataverse), V-Dem v14, 869K recorded votes spanning sessions 1–74 (1946–2019). Alliance edges: pairwise cosine similarity &gt; 0.93 on co-voting vectors.
                 </p>
               </div>
