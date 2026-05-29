@@ -1,0 +1,287 @@
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix un: <http://unsim.apurvad.xyz/ontology#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+# ═══════════════════════════════════════════════════════════════════════════
+# UNSim Ontology — UN Diplomatic Relations Domain
+# ═══════════════════════════════════════════════════════════════════════════
+#
+# This OWL-Lite ontology models the diplomatic relationships, voting patterns,
+# and institutional structures of the United Nations system.
+#
+# Classes: Country, Bloc, Resolution, Topic, Treaty, Committee
+# Core relationships: votedOn, memberOf, alliedWith, opposedBy, addresses
+# Properties: idealPoint, democracyIndex, cohesionScore, voteStrength
+
+# ─── Ontology Metadata ─────────────────────────────────────────────────
+
+<http://unsim.apurvad.xyz/ontology>
+  a owl:Ontology ;
+  rdfs:label "UN Diplomacy Ontology" ;
+  rdfs:comment "Formal schema for modeling UN diplomatic relationships, voting behavior, and institutional dynamics." ;
+  owl:versionInfo "2.0.0" .
+
+# ─── Classes ───────────────────────────────────────────────────────────
+
+un:Country a owl:Class ;
+  rdfs:label "Country" ;
+  rdfs:comment "A sovereign state that is a member of the United Nations." .
+
+un:Bloc a owl:Class ;
+  rdfs:label "Voting Bloc" ;
+  rdfs:comment "A formal or informal grouping of countries that coordinate voting positions." .
+
+un:Resolution a owl:Class ;
+  rdfs:label "Resolution" ;
+  rdfs:comment "A formal decision or declaration adopted by a UN body." .
+
+un:Topic a owl:Class ;
+  rdfs:label "Topic" ;
+  rdfs:comment "A thematic area addressed by UN resolutions (e.g., human rights, disarmament)." .
+
+un:Treaty a owl:Class ;
+  rdfs:label "Treaty" ;
+  rdfs:comment "An international agreement between states creating binding obligations." .
+
+un:Committee a owl:Class ;
+  rdfs:label "Committee" ;
+  rdfs:comment "A UN body that deliberates and votes on resolutions." .
+
+un:RegionalGroup a owl:Class ;
+  rdfs:label "Regional Group" ;
+  rdfs:comment "One of the five UN regional groups that determine seat allocation." .
+
+un:Era a owl:Class ;
+  rdfs:label "Historical Era" ;
+  rdfs:comment "A geopolitical period with distinct characteristics affecting voting patterns." .
+
+# ─── Object Properties (Relationships) ────────────────────────────────
+
+un:votedOn a owl:ObjectProperty ;
+  rdfs:label "voted on" ;
+  rdfs:domain un:Country ;
+  rdfs:range un:Resolution ;
+  rdfs:comment "Indicates a country cast a vote on a specific resolution." .
+
+un:memberOf a owl:ObjectProperty ;
+  rdfs:label "member of" ;
+  rdfs:domain un:Country ;
+  rdfs:range un:Bloc ;
+  rdfs:comment "Indicates country membership in a voting bloc or alliance." .
+
+un:alliedWith a owl:ObjectProperty ;
+  rdfs:label "allied with" ;
+  rdfs:domain un:Country ;
+  rdfs:range un:Country ;
+  rdfs:comment "Indicates a voting alliance relationship based on co-voting patterns." ;
+  owl:symmetricProperty true .
+
+un:opposedBy a owl:ObjectProperty ;
+  rdfs:label "opposed by" ;
+  rdfs:domain un:Country ;
+  rdfs:range un:Country ;
+  rdfs:comment "Indicates a voting rivalry based on systematic disagreement." ;
+  owl:symmetricProperty true .
+
+un:addresses a owl:ObjectProperty ;
+  rdfs:label "addresses" ;
+  rdfs:domain un:Resolution ;
+  rdfs:range un:Topic ;
+  rdfs:comment "Indicates the thematic area a resolution addresses." .
+
+un:signedTreaty a owl:ObjectProperty ;
+  rdfs:label "signed" ;
+  rdfs:domain un:Country ;
+  rdfs:range un:Treaty ;
+  rdfs:comment "Indicates a country is a signatory to a treaty." .
+
+un:submittedTo a owl:ObjectProperty ;
+  rdfs:label "submitted to" ;
+  rdfs:domain un:Resolution ;
+  rdfs:range un:Committee ;
+  rdfs:comment "Indicates which committee a resolution was submitted to." .
+
+un:belongsToRegion a owl:ObjectProperty ;
+  rdfs:label "belongs to region" ;
+  rdfs:domain un:Country ;
+  rdfs:range un:RegionalGroup ;
+  rdfs:comment "The UN regional group a country belongs to." .
+
+un:sponsoredBy a owl:ObjectProperty ;
+  rdfs:label "sponsored by" ;
+  rdfs:domain un:Resolution ;
+  rdfs:range un:Country ;
+  rdfs:comment "Countries that sponsored or co-sponsored a resolution." .
+
+un:influencedBy a owl:ObjectProperty ;
+  rdfs:label "influenced by" ;
+  rdfs:domain un:Country ;
+  rdfs:range un:Country ;
+  rdfs:comment "One country's voting is influenced by another (aid, trade, security dependency)." .
+
+# ─── Data Properties ──────────────────────────────────────────────────
+
+un:iso3Code a owl:DatatypeProperty ;
+  rdfs:label "ISO 3166-1 alpha-3 code" ;
+  rdfs:domain un:Country ;
+  rdfs:range xsd:string .
+
+un:idealPoint a owl:DatatypeProperty ;
+  rdfs:label "Voeten ideal point" ;
+  rdfs:domain un:Country ;
+  rdfs:range xsd:float ;
+  rdfs:comment "Empirical positioning on the global ideological spectrum. Negative = Western-aligned, Positive = Global South-aligned." .
+
+un:democracyIndex a owl:DatatypeProperty ;
+  rdfs:label "V-Dem democracy index" ;
+  rdfs:domain un:Country ;
+  rdfs:range xsd:float ;
+  rdfs:comment "V-Dem polyarchy score [0,1]. Higher = more democratic." .
+
+un:cohesionScore a owl:DatatypeProperty ;
+  rdfs:label "voting cohesion" ;
+  rdfs:domain un:Bloc ;
+  rdfs:range xsd:float ;
+  rdfs:comment "Proportion of votes where bloc members vote the same way [0,1]." .
+
+un:voteSimilarity a owl:DatatypeProperty ;
+  rdfs:label "vote similarity" ;
+  rdfs:domain un:alliedWith ;
+  rdfs:range xsd:float ;
+  rdfs:comment "Cosine similarity of voting vectors between two countries [-1,1]." .
+
+un:voteOutcome a owl:DatatypeProperty ;
+  rdfs:label "vote outcome" ;
+  rdfs:domain un:votedOn ;
+  rdfs:range xsd:string ;
+  rdfs:comment "The vote cast: 'yes', 'no', or 'abstain'." .
+
+un:session a owl:DatatypeProperty ;
+  rdfs:label "UNGA session" ;
+  rdfs:domain un:Resolution ;
+  rdfs:range xsd:integer .
+
+un:year a owl:DatatypeProperty ;
+  rdfs:label "year" ;
+  rdfs:range xsd:integer .
+
+un:population a owl:DatatypeProperty ;
+  rdfs:label "population" ;
+  rdfs:domain un:Country ;
+  rdfs:range xsd:integer .
+
+un:gdpPerCapita a owl:DatatypeProperty ;
+  rdfs:label "GDP per capita (USD)" ;
+  rdfs:domain un:Country ;
+  rdfs:range xsd:float .
+
+# ─── Policy Dimension Properties ──────────────────────────────────────
+
+un:sovereignty a owl:DatatypeProperty ;
+  rdfs:label "sovereignty stance" ;
+  rdfs:domain un:Country ;
+  rdfs:range xsd:float ;
+  rdfs:comment "Position on sovereignty vs multilateralism [-1,1]." .
+
+un:humanRights a owl:DatatypeProperty ;
+  rdfs:label "human rights stance" ;
+  rdfs:domain un:Country ;
+  rdfs:range xsd:float ;
+  rdfs:comment "Position on human rights enforcement [-1,1]." .
+
+un:development a owl:DatatypeProperty ;
+  rdfs:label "development stance" ;
+  rdfs:domain un:Country ;
+  rdfs:range xsd:float ;
+  rdfs:comment "Position on state-led vs market development [-1,1]." .
+
+un:security a owl:DatatypeProperty ;
+  rdfs:label "security stance" ;
+  rdfs:domain un:Country ;
+  rdfs:range xsd:float ;
+  rdfs:comment "Position on disarmament vs military strength [-1,1]." .
+
+un:environment a owl:DatatypeProperty ;
+  rdfs:label "environment stance" ;
+  rdfs:domain un:Country ;
+  rdfs:range xsd:float ;
+  rdfs:comment "Position on climate action priority [-1,1]." .
+
+un:decolonization a owl:DatatypeProperty ;
+  rdfs:label "decolonization stance" ;
+  rdfs:domain un:Country ;
+  rdfs:range xsd:float ;
+  rdfs:comment "Position on self-determination advocacy [-1,1]." .
+
+# ─── Named Individuals (Regional Groups) ──────────────────────────────
+
+un:WEOG a un:RegionalGroup ;
+  rdfs:label "Western European and Others Group" .
+
+un:EEG a un:RegionalGroup ;
+  rdfs:label "Eastern European Group" .
+
+un:AFRICAN a un:RegionalGroup ;
+  rdfs:label "African Group" .
+
+un:APG a un:RegionalGroup ;
+  rdfs:label "Asia-Pacific Group" .
+
+un:GRULAC a un:RegionalGroup ;
+  rdfs:label "Latin American and Caribbean Group" .
+
+# ─── Named Individuals (Topics) ───────────────────────────────────────
+
+un:topic_PalestinianConflict a un:Topic ;
+  rdfs:label "Palestinian Conflict" ;
+  skos:altLabel "Middle East" , "Israel-Palestine" .
+
+un:topic_NuclearWeapons a un:Topic ;
+  rdfs:label "Nuclear Weapons and Nuclear Material" ;
+  skos:altLabel "Nuclear Disarmament" , "Non-Proliferation" .
+
+un:topic_ArmsControl a un:Topic ;
+  rdfs:label "Arms Control and Disarmament" ;
+  skos:altLabel "Conventional Weapons" , "Small Arms" .
+
+un:topic_Colonialism a un:Topic ;
+  rdfs:label "Colonialism and Self-Determination" ;
+  skos:altLabel "Decolonization" , "Self-Determination" .
+
+un:topic_HumanRights a un:Topic ;
+  rdfs:label "Human Rights" ;
+  skos:altLabel "Civil Liberties" , "Rule of Law" .
+
+un:topic_EconomicDevelopment a un:Topic ;
+  rdfs:label "Economic Development" ;
+  skos:altLabel "Trade" , "Poverty" , "SDGs" .
+
+# ─── Named Individuals (Eras) ─────────────────────────────────────────
+
+un:era_ColdWar a un:Era ;
+  rdfs:label "Cold War" ;
+  un:year 1946 ;
+  rdfs:comment "Bipolar superpower competition 1946-1989." .
+
+un:era_PostColdWar a un:Era ;
+  rdfs:label "Post-Cold War Optimism" ;
+  un:year 1990 ;
+  rdfs:comment "Unipolar US moment, human rights expansion 1990-2001." .
+
+un:era_WarOnTerror a un:Era ;
+  rdfs:label "War on Terror" ;
+  un:year 2001 ;
+  rdfs:comment "Security-first paradigm, sovereignty pushback 2001-2015." .
+
+un:era_Multipolar a un:Era ;
+  rdfs:label "Multipolar Transition" ;
+  un:year 2015 ;
+  rdfs:comment "Rise of China/BRICS, erosion of liberal order 2015-2022." .
+
+un:era_NewColdWar a un:Era ;
+  rdfs:label "New Cold War" ;
+  un:year 2022 ;
+  rdfs:comment "Russia-Ukraine, US-China competition, bloc re-formation 2022-present." .

@@ -1,0 +1,182 @@
+@prefix sh: <http://www.w3.org/ns/shacl#> .
+@prefix un: <http://unsim.apurvad.xyz/ontology#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+# ═══════════════════════════════════════════════════════════════════════════
+# SHACL Shapes — Validation constraints for the UN Diplomacy Ontology
+# ═══════════════════════════════════════════════════════════════════════════
+#
+# These shapes define what constitutes valid data in the knowledge graph.
+# Used by the OntologyEngine to validate user modifications before applying them.
+
+# ─── Country Shape ─────────────────────────────────────────────────────
+
+un:CountryShape a sh:NodeShape ;
+  sh:targetClass un:Country ;
+  rdfs:label "Country validation" ;
+  rdfs:comment "Defines valid structure for a Country entity in the KG." ;
+
+  sh:property [
+    sh:path un:iso3Code ;
+    sh:datatype xsd:string ;
+    sh:minCount 1 ;
+    sh:maxCount 1 ;
+    sh:minLength 3 ;
+    sh:maxLength 3 ;
+    sh:pattern "^[A-Z]{3}$" ;
+    sh:name "ISO 3166-1 alpha-3 code" ;
+  ] ;
+
+  sh:property [
+    sh:path un:idealPoint ;
+    sh:datatype xsd:float ;
+    sh:minCount 1 ;
+    sh:maxCount 1 ;
+    sh:minInclusive -3.0 ;
+    sh:maxInclusive 3.0 ;
+    sh:name "Voeten ideal point" ;
+    sh:description "Must be in range [-3, 3]. Negative = Western, Positive = Global South." ;
+  ] ;
+
+  sh:property [
+    sh:path un:democracyIndex ;
+    sh:datatype xsd:float ;
+    sh:minCount 1 ;
+    sh:maxCount 1 ;
+    sh:minInclusive 0.0 ;
+    sh:maxInclusive 1.0 ;
+    sh:name "V-Dem democracy index" ;
+  ] ;
+
+  sh:property [
+    sh:path un:belongsToRegion ;
+    sh:class un:RegionalGroup ;
+    sh:minCount 1 ;
+    sh:maxCount 1 ;
+    sh:name "Regional group membership" ;
+  ] ;
+
+  sh:property [
+    sh:path un:sovereignty ;
+    sh:datatype xsd:float ;
+    sh:minInclusive -1.0 ;
+    sh:maxInclusive 1.0 ;
+  ] ;
+
+  sh:property [
+    sh:path un:humanRights ;
+    sh:datatype xsd:float ;
+    sh:minInclusive -1.0 ;
+    sh:maxInclusive 1.0 ;
+  ] ;
+
+  sh:property [
+    sh:path un:development ;
+    sh:datatype xsd:float ;
+    sh:minInclusive -1.0 ;
+    sh:maxInclusive 1.0 ;
+  ] ;
+
+  sh:property [
+    sh:path un:security ;
+    sh:datatype xsd:float ;
+    sh:minInclusive -1.0 ;
+    sh:maxInclusive 1.0 ;
+  ] ;
+
+  sh:property [
+    sh:path un:environment ;
+    sh:datatype xsd:float ;
+    sh:minInclusive -1.0 ;
+    sh:maxInclusive 1.0 ;
+  ] ;
+
+  sh:property [
+    sh:path un:decolonization ;
+    sh:datatype xsd:float ;
+    sh:minInclusive -1.0 ;
+    sh:maxInclusive 1.0 ;
+  ] ;
+
+  sh:property [
+    sh:path un:alliedWith ;
+    sh:class un:Country ;
+    sh:nodeKind sh:IRI ;
+    sh:name "Alliance relationship" ;
+    sh:description "Can only connect Country to Country" ;
+  ] ;
+
+  sh:property [
+    sh:path un:opposedBy ;
+    sh:class un:Country ;
+    sh:nodeKind sh:IRI ;
+    sh:name "Rivalry relationship" ;
+  ] ;
+
+  sh:property [
+    sh:path un:memberOf ;
+    sh:class un:Bloc ;
+    sh:nodeKind sh:IRI ;
+    sh:name "Bloc membership" ;
+  ] .
+
+# ─── Bloc Shape ────────────────────────────────────────────────────────
+
+un:BlocShape a sh:NodeShape ;
+  sh:targetClass un:Bloc ;
+  rdfs:label "Bloc validation" ;
+
+  sh:property [
+    sh:path un:cohesionScore ;
+    sh:datatype xsd:float ;
+    sh:minCount 1 ;
+    sh:minInclusive 0.0 ;
+    sh:maxInclusive 1.0 ;
+    sh:name "Voting cohesion score" ;
+    sh:description "0 = never agree, 1 = always unanimous" ;
+  ] .
+
+# ─── Resolution Shape ──────────────────────────────────────────────────
+
+un:ResolutionShape a sh:NodeShape ;
+  sh:targetClass un:Resolution ;
+  rdfs:label "Resolution validation" ;
+
+  sh:property [
+    sh:path un:session ;
+    sh:datatype xsd:integer ;
+    sh:minInclusive 1 ;
+    sh:maxInclusive 100 ;
+    sh:name "UNGA session number" ;
+  ] ;
+
+  sh:property [
+    sh:path un:addresses ;
+    sh:class un:Topic ;
+    sh:minCount 1 ;
+    sh:name "Topic addressed" ;
+    sh:description "Every resolution must address at least one topic" ;
+  ] ;
+
+  sh:property [
+    sh:path un:submittedTo ;
+    sh:class un:Committee ;
+    sh:maxCount 1 ;
+    sh:name "Committee" ;
+  ] .
+
+# ─── Alliance Edge Constraint ─────────────────────────────────────────
+# This is a "property pair constraint" — ensures alliedWith and opposedBy
+# don't both exist between the same two countries.
+
+un:NoSelfAllianceShape a sh:NodeShape ;
+  sh:targetClass un:Country ;
+  sh:sparql [
+    sh:message "A country cannot be allied with itself" ;
+    sh:select """
+      SELECT $this WHERE {
+        $this un:alliedWith $this .
+      }
+    """ ;
+  ] .
