@@ -24,11 +24,11 @@ interface QueryResult {
 }
 
 interface CountryDetail {
-  country: { name: string; region: string; idealPoint: number; democracyIndex: number; governmentType: string };
+  country: Record<string, unknown> & { name?: string; region?: string; idealPoint?: number; democracyIndex?: number; governmentType?: string };
   allies: { iso3: string; name: string; strength: number }[];
   rivals: { iso3: string; name: string; intensity: number }[];
-  blocs: { id: string; name: string; cohesion: number }[];
-  positions: { issue: string; issueName: string; stance: number; yesRate: number; noRate: number; abstainRate: number; sampleSize: number }[];
+  blocs: { id?: string; name?: string; cohesion?: number }[];
+  positions: { issue?: string; issueName?: string; stance?: number; yesRate?: number; noRate?: number; abstainRate?: number; sampleSize?: number }[];
 }
 
 // ─── Constants ────────────────────────────────────────────────────────
@@ -134,8 +134,8 @@ export default function ExplorePage() {
   useEffect(() => {
     if (!selectedCountry) { setCountryDetail(null); return; }
     fetch(`/api/kg/query?action=relationships&iso3=${selectedCountry}`)
-      .then((r) => r.json())
-      .then(setCountryDetail)
+      .then((r) => { if (!r.ok) throw new Error("Failed"); return r.json(); })
+      .then((data) => { if (data.error) throw new Error(data.error); setCountryDetail(data); })
       .catch(() => setCountryDetail(null));
   }, [selectedCountry]);
 
@@ -364,8 +364,8 @@ export default function ExplorePage() {
               {/* Country header */}
               <div className="flex items-start justify-between">
                 <div>
-                  <h2 className="text-base font-semibold">{countryDetail.country.name}</h2>
-                  <p className="text-[10px] text-[var(--color-muted)]">{REGION_LABELS[countryDetail.country.region]} · {countryDetail.country.governmentType}</p>
+                  <h2 className="text-base font-semibold">{countryDetail.country.name || selectedCountry}</h2>
+                  <p className="text-[10px] text-[var(--color-muted)]">{REGION_LABELS[countryDetail.country.region as string] || countryDetail.country.region} · {countryDetail.country.governmentType || ""}</p>
                 </div>
                 <button onClick={() => setSelectedCountry(null)} className="text-[var(--color-muted)] hover:text-[var(--color-ink)]">✕</button>
               </div>
@@ -374,11 +374,11 @@ export default function ExplorePage() {
               <div>
                 <div className="flex justify-between text-[9px] text-[var(--color-muted)] mb-1">
                   <span>West-aligned</span>
-                  <span className="font-mono text-[#4b92db]">{countryDetail.country.idealPoint.toFixed(2)}</span>
+                  <span className="font-mono text-[#4b92db]">{(countryDetail.country.idealPoint as number)?.toFixed(2) || "?"}</span>
                   <span>South-aligned</span>
                 </div>
                 <div className="relative h-2 bg-gradient-to-r from-[#4b92db] via-gray-600 to-[#e6a817] rounded-full">
-                  <div className="absolute top-1/2 -translate-y-1/2 w-3 h-3 bg-white rounded-full border-2 border-[#4b92db] shadow-lg shadow-[#4b92db]/30" style={{ left: `${((countryDetail.country.idealPoint + 1) / 2) * 100}%` }} />
+                  <div className="absolute top-1/2 -translate-y-1/2 w-3 h-3 bg-white rounded-full border-2 border-[#4b92db] shadow-lg shadow-[#4b92db]/30" style={{ left: `${(((countryDetail.country.idealPoint as number) || 0) + 1) / 2 * 100}%` }} />
                 </div>
               </div>
 
@@ -436,9 +436,9 @@ export default function ExplorePage() {
                           <span className="text-[var(--color-muted)] font-mono">n={p.sampleSize}</span>
                         </div>
                         <div className="flex h-1.5 rounded-full overflow-hidden bg-[var(--color-bg)]">
-                          <div className="bg-emerald-500" style={{ width: `${p.yesRate * 100}%` }} />
-                          <div className="bg-amber-500" style={{ width: `${p.abstainRate * 100}%` }} />
-                          <div className="bg-red-500" style={{ width: `${p.noRate * 100}%` }} />
+                          <div className="bg-emerald-500" style={{ width: `${(p.yesRate || 0) * 100}%` }} />
+                          <div className="bg-amber-500" style={{ width: `${(p.abstainRate || 0) * 100}%` }} />
+                          <div className="bg-red-500" style={{ width: `${(p.noRate || 0) * 100}%` }} />
                         </div>
                       </div>
                     ))}

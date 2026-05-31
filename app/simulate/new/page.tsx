@@ -200,8 +200,8 @@ function SimulationView() {
   useEffect(() => {
     if (!selectedCountry) { setCountryRelationships(null); return; }
     fetch(`/api/kg/query?action=relationships&iso3=${selectedCountry}`)
-      .then((r) => r.json())
-      .then(setCountryRelationships)
+      .then((r) => { if (!r.ok) throw new Error("Failed"); return r.json(); })
+      .then((data) => { if (data.error) throw new Error(data.error); setCountryRelationships(data); })
       .catch(() => setCountryRelationships(null));
   }, [selectedCountry]);
 
