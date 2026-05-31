@@ -1,8 +1,10 @@
 import { NextRequest, NextResponse } from "next/server";
+import { isNeo4jConfigured, runQuery } from "@/lib/neo4j";
 import { readFileSync } from "fs";
 import path from "path";
 
-let cachedData: Record<string, unknown> | null = null;
+let neo4jCache: Record<string, unknown> | null = null;
+let jsonCache: Record<string, unknown> | null = null;
 
 export async function GET(request: NextRequest) {
   const { searchParams } = new URL(request.url);
@@ -10,93 +12,124 @@ export async function GET(request: NextRequest) {
   const includeBlocs = searchParams.get("blocs") === "true";
   const minSimilarity = parseFloat(searchParams.get("minSimilarity") || "0");
 
-  // Use cache for default requests only
-  if (!includeRivalries && !includeBlocs && !minSimilarity && cachedData) {
-    return NextResponse.json(cachedData);
-  }
-
   try {
-    const filePath = path.join(process.cwd(), "data", "graph-viz.json");
-    const raw = JSON.parse(readFileSync(filePath, "utf-8"));
+    // ─── Neo4j path (primary) ───────────────────────────────────────
+    if (isNeo4jConfigured()) {
+      // Cache the full dataset, filter client-side for params
+      if (!neo4jCache) {
+        const countryNodes = await runQuery<{
+          iso3: string; name: string; region: string; idealPoint: number;
+          population: number; scStatus: string; govEffectiveness: number | null;
+        }>(`
+          MATCH (c:Country)
+          RETURN c.iso3 AS iso3, c.name AS name, c.region AS region,
+                 c.idealPoint AS idealPoint, c.population AS population,
+                 c.scStatus AS scStatus, c.govEffectiveness AS govEffectiveness
+          ORDER BY c.name
+        `);
 
-    const nodes: unknown[] = [];
-    const edges: unknown[] = [];
+        const allianceEdges = await runQuery<{
+          source: string; target: string; similarity: number;
+        }>(`
+          MATCH (c1:Country)-[a:ALLIES_WITH]->(c2:Country)
+          RETURN c1.iso3 AS source, c2.iso3 AS target, a.similarity AS similarity
+        `);
 
-    for (const n of raw.graph.nodes) {
-      const attrs = n.attributes as Record<string, unknown>;
+        const rivalryEdges = await runQuery<{
+          source: string; target: string; intensity: number;
+        }>(`
+          MATCH (c1:Country)-[r:RIVALS_WITH]->(c2:Country)
+          RETURN c1.iso3 AS source, c2.iso3 AS target, r.intensity AS intensity
+        `);
 
-      if (attrs.type === "country") {
-        nodes.push({
-          id: attrs.iso3,
-          label: attrs.name,
-          region: attrs.region,
-          idealPoint: attrs.idealPoint,
-          population: attrs.population,
-          size: Math.log10(((attrs.population as number) || 1000000) + 1) * 1.5,
-          nodeType: "country",
-          scStatus: ["USA", "GBR", "FRA", "RUS", "CHN"].includes(attrs.iso3 as string) ? "P5" : undefined,
-        });
-      } else if (attrs.type === "bloc" && includeBlocs) {
-        nodes.push({
-          id: `bloc:${attrs.shortName}`,
-          label: attrs.name,
-          region: "BLOC",
-          idealPoint: 0,
-          size: ((attrs.memberCount as number) || 10) * 0.4,
-          nodeType: "bloc",
-          cohesionScore: attrs.cohesionScore,
-        });
-      } else if (attrs.type === "topic" && includeBlocs) {
-        nodes.push({
-          id: `topic:${attrs.name}`,
-          label: attrs.name,
-          region: "TOPIC",
-          idealPoint: 0,
-          size: 8,
-          nodeType: "topic",
-        });
+        neo4jCache = {
+          nodes: countryNodes.map((n) => ({
+            id: n.iso3,
+            label: n.name,
+            region: n.region,
+            idealPoint: n.idealPoint,
+            population: n.population,
+            size: Math.max(2, Math.log10((n.population || 1000000) + 1) * 1.5),
+            nodeType: "country",
+            scStatus: n.scStatus === "P5" ? "P5" : undefined,
+            govEffectiveness: n.govEffectiveness,
+          })),
+          alliances: allianceEdges.map((e) => ({
+            source: e.source,
+            target: e.target,
+            weight: e.similarity,
+            type: "ALLIES_WITH",
+          })),
+          rivalries: rivalryEdges.map((e) => ({
+            source: e.source,
+            target: e.target,
+            weight: e.intensity,
+            type: "RIVALS_WITH",
+          })),
+        };
       }
+
+      const cache = neo4jCache as { nodes: unknown[]; alliances: { weight: number }[]; rivalries: unknown[] };
+      let edges: unknown[] = [];
+
+      if (includeRivalries) {
+        edges = [
+          ...cache.alliances.filter((e) => !minSimilarity || e.weight >= minSimilarity),
+          ...(cache.rivalries as unknown[]),
+        ];
+      } else {
+        edges = cache.alliances.filter((e) => !minSimilarity || e.weight >= minSimilarity);
+      }
+
+      return NextResponse.json({ nodes: cache.nodes, edges, source: "neo4j" });
     }
 
-    for (const e of raw.graph.edges) {
-      const ea = e.attributes as { edgeType: string; similarity?: number };
+    // ─── JSON fallback (for local dev without Neo4j) ────────────────
+    if (!jsonCache) {
+      const filePath = path.join(process.cwd(), "data", "graph-viz.json");
+      const raw = JSON.parse(readFileSync(filePath, "utf-8"));
 
-      if (ea.edgeType === "ALLIES_WITH") {
-        const sim = ea.similarity || 0.5;
-        if (minSimilarity && sim < minSimilarity) continue;
-        edges.push({
+      const nodes = raw.graph.nodes
+        .filter((n: { attributes: { type: string } }) => n.attributes.type === "country")
+        .map((n: { attributes: Record<string, unknown> }) => {
+          const a = n.attributes;
+          return {
+            id: a.iso3, label: a.name, region: a.region,
+            idealPoint: a.idealPoint, population: a.population,
+            size: Math.max(2, Math.log10(((a.population as number) || 1000000) + 1) * 1.5),
+            nodeType: "country",
+            scStatus: ["USA", "GBR", "FRA", "RUS", "CHN"].includes(a.iso3 as string) ? "P5" : undefined,
+          };
+        });
+
+      const alliances = raw.graph.edges
+        .filter((e: { attributes: { edgeType: string } }) => e.attributes.edgeType === "ALLIES_WITH")
+        .map((e: { source: string; target: string; attributes: { similarity?: number } }) => ({
           source: e.source.replace("country:", ""),
           target: e.target.replace("country:", ""),
-          weight: sim,
+          weight: e.attributes.similarity || 0.5,
           type: "ALLIES_WITH",
-        });
-      } else if (ea.edgeType === "RIVALS_WITH" && includeRivalries) {
-        edges.push({
+        }));
+
+      const rivalries = raw.graph.edges
+        .filter((e: { attributes: { edgeType: string } }) => e.attributes.edgeType === "RIVALS_WITH")
+        .map((e: { source: string; target: string; attributes: { similarity?: number } }) => ({
           source: e.source.replace("country:", ""),
           target: e.target.replace("country:", ""),
-          weight: Math.abs(ea.similarity || 0.5),
+          weight: Math.abs(e.attributes.similarity || 0.5),
           type: "RIVALS_WITH",
-        });
-      } else if (ea.edgeType === "MEMBER_OF" && includeBlocs) {
-        edges.push({
-          source: e.source.replace("country:", ""),
-          target: e.target.replace("bloc:", "bloc:"),
-          weight: 0.5,
-          type: "MEMBER_OF",
-        });
-      }
+        }));
+
+      jsonCache = { nodes, alliances, rivalries };
     }
 
-    const result = { nodes, edges };
+    const cache = jsonCache as { nodes: unknown[]; alliances: { weight: number }[]; rivalries: unknown[] };
+    let edges: unknown[] = cache.alliances.filter((e) => !minSimilarity || e.weight >= minSimilarity);
+    if (includeRivalries) edges = [...edges, ...(cache.rivalries as unknown[])];
 
-    // Cache only default requests
-    if (!includeRivalries && !includeBlocs && !minSimilarity) {
-      cachedData = result;
-    }
-
-    return NextResponse.json(result);
+    return NextResponse.json({ nodes: cache.nodes, edges, source: "json-fallback" });
   } catch (e) {
-    console.error("Failed to load graph-viz.json:", e);
+    console.error("Alliance network API error:", e);
     return NextResponse.json({ error: "Failed to load graph data" }, { status: 500 });
   }
 }

@@ -80,7 +80,7 @@ export function adjustProfileForYear(
 
   // Apply era-level global shifts
   const eraShifts = era?.globalShifts || {};
-  const scaleFactor = Math.min(1, Math.abs(yearDiff) / 20);
+  const scaleFactor = Math.min(1.5, Math.abs(yearDiff) / 12);
 
   const adjustedDimensions: PolicyDimensions = {
     sovereignty: clamp(profile.policyDimensions.sovereignty + (eraShifts.sovereignty || 0) * scaleFactor),
