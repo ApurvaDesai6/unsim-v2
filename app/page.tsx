@@ -326,13 +326,26 @@ export default function LandingPage() {
             Visualize the network of alliances, rivalries, and voting patterns between all 193 UN member states.
             Built from 870,000+ real recorded votes spanning 75 years of General Assembly history.
           </p>
-          <div className="flex gap-4">
+          <div className="flex flex-wrap gap-3">
             <a
               href="/explore"
               className="inline-flex items-center gap-2 px-5 py-2.5 rounded-xl bg-[var(--color-ink)] text-white text-sm font-medium hover:bg-[var(--color-ink)]/90 transition-colors"
             >
-              Open Graph Explorer
+              Graph Explorer
               <span className="text-base">→</span>
+            </a>
+            <a
+              href="/mun-prep"
+              className="inline-flex items-center gap-2 px-5 py-2.5 rounded-xl bg-[var(--color-un-blue)] text-white text-sm font-medium hover:bg-[var(--color-un-blue-dark)] transition-colors"
+            >
+              MUN Prep Tool
+              <span className="text-base">→</span>
+            </a>
+            <a
+              href="/sandbox"
+              className="inline-flex items-center gap-2 px-5 py-2.5 rounded-xl border border-[var(--color-border)] text-sm font-medium text-[var(--color-muted)] hover:border-[var(--color-un-blue)] hover:text-[var(--color-un-blue)] transition-colors"
+            >
+              What-If Sandbox
             </a>
             <a
               href="/methodology"
