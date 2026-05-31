@@ -25,8 +25,8 @@
       "byTopic": {}
     },
     "treaties": [],
-    "gdpPerCapita": 69256.21790910518,
-    "population": 699597419.5805255,
+    "gdpPerCapita": 380,
+    "population": 42000000,
     "governmentType": "Closed Autocracy",
     "democracyIndex": 0.08
   },
@@ -53,8 +53,8 @@
       "byTopic": {}
     },
     "treaties": [],
-    "gdpPerCapita": 45006.83789607297,
-    "population": 362603515.2765348,
+    "gdpPerCapita": 7800,
+    "population": 2800000,
     "governmentType": "Electoral Autocracy",
     "democracyIndex": 0.5
   },
@@ -84,8 +84,8 @@
       "byTopic": {}
     },
     "treaties": [],
-    "gdpPerCapita": 55473.44533504766,
-    "population": 533111317.57168597,
+    "gdpPerCapita": 4700,
+    "population": 45600000,
     "governmentType": "Closed Autocracy",
     "democracyIndex": 0.22
   },
@@ -112,8 +112,8 @@
       "byTopic": {}
     },
     "treaties": [],
-    "gdpPerCapita": 48497.637767227745,
-    "population": 1126551683.7340086,
+    "gdpPerCapita": 42000,
+    "population": 80000,
     "governmentType": "Electoral Autocracy",
     "democracyIndex": 0.5342627381520026
   },
@@ -143,8 +143,8 @@
       "byTopic": {}
     },
     "treaties": [],
-    "gdpPerCapita": 47585.83563905811,
-    "population": 471403515.1144847,
+    "gdpPerCapita": 2400,
+    "population": 36700000,
     "governmentType": "Closed Autocracy",
     "democracyIndex": 0.15
   },
@@ -173,8 +173,8 @@
       "byTopic": {}
     },
     "treaties": [],
-    "gdpPerCapita": 10389.970472406125,
-    "population": 340991659.2542412,
+    "gdpPerCapita": 19000,
+    "population": 100000,
     "governmentType": "Electoral Autocracy",
     "democracyIndex": 0.4257309787268124
   },
@@ -203,8 +203,8 @@
       "byTopic": {}
     },
     "treaties": [],
-    "gdpPerCapita": 33131.25268745498,
-    "population": 214469997.53341544,
+    "gdpPerCapita": 13700,
+    "population": 46300000,
     "governmentType": "Electoral Democracy",
     "democracyIndex": 0.7
   },
@@ -231,8 +231,8 @@
       "byTopic": {}
     },
     "treaties": [],
-    "gdpPerCapita": 79298.4966408225,
-    "population": 1119632767.4864752,
+    "gdpPerCapita": 8000,
+    "population": 3000000,
     "governmentType": "Electoral Autocracy",
     "democracyIndex": 0.45
   },
@@ -259,8 +259,8 @@
       "byTopic": {}
     },
     "treaties": [],
-    "gdpPerCapita": 33309.026371759595,
-    "population": 17451466.895221144,
+    "gdpPerCapita": 65000,
+    "population": 26500000,
     "governmentType": "Liberal Democracy",
     "democracyIndex": 0.88
   },
@@ -289,8 +289,8 @@
       "byTopic": {}
     },
     "treaties": [],
-    "gdpPerCapita": 34465.72506089362,
-    "population": 1310440411.436183,
+    "gdpPerCapita": 56000,
+    "population": 9100000,
     "governmentType": "Liberal Democracy",
     "democracyIndex": 0.87
   },
@@ -317,8 +317,8 @@
       "byTopic": {}
     },
     "treaties": [],
-    "gdpPerCapita": 79393.55837516337,
-    "population": 990715813.0210512,
+    "gdpPerCapita": 6800,
+    "population": 10100000,
     "governmentType": "Closed Autocracy",
     "democracyIndex": 0.12
   },
@@ -348,8 +348,8 @@
       "byTopic": {}
     },
     "treaties": [],
-    "gdpPerCapita": 25258.760144994307,
-    "population": 903161701.5292662,
+    "gdpPerCapita": 35000,
+    "population": 410000,
     "governmentType": "Electoral Democracy",
     "democracyIndex": 0.6264371692963031
   },
@@ -379,8 +379,8 @@
       "byTopic": {}
     },
     "treaties": [],
-    "gdpPerCapita": 43953.93631862335,
-    "population": 1395142080.9048908,
+    "gdpPerCapita": 30000,
+    "population": 1500000,
     "governmentType": "Closed Autocracy",
     "democracyIndex": 0.12
   },
@@ -410,8 +410,8 @@
       "byTopic": {}
     },
     "treaties": [],
-    "gdpPerCapita": 36845.61922490728,
-    "population": 493757979.81827235,
+    "gdpPerCapita": 2700,
+    "population": 173000000,
     "governmentType": "Closed Autocracy",
     "democracyIndex": 0.32
   },
@@ -441,8 +441,8 @@
       "byTopic": {}
     },
     "treaties": [],
-    "gdpPerCapita": 35408.89089238106,
-    "population": 1364783005.5396848,
+    "gdpPerCapita": 18000,
+    "population": 280000,
     "governmentType": "Electoral Autocracy",
     "democracyIndex": 0.530117381231421
   },
@@ -471,8 +471,8 @@
       "byTopic": {}
     },
     "treaties": [],
-    "gdpPerCapita": 48164.68862424714,
-    "population": 388540095.1731229,
+    "gdpPerCapita": 7900,
+    "population": 9200000,
     "governmentType": "Closed Autocracy",
     "democracyIndex": 0.1
   },
@@ -501,8 +501,8 @@
       "byTopic": {}
     },
     "treaties": [],
-    "gdpPerCapita": 35103.236336750735,
-    "population": 495923893.44719094,
+    "gdpPerCapita": 51000,
+    "population": 11700000,
     "governmentType": "Liberal Democracy",
     "democracyIndex": 0.86
   },
@@ -532,8 +532,8 @@
       "byTopic": {}
     },
     "treaties": [],
-    "gdpPerCapita": 42314.48728063015,
-    "population": 976728801.3225138,
+    "gdpPerCapita": 6500,
+    "population": 410000,
     "governmentType": "Electoral Democracy",
     "democracyIndex": 0.5922266201796538
   },
@@ -563,8 +563,8 @@
       "byTopic": {}
     },
     "treaties": [],
-    "gdpPerCapita": 46724.64543528031,
-    "population": 1300490349.5463636,
+    "gdpPerCapita": 1400,
+    "population": 13700000,
     "governmentType": "Closed Autocracy",
     "democracyIndex": 0.30339657291849065
   },
@@ -594,8 +594,8 @@
       "byTopic": {}
     },
     "treaties": [],
-    "gdpPerCapita": 8311.65677479274,
-    "population": 951624156.3289366,
+    "gdpPerCapita": 3900,
+    "population": 780000,
     "governmentType": "Electoral Autocracy",
     "democracyIndex": 0.35794852405273087
   },
@@ -625,8 +625,8 @@
       "byTopic": {}
     },
     "treaties": [],
-    "gdpPerCapita": 48649.774189956894,
-    "population": 336933908.44894665,
+    "gdpPerCapita": 3600,
+    "population": 12400000,
     "governmentType": "Electoral Autocracy",
     "democracyIndex": 0.52
   },
@@ -653,8 +653,8 @@
       "byTopic": {}
     },
     "treaties": [],
-    "gdpPerCapita": 32966.750778250105,
-    "population": 607513776.5082214,
+    "gdpPerCapita": 7900,
+    "population": 3200000,
     "governmentType": "Electoral Autocracy",
     "democracyIndex": 0.45
   },
@@ -684,8 +684,8 @@
       "byTopic": {}
     },
     "treaties": [],
-    "gdpPerCapita": 77861.68858708387,
-    "population": 1068443649.6424474,
+    "gdpPerCapita": 7700,
+    "population": 2600000,
     "governmentType": "Electoral Democracy",
     "democracyIndex": 0.68
   },
@@ -714,8 +714,8 @@
       "byTopic": {}
     },
     "treaties": [],
-    "gdpPerCapita": 35941.074856310406,
-    "population": 1251249187.3037066,
+    "gdpPerCapita": 10200,
+    "population": 216000000,
     "governmentType": "Electoral Democracy",
     "democracyIndex": 0.65
   },
@@ -745,8 +745,8 @@
       "byTopic": {}
     },
     "treaties": [],
-    "gdpPerCapita": 20070.689887523346,
-    "population": 1031903843.06867,
+    "gdpPerCapita": 38000,
+    "population": 450000,
     "governmentType": "Closed Autocracy",
     "democracyIndex": 0.31635913122826237
   },
@@ -775,8 +775,8 @@
       "byTopic": {}
     },
     "treaties": [],
-    "gdpPerCapita": 53886.283242350044,
-    "population": 1390931001.0624306,
+    "gdpPerCapita": 14000,
+    "population": 6500000,
     "governmentType": "Electoral Democracy",
     "democracyIndex": 0.58
   },
@@ -806,8 +806,8 @@
       "byTopic": {}
     },
     "treaties": [],
-    "gdpPerCapita": 28659.20466456078,
-    "population": 289132438.2866459,
+    "gdpPerCapita": 800,
+    "population": 23300000,
     "governmentType": "Closed Autocracy",
     "democracyIndex": 0.15
   },
@@ -837,8 +837,8 @@
       "byTopic": {}
     },
     "treaties": [],
-    "gdpPerCapita": 11165.63443703708,
-    "population": 202049127.0736789,
+    "gdpPerCapita": 240,
+    "population": 13200000,
     "governmentType": "Closed Autocracy",
     "democracyIndex": 0.12
   },
@@ -867,8 +867,8 @@
       "byTopic": {}
     },
     "treaties": [],
-    "gdpPerCapita": 32389.77465019323,
-    "population": 761700497.0383016,
+    "gdpPerCapita": 4000,
+    "population": 600000,
     "governmentType": "Electoral Autocracy",
     "democracyIndex": 0.4506883406431154
   },
@@ -898,8 +898,8 @@
       "byTopic": {}
     },
     "treaties": [],
-    "gdpPerCapita": 62790.012619874906,
-    "population": 1393357794.535837,
+    "gdpPerCapita": 1800,
+    "population": 17200000,
     "governmentType": "Closed Autocracy",
     "democracyIndex": 0.18
   },
@@ -929,8 +929,8 @@
       "byTopic": {}
     },
     "treaties": [],
-    "gdpPerCapita": 28515.688358693315,
-    "population": 175750490.72981358,
+    "gdpPerCapita": 1700,
+    "population": 28600000,
     "governmentType": "Closed Autocracy",
     "democracyIndex": 0.18
   },
@@ -957,8 +957,8 @@
       "byTopic": {}
     },
     "treaties": [],
-    "gdpPerCapita": 68923.01451506163,
-    "population": 955458948.8357792,
+    "gdpPerCapita": 55000,
+    "population": 40100000,
     "governmentType": "Liberal Democracy",
     "democracyIndex": 0.89
   },
@@ -988,8 +988,8 @@
       "byTopic": {}
     },
     "treaties": [],
-    "gdpPerCapita": 57634.86627317846,
-    "population": 168869896.31075874,
+    "gdpPerCapita": 480,
+    "population": 5500000,
     "governmentType": "Closed Autocracy",
     "democracyIndex": 0.12
   },
@@ -1019,8 +1019,8 @@
       "byTopic": {}
     },
     "treaties": [],
-    "gdpPerCapita": 75114.02365055728,
-    "population": 421339025.6711489,
+    "gdpPerCapita": 700,
+    "population": 18300000,
     "governmentType": "Closed Autocracy",
     "democracyIndex": 0.08
   },
@@ -1050,8 +1050,8 @@
       "byTopic": {}
     },
     "treaties": [],
-    "gdpPerCapita": 42877.03860036028,
-    "population": 639595777.3561463,
+    "gdpPerCapita": 17000,
+    "population": 19600000,
     "governmentType": "Liberal Democracy",
     "democracyIndex": 0.78
   },
@@ -1080,8 +1080,8 @@
       "byTopic": {}
     },
     "treaties": [],
-    "gdpPerCapita": 28098.727269819643,
-    "population": 838015313.4937317,
+    "gdpPerCapita": 12700,
+    "population": 1410000000,
     "governmentType": "Closed Autocracy",
     "democracyIndex": 0.1
   },
@@ -1111,8 +1111,8 @@
       "byTopic": {}
     },
     "treaties": [],
-    "gdpPerCapita": 27357.287137386687,
-    "population": 1089382677.8172824,
+    "gdpPerCapita": 6600,
+    "population": 52000000,
     "governmentType": "Electoral Democracy",
     "democracyIndex": 0.62
   },
@@ -1142,8 +1142,8 @@
       "byTopic": {}
     },
     "treaties": [],
-    "gdpPerCapita": 71898.5224717526,
-    "population": 1084616961.6676323,
+    "gdpPerCapita": 1600,
+    "population": 850000,
     "governmentType": "Electoral Autocracy",
     "democracyIndex": 0.4730333716080136
   },
@@ -1173,8 +1173,8 @@
       "byTopic": {}
     },
     "treaties": [],
-    "gdpPerCapita": 73293.18555265041,
-    "population": 1286990302.6269143,
+    "gdpPerCapita": 2400,
+    "population": 6100000,
     "governmentType": "Closed Autocracy",
     "democracyIndex": 0.12
   },
@@ -1204,8 +1204,8 @@
       "byTopic": {}
     },
     "treaties": [],
-    "gdpPerCapita": 63254.229370098146,
-    "population": 1050112539.4866948,
+    "gdpPerCapita": 650,
+    "population": 102000000,
     "governmentType": "Closed Autocracy",
     "democracyIndex": 0.18
   },
@@ -1235,8 +1235,8 @@
       "byTopic": {}
     },
     "treaties": [],
-    "gdpPerCapita": 28969.363729462344,
-    "population": 770686677.1763741,
+    "gdpPerCapita": 13000,
+    "population": 5200000,
     "governmentType": "Liberal Democracy",
     "democracyIndex": 0.8
   },
@@ -1266,8 +1266,8 @@
       "byTopic": {}
     },
     "treaties": [],
-    "gdpPerCapita": 80568.49817176547,
-    "population": 232344278.83222097,
+    "gdpPerCapita": 2600,
+    "population": 28900000,
     "governmentType": "Electoral Autocracy",
     "democracyIndex": 0.38
   },
@@ -1296,8 +1296,8 @@
       "byTopic": {}
     },
     "treaties": [],
-    "gdpPerCapita": 74029.01532338676,
-    "population": 10345173.155678244,
+    "gdpPerCapita": 20000,
+    "population": 3800000,
     "governmentType": "Electoral Democracy",
     "democracyIndex": 0.72
   },
@@ -1327,8 +1327,8 @@
       "byTopic": {}
     },
     "treaties": [],
-    "gdpPerCapita": 19159.16942855324,
-    "population": 181550598.64425582,
+    "gdpPerCapita": 9500,
+    "population": 11200000,
     "governmentType": "Closed Autocracy",
     "democracyIndex": 0.15
   },
@@ -1357,8 +1357,8 @@
       "byTopic": {}
     },
     "treaties": [],
-    "gdpPerCapita": 70585.4163331877,
-    "population": 769708209.2367249,
+    "gdpPerCapita": 32000,
+    "population": 1300000,
     "governmentType": "Electoral Democracy",
     "democracyIndex": 0.5898237574589028
   },
@@ -1387,8 +1387,8 @@
       "byTopic": {}
     },
     "treaties": [],
-    "gdpPerCapita": 63327.42720803419,
-    "population": 1043657876.5531089,
+    "gdpPerCapita": 27000,
+    "population": 10900000,
     "governmentType": "Liberal Democracy",
     "democracyIndex": 0.79
   },
@@ -1415,8 +1415,8 @@
       "byTopic": {}
     },
     "treaties": [],
-    "gdpPerCapita": 67661.13601686925,
-    "population": 460091442.66714376,
+    "gdpPerCapita": 1800,
+    "population": 26200000,
     "governmentType": "Closed Autocracy",
     "democracyIndex": 0.05
   },
@@ -1445,8 +1445,8 @@
       "byTopic": {}
     },
     "treaties": [],
-    "gdpPerCapita": 13463.232654254705,
-    "population": 371302542.30835766,
+    "gdpPerCapita": 68000,
+    "population": 5900000,
     "governmentType": "Liberal Democracy",
     "democracyIndex": 0.93
   },
@@ -1476,8 +1476,8 @@
       "byTopic": {}
     },
     "treaties": [],
-    "gdpPerCapita": 60035.76107207587,
-    "population": 683618470.7582854,
+    "gdpPerCapita": 3400,
+    "population": 1100000,
     "governmentType": "Closed Autocracy",
     "democracyIndex": 0.15
   },
@@ -1506,8 +1506,8 @@
       "byTopic": {}
     },
     "treaties": [],
-    "gdpPerCapita": 75011.66789094257,
-    "population": 881226198.5721943,
+    "gdpPerCapita": 8500,
+    "population": 73000,
     "governmentType": "Electoral Autocracy",
     "democracyIndex": 0.511148336765158
   },
@@ -1537,8 +1537,8 @@
       "byTopic": {}
     },
     "treaties": [],
-    "gdpPerCapita": 27402.629154362396,
-    "population": 265496483.6850405,
+    "gdpPerCapita": 10800,
+    "population": 11200000,
     "governmentType": "Electoral Democracy",
     "democracyIndex": 0.55
   },
@@ -1568,8 +1568,8 @@
       "byTopic": {}
     },
     "treaties": [],
-    "gdpPerCapita": 78542.28509905335,
-    "population": 891848038.7089304,
+    "gdpPerCapita": 6500,
+    "population": 18200000,
     "governmentType": "Electoral Democracy",
     "democracyIndex": 0.55
   },
@@ -1599,8 +1599,8 @@
       "byTopic": {}
     },
     "treaties": [],
-    "gdpPerCapita": 37483.427276016075,
-    "population": 1324063412.2138875,
+    "gdpPerCapita": 3900,
+    "population": 109000000,
     "governmentType": "Closed Autocracy",
     "democracyIndex": 0.18
   },
@@ -1629,8 +1629,8 @@
       "byTopic": {}
     },
     "treaties": [],
-    "gdpPerCapita": 23498.87904676117,
-    "population": 796685498.3850931,
+    "gdpPerCapita": 5100,
+    "population": 6400000,
     "governmentType": "Electoral Autocracy",
     "democracyIndex": 0.5
   },
@@ -1660,8 +1660,8 @@
       "byTopic": {}
     },
     "treaties": [],
-    "gdpPerCapita": 68010.20642812601,
-    "population": 397549275.57946634,
+    "gdpPerCapita": 7000,
+    "population": 1700000,
     "governmentType": "Closed Autocracy",
     "democracyIndex": 0.05
   },
@@ -1691,8 +1691,8 @@
       "byTopic": {}
     },
     "treaties": [],
-    "gdpPerCapita": 79719.55402165641,
-    "population": 779024481.5740209,
+    "gdpPerCapita": 700,
+    "population": 3700000,
     "governmentType": "Closed Autocracy",
     "democracyIndex": 0.05
   },
@@ -1721,8 +1721,8 @@
       "byTopic": {}
     },
     "treaties": [],
-    "gdpPerCapita": 36694.60599582982,
-    "population": 401094226.4380502,
+    "gdpPerCapita": 28000,
+    "population": 1400000,
     "governmentType": "Liberal Democracy",
     "democracyIndex": 0.79
   },
@@ -1752,8 +1752,8 @@
       "byTopic": {}
     },
     "treaties": [],
-    "gdpPerCapita": 4391.1168210653395,
-    "population": 1008237379.3174018,
+    "gdpPerCapita": 4200,
+    "population": 1200000,
     "governmentType": "Electoral Autocracy",
     "democracyIndex": 0.4346718662731982
   },
@@ -1783,8 +1783,8 @@
       "byTopic": {}
     },
     "treaties": [],
-    "gdpPerCapita": 12502.278934117005,
-    "population": 170216346.0513033,
+    "gdpPerCapita": 1100,
+    "population": 126000000,
     "governmentType": "Closed Autocracy",
     "democracyIndex": 0.2
   },
@@ -1814,8 +1814,8 @@
       "byTopic": {}
     },
     "treaties": [],
-    "gdpPerCapita": 78882.5991968351,
-    "population": 565008908.1678909,
+    "gdpPerCapita": 5500,
+    "population": 930000,
     "governmentType": "Electoral Democracy",
     "democracyIndex": 0.6621686455705595
   },
@@ -1844,8 +1844,8 @@
       "byTopic": {}
     },
     "treaties": [],
-    "gdpPerCapita": 32874.633606494084,
-    "population": 1109146350.5928164,
+    "gdpPerCapita": 54000,
+    "population": 5600000,
     "governmentType": "Liberal Democracy",
     "democracyIndex": 0.92
   },
@@ -1874,8 +1874,8 @@
       "byTopic": {}
     },
     "treaties": [],
-    "gdpPerCapita": 26664.94802610598,
-    "population": 813601294.247981,
+    "gdpPerCapita": 44000,
+    "population": 68200000,
     "governmentType": "Liberal Democracy",
     "democracyIndex": 0.83
   },
@@ -1905,8 +1905,8 @@
       "byTopic": {}
     },
     "treaties": [],
-    "gdpPerCapita": 24973.29571283732,
-    "population": 156194755.55628183,
+    "gdpPerCapita": 9400,
+    "population": 2400000,
     "governmentType": "Closed Autocracy",
     "democracyIndex": 0.15
   },
@@ -1936,8 +1936,8 @@
       "byTopic": {}
     },
     "treaties": [],
-    "gdpPerCapita": 80781.12952778608,
-    "population": 410980740.2304678,
+    "gdpPerCapita": 800,
+    "population": 2700000,
     "governmentType": "Electoral Democracy",
     "democracyIndex": 0.6941934194402288
   },
@@ -1964,8 +1964,8 @@
       "byTopic": {}
     },
     "treaties": [],
-    "gdpPerCapita": 52249.40105975824,
-    "population": 142929976.59828514,
+    "gdpPerCapita": 7700,
+    "population": 3700000,
     "governmentType": "Electoral Autocracy",
     "democracyIndex": 0.52
   },
@@ -1994,8 +1994,8 @@
       "byTopic": {}
     },
     "treaties": [],
-    "gdpPerCapita": 25644.796854035183,
-    "population": 1038838618.0632721,
+    "gdpPerCapita": 52000,
+    "population": 84400000,
     "governmentType": "Liberal Democracy",
     "democracyIndex": 0.88
   },
@@ -2025,8 +2025,8 @@
       "byTopic": {}
     },
     "treaties": [],
-    "gdpPerCapita": 40982.55663550984,
-    "population": 1119239129.1456273,
+    "gdpPerCapita": 2300,
+    "population": 34100000,
     "governmentType": "Electoral Democracy",
     "democracyIndex": 0.65
   },
@@ -2055,8 +2055,8 @@
       "byTopic": {}
     },
     "treaties": [],
-    "gdpPerCapita": 48806.78973714979,
-    "population": 272247440.3765512,
+    "gdpPerCapita": 22000,
+    "population": 10400000,
     "governmentType": "Electoral Democracy",
     "democracyIndex": 0.74
   },
@@ -2086,8 +2086,8 @@
       "byTopic": {}
     },
     "treaties": [],
-    "gdpPerCapita": 34993.29013051309,
-    "population": 1052268229.2892175,
+    "gdpPerCapita": 11000,
+    "population": 126000,
     "governmentType": "Electoral Autocracy",
     "democracyIndex": 0.4642378429333302
   },
@@ -2117,8 +2117,8 @@
       "byTopic": {}
     },
     "treaties": [],
-    "gdpPerCapita": 22789.484308517887,
-    "population": 704348507.4930588,
+    "gdpPerCapita": 5600,
+    "population": 18100000,
     "governmentType": "Electoral Autocracy",
     "democracyIndex": 0.42
   },
@@ -2148,8 +2148,8 @@
       "byTopic": {}
     },
     "treaties": [],
-    "gdpPerCapita": 73817.05317851553,
-    "population": 1125285754.653168,
+    "gdpPerCapita": 1100,
+    "population": 14100000,
     "governmentType": "Electoral Autocracy",
     "democracyIndex": 0.47240202663755093
   },
@@ -2179,8 +2179,8 @@
       "byTopic": {}
     },
     "treaties": [],
-    "gdpPerCapita": 57439.2683227638,
-    "population": 559498978.6213844,
+    "gdpPerCapita": 800,
+    "population": 2100000,
     "governmentType": "Electoral Autocracy",
     "democracyIndex": 0.40702089669812025
   },
@@ -2210,8 +2210,8 @@
       "byTopic": {}
     },
     "treaties": [],
-    "gdpPerCapita": 10823.59165554484,
-    "population": 573736337.9771091,
+    "gdpPerCapita": 18000,
+    "population": 810000,
     "governmentType": "Electoral Democracy",
     "democracyIndex": 0.55
   },
@@ -2241,8 +2241,8 @@
       "byTopic": {}
     },
     "treaties": [],
-    "gdpPerCapita": 68186.43564432544,
-    "population": 11429731.26288963,
+    "gdpPerCapita": 1700,
+    "population": 11700000,
     "governmentType": "Closed Autocracy",
     "democracyIndex": 0.25
   },
@@ -2272,8 +2272,8 @@
       "byTopic": {}
     },
     "treaties": [],
-    "gdpPerCapita": 14447.44364112789,
-    "population": 437672056.25828874,
+    "gdpPerCapita": 3100,
+    "population": 10400000,
     "governmentType": "Electoral Autocracy",
     "democracyIndex": 0.38
   },
@@ -2302,8 +2302,8 @@
       "byTopic": {}
     },
     "treaties": [],
-    "gdpPerCapita": 2663.771290719456,
-    "population": 836418362.2415104,
+    "gdpPerCapita": 18500,
+    "population": 9600000,
     "governmentType": "Electoral Democracy",
     "democracyIndex": 0.55
   },
@@ -2330,8 +2330,8 @@
       "byTopic": {}
     },
     "treaties": [],
-    "gdpPerCapita": 21310.35984407886,
-    "population": 10498057.579446599,
+    "gdpPerCapita": 75000,
+    "population": 380000,
     "governmentType": "Liberal Democracy",
     "democracyIndex": 0.9
   },
@@ -2361,8 +2361,8 @@
       "byTopic": {}
     },
     "treaties": [],
-    "gdpPerCapita": 36638.33462904169,
-    "population": 661900555.2089425,
+    "gdpPerCapita": 2700,
+    "population": 1440000000,
     "governmentType": "Electoral Autocracy",
     "democracyIndex": 0.52
   },
@@ -2392,8 +2392,8 @@
       "byTopic": {}
     },
     "treaties": [],
-    "gdpPerCapita": 43861.52849971818,
-    "population": 430459352.5815777,
+    "gdpPerCapita": 4900,
+    "population": 278000000,
     "governmentType": "Electoral Democracy",
     "democracyIndex": 0.55
   },
@@ -2423,8 +2423,8 @@
       "byTopic": {}
     },
     "treaties": [],
-    "gdpPerCapita": 80921.13027719807,
-    "population": 319059553.1565625,
+    "gdpPerCapita": 4500,
+    "population": 89200000,
     "governmentType": "Closed Autocracy",
     "democracyIndex": 0.15
   },
@@ -2454,8 +2454,8 @@
       "byTopic": {}
     },
     "treaties": [],
-    "gdpPerCapita": 38578.45814283435,
-    "population": 1083493822.5914361,
+    "gdpPerCapita": 5500,
+    "population": 45500000,
     "governmentType": "Closed Autocracy",
     "democracyIndex": 0.25
   },
@@ -2484,8 +2484,8 @@
       "byTopic": {}
     },
     "treaties": [],
-    "gdpPerCapita": 80585.85817357196,
-    "population": 515091782.64062893,
+    "gdpPerCapita": 106000,
+    "population": 5200000,
     "governmentType": "Liberal Democracy",
     "democracyIndex": 0.9
   },
@@ -2512,8 +2512,8 @@
       "byTopic": {}
     },
     "treaties": [],
-    "gdpPerCapita": 27685.72763602383,
-    "population": 694247844.8755568,
+    "gdpPerCapita": 55000,
+    "population": 9800000,
     "governmentType": "Electoral Democracy",
     "democracyIndex": 0.72
   },
@@ -2542,8 +2542,8 @@
       "byTopic": {}
     },
     "treaties": [],
-    "gdpPerCapita": 79187.6635919762,
-    "population": 1042972478.5982916,
+    "gdpPerCapita": 37000,
+    "population": 58900000,
     "governmentType": "Liberal Democracy",
     "democracyIndex": 0.8
   },
@@ -2573,8 +2573,8 @@
       "byTopic": {}
     },
     "treaties": [],
-    "gdpPerCapita": 65873.73616194207,
-    "population": 954591918.485086,
+    "gdpPerCapita": 6000,
+    "population": 2800000,
     "governmentType": "Electoral Democracy",
     "democracyIndex": 0.68
   },
@@ -2601,8 +2601,8 @@
       "byTopic": {}
     },
     "treaties": [],
-    "gdpPerCapita": 47981.887101890024,
-    "population": 1128721309.4284458,
+    "gdpPerCapita": 34000,
+    "population": 123300000,
     "governmentType": "Liberal Democracy",
     "democracyIndex": 0.82
   },
@@ -2632,8 +2632,8 @@
       "byTopic": {}
     },
     "treaties": [],
-    "gdpPerCapita": 52017.45317946595,
-    "population": 89636287.75775114,
+    "gdpPerCapita": 4500,
+    "population": 11300000,
     "governmentType": "Closed Autocracy",
     "democracyIndex": 0.22
   },
@@ -2660,8 +2660,8 @@
       "byTopic": {}
     },
     "treaties": [],
-    "gdpPerCapita": 40142.81460436592,
-    "population": 916168002.3374311,
+    "gdpPerCapita": 13000,
+    "population": 20000000,
     "governmentType": "Closed Autocracy",
     "democracyIndex": 0.18
   },
@@ -2691,8 +2691,8 @@
       "byTopic": {}
     },
     "treaties": [],
-    "gdpPerCapita": 25895.168492778943,
-    "population": 161246569.01834452,
+    "gdpPerCapita": 2100,
+    "population": 55100000,
     "governmentType": "Electoral Autocracy",
     "democracyIndex": 0.45
   },
@@ -2721,8 +2721,8 @@
       "byTopic": {}
     },
     "treaties": [],
-    "gdpPerCapita": 74666.74104557995,
-    "population": 1242476186.5770504,
+    "gdpPerCapita": 1700,
+    "population": 130000,
     "governmentType": "Electoral Autocracy",
     "democracyIndex": 0.4284222713970631
   },
@@ -2752,8 +2752,8 @@
       "byTopic": {}
     },
     "treaties": [],
-    "gdpPerCapita": 7229.107083340433,
-    "population": 758691116.9168168,
+    "gdpPerCapita": 38000,
+    "population": 4300000,
     "governmentType": "Closed Autocracy",
     "democracyIndex": 0.2
   },
@@ -2780,8 +2780,8 @@
       "byTopic": {}
     },
     "treaties": [],
-    "gdpPerCapita": 37089.59578817934,
-    "population": 932813482.7077304,
+    "gdpPerCapita": 1700,
+    "population": 7000000,
     "governmentType": "Closed Autocracy",
     "democracyIndex": 0.28
   },
@@ -2811,8 +2811,8 @@
       "byTopic": {}
     },
     "treaties": [],
-    "gdpPerCapita": 65511.31062221511,
-    "population": 1193092881.3661082,
+    "gdpPerCapita": 2500,
+    "population": 7600000,
     "governmentType": "Closed Autocracy",
     "democracyIndex": 0.12
   },
@@ -2841,8 +2841,8 @@
       "byTopic": {}
     },
     "treaties": [],
-    "gdpPerCapita": 65238.373130615415,
-    "population": 1345726145.5036879,
+    "gdpPerCapita": 22000,
+    "population": 1800000,
     "governmentType": "Liberal Democracy",
     "democracyIndex": 0.76
   },
@@ -2872,8 +2872,8 @@
       "byTopic": {}
     },
     "treaties": [],
-    "gdpPerCapita": 34670.72761842765,
-    "population": 468375409.07625234,
+    "gdpPerCapita": 4100,
+    "population": 5500000,
     "governmentType": "Electoral Autocracy",
     "democracyIndex": 0.35
   },
@@ -2903,8 +2903,8 @@
       "byTopic": {}
     },
     "treaties": [],
-    "gdpPerCapita": 56910.9064135493,
-    "population": 6381195.03183551,
+    "gdpPerCapita": 1200,
+    "population": 2300000,
     "governmentType": "Closed Autocracy",
     "democracyIndex": 0.3233875172267173
   },
@@ -2934,8 +2934,8 @@
       "byTopic": {}
     },
     "treaties": [],
-    "gdpPerCapita": 40245.74037064932,
-    "population": 260111954.34836254,
+    "gdpPerCapita": 700,
+    "population": 5400000,
     "governmentType": "Electoral Democracy",
     "democracyIndex": 0.5751151641540032
   },
@@ -2965,8 +2965,8 @@
       "byTopic": {}
     },
     "treaties": [],
-    "gdpPerCapita": 11131.085033093366,
-    "population": 405983871.7269557,
+    "gdpPerCapita": 6700,
+    "population": 6800000,
     "governmentType": "Closed Autocracy",
     "democracyIndex": 0.1
   },
@@ -2993,8 +2993,8 @@
       "byTopic": {}
     },
     "treaties": [],
-    "gdpPerCapita": 39995.61631469885,
-    "population": 1349589609.3813562,
+    "gdpPerCapita": 180000,
+    "population": 40000,
     "governmentType": "Electoral Democracy",
     "democracyIndex": 0.6451926150231605
   },
@@ -3023,8 +3023,8 @@
       "byTopic": {}
     },
     "treaties": [],
-    "gdpPerCapita": 64000.04493049347,
-    "population": 851406654.067374,
+    "gdpPerCapita": 24000,
+    "population": 2800000,
     "governmentType": "Liberal Democracy",
     "democracyIndex": 0.77
   },
@@ -3053,8 +3053,8 @@
       "byTopic": {}
     },
     "treaties": [],
-    "gdpPerCapita": 7490.539630523543,
-    "population": 76374843.07427073,
+    "gdpPerCapita": 128000,
+    "population": 660000,
     "governmentType": "Liberal Democracy",
     "democracyIndex": 0.86
   },
@@ -3084,8 +3084,8 @@
       "byTopic": {}
     },
     "treaties": [],
-    "gdpPerCapita": 28422.57401985642,
-    "population": 1030716204.0834004,
+    "gdpPerCapita": 500,
+    "population": 30300000,
     "governmentType": "Electoral Autocracy",
     "democracyIndex": 0.45425250934303096
   },
@@ -3115,8 +3115,8 @@
       "byTopic": {}
     },
     "treaties": [],
-    "gdpPerCapita": 19723.207772412155,
-    "population": 1160222229.2509332,
+    "gdpPerCapita": 640,
+    "population": 20900000,
     "governmentType": "Electoral Autocracy",
     "democracyIndex": 0.3552707562351764
   },
@@ -3146,8 +3146,8 @@
       "byTopic": {}
     },
     "treaties": [],
-    "gdpPerCapita": 37112.13534048575,
-    "population": 891658629.4901577,
+    "gdpPerCapita": 13000,
+    "population": 34300000,
     "governmentType": "Electoral Autocracy",
     "democracyIndex": 0.45
   },
@@ -3177,8 +3177,8 @@
       "byTopic": {}
     },
     "treaties": [],
-    "gdpPerCapita": 3349.710427771721,
-    "population": 886150493.7174964,
+    "gdpPerCapita": 11000,
+    "population": 520000,
     "governmentType": "Electoral Autocracy",
     "democracyIndex": 0.3526147776405827
   },
@@ -3208,8 +3208,8 @@
       "byTopic": {}
     },
     "treaties": [],
-    "gdpPerCapita": 76824.7756016964,
-    "population": 235678145.56891754,
+    "gdpPerCapita": 900,
+    "population": 23300000,
     "governmentType": "Closed Autocracy",
     "democracyIndex": 0.22
   },
@@ -3238,8 +3238,8 @@
       "byTopic": {}
     },
     "treaties": [],
-    "gdpPerCapita": 80340.15806749002,
-    "population": 270634617.99067086,
+    "gdpPerCapita": 34000,
+    "population": 540000,
     "governmentType": "Electoral Autocracy",
     "democracyIndex": 0.49125912752730283
   },
@@ -3268,8 +3268,8 @@
       "byTopic": {}
     },
     "treaties": [],
-    "gdpPerCapita": 12979.11121230086,
-    "population": 507050381.85040474,
+    "gdpPerCapita": 6500,
+    "population": 42000,
     "governmentType": "Electoral Democracy",
     "democracyIndex": 0.6404717765609902
   },
@@ -3299,8 +3299,8 @@
       "byTopic": {}
     },
     "treaties": [],
-    "gdpPerCapita": 27189.741200345976,
-    "population": 1012368891.941644,
+    "gdpPerCapita": 2200,
+    "population": 4900000,
     "governmentType": "Closed Autocracy",
     "democracyIndex": 0.22
   },
@@ -3330,8 +3330,8 @@
       "byTopic": {}
     },
     "treaties": [],
-    "gdpPerCapita": 22525.855888967835,
-    "population": 422686893.3503136,
+    "gdpPerCapita": 11000,
+    "population": 1300000,
     "governmentType": "Electoral Democracy",
     "democracyIndex": 0.72
   },
@@ -3360,8 +3360,8 @@
       "byTopic": {}
     },
     "treaties": [],
-    "gdpPerCapita": 41483.46892941824,
-    "population": 87366044.48689987,
+    "gdpPerCapita": 13000,
+    "population": 129000000,
     "governmentType": "Electoral Democracy",
     "democracyIndex": 0.58
   },
@@ -3390,8 +3390,8 @@
       "byTopic": {}
     },
     "treaties": [],
-    "gdpPerCapita": 39090.02256907756,
-    "population": 939580721.2461556,
+    "gdpPerCapita": 4000,
+    "population": 110000,
     "governmentType": "Electoral Autocracy",
     "democracyIndex": 0.4341173941581783
   },
@@ -3418,8 +3418,8 @@
       "byTopic": {}
     },
     "treaties": [],
-    "gdpPerCapita": 37696.96866457746,
-    "population": 11208378.33172604,
+    "gdpPerCapita": 5700,
+    "population": 2500000,
     "governmentType": "Electoral Autocracy",
     "democracyIndex": 0.48
   },
@@ -3446,8 +3446,8 @@
       "byTopic": {}
     },
     "treaties": [],
-    "gdpPerCapita": 14857.84473592831,
-    "population": 488109919.58083117,
+    "gdpPerCapita": 190000,
+    "population": 40000,
     "governmentType": "Electoral Democracy",
     "democracyIndex": 0.6800524154631543
   },
@@ -3477,8 +3477,8 @@
       "byTopic": {}
     },
     "treaties": [],
-    "gdpPerCapita": 48739.14178082234,
-    "population": 942244045.1353308,
+    "gdpPerCapita": 5500,
+    "population": 3400000,
     "governmentType": "Electoral Democracy",
     "democracyIndex": 0.62
   },
@@ -3505,8 +3505,8 @@
       "byTopic": {}
     },
     "treaties": [],
-    "gdpPerCapita": 10718.474859771895,
-    "population": 406883581.48830795,
+    "gdpPerCapita": 10000,
+    "population": 620000,
     "governmentType": "Electoral Democracy",
     "democracyIndex": 0.55
   },
@@ -3536,8 +3536,8 @@
       "byTopic": {}
     },
     "treaties": [],
-    "gdpPerCapita": 46508.2577945451,
-    "population": 904332158.0321255,
+    "gdpPerCapita": 3800,
+    "population": 37800000,
     "governmentType": "Closed Autocracy",
     "democracyIndex": 0.3
   },
@@ -3567,8 +3567,8 @@
       "byTopic": {}
     },
     "treaties": [],
-    "gdpPerCapita": 14466.473187661373,
-    "population": 352900941.0454079,
+    "gdpPerCapita": 540,
+    "population": 33900000,
     "governmentType": "Closed Autocracy",
     "democracyIndex": 0.3
   },
@@ -3598,8 +3598,8 @@
       "byTopic": {}
     },
     "treaties": [],
-    "gdpPerCapita": 17857.414733818132,
-    "population": 124977483.10904193,
+    "gdpPerCapita": 1200,
+    "population": 54100000,
     "governmentType": "Closed Autocracy",
     "democracyIndex": 0.12
   },
@@ -3629,8 +3629,8 @@
       "byTopic": {}
     },
     "treaties": [],
-    "gdpPerCapita": 43753.05432331587,
-    "population": 465836757.1957844,
+    "gdpPerCapita": 5000,
+    "population": 2600000,
     "governmentType": "Electoral Democracy",
     "democracyIndex": 0.62
   },
@@ -3659,8 +3659,8 @@
       "byTopic": {}
     },
     "treaties": [],
-    "gdpPerCapita": 47501.1073943463,
-    "population": 606477333.458892,
+    "gdpPerCapita": 11000,
+    "population": 13000,
     "governmentType": "Electoral Democracy",
     "democracyIndex": 0.5949531309993363
   },
@@ -3690,8 +3690,8 @@
       "byTopic": {}
     },
     "treaties": [],
-    "gdpPerCapita": 1711.5439513492267,
-    "population": 27713678.68233092,
+    "gdpPerCapita": 1400,
+    "population": 30900000,
     "governmentType": "Electoral Autocracy",
     "democracyIndex": 0.45
   },
@@ -3720,8 +3720,8 @@
       "byTopic": {}
     },
     "treaties": [],
-    "gdpPerCapita": 9881.999870967586,
-    "population": 170101313.41750997,
+    "gdpPerCapita": 57000,
+    "population": 17800000,
     "governmentType": "Liberal Democracy",
     "democracyIndex": 0.89
   },
@@ -3748,8 +3748,8 @@
       "byTopic": {}
     },
     "treaties": [],
-    "gdpPerCapita": 78392.68984584899,
-    "population": 103669353.12478323,
+    "gdpPerCapita": 48000,
+    "population": 5200000,
     "governmentType": "Liberal Democracy",
     "democracyIndex": 0.91
   },
@@ -3779,8 +3779,8 @@
       "byTopic": {}
     },
     "treaties": [],
-    "gdpPerCapita": 16478.137604770745,
-    "population": 102880354.70704325,
+    "gdpPerCapita": 2200,
+    "population": 7000000,
     "governmentType": "Closed Autocracy",
     "democracyIndex": 0.2
   },
@@ -3810,8 +3810,8 @@
       "byTopic": {}
     },
     "treaties": [],
-    "gdpPerCapita": 1163.6994816744,
-    "population": 363439398.2422048,
+    "gdpPerCapita": 600,
+    "population": 27200000,
     "governmentType": "Closed Autocracy",
     "democracyIndex": 0.15
   },
@@ -3841,8 +3841,8 @@
       "byTopic": {}
     },
     "treaties": [],
-    "gdpPerCapita": 4780.212719873574,
-    "population": 655626606.43374,
+    "gdpPerCapita": 1600,
+    "population": 224000000,
     "governmentType": "Electoral Autocracy",
     "democracyIndex": 0.42
   },
@@ -3869,8 +3869,8 @@
       "byTopic": {}
     },
     "treaties": [],
-    "gdpPerCapita": 78806.76897564129,
-    "population": 892278101.774172,
+    "gdpPerCapita": 7600,
+    "population": 1800000,
     "governmentType": "Electoral Democracy",
     "democracyIndex": 0.55
   },
@@ -3897,8 +3897,8 @@
       "byTopic": {}
     },
     "treaties": [],
-    "gdpPerCapita": 67791.61268910198,
-    "population": 139540400.8459976,
+    "gdpPerCapita": 88000,
+    "population": 5500000,
     "governmentType": "Liberal Democracy",
     "democracyIndex": 0.95
   },
@@ -3928,8 +3928,8 @@
       "byTopic": {}
     },
     "treaties": [],
-    "gdpPerCapita": 67101.16462830946,
-    "population": 348523247.22178125,
+    "gdpPerCapita": 21000,
+    "population": 4600000,
     "governmentType": "Closed Autocracy",
     "democracyIndex": 0.12
   },
@@ -3959,8 +3959,8 @@
       "byTopic": {}
     },
     "treaties": [],
-    "gdpPerCapita": 78247.17024649661,
-    "population": 435975879.61720437,
+    "gdpPerCapita": 1600,
+    "population": 240500000,
     "governmentType": "Closed Autocracy",
     "democracyIndex": 0.3
   },
@@ -3989,8 +3989,8 @@
       "byTopic": {}
     },
     "treaties": [],
-    "gdpPerCapita": 17689.242277454876,
-    "population": 1397964883.1213627,
+    "gdpPerCapita": 15000,
+    "population": 18000,
     "governmentType": "Electoral Democracy",
     "democracyIndex": 0.6014560129264035
   },
@@ -4020,8 +4020,8 @@
       "byTopic": {}
     },
     "treaties": [],
-    "gdpPerCapita": 60637.52099770064,
-    "population": 61317899.22389851,
+    "gdpPerCapita": 16000,
+    "population": 4400000,
     "governmentType": "Electoral Democracy",
     "democracyIndex": 0.62
   },
@@ -4051,8 +4051,8 @@
       "byTopic": {}
     },
     "treaties": [],
-    "gdpPerCapita": 77017.49956515094,
-    "population": 128144048.73477623,
+    "gdpPerCapita": 2800,
+    "population": 10300000,
     "governmentType": "Electoral Autocracy",
     "democracyIndex": 0.49440773636903795
   },
@@ -4081,8 +4081,8 @@
       "byTopic": {}
     },
     "treaties": [],
-    "gdpPerCapita": 79727.0297852175,
-    "population": 141942907.14959916,
+    "gdpPerCapita": 5800,
+    "population": 6800000,
     "governmentType": "Electoral Autocracy",
     "democracyIndex": 0.52
   },
@@ -4112,8 +4112,8 @@
       "byTopic": {}
     },
     "treaties": [],
-    "gdpPerCapita": 15411.042764412947,
-    "population": 697202527.11837,
+    "gdpPerCapita": 7700,
+    "population": 34400000,
     "governmentType": "Electoral Democracy",
     "democracyIndex": 0.6
   },
@@ -4143,8 +4143,8 @@
       "byTopic": {}
     },
     "treaties": [],
-    "gdpPerCapita": 26592.48393997375,
-    "population": 1193649823.860824,
+    "gdpPerCapita": 3900,
+    "population": 117000000,
     "governmentType": "Electoral Autocracy",
     "democracyIndex": 0.5
   },
@@ -4173,8 +4173,8 @@
       "byTopic": {}
     },
     "treaties": [],
-    "gdpPerCapita": 50745.775752176014,
-    "population": 1159425866.6793294,
+    "gdpPerCapita": 18700,
+    "population": 36700000,
     "governmentType": "Electoral Democracy",
     "democracyIndex": 0.68
   },
@@ -4203,8 +4203,8 @@
       "byTopic": {}
     },
     "treaties": [],
-    "gdpPerCapita": 56209.90363676331,
-    "population": 765062929.859807,
+    "gdpPerCapita": 25000,
+    "population": 10400000,
     "governmentType": "Liberal Democracy",
     "democracyIndex": 0.85
   },
@@ -4234,8 +4234,8 @@
       "byTopic": {}
     },
     "treaties": [],
-    "gdpPerCapita": 42554.62696253198,
-    "population": 250547480.8195833,
+    "gdpPerCapita": 83000,
+    "population": 2700000,
     "governmentType": "Closed Autocracy",
     "democracyIndex": 0.1
   },
@@ -4262,8 +4262,8 @@
       "byTopic": {}
     },
     "treaties": [],
-    "gdpPerCapita": 49149.81497082623,
-    "population": 518594106.02677244,
+    "gdpPerCapita": 33000,
+    "population": 51700000,
     "governmentType": "Liberal Democracy",
     "democracyIndex": 0.81
   },
@@ -4292,8 +4292,8 @@
       "byTopic": {}
     },
     "treaties": [],
-    "gdpPerCapita": 35687.90768522022,
-    "population": 497255373.66746116,
+    "gdpPerCapita": 17000,
+    "population": 19000000,
     "governmentType": "Electoral Democracy",
     "democracyIndex": 0.62
   },
@@ -4320,8 +4320,8 @@
       "byTopic": {}
     },
     "treaties": [],
-    "gdpPerCapita": 78409.50189470535,
-    "population": 1224992635.3780885,
+    "gdpPerCapita": 12000,
+    "population": 144400000,
     "governmentType": "Closed Autocracy",
     "democracyIndex": 0.15
   },
@@ -4351,8 +4351,8 @@
       "byTopic": {}
     },
     "treaties": [],
-    "gdpPerCapita": 65782.0620203349,
-    "population": 361332763.2486081,
+    "gdpPerCapita": 1000,
+    "population": 14100000,
     "governmentType": "Closed Autocracy",
     "democracyIndex": 0.22
   },
@@ -4382,8 +4382,8 @@
       "byTopic": {}
     },
     "treaties": [],
-    "gdpPerCapita": 22496.33300059855,
-    "population": 44936243.12097352,
+    "gdpPerCapita": 19000,
+    "population": 48000,
     "governmentType": "Closed Autocracy",
     "democracyIndex": 0.3348147244273719
   },
@@ -4413,8 +4413,8 @@
       "byTopic": {}
     },
     "treaties": [],
-    "gdpPerCapita": 77336.64000694096,
-    "population": 429909618.75642174,
+    "gdpPerCapita": 11000,
+    "population": 180000,
     "governmentType": "Electoral Autocracy",
     "democracyIndex": 0.5298024870990315
   },
@@ -4444,8 +4444,8 @@
       "byTopic": {}
     },
     "treaties": [],
-    "gdpPerCapita": 79565.57788293938,
-    "population": 1179210311.7667046,
+    "gdpPerCapita": 9000,
+    "population": 100000,
     "governmentType": "Electoral Autocracy",
     "democracyIndex": 0.41778260053083827
   },
@@ -4474,8 +4474,8 @@
       "byTopic": {}
     },
     "treaties": [],
-    "gdpPerCapita": 47531.53143043898,
-    "population": 633928977.8374785,
+    "gdpPerCapita": 4100,
+    "population": 220000,
     "governmentType": "Electoral Democracy",
     "democracyIndex": 0.5708518999328026
   },
@@ -4502,8 +4502,8 @@
       "byTopic": {}
     },
     "treaties": [],
-    "gdpPerCapita": 54968.33797310673,
-    "population": 1166061135.8775783,
+    "gdpPerCapita": 48000,
+    "population": 33000,
     "governmentType": "Electoral Autocracy",
     "democracyIndex": 0.4530955513364392
   },
@@ -4533,8 +4533,8 @@
       "byTopic": {}
     },
     "treaties": [],
-    "gdpPerCapita": 52775.01048235573,
-    "population": 318349020.52839726,
+    "gdpPerCapita": 2300,
+    "population": 230000,
     "governmentType": "Closed Autocracy",
     "democracyIndex": 0.30456854216860807
   },
@@ -4564,8 +4564,8 @@
       "byTopic": {}
     },
     "treaties": [],
-    "gdpPerCapita": 10309.596887163258,
-    "population": 1323757617.9412444,
+    "gdpPerCapita": 30000,
+    "population": 36900000,
     "governmentType": "Closed Autocracy",
     "democracyIndex": 0.08
   },
@@ -4595,8 +4595,8 @@
       "byTopic": {}
     },
     "treaties": [],
-    "gdpPerCapita": 37292.5029816787,
-    "population": 654496648.2136507,
+    "gdpPerCapita": 1800,
+    "population": 17700000,
     "governmentType": "Electoral Democracy",
     "democracyIndex": 0.58
   },
@@ -4623,8 +4623,8 @@
       "byTopic": {}
     },
     "treaties": [],
-    "gdpPerCapita": 10854.370674550153,
-    "population": 1141551801.1679645,
+    "gdpPerCapita": 10000,
+    "population": 6600000,
     "governmentType": "Electoral Autocracy",
     "democracyIndex": 0.52
   },
@@ -4654,8 +4654,8 @@
       "byTopic": {}
     },
     "treaties": [],
-    "gdpPerCapita": 55755.397302740115,
-    "population": 1164842312.9994404,
+    "gdpPerCapita": 18000,
+    "population": 120000,
     "governmentType": "Electoral Democracy",
     "democracyIndex": 0.5901833932591098
   },
@@ -4685,8 +4685,8 @@
       "byTopic": {}
     },
     "treaties": [],
-    "gdpPerCapita": 77951.78873766023,
-    "population": 612622955.203376,
+    "gdpPerCapita": 500,
+    "population": 8600000,
     "governmentType": "Electoral Democracy",
     "democracyIndex": 0.6585254679337436
   },
@@ -4716,8 +4716,8 @@
       "byTopic": {}
     },
     "treaties": [],
-    "gdpPerCapita": 11918.742104181727,
-    "population": 1016487963.5398364,
+    "gdpPerCapita": 82000,
+    "population": 6000000,
     "governmentType": "Electoral Autocracy",
     "democracyIndex": 0.48
   },
@@ -4746,8 +4746,8 @@
       "byTopic": {}
     },
     "treaties": [],
-    "gdpPerCapita": 4803.800848266995,
-    "population": 358641192.39230436,
+    "gdpPerCapita": 22000,
+    "population": 5400000,
     "governmentType": "Liberal Democracy",
     "democracyIndex": 0.75
   },
@@ -4776,8 +4776,8 @@
       "byTopic": {}
     },
     "treaties": [],
-    "gdpPerCapita": 4079.5563578325223,
-    "population": 305088396.61950207,
+    "gdpPerCapita": 29000,
+    "population": 2100000,
     "governmentType": "Liberal Democracy",
     "democracyIndex": 0.78
   },
@@ -4807,8 +4807,8 @@
       "byTopic": {}
     },
     "treaties": [],
-    "gdpPerCapita": 80276.8846264288,
-    "population": 966706605.1465125,
+    "gdpPerCapita": 2300,
+    "population": 740000,
     "governmentType": "Electoral Autocracy",
     "democracyIndex": 0.5192885772835669
   },
@@ -4838,8 +4838,8 @@
       "byTopic": {}
     },
     "treaties": [],
-    "gdpPerCapita": 57496.33502040439,
-    "population": 1066034170.3404636,
+    "gdpPerCapita": 600,
+    "population": 18100000,
     "governmentType": "Closed Autocracy",
     "democracyIndex": 0.1
   },
@@ -4869,8 +4869,8 @@
       "byTopic": {}
     },
     "treaties": [],
-    "gdpPerCapita": 79705.6442905929,
-    "population": 199860352.3626482,
+    "gdpPerCapita": 6100,
+    "population": 60400000,
     "governmentType": "Electoral Democracy",
     "democracyIndex": 0.62
   },
@@ -4899,8 +4899,8 @@
       "byTopic": {}
     },
     "treaties": [],
-    "gdpPerCapita": 17619.057249421963,
-    "population": 965124095.6806284,
+    "gdpPerCapita": 400,
+    "population": 11100000,
     "governmentType": "Closed Autocracy",
     "democracyIndex": 0.08
   },
@@ -4929,8 +4929,8 @@
       "byTopic": {}
     },
     "treaties": [],
-    "gdpPerCapita": 76637.40325990072,
-    "population": 831602936.097503,
+    "gdpPerCapita": 32000,
+    "population": 48100000,
     "governmentType": "Liberal Democracy",
     "democracyIndex": 0.84
   },
@@ -4960,8 +4960,8 @@
       "byTopic": {}
     },
     "treaties": [],
-    "gdpPerCapita": 30827.588244766834,
-    "population": 1140997475.5034194,
+    "gdpPerCapita": 3800,
+    "population": 22200000,
     "governmentType": "Electoral Autocracy",
     "democracyIndex": 0.42
   },
@@ -4991,8 +4991,8 @@
       "byTopic": {}
     },
     "treaties": [],
-    "gdpPerCapita": 66042.71207029064,
-    "population": 685508040.5367208,
+    "gdpPerCapita": 600,
+    "population": 48100000,
     "governmentType": "Closed Autocracy",
     "democracyIndex": 0.08
   },
@@ -5022,8 +5022,8 @@
       "byTopic": {}
     },
     "treaties": [],
-    "gdpPerCapita": 60932.81056637243,
-    "population": 6528531.241062687,
+    "gdpPerCapita": 5700,
+    "population": 620000,
     "governmentType": "Electoral Democracy",
     "democracyIndex": 0.58
   },
@@ -5052,8 +5052,8 @@
       "byTopic": {}
     },
     "treaties": [],
-    "gdpPerCapita": 74596.22282758268,
-    "population": 904082456.1074452,
+    "gdpPerCapita": 56000,
+    "population": 10500000,
     "governmentType": "Liberal Democracy",
     "democracyIndex": 0.94
   },
@@ -5080,8 +5080,8 @@
       "byTopic": {}
     },
     "treaties": [],
-    "gdpPerCapita": 29621.583326864424,
-    "population": 1397626153.5571833,
+    "gdpPerCapita": 100000,
+    "population": 8800000,
     "governmentType": "Liberal Democracy",
     "democracyIndex": 0.91
   },
@@ -5111,8 +5111,8 @@
       "byTopic": {}
     },
     "treaties": [],
-    "gdpPerCapita": 39270.43917921149,
-    "population": 728844203.2629611,
+    "gdpPerCapita": 500,
+    "population": 23200000,
     "governmentType": "Closed Autocracy",
     "democracyIndex": 0.05
   },
@@ -5141,8 +5141,8 @@
       "byTopic": {}
     },
     "treaties": [],
-    "gdpPerCapita": 47550.49224536644,
-    "population": 1347062024.2673466,
+    "gdpPerCapita": 1100,
+    "population": 10100000,
     "governmentType": "Closed Autocracy",
     "democracyIndex": 0.1
   },
@@ -5172,8 +5172,8 @@
       "byTopic": {}
     },
     "treaties": [],
-    "gdpPerCapita": 30929.4663662858,
-    "population": 767900658.2434872,
+    "gdpPerCapita": 1200,
+    "population": 67400000,
     "governmentType": "Electoral Autocracy",
     "democracyIndex": 0.35
   },
@@ -5203,8 +5203,8 @@
       "byTopic": {}
     },
     "treaties": [],
-    "gdpPerCapita": 30439.599558114915,
-    "population": 145798744.14730555,
+    "gdpPerCapita": 7200,
+    "population": 72000000,
     "governmentType": "Electoral Autocracy",
     "democracyIndex": 0.35
   },
@@ -5234,8 +5234,8 @@
       "byTopic": {}
     },
     "treaties": [],
-    "gdpPerCapita": 43912.953003056566,
-    "population": 384458842.11668956,
+    "gdpPerCapita": 1900,
+    "population": 1400000,
     "governmentType": "Electoral Democracy",
     "democracyIndex": 0.5739401344847725
   },
@@ -5265,8 +5265,8 @@
       "byTopic": {}
     },
     "treaties": [],
-    "gdpPerCapita": 80415.17585874889,
-    "population": 77941524.75956164,
+    "gdpPerCapita": 1000,
+    "population": 9000000,
     "governmentType": "Electoral Democracy",
     "democracyIndex": 0.6023629903566006
   },
@@ -5295,8 +5295,8 @@
       "byTopic": {}
     },
     "treaties": [],
-    "gdpPerCapita": 7856.501532452298,
-    "population": 649231500.5077937,
+    "gdpPerCapita": 5100,
+    "population": 107000,
     "governmentType": "Closed Autocracy",
     "democracyIndex": 0.33449010980187216
   },
@@ -5326,8 +5326,8 @@
       "byTopic": {}
     },
     "treaties": [],
-    "gdpPerCapita": 10853.328524588916,
-    "population": 184570184.01225102,
+    "gdpPerCapita": 18000,
+    "population": 1500000,
     "governmentType": "Electoral Democracy",
     "democracyIndex": 0.65
   },
@@ -5357,8 +5357,8 @@
       "byTopic": {}
     },
     "treaties": [],
-    "gdpPerCapita": 71517.89849775794,
-    "population": 417514057.3601853,
+    "gdpPerCapita": 4200,
+    "population": 12400000,
     "governmentType": "Electoral Autocracy",
     "democracyIndex": 0.45
   },
@@ -5385,8 +5385,8 @@
       "byTopic": {}
     },
     "treaties": [],
-    "gdpPerCapita": 20877.185136982516,
-    "population": 183237728.51098043,
+    "gdpPerCapita": 10700,
+    "population": 85400000,
     "governmentType": "Closed Autocracy",
     "democracyIndex": 0.28
   },
@@ -5416,8 +5416,8 @@
       "byTopic": {}
     },
     "treaties": [],
-    "gdpPerCapita": 77399.87364327532,
-    "population": 1374358280.5011208,
+    "gdpPerCapita": 8800,
+    "population": 6500000,
     "governmentType": "Closed Autocracy",
     "democracyIndex": 0.05
   },
@@ -5446,8 +5446,8 @@
       "byTopic": {}
     },
     "treaties": [],
-    "gdpPerCapita": 66434.09688059104,
-    "population": 1207029278.5232372,
+    "gdpPerCapita": 5500,
+    "population": 11000,
     "governmentType": "Electoral Autocracy",
     "democracyIndex": 0.36301819245866923
   },
@@ -5477,8 +5477,8 @@
       "byTopic": {}
     },
     "treaties": [],
-    "gdpPerCapita": 58715.72684350324,
-    "population": 159076913.3353203,
+    "gdpPerCapita": 1100,
+    "population": 48600000,
     "governmentType": "Closed Autocracy",
     "democracyIndex": 0.28
   },
@@ -5505,8 +5505,8 @@
       "byTopic": {}
     },
     "treaties": [],
-    "gdpPerCapita": 46130.0379366451,
-    "population": 267177730.89928734,
+    "gdpPerCapita": 4500,
+    "population": 37000000,
     "governmentType": "Electoral Autocracy",
     "democracyIndex": 0.45
   },
@@ -5536,8 +5536,8 @@
       "byTopic": {}
     },
     "treaties": [],
-    "gdpPerCapita": 18590.493750197464,
-    "population": 1321092940.6541033,
+    "gdpPerCapita": 50000,
+    "population": 9400000,
     "governmentType": "Closed Autocracy",
     "democracyIndex": 0.12
   },
@@ -5564,8 +5564,8 @@
       "byTopic": {}
     },
     "treaties": [],
-    "gdpPerCapita": 74759.64237231752,
-    "population": 1182641094.1191463,
+    "gdpPerCapita": 48000,
+    "population": 67700000,
     "governmentType": "Liberal Democracy",
     "democracyIndex": 0.87
   },
@@ -5592,8 +5592,8 @@
       "byTopic": {}
     },
     "treaties": [],
-    "gdpPerCapita": 51028.608490253944,
-    "population": 847282558.7289484,
+    "gdpPerCapita": 80000,
+    "population": 340000000,
     "governmentType": "Liberal Democracy",
     "democracyIndex": 0.78
   },
@@ -5622,8 +5622,8 @@
       "byTopic": {}
     },
     "treaties": [],
-    "gdpPerCapita": 39637.210698481,
-    "population": 1085196177.2073867,
+    "gdpPerCapita": 21000,
+    "population": 3400000,
     "governmentType": "Liberal Democracy",
     "democracyIndex": 0.82
   },
@@ -5653,8 +5653,8 @@
       "byTopic": {}
     },
     "treaties": [],
-    "gdpPerCapita": 64684.703610764045,
-    "population": 2473114.6561035686,
+    "gdpPerCapita": 2300,
+    "population": 36000000,
     "governmentType": "Closed Autocracy",
     "democracyIndex": 0.12
   },
@@ -5684,8 +5684,8 @@
       "byTopic": {}
     },
     "treaties": [],
-    "gdpPerCapita": 70314.45117791054,
-    "population": 974896011.9997258,
+    "gdpPerCapita": 3200,
+    "population": 330000,
     "governmentType": "Electoral Autocracy",
     "democracyIndex": 0.37583347821511176
   },
@@ -5715,8 +5715,8 @@
       "byTopic": {}
     },
     "treaties": [],
-    "gdpPerCapita": 38827.23563672678,
-    "population": 1369757507.7727687,
+    "gdpPerCapita": 3700,
+    "population": 28400000,
     "governmentType": "Closed Autocracy",
     "democracyIndex": 0.18
   },
@@ -5746,8 +5746,8 @@
       "byTopic": {}
     },
     "treaties": [],
-    "gdpPerCapita": 17621.851124014203,
-    "population": 1148420925.6044521,
+    "gdpPerCapita": 4300,
+    "population": 100000000,
     "governmentType": "Closed Autocracy",
     "democracyIndex": 0.15
   },
@@ -5777,8 +5777,8 @@
       "byTopic": {}
     },
     "treaties": [],
-    "gdpPerCapita": 28749.593879037908,
-    "population": 1253508307.416518,
+    "gdpPerCapita": 600,
+    "population": 34400000,
     "governmentType": "Closed Autocracy",
     "democracyIndex": 0.1
   },
@@ -5808,8 +5808,8 @@
       "byTopic": {}
     },
     "treaties": [],
-    "gdpPerCapita": 35148.29577183078,
-    "population": 1240656678.9386344,
+    "gdpPerCapita": 1200,
+    "population": 20600000,
     "governmentType": "Electoral Autocracy",
     "democracyIndex": 0.42
   },
@@ -5839,8 +5839,8 @@
       "byTopic": {}
     },
     "treaties": [],
-    "gdpPerCapita": 45500.72276510781,
-    "population": 427553694.5071779,
+    "gdpPerCapita": 1800,
+    "population": 16700000,
     "governmentType": "Closed Autocracy",
     "democracyIndex": 0.18
   }
