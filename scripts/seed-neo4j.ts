@@ -42,7 +42,7 @@ async function main() {
     process.exit(1);
   }
 
-  const session = driver.session({ database: "neo4j" });
+  const session = driver.session({ database: process.env.NEO4J_DATABASE || "neo4j" });
 
   try {
     // ─── Step 1: Create constraints and indexes ──────────────────

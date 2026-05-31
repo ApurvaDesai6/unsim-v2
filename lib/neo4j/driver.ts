@@ -45,7 +45,7 @@ export async function runQuery<T = Record<string, unknown>>(
   params: Record<string, unknown> = {},
 ): Promise<T[]> {
   const d = getDriver();
-  const { records } = await d.executeQuery(cypher, params, { database: "neo4j" });
+  const { records } = await d.executeQuery(cypher, params, { database: process.env.NEO4J_DATABASE || "neo4j" });
   return records.map((r: Neo4jRecord) => r.toObject() as T);
 }
 
@@ -54,7 +54,7 @@ export async function runWrite(
   params: Record<string, unknown> = {},
 ): Promise<{ nodesCreated: number; relationshipsCreated: number }> {
   const d = getDriver();
-  const result = await d.executeQuery(cypher, params, { database: "neo4j" });
+  const result = await d.executeQuery(cypher, params, { database: process.env.NEO4J_DATABASE || "neo4j" });
   const counters = result.summary.counters.updates();
   return {
     nodesCreated: counters.nodesCreated,
