@@ -579,6 +579,12 @@ function SimulationView() {
                 revealedCount={phase === "complete" ? voteResult.countryVotes.length : revealedCount}
                 onCountryClick={(iso3) => { setSelectedCountry(iso3); setActiveTab("factors"); }}
                 onCountryHover={() => {}}
+                highlightedMembers={highlightBloc ? (
+                  highlightBloc === "p5" ? ["USA", "RUS", "CHN", "GBR", "FRA"] :
+                  highlightBloc === "g77-sample" ? ["IND", "BRA", "NGA", "ZAF", "EGY", "IDN", "MEX", "ARG", "PAK", "VNM"] :
+                  highlightBloc === "eu-sample" ? ["DEU", "FRA", "ITA", "ESP", "NLD", "BEL", "SWE", "POL", "AUT", "IRL"] :
+                  undefined
+                ) : undefined}
               />
             </div>
           )}

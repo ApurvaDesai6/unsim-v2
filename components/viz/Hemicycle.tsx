@@ -8,6 +8,7 @@ interface HemicycleProps {
   revealedCount: number;
   onCountryHover?: (iso3: string | null) => void;
   onCountryClick?: (iso3: string) => void;
+  highlightedMembers?: string[];
   width?: number;
   height?: number;
 }
@@ -63,6 +64,7 @@ export default function Hemicycle({
   revealedCount,
   onCountryHover,
   onCountryClick,
+  highlightedMembers,
   width = 800,
   height = 450,
 }: HemicycleProps) {
@@ -120,6 +122,8 @@ export default function Hemicycle({
         const vote = sortedVotes[i];
         const isRevealed = i < revealedCount;
         const isHovered = hoveredSeat === seat.iso3;
+        const isHighlighted = highlightedMembers && highlightedMembers.includes(seat.iso3);
+        const isDimmed = highlightedMembers && highlightedMembers.length > 0 && !isHighlighted;
         const color = isRevealed ? VOTE_COLORS[vote.vote] : VOTE_COLORS.unrevealed;
 
         return (
@@ -127,11 +131,11 @@ export default function Hemicycle({
             key={seat.iso3}
             cx={seat.x}
             cy={seat.y}
-            r={isHovered ? seatRadius * 1.6 : seatRadius}
+            r={isHighlighted ? seatRadius * 1.8 : isHovered ? seatRadius * 1.6 : seatRadius}
             fill={color}
-            opacity={isRevealed ? (isHovered ? 1 : 0.85) : 0.4}
-            stroke={isHovered ? "var(--color-ink)" : "none"}
-            strokeWidth={isHovered ? 1.5 : 0}
+            opacity={isDimmed ? 0.15 : isRevealed ? (isHovered || isHighlighted ? 1 : 0.85) : 0.4}
+            stroke={isHighlighted ? "var(--color-ink)" : isHovered ? "var(--color-ink)" : "none"}
+            strokeWidth={isHighlighted ? 2 : isHovered ? 1.5 : 0}
             style={{ transition: "r 150ms ease, opacity 200ms ease, fill 300ms ease" }}
             onMouseEnter={() => handleHover(seat.iso3)}
             onMouseLeave={() => handleHover(null)}
