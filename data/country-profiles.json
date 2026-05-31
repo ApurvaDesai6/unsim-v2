@@ -28,7 +28,15 @@
     "gdpPerCapita": 380,
     "population": 42000000,
     "governmentType": "Closed Autocracy",
-    "democracyIndex": 0.08
+    "democracyIndex": 0.08,
+    "governance": {
+      "VA": -1.52,
+      "PS": -2.55,
+      "GE": -1.48,
+      "RQ": -1.51,
+      "RL": -1.74,
+      "CC": -1.37
+    }
   },
   {
     "iso3": "ALB",
@@ -56,7 +64,8 @@
     "gdpPerCapita": 7800,
     "population": 2800000,
     "governmentType": "Electoral Autocracy",
-    "democracyIndex": 0.5
+    "democracyIndex": 0.5,
+    "governance": {}
   },
   {
     "iso3": "DZA",
@@ -87,7 +96,8 @@
     "gdpPerCapita": 4700,
     "population": 45600000,
     "governmentType": "Closed Autocracy",
-    "democracyIndex": 0.22
+    "democracyIndex": 0.22,
+    "governance": {}
   },
   {
     "iso3": "AND",
@@ -115,7 +125,8 @@
     "gdpPerCapita": 42000,
     "population": 80000,
     "governmentType": "Electoral Autocracy",
-    "democracyIndex": 0.5342627381520026
+    "democracyIndex": 0.5342627381520026,
+    "governance": {}
   },
   {
     "iso3": "AGO",
@@ -146,7 +157,8 @@
     "gdpPerCapita": 2400,
     "population": 36700000,
     "governmentType": "Closed Autocracy",
-    "democracyIndex": 0.15
+    "democracyIndex": 0.15,
+    "governance": {}
   },
   {
     "iso3": "ATG",
@@ -176,7 +188,8 @@
     "gdpPerCapita": 19000,
     "population": 100000,
     "governmentType": "Electoral Autocracy",
-    "democracyIndex": 0.4257309787268124
+    "democracyIndex": 0.4257309787268124,
+    "governance": {}
   },
   {
     "iso3": "ARG",
@@ -206,7 +219,15 @@
     "gdpPerCapita": 13700,
     "population": 46300000,
     "governmentType": "Electoral Democracy",
-    "democracyIndex": 0.7
+    "democracyIndex": 0.7,
+    "governance": {
+      "VA": 0.44,
+      "PS": 0.02,
+      "GE": -0.23,
+      "RQ": -0.68,
+      "RL": -0.41,
+      "CC": -0.47
+    }
   },
   {
     "iso3": "ARM",
@@ -234,7 +255,8 @@
     "gdpPerCapita": 8000,
     "population": 3000000,
     "governmentType": "Electoral Autocracy",
-    "democracyIndex": 0.45
+    "democracyIndex": 0.45,
+    "governance": {}
   },
   {
     "iso3": "AUS",
@@ -262,7 +284,15 @@
     "gdpPerCapita": 65000,
     "population": 26500000,
     "governmentType": "Liberal Democracy",
-    "democracyIndex": 0.88
+    "democracyIndex": 0.88,
+    "governance": {
+      "VA": 1.32,
+      "PS": 0.78,
+      "GE": 1.53,
+      "RQ": 1.79,
+      "RL": 1.69,
+      "CC": 1.72
+    }
   },
   {
     "iso3": "AUT",
@@ -292,7 +322,8 @@
     "gdpPerCapita": 56000,
     "population": 9100000,
     "governmentType": "Liberal Democracy",
-    "democracyIndex": 0.87
+    "democracyIndex": 0.87,
+    "governance": {}
   },
   {
     "iso3": "AZE",
@@ -320,7 +351,8 @@
     "gdpPerCapita": 6800,
     "population": 10100000,
     "governmentType": "Closed Autocracy",
-    "democracyIndex": 0.12
+    "democracyIndex": 0.12,
+    "governance": {}
   },
   {
     "iso3": "BHS",
@@ -351,7 +383,8 @@
     "gdpPerCapita": 35000,
     "population": 410000,
     "governmentType": "Electoral Democracy",
-    "democracyIndex": 0.6264371692963031
+    "democracyIndex": 0.6264371692963031,
+    "governance": {}
   },
   {
     "iso3": "BHR",
@@ -382,7 +415,8 @@
     "gdpPerCapita": 30000,
     "population": 1500000,
     "governmentType": "Closed Autocracy",
-    "democracyIndex": 0.12
+    "democracyIndex": 0.12,
+    "governance": {}
   },
   {
     "iso3": "BGD",
@@ -413,7 +447,15 @@
     "gdpPerCapita": 2700,
     "population": 173000000,
     "governmentType": "Closed Autocracy",
-    "democracyIndex": 0.32
+    "democracyIndex": 0.32,
+    "governance": {
+      "VA": -0.67,
+      "PS": -0.91,
+      "GE": -0.65,
+      "RQ": -0.93,
+      "RL": -0.62,
+      "CC": -0.93
+    }
   },
   {
     "iso3": "BRB",
@@ -444,7 +486,8 @@
     "gdpPerCapita": 18000,
     "population": 280000,
     "governmentType": "Electoral Autocracy",
-    "democracyIndex": 0.530117381231421
+    "democracyIndex": 0.530117381231421,
+    "governance": {}
   },
   {
     "iso3": "BLR",
@@ -474,7 +517,15 @@
     "gdpPerCapita": 7900,
     "population": 9200000,
     "governmentType": "Closed Autocracy",
-    "democracyIndex": 0.1
+    "democracyIndex": 0.1,
+    "governance": {
+      "VA": -1.75,
+      "PS": -0.1,
+      "GE": -0.28,
+      "RQ": -0.87,
+      "RL": -0.98,
+      "CC": -0.38
+    }
   },
   {
     "iso3": "BEL",
@@ -504,7 +555,8 @@
     "gdpPerCapita": 51000,
     "population": 11700000,
     "governmentType": "Liberal Democracy",
-    "democracyIndex": 0.86
+    "democracyIndex": 0.86,
+    "governance": {}
   },
   {
     "iso3": "BLZ",
@@ -535,7 +587,8 @@
     "gdpPerCapita": 6500,
     "population": 410000,
     "governmentType": "Electoral Democracy",
-    "democracyIndex": 0.5922266201796538
+    "democracyIndex": 0.5922266201796538,
+    "governance": {}
   },
   {
     "iso3": "BEN",
@@ -566,7 +619,8 @@
     "gdpPerCapita": 1400,
     "population": 13700000,
     "governmentType": "Closed Autocracy",
-    "democracyIndex": 0.30339657291849065
+    "democracyIndex": 0.30339657291849065,
+    "governance": {}
   },
   {
     "iso3": "BTN",
@@ -597,7 +651,8 @@
     "gdpPerCapita": 3900,
     "population": 780000,
     "governmentType": "Electoral Autocracy",
-    "democracyIndex": 0.35794852405273087
+    "democracyIndex": 0.35794852405273087,
+    "governance": {}
   },
   {
     "iso3": "BOL",
@@ -628,7 +683,8 @@
     "gdpPerCapita": 3600,
     "population": 12400000,
     "governmentType": "Electoral Autocracy",
-    "democracyIndex": 0.52
+    "democracyIndex": 0.52,
+    "governance": {}
   },
   {
     "iso3": "BIH",
@@ -656,7 +712,8 @@
     "gdpPerCapita": 7900,
     "population": 3200000,
     "governmentType": "Electoral Autocracy",
-    "democracyIndex": 0.45
+    "democracyIndex": 0.45,
+    "governance": {}
   },
   {
     "iso3": "BWA",
@@ -687,7 +744,8 @@
     "gdpPerCapita": 7700,
     "population": 2600000,
     "governmentType": "Electoral Democracy",
-    "democracyIndex": 0.68
+    "democracyIndex": 0.68,
+    "governance": {}
   },
   {
     "iso3": "BRA",
@@ -717,7 +775,15 @@
     "gdpPerCapita": 10200,
     "population": 216000000,
     "governmentType": "Electoral Democracy",
-    "democracyIndex": 0.65
+    "democracyIndex": 0.65,
+    "governance": {
+      "VA": 0.25,
+      "PS": -0.39,
+      "GE": -0.24,
+      "RQ": -0.11,
+      "RL": -0.11,
+      "CC": -0.33
+    }
   },
   {
     "iso3": "BRN",
@@ -748,7 +814,8 @@
     "gdpPerCapita": 38000,
     "population": 450000,
     "governmentType": "Closed Autocracy",
-    "democracyIndex": 0.31635913122826237
+    "democracyIndex": 0.31635913122826237,
+    "governance": {}
   },
   {
     "iso3": "BGR",
@@ -778,7 +845,8 @@
     "gdpPerCapita": 14000,
     "population": 6500000,
     "governmentType": "Electoral Democracy",
-    "democracyIndex": 0.58
+    "democracyIndex": 0.58,
+    "governance": {}
   },
   {
     "iso3": "BFA",
@@ -809,7 +877,8 @@
     "gdpPerCapita": 800,
     "population": 23300000,
     "governmentType": "Closed Autocracy",
-    "democracyIndex": 0.15
+    "democracyIndex": 0.15,
+    "governance": {}
   },
   {
     "iso3": "BDI",
@@ -840,7 +909,8 @@
     "gdpPerCapita": 240,
     "population": 13200000,
     "governmentType": "Closed Autocracy",
-    "democracyIndex": 0.12
+    "democracyIndex": 0.12,
+    "governance": {}
   },
   {
     "iso3": "CPV",
@@ -870,7 +940,8 @@
     "gdpPerCapita": 4000,
     "population": 600000,
     "governmentType": "Electoral Autocracy",
-    "democracyIndex": 0.4506883406431154
+    "democracyIndex": 0.4506883406431154,
+    "governance": {}
   },
   {
     "iso3": "KHM",
@@ -901,7 +972,8 @@
     "gdpPerCapita": 1800,
     "population": 17200000,
     "governmentType": "Closed Autocracy",
-    "democracyIndex": 0.18
+    "democracyIndex": 0.18,
+    "governance": {}
   },
   {
     "iso3": "CMR",
@@ -932,7 +1004,8 @@
     "gdpPerCapita": 1700,
     "population": 28600000,
     "governmentType": "Closed Autocracy",
-    "democracyIndex": 0.18
+    "democracyIndex": 0.18,
+    "governance": {}
   },
   {
     "iso3": "CAN",
@@ -960,7 +1033,15 @@
     "gdpPerCapita": 55000,
     "population": 40100000,
     "governmentType": "Liberal Democracy",
-    "democracyIndex": 0.89
+    "democracyIndex": 0.89,
+    "governance": {
+      "VA": 1.39,
+      "PS": 0.93,
+      "GE": 1.63,
+      "RQ": 1.68,
+      "RL": 1.69,
+      "CC": 1.8
+    }
   },
   {
     "iso3": "CAF",
@@ -991,7 +1072,8 @@
     "gdpPerCapita": 480,
     "population": 5500000,
     "governmentType": "Closed Autocracy",
-    "democracyIndex": 0.12
+    "democracyIndex": 0.12,
+    "governance": {}
   },
   {
     "iso3": "TCD",
@@ -1022,7 +1104,8 @@
     "gdpPerCapita": 700,
     "population": 18300000,
     "governmentType": "Closed Autocracy",
-    "democracyIndex": 0.08
+    "democracyIndex": 0.08,
+    "governance": {}
   },
   {
     "iso3": "CHL",
@@ -1053,7 +1136,15 @@
     "gdpPerCapita": 17000,
     "population": 19600000,
     "governmentType": "Liberal Democracy",
-    "democracyIndex": 0.78
+    "democracyIndex": 0.78,
+    "governance": {
+      "VA": 0.87,
+      "PS": -0.07,
+      "GE": 0.68,
+      "RQ": 1.11,
+      "RL": 0.78,
+      "CC": 0.71
+    }
   },
   {
     "iso3": "CHN",
@@ -1083,7 +1174,15 @@
     "gdpPerCapita": 12700,
     "population": 1410000000,
     "governmentType": "Closed Autocracy",
-    "democracyIndex": 0.1
+    "democracyIndex": 0.1,
+    "governance": {
+      "VA": -1.56,
+      "PS": -0.31,
+      "GE": 0.95,
+      "RQ": -0.13,
+      "RL": -0.21,
+      "CC": -0.23
+    }
   },
   {
     "iso3": "COL",
@@ -1114,7 +1213,15 @@
     "gdpPerCapita": 6600,
     "population": 52000000,
     "governmentType": "Electoral Democracy",
-    "democracyIndex": 0.62
+    "democracyIndex": 0.62,
+    "governance": {
+      "VA": -0.04,
+      "PS": -0.68,
+      "GE": 0.01,
+      "RQ": 0.17,
+      "RL": -0.29,
+      "CC": -0.35
+    }
   },
   {
     "iso3": "COM",
@@ -1145,7 +1252,8 @@
     "gdpPerCapita": 1600,
     "population": 850000,
     "governmentType": "Electoral Autocracy",
-    "democracyIndex": 0.4730333716080136
+    "democracyIndex": 0.4730333716080136,
+    "governance": {}
   },
   {
     "iso3": "COG",
@@ -1176,7 +1284,8 @@
     "gdpPerCapita": 2400,
     "population": 6100000,
     "governmentType": "Closed Autocracy",
-    "democracyIndex": 0.12
+    "democracyIndex": 0.12,
+    "governance": {}
   },
   {
     "iso3": "COD",
@@ -1207,7 +1316,8 @@
     "gdpPerCapita": 650,
     "population": 102000000,
     "governmentType": "Closed Autocracy",
-    "democracyIndex": 0.18
+    "democracyIndex": 0.18,
+    "governance": {}
   },
   {
     "iso3": "CRI",
@@ -1238,11 +1348,12 @@
     "gdpPerCapita": 13000,
     "population": 5200000,
     "governmentType": "Liberal Democracy",
-    "democracyIndex": 0.8
+    "democracyIndex": 0.8,
+    "governance": {}
   },
   {
     "iso3": "CIV",
-    "name": "Côte d'Ivoire",
+    "name": "C\u00f4te d'Ivoire",
     "region": "AFRICAN",
     "blocs": [
       "G77",
@@ -1269,7 +1380,8 @@
     "gdpPerCapita": 2600,
     "population": 28900000,
     "governmentType": "Electoral Autocracy",
-    "democracyIndex": 0.38
+    "democracyIndex": 0.38,
+    "governance": {}
   },
   {
     "iso3": "HRV",
@@ -1299,7 +1411,8 @@
     "gdpPerCapita": 20000,
     "population": 3800000,
     "governmentType": "Electoral Democracy",
-    "democracyIndex": 0.72
+    "democracyIndex": 0.72,
+    "governance": {}
   },
   {
     "iso3": "CUB",
@@ -1330,7 +1443,15 @@
     "gdpPerCapita": 9500,
     "population": 11200000,
     "governmentType": "Closed Autocracy",
-    "democracyIndex": 0.15
+    "democracyIndex": 0.15,
+    "governance": {
+      "VA": -1.7,
+      "PS": 0.36,
+      "GE": -0.29,
+      "RQ": -1.64,
+      "RL": -0.51,
+      "CC": -0.13
+    }
   },
   {
     "iso3": "CYP",
@@ -1360,7 +1481,8 @@
     "gdpPerCapita": 32000,
     "population": 1300000,
     "governmentType": "Electoral Democracy",
-    "democracyIndex": 0.5898237574589028
+    "democracyIndex": 0.5898237574589028,
+    "governance": {}
   },
   {
     "iso3": "CZE",
@@ -1390,7 +1512,8 @@
     "gdpPerCapita": 27000,
     "population": 10900000,
     "governmentType": "Liberal Democracy",
-    "democracyIndex": 0.79
+    "democracyIndex": 0.79,
+    "governance": {}
   },
   {
     "iso3": "PRK",
@@ -1418,7 +1541,15 @@
     "gdpPerCapita": 1800,
     "population": 26200000,
     "governmentType": "Closed Autocracy",
-    "democracyIndex": 0.05
+    "democracyIndex": 0.05,
+    "governance": {
+      "VA": -2.19,
+      "PS": -0.27,
+      "GE": -1.6,
+      "RQ": -2.38,
+      "RL": -1.47,
+      "CC": -1.42
+    }
   },
   {
     "iso3": "DNK",
@@ -1448,7 +1579,15 @@
     "gdpPerCapita": 68000,
     "population": 5900000,
     "governmentType": "Liberal Democracy",
-    "democracyIndex": 0.93
+    "democracyIndex": 0.93,
+    "governance": {
+      "VA": 1.58,
+      "PS": 0.87,
+      "GE": 1.79,
+      "RQ": 1.74,
+      "RL": 1.87,
+      "CC": 2.14
+    }
   },
   {
     "iso3": "DJI",
@@ -1479,7 +1618,8 @@
     "gdpPerCapita": 3400,
     "population": 1100000,
     "governmentType": "Closed Autocracy",
-    "democracyIndex": 0.15
+    "democracyIndex": 0.15,
+    "governance": {}
   },
   {
     "iso3": "DMA",
@@ -1509,7 +1649,8 @@
     "gdpPerCapita": 8500,
     "population": 73000,
     "governmentType": "Electoral Autocracy",
-    "democracyIndex": 0.511148336765158
+    "democracyIndex": 0.511148336765158,
+    "governance": {}
   },
   {
     "iso3": "DOM",
@@ -1540,7 +1681,8 @@
     "gdpPerCapita": 10800,
     "population": 11200000,
     "governmentType": "Electoral Democracy",
-    "democracyIndex": 0.55
+    "democracyIndex": 0.55,
+    "governance": {}
   },
   {
     "iso3": "ECU",
@@ -1571,7 +1713,8 @@
     "gdpPerCapita": 6500,
     "population": 18200000,
     "governmentType": "Electoral Democracy",
-    "democracyIndex": 0.55
+    "democracyIndex": 0.55,
+    "governance": {}
   },
   {
     "iso3": "EGY",
@@ -1602,7 +1745,15 @@
     "gdpPerCapita": 3900,
     "population": 109000000,
     "governmentType": "Closed Autocracy",
-    "democracyIndex": 0.18
+    "democracyIndex": 0.18,
+    "governance": {
+      "VA": -1.32,
+      "PS": -0.91,
+      "GE": -0.55,
+      "RQ": -0.58,
+      "RL": -0.39,
+      "CC": -0.55
+    }
   },
   {
     "iso3": "SLV",
@@ -1632,7 +1783,8 @@
     "gdpPerCapita": 5100,
     "population": 6400000,
     "governmentType": "Electoral Autocracy",
-    "democracyIndex": 0.5
+    "democracyIndex": 0.5,
+    "governance": {}
   },
   {
     "iso3": "GNQ",
@@ -1663,7 +1815,8 @@
     "gdpPerCapita": 7000,
     "population": 1700000,
     "governmentType": "Closed Autocracy",
-    "democracyIndex": 0.05
+    "democracyIndex": 0.05,
+    "governance": {}
   },
   {
     "iso3": "ERI",
@@ -1694,7 +1847,8 @@
     "gdpPerCapita": 700,
     "population": 3700000,
     "governmentType": "Closed Autocracy",
-    "democracyIndex": 0.05
+    "democracyIndex": 0.05,
+    "governance": {}
   },
   {
     "iso3": "EST",
@@ -1724,7 +1878,8 @@
     "gdpPerCapita": 28000,
     "population": 1400000,
     "governmentType": "Liberal Democracy",
-    "democracyIndex": 0.79
+    "democracyIndex": 0.79,
+    "governance": {}
   },
   {
     "iso3": "SWZ",
@@ -1755,7 +1910,8 @@
     "gdpPerCapita": 4200,
     "population": 1200000,
     "governmentType": "Electoral Autocracy",
-    "democracyIndex": 0.4346718662731982
+    "democracyIndex": 0.4346718662731982,
+    "governance": {}
   },
   {
     "iso3": "ETH",
@@ -1786,7 +1942,15 @@
     "gdpPerCapita": 1100,
     "population": 126000000,
     "governmentType": "Closed Autocracy",
-    "democracyIndex": 0.2
+    "democracyIndex": 0.2,
+    "governance": {
+      "VA": -1.3,
+      "PS": -1.79,
+      "GE": -0.42,
+      "RQ": -0.8,
+      "RL": -0.62,
+      "CC": -0.31
+    }
   },
   {
     "iso3": "FJI",
@@ -1817,7 +1981,8 @@
     "gdpPerCapita": 5500,
     "population": 930000,
     "governmentType": "Electoral Democracy",
-    "democracyIndex": 0.6621686455705595
+    "democracyIndex": 0.6621686455705595,
+    "governance": {}
   },
   {
     "iso3": "FIN",
@@ -1847,7 +2012,15 @@
     "gdpPerCapita": 54000,
     "population": 5600000,
     "governmentType": "Liberal Democracy",
-    "democracyIndex": 0.92
+    "democracyIndex": 0.92,
+    "governance": {
+      "VA": 1.6,
+      "PS": 0.93,
+      "GE": 1.87,
+      "RQ": 1.79,
+      "RL": 1.94,
+      "CC": 2.17
+    }
   },
   {
     "iso3": "FRA",
@@ -1877,7 +2050,15 @@
     "gdpPerCapita": 44000,
     "population": 68200000,
     "governmentType": "Liberal Democracy",
-    "democracyIndex": 0.83
+    "democracyIndex": 0.83,
+    "governance": {
+      "VA": 1.09,
+      "PS": 0.28,
+      "GE": 1.38,
+      "RQ": 1.12,
+      "RL": 1.38,
+      "CC": 1.31
+    }
   },
   {
     "iso3": "GAB",
@@ -1908,7 +2089,8 @@
     "gdpPerCapita": 9400,
     "population": 2400000,
     "governmentType": "Closed Autocracy",
-    "democracyIndex": 0.15
+    "democracyIndex": 0.15,
+    "governance": {}
   },
   {
     "iso3": "GMB",
@@ -1939,7 +2121,8 @@
     "gdpPerCapita": 800,
     "population": 2700000,
     "governmentType": "Electoral Democracy",
-    "democracyIndex": 0.6941934194402288
+    "democracyIndex": 0.6941934194402288,
+    "governance": {}
   },
   {
     "iso3": "GEO",
@@ -1967,7 +2150,8 @@
     "gdpPerCapita": 7700,
     "population": 3700000,
     "governmentType": "Electoral Autocracy",
-    "democracyIndex": 0.52
+    "democracyIndex": 0.52,
+    "governance": {}
   },
   {
     "iso3": "DEU",
@@ -1997,7 +2181,15 @@
     "gdpPerCapita": 52000,
     "population": 84400000,
     "governmentType": "Liberal Democracy",
-    "democracyIndex": 0.88
+    "democracyIndex": 0.88,
+    "governance": {
+      "VA": 1.34,
+      "PS": 0.6,
+      "GE": 1.53,
+      "RQ": 1.73,
+      "RL": 1.62,
+      "CC": 1.83
+    }
   },
   {
     "iso3": "GHA",
@@ -2028,7 +2220,15 @@
     "gdpPerCapita": 2300,
     "population": 34100000,
     "governmentType": "Electoral Democracy",
-    "democracyIndex": 0.65
+    "democracyIndex": 0.65,
+    "governance": {
+      "VA": 0.52,
+      "PS": -0.11,
+      "GE": -0.06,
+      "RQ": 0.0,
+      "RL": 0.0,
+      "CC": -0.1
+    }
   },
   {
     "iso3": "GRC",
@@ -2058,7 +2258,15 @@
     "gdpPerCapita": 22000,
     "population": 10400000,
     "governmentType": "Electoral Democracy",
-    "democracyIndex": 0.74
+    "democracyIndex": 0.74,
+    "governance": {
+      "VA": 0.8,
+      "PS": 0.11,
+      "GE": 0.35,
+      "RQ": 0.35,
+      "RL": 0.35,
+      "CC": -0.01
+    }
   },
   {
     "iso3": "GRD",
@@ -2089,7 +2297,8 @@
     "gdpPerCapita": 11000,
     "population": 126000,
     "governmentType": "Electoral Autocracy",
-    "democracyIndex": 0.4642378429333302
+    "democracyIndex": 0.4642378429333302,
+    "governance": {}
   },
   {
     "iso3": "GTM",
@@ -2120,7 +2329,8 @@
     "gdpPerCapita": 5600,
     "population": 18100000,
     "governmentType": "Electoral Autocracy",
-    "democracyIndex": 0.42
+    "democracyIndex": 0.42,
+    "governance": {}
   },
   {
     "iso3": "GIN",
@@ -2151,7 +2361,8 @@
     "gdpPerCapita": 1100,
     "population": 14100000,
     "governmentType": "Electoral Autocracy",
-    "democracyIndex": 0.47240202663755093
+    "democracyIndex": 0.47240202663755093,
+    "governance": {}
   },
   {
     "iso3": "GNB",
@@ -2182,7 +2393,8 @@
     "gdpPerCapita": 800,
     "population": 2100000,
     "governmentType": "Electoral Autocracy",
-    "democracyIndex": 0.40702089669812025
+    "democracyIndex": 0.40702089669812025,
+    "governance": {}
   },
   {
     "iso3": "GUY",
@@ -2213,7 +2425,8 @@
     "gdpPerCapita": 18000,
     "population": 810000,
     "governmentType": "Electoral Democracy",
-    "democracyIndex": 0.55
+    "democracyIndex": 0.55,
+    "governance": {}
   },
   {
     "iso3": "HTI",
@@ -2244,7 +2457,8 @@
     "gdpPerCapita": 1700,
     "population": 11700000,
     "governmentType": "Closed Autocracy",
-    "democracyIndex": 0.25
+    "democracyIndex": 0.25,
+    "governance": {}
   },
   {
     "iso3": "HND",
@@ -2275,7 +2489,8 @@
     "gdpPerCapita": 3100,
     "population": 10400000,
     "governmentType": "Electoral Autocracy",
-    "democracyIndex": 0.38
+    "democracyIndex": 0.38,
+    "governance": {}
   },
   {
     "iso3": "HUN",
@@ -2305,7 +2520,15 @@
     "gdpPerCapita": 18500,
     "population": 9600000,
     "governmentType": "Electoral Democracy",
-    "democracyIndex": 0.55
+    "democracyIndex": 0.55,
+    "governance": {
+      "VA": 0.14,
+      "PS": 0.57,
+      "GE": 0.46,
+      "RQ": 0.51,
+      "RL": 0.32,
+      "CC": -0.07
+    }
   },
   {
     "iso3": "ISL",
@@ -2333,7 +2556,8 @@
     "gdpPerCapita": 75000,
     "population": 380000,
     "governmentType": "Liberal Democracy",
-    "democracyIndex": 0.9
+    "democracyIndex": 0.9,
+    "governance": {}
   },
   {
     "iso3": "IND",
@@ -2364,7 +2588,15 @@
     "gdpPerCapita": 2700,
     "population": 1440000000,
     "governmentType": "Electoral Autocracy",
-    "democracyIndex": 0.52
+    "democracyIndex": 0.52,
+    "governance": {
+      "VA": 0.02,
+      "PS": -0.82,
+      "GE": -0.14,
+      "RQ": -0.31,
+      "RL": -0.01,
+      "CC": -0.28
+    }
   },
   {
     "iso3": "IDN",
@@ -2395,7 +2627,15 @@
     "gdpPerCapita": 4900,
     "population": 278000000,
     "governmentType": "Electoral Democracy",
-    "democracyIndex": 0.55
+    "democracyIndex": 0.55,
+    "governance": {
+      "VA": 0.09,
+      "PS": -0.4,
+      "GE": 0.15,
+      "RQ": -0.05,
+      "RL": -0.25,
+      "CC": -0.25
+    }
   },
   {
     "iso3": "IRN",
@@ -2426,7 +2666,15 @@
     "gdpPerCapita": 4500,
     "population": 89200000,
     "governmentType": "Closed Autocracy",
-    "democracyIndex": 0.15
+    "democracyIndex": 0.15,
+    "governance": {
+      "VA": -1.64,
+      "PS": -0.8,
+      "GE": -0.47,
+      "RQ": -1.25,
+      "RL": -0.88,
+      "CC": -0.56
+    }
   },
   {
     "iso3": "IRQ",
@@ -2457,7 +2705,8 @@
     "gdpPerCapita": 5500,
     "population": 45500000,
     "governmentType": "Closed Autocracy",
-    "democracyIndex": 0.25
+    "democracyIndex": 0.25,
+    "governance": {}
   },
   {
     "iso3": "IRL",
@@ -2487,7 +2736,8 @@
     "gdpPerCapita": 106000,
     "population": 5200000,
     "governmentType": "Liberal Democracy",
-    "democracyIndex": 0.9
+    "democracyIndex": 0.9,
+    "governance": {}
   },
   {
     "iso3": "ISR",
@@ -2515,7 +2765,15 @@
     "gdpPerCapita": 55000,
     "population": 9800000,
     "governmentType": "Electoral Democracy",
-    "democracyIndex": 0.72
+    "democracyIndex": 0.72,
+    "governance": {
+      "VA": 0.62,
+      "PS": -1.21,
+      "GE": 1.32,
+      "RQ": 1.15,
+      "RL": 1.08,
+      "CC": 0.88
+    }
   },
   {
     "iso3": "ITA",
@@ -2545,7 +2803,15 @@
     "gdpPerCapita": 37000,
     "population": 58900000,
     "governmentType": "Liberal Democracy",
-    "democracyIndex": 0.8
+    "democracyIndex": 0.8,
+    "governance": {
+      "VA": 0.94,
+      "PS": 0.43,
+      "GE": 0.45,
+      "RQ": 0.62,
+      "RL": 0.32,
+      "CC": 0.28
+    }
   },
   {
     "iso3": "JAM",
@@ -2576,7 +2842,8 @@
     "gdpPerCapita": 6000,
     "population": 2800000,
     "governmentType": "Electoral Democracy",
-    "democracyIndex": 0.68
+    "democracyIndex": 0.68,
+    "governance": {}
   },
   {
     "iso3": "JPN",
@@ -2604,7 +2871,15 @@
     "gdpPerCapita": 34000,
     "population": 123300000,
     "governmentType": "Liberal Democracy",
-    "democracyIndex": 0.82
+    "democracyIndex": 0.82,
+    "governance": {
+      "VA": 1.03,
+      "PS": 1.14,
+      "GE": 1.59,
+      "RQ": 1.14,
+      "RL": 1.5,
+      "CC": 1.48
+    }
   },
   {
     "iso3": "JOR",
@@ -2635,7 +2910,8 @@
     "gdpPerCapita": 4500,
     "population": 11300000,
     "governmentType": "Closed Autocracy",
-    "democracyIndex": 0.22
+    "democracyIndex": 0.22,
+    "governance": {}
   },
   {
     "iso3": "KAZ",
@@ -2663,7 +2939,8 @@
     "gdpPerCapita": 13000,
     "population": 20000000,
     "governmentType": "Closed Autocracy",
-    "democracyIndex": 0.18
+    "democracyIndex": 0.18,
+    "governance": {}
   },
   {
     "iso3": "KEN",
@@ -2694,7 +2971,15 @@
     "gdpPerCapita": 2100,
     "population": 55100000,
     "governmentType": "Electoral Autocracy",
-    "democracyIndex": 0.45
+    "democracyIndex": 0.45,
+    "governance": {
+      "VA": -0.16,
+      "PS": -1.04,
+      "GE": -0.37,
+      "RQ": -0.18,
+      "RL": -0.43,
+      "CC": -0.78
+    }
   },
   {
     "iso3": "KIR",
@@ -2724,7 +3009,8 @@
     "gdpPerCapita": 1700,
     "population": 130000,
     "governmentType": "Electoral Autocracy",
-    "democracyIndex": 0.4284222713970631
+    "democracyIndex": 0.4284222713970631,
+    "governance": {}
   },
   {
     "iso3": "KWT",
@@ -2755,7 +3041,8 @@
     "gdpPerCapita": 38000,
     "population": 4300000,
     "governmentType": "Closed Autocracy",
-    "democracyIndex": 0.2
+    "democracyIndex": 0.2,
+    "governance": {}
   },
   {
     "iso3": "KGZ",
@@ -2783,7 +3070,8 @@
     "gdpPerCapita": 1700,
     "population": 7000000,
     "governmentType": "Closed Autocracy",
-    "democracyIndex": 0.28
+    "democracyIndex": 0.28,
+    "governance": {}
   },
   {
     "iso3": "LAO",
@@ -2814,7 +3102,8 @@
     "gdpPerCapita": 2500,
     "population": 7600000,
     "governmentType": "Closed Autocracy",
-    "democracyIndex": 0.12
+    "democracyIndex": 0.12,
+    "governance": {}
   },
   {
     "iso3": "LVA",
@@ -2844,7 +3133,8 @@
     "gdpPerCapita": 22000,
     "population": 1800000,
     "governmentType": "Liberal Democracy",
-    "democracyIndex": 0.76
+    "democracyIndex": 0.76,
+    "governance": {}
   },
   {
     "iso3": "LBN",
@@ -2875,7 +3165,8 @@
     "gdpPerCapita": 4100,
     "population": 5500000,
     "governmentType": "Electoral Autocracy",
-    "democracyIndex": 0.35
+    "democracyIndex": 0.35,
+    "governance": {}
   },
   {
     "iso3": "LSO",
@@ -2906,7 +3197,8 @@
     "gdpPerCapita": 1200,
     "population": 2300000,
     "governmentType": "Closed Autocracy",
-    "democracyIndex": 0.3233875172267173
+    "democracyIndex": 0.3233875172267173,
+    "governance": {}
   },
   {
     "iso3": "LBR",
@@ -2937,7 +3229,8 @@
     "gdpPerCapita": 700,
     "population": 5400000,
     "governmentType": "Electoral Democracy",
-    "democracyIndex": 0.5751151641540032
+    "democracyIndex": 0.5751151641540032,
+    "governance": {}
   },
   {
     "iso3": "LBY",
@@ -2968,7 +3261,8 @@
     "gdpPerCapita": 6700,
     "population": 6800000,
     "governmentType": "Closed Autocracy",
-    "democracyIndex": 0.1
+    "democracyIndex": 0.1,
+    "governance": {}
   },
   {
     "iso3": "LIE",
@@ -2996,7 +3290,8 @@
     "gdpPerCapita": 180000,
     "population": 40000,
     "governmentType": "Electoral Democracy",
-    "democracyIndex": 0.6451926150231605
+    "democracyIndex": 0.6451926150231605,
+    "governance": {}
   },
   {
     "iso3": "LTU",
@@ -3026,7 +3321,8 @@
     "gdpPerCapita": 24000,
     "population": 2800000,
     "governmentType": "Liberal Democracy",
-    "democracyIndex": 0.77
+    "democracyIndex": 0.77,
+    "governance": {}
   },
   {
     "iso3": "LUX",
@@ -3056,7 +3352,8 @@
     "gdpPerCapita": 128000,
     "population": 660000,
     "governmentType": "Liberal Democracy",
-    "democracyIndex": 0.86
+    "democracyIndex": 0.86,
+    "governance": {}
   },
   {
     "iso3": "MDG",
@@ -3087,7 +3384,8 @@
     "gdpPerCapita": 500,
     "population": 30300000,
     "governmentType": "Electoral Autocracy",
-    "democracyIndex": 0.45425250934303096
+    "democracyIndex": 0.45425250934303096,
+    "governance": {}
   },
   {
     "iso3": "MWI",
@@ -3118,7 +3416,8 @@
     "gdpPerCapita": 640,
     "population": 20900000,
     "governmentType": "Electoral Autocracy",
-    "democracyIndex": 0.3552707562351764
+    "democracyIndex": 0.3552707562351764,
+    "governance": {}
   },
   {
     "iso3": "MYS",
@@ -3149,7 +3448,15 @@
     "gdpPerCapita": 13000,
     "population": 34300000,
     "governmentType": "Electoral Autocracy",
-    "democracyIndex": 0.45
+    "democracyIndex": 0.45,
+    "governance": {
+      "VA": -0.15,
+      "PS": 0.2,
+      "GE": 1.01,
+      "RQ": 0.72,
+      "RL": 0.5,
+      "CC": 0.28
+    }
   },
   {
     "iso3": "MDV",
@@ -3180,7 +3487,8 @@
     "gdpPerCapita": 11000,
     "population": 520000,
     "governmentType": "Electoral Autocracy",
-    "democracyIndex": 0.3526147776405827
+    "democracyIndex": 0.3526147776405827,
+    "governance": {}
   },
   {
     "iso3": "MLI",
@@ -3211,7 +3519,8 @@
     "gdpPerCapita": 900,
     "population": 23300000,
     "governmentType": "Closed Autocracy",
-    "democracyIndex": 0.22
+    "democracyIndex": 0.22,
+    "governance": {}
   },
   {
     "iso3": "MLT",
@@ -3241,7 +3550,8 @@
     "gdpPerCapita": 34000,
     "population": 540000,
     "governmentType": "Electoral Autocracy",
-    "democracyIndex": 0.49125912752730283
+    "democracyIndex": 0.49125912752730283,
+    "governance": {}
   },
   {
     "iso3": "MHL",
@@ -3271,7 +3581,8 @@
     "gdpPerCapita": 6500,
     "population": 42000,
     "governmentType": "Electoral Democracy",
-    "democracyIndex": 0.6404717765609902
+    "democracyIndex": 0.6404717765609902,
+    "governance": {}
   },
   {
     "iso3": "MRT",
@@ -3302,7 +3613,8 @@
     "gdpPerCapita": 2200,
     "population": 4900000,
     "governmentType": "Closed Autocracy",
-    "democracyIndex": 0.22
+    "democracyIndex": 0.22,
+    "governance": {}
   },
   {
     "iso3": "MUS",
@@ -3333,7 +3645,8 @@
     "gdpPerCapita": 11000,
     "population": 1300000,
     "governmentType": "Electoral Democracy",
-    "democracyIndex": 0.72
+    "democracyIndex": 0.72,
+    "governance": {}
   },
   {
     "iso3": "MEX",
@@ -3363,7 +3676,15 @@
     "gdpPerCapita": 13000,
     "population": 129000000,
     "governmentType": "Electoral Democracy",
-    "democracyIndex": 0.58
+    "democracyIndex": 0.58,
+    "governance": {
+      "VA": -0.08,
+      "PS": -0.79,
+      "GE": -0.01,
+      "RQ": 0.1,
+      "RL": -0.63,
+      "CC": -0.84
+    }
   },
   {
     "iso3": "FSM",
@@ -3393,7 +3714,8 @@
     "gdpPerCapita": 4000,
     "population": 110000,
     "governmentType": "Electoral Autocracy",
-    "democracyIndex": 0.4341173941581783
+    "democracyIndex": 0.4341173941581783,
+    "governance": {}
   },
   {
     "iso3": "MDA",
@@ -3421,7 +3743,8 @@
     "gdpPerCapita": 5700,
     "population": 2500000,
     "governmentType": "Electoral Autocracy",
-    "democracyIndex": 0.48
+    "democracyIndex": 0.48,
+    "governance": {}
   },
   {
     "iso3": "MCO",
@@ -3449,7 +3772,8 @@
     "gdpPerCapita": 190000,
     "population": 40000,
     "governmentType": "Electoral Democracy",
-    "democracyIndex": 0.6800524154631543
+    "democracyIndex": 0.6800524154631543,
+    "governance": {}
   },
   {
     "iso3": "MNG",
@@ -3480,7 +3804,8 @@
     "gdpPerCapita": 5500,
     "population": 3400000,
     "governmentType": "Electoral Democracy",
-    "democracyIndex": 0.62
+    "democracyIndex": 0.62,
+    "governance": {}
   },
   {
     "iso3": "MNE",
@@ -3508,7 +3833,8 @@
     "gdpPerCapita": 10000,
     "population": 620000,
     "governmentType": "Electoral Democracy",
-    "democracyIndex": 0.55
+    "democracyIndex": 0.55,
+    "governance": {}
   },
   {
     "iso3": "MAR",
@@ -3539,7 +3865,8 @@
     "gdpPerCapita": 3800,
     "population": 37800000,
     "governmentType": "Closed Autocracy",
-    "democracyIndex": 0.3
+    "democracyIndex": 0.3,
+    "governance": {}
   },
   {
     "iso3": "MOZ",
@@ -3570,7 +3897,8 @@
     "gdpPerCapita": 540,
     "population": 33900000,
     "governmentType": "Closed Autocracy",
-    "democracyIndex": 0.3
+    "democracyIndex": 0.3,
+    "governance": {}
   },
   {
     "iso3": "MMR",
@@ -3601,7 +3929,15 @@
     "gdpPerCapita": 1200,
     "population": 54100000,
     "governmentType": "Closed Autocracy",
-    "democracyIndex": 0.12
+    "democracyIndex": 0.12,
+    "governance": {
+      "VA": -1.72,
+      "PS": -1.93,
+      "GE": -1.17,
+      "RQ": -1.3,
+      "RL": -1.36,
+      "CC": -1.03
+    }
   },
   {
     "iso3": "NAM",
@@ -3632,7 +3968,8 @@
     "gdpPerCapita": 5000,
     "population": 2600000,
     "governmentType": "Electoral Democracy",
-    "democracyIndex": 0.62
+    "democracyIndex": 0.62,
+    "governance": {}
   },
   {
     "iso3": "NRU",
@@ -3662,7 +3999,8 @@
     "gdpPerCapita": 11000,
     "population": 13000,
     "governmentType": "Electoral Democracy",
-    "democracyIndex": 0.5949531309993363
+    "democracyIndex": 0.5949531309993363,
+    "governance": {}
   },
   {
     "iso3": "NPL",
@@ -3693,7 +4031,8 @@
     "gdpPerCapita": 1400,
     "population": 30900000,
     "governmentType": "Electoral Autocracy",
-    "democracyIndex": 0.45
+    "democracyIndex": 0.45,
+    "governance": {}
   },
   {
     "iso3": "NLD",
@@ -3723,7 +4062,15 @@
     "gdpPerCapita": 57000,
     "population": 17800000,
     "governmentType": "Liberal Democracy",
-    "democracyIndex": 0.89
+    "democracyIndex": 0.89,
+    "governance": {
+      "VA": 1.48,
+      "PS": 0.71,
+      "GE": 1.76,
+      "RQ": 1.84,
+      "RL": 1.8,
+      "CC": 1.94
+    }
   },
   {
     "iso3": "NZL",
@@ -3751,7 +4098,15 @@
     "gdpPerCapita": 48000,
     "population": 5200000,
     "governmentType": "Liberal Democracy",
-    "democracyIndex": 0.91
+    "democracyIndex": 0.91,
+    "governance": {
+      "VA": 1.54,
+      "PS": 1.39,
+      "GE": 1.67,
+      "RQ": 1.94,
+      "RL": 1.82,
+      "CC": 2.07
+    }
   },
   {
     "iso3": "NIC",
@@ -3782,7 +4137,8 @@
     "gdpPerCapita": 2200,
     "population": 7000000,
     "governmentType": "Closed Autocracy",
-    "democracyIndex": 0.2
+    "democracyIndex": 0.2,
+    "governance": {}
   },
   {
     "iso3": "NER",
@@ -3813,7 +4169,8 @@
     "gdpPerCapita": 600,
     "population": 27200000,
     "governmentType": "Closed Autocracy",
-    "democracyIndex": 0.15
+    "democracyIndex": 0.15,
+    "governance": {}
   },
   {
     "iso3": "NGA",
@@ -3844,7 +4201,15 @@
     "gdpPerCapita": 1600,
     "population": 224000000,
     "governmentType": "Electoral Autocracy",
-    "democracyIndex": 0.42
+    "democracyIndex": 0.42,
+    "governance": {
+      "VA": -0.57,
+      "PS": -1.72,
+      "GE": -1.08,
+      "RQ": -0.83,
+      "RL": -0.9,
+      "CC": -1.07
+    }
   },
   {
     "iso3": "MKD",
@@ -3872,7 +4237,8 @@
     "gdpPerCapita": 7600,
     "population": 1800000,
     "governmentType": "Electoral Democracy",
-    "democracyIndex": 0.55
+    "democracyIndex": 0.55,
+    "governance": {}
   },
   {
     "iso3": "NOR",
@@ -3900,7 +4266,15 @@
     "gdpPerCapita": 88000,
     "population": 5500000,
     "governmentType": "Liberal Democracy",
-    "democracyIndex": 0.95
+    "democracyIndex": 0.95,
+    "governance": {
+      "VA": 1.73,
+      "PS": 1.35,
+      "GE": 1.88,
+      "RQ": 1.74,
+      "RL": 1.96,
+      "CC": 2.12
+    }
   },
   {
     "iso3": "OMN",
@@ -3931,7 +4305,8 @@
     "gdpPerCapita": 21000,
     "population": 4600000,
     "governmentType": "Closed Autocracy",
-    "democracyIndex": 0.12
+    "democracyIndex": 0.12,
+    "governance": {}
   },
   {
     "iso3": "PAK",
@@ -3962,7 +4337,15 @@
     "gdpPerCapita": 1600,
     "population": 240500000,
     "governmentType": "Closed Autocracy",
-    "democracyIndex": 0.3
+    "democracyIndex": 0.3,
+    "governance": {
+      "VA": -0.7,
+      "PS": -1.73,
+      "GE": -0.58,
+      "RQ": -0.59,
+      "RL": -0.76,
+      "CC": -0.76
+    }
   },
   {
     "iso3": "PLW",
@@ -3992,7 +4375,8 @@
     "gdpPerCapita": 15000,
     "population": 18000,
     "governmentType": "Electoral Democracy",
-    "democracyIndex": 0.6014560129264035
+    "democracyIndex": 0.6014560129264035,
+    "governance": {}
   },
   {
     "iso3": "PAN",
@@ -4023,7 +4407,8 @@
     "gdpPerCapita": 16000,
     "population": 4400000,
     "governmentType": "Electoral Democracy",
-    "democracyIndex": 0.62
+    "democracyIndex": 0.62,
+    "governance": {}
   },
   {
     "iso3": "PNG",
@@ -4054,7 +4439,8 @@
     "gdpPerCapita": 2800,
     "population": 10300000,
     "governmentType": "Electoral Autocracy",
-    "democracyIndex": 0.49440773636903795
+    "democracyIndex": 0.49440773636903795,
+    "governance": {}
   },
   {
     "iso3": "PRY",
@@ -4084,7 +4470,8 @@
     "gdpPerCapita": 5800,
     "population": 6800000,
     "governmentType": "Electoral Autocracy",
-    "democracyIndex": 0.52
+    "democracyIndex": 0.52,
+    "governance": {}
   },
   {
     "iso3": "PER",
@@ -4115,7 +4502,15 @@
     "gdpPerCapita": 7700,
     "population": 34400000,
     "governmentType": "Electoral Democracy",
-    "democracyIndex": 0.6
+    "democracyIndex": 0.6,
+    "governance": {
+      "VA": 0.07,
+      "PS": -0.51,
+      "GE": -0.14,
+      "RQ": 0.37,
+      "RL": -0.45,
+      "CC": -0.46
+    }
   },
   {
     "iso3": "PHL",
@@ -4146,7 +4541,15 @@
     "gdpPerCapita": 3900,
     "population": 117000000,
     "governmentType": "Electoral Autocracy",
-    "democracyIndex": 0.5
+    "democracyIndex": 0.5,
+    "governance": {
+      "VA": 0.0,
+      "PS": -0.82,
+      "GE": 0.0,
+      "RQ": -0.07,
+      "RL": -0.4,
+      "CC": -0.51
+    }
   },
   {
     "iso3": "POL",
@@ -4176,7 +4579,15 @@
     "gdpPerCapita": 18700,
     "population": 36700000,
     "governmentType": "Electoral Democracy",
-    "democracyIndex": 0.68
+    "democracyIndex": 0.68,
+    "governance": {
+      "VA": 0.64,
+      "PS": 0.42,
+      "GE": 0.53,
+      "RQ": 0.85,
+      "RL": 0.39,
+      "CC": 0.47
+    }
   },
   {
     "iso3": "PRT",
@@ -4206,7 +4617,15 @@
     "gdpPerCapita": 25000,
     "population": 10400000,
     "governmentType": "Liberal Democracy",
-    "democracyIndex": 0.85
+    "democracyIndex": 0.85,
+    "governance": {
+      "VA": 1.19,
+      "PS": 0.8,
+      "GE": 0.96,
+      "RQ": 0.75,
+      "RL": 1.09,
+      "CC": 0.86
+    }
   },
   {
     "iso3": "QAT",
@@ -4237,7 +4656,15 @@
     "gdpPerCapita": 83000,
     "population": 2700000,
     "governmentType": "Closed Autocracy",
-    "democracyIndex": 0.1
+    "democracyIndex": 0.1,
+    "governance": {
+      "VA": -1.05,
+      "PS": 0.93,
+      "GE": 0.98,
+      "RQ": 0.57,
+      "RL": 0.85,
+      "CC": 1.01
+    }
   },
   {
     "iso3": "KOR",
@@ -4265,7 +4692,15 @@
     "gdpPerCapita": 33000,
     "population": 51700000,
     "governmentType": "Liberal Democracy",
-    "democracyIndex": 0.81
+    "democracyIndex": 0.81,
+    "governance": {
+      "VA": 0.95,
+      "PS": 0.5,
+      "GE": 1.29,
+      "RQ": 1.17,
+      "RL": 1.23,
+      "CC": 0.94
+    }
   },
   {
     "iso3": "ROU",
@@ -4295,7 +4730,8 @@
     "gdpPerCapita": 17000,
     "population": 19000000,
     "governmentType": "Electoral Democracy",
-    "democracyIndex": 0.62
+    "democracyIndex": 0.62,
+    "governance": {}
   },
   {
     "iso3": "RUS",
@@ -4323,7 +4759,15 @@
     "gdpPerCapita": 12000,
     "population": 144400000,
     "governmentType": "Closed Autocracy",
-    "democracyIndex": 0.15
+    "democracyIndex": 0.15,
+    "governance": {
+      "VA": -1.42,
+      "PS": -0.93,
+      "GE": -0.17,
+      "RQ": -0.52,
+      "RL": -0.72,
+      "CC": -0.76
+    }
   },
   {
     "iso3": "RWA",
@@ -4354,7 +4798,15 @@
     "gdpPerCapita": 1000,
     "population": 14100000,
     "governmentType": "Closed Autocracy",
-    "democracyIndex": 0.22
+    "democracyIndex": 0.22,
+    "governance": {
+      "VA": -1.27,
+      "PS": -0.12,
+      "GE": 0.39,
+      "RQ": 0.13,
+      "RL": 0.06,
+      "CC": 0.66
+    }
   },
   {
     "iso3": "KNA",
@@ -4385,7 +4837,8 @@
     "gdpPerCapita": 19000,
     "population": 48000,
     "governmentType": "Closed Autocracy",
-    "democracyIndex": 0.3348147244273719
+    "democracyIndex": 0.3348147244273719,
+    "governance": {}
   },
   {
     "iso3": "LCA",
@@ -4416,7 +4869,8 @@
     "gdpPerCapita": 11000,
     "population": 180000,
     "governmentType": "Electoral Autocracy",
-    "democracyIndex": 0.5298024870990315
+    "democracyIndex": 0.5298024870990315,
+    "governance": {}
   },
   {
     "iso3": "VCT",
@@ -4447,7 +4901,8 @@
     "gdpPerCapita": 9000,
     "population": 100000,
     "governmentType": "Electoral Autocracy",
-    "democracyIndex": 0.41778260053083827
+    "democracyIndex": 0.41778260053083827,
+    "governance": {}
   },
   {
     "iso3": "WSM",
@@ -4477,7 +4932,8 @@
     "gdpPerCapita": 4100,
     "population": 220000,
     "governmentType": "Electoral Democracy",
-    "democracyIndex": 0.5708518999328026
+    "democracyIndex": 0.5708518999328026,
+    "governance": {}
   },
   {
     "iso3": "SMR",
@@ -4505,7 +4961,8 @@
     "gdpPerCapita": 48000,
     "population": 33000,
     "governmentType": "Electoral Autocracy",
-    "democracyIndex": 0.4530955513364392
+    "democracyIndex": 0.4530955513364392,
+    "governance": {}
   },
   {
     "iso3": "STP",
@@ -4536,7 +4993,8 @@
     "gdpPerCapita": 2300,
     "population": 230000,
     "governmentType": "Closed Autocracy",
-    "democracyIndex": 0.30456854216860807
+    "democracyIndex": 0.30456854216860807,
+    "governance": {}
   },
   {
     "iso3": "SAU",
@@ -4567,7 +5025,15 @@
     "gdpPerCapita": 30000,
     "population": 36900000,
     "governmentType": "Closed Autocracy",
-    "democracyIndex": 0.08
+    "democracyIndex": 0.08,
+    "governance": {
+      "VA": -1.81,
+      "PS": -0.38,
+      "GE": 0.42,
+      "RQ": 0.08,
+      "RL": 0.11,
+      "CC": 0.16
+    }
   },
   {
     "iso3": "SEN",
@@ -4598,7 +5064,8 @@
     "gdpPerCapita": 1800,
     "population": 17700000,
     "governmentType": "Electoral Democracy",
-    "democracyIndex": 0.58
+    "democracyIndex": 0.58,
+    "governance": {}
   },
   {
     "iso3": "SRB",
@@ -4626,7 +5093,8 @@
     "gdpPerCapita": 10000,
     "population": 6600000,
     "governmentType": "Electoral Autocracy",
-    "democracyIndex": 0.52
+    "democracyIndex": 0.52,
+    "governance": {}
   },
   {
     "iso3": "SYC",
@@ -4657,7 +5125,8 @@
     "gdpPerCapita": 18000,
     "population": 120000,
     "governmentType": "Electoral Democracy",
-    "democracyIndex": 0.5901833932591098
+    "democracyIndex": 0.5901833932591098,
+    "governance": {}
   },
   {
     "iso3": "SLE",
@@ -4688,7 +5157,8 @@
     "gdpPerCapita": 500,
     "population": 8600000,
     "governmentType": "Electoral Democracy",
-    "democracyIndex": 0.6585254679337436
+    "democracyIndex": 0.6585254679337436,
+    "governance": {}
   },
   {
     "iso3": "SGP",
@@ -4719,7 +5189,15 @@
     "gdpPerCapita": 82000,
     "population": 6000000,
     "governmentType": "Electoral Autocracy",
-    "democracyIndex": 0.48
+    "democracyIndex": 0.48,
+    "governance": {
+      "VA": -0.03,
+      "PS": 1.44,
+      "GE": 2.2,
+      "RQ": 2.16,
+      "RL": 1.84,
+      "CC": 2.09
+    }
   },
   {
     "iso3": "SVK",
@@ -4749,7 +5227,8 @@
     "gdpPerCapita": 22000,
     "population": 5400000,
     "governmentType": "Liberal Democracy",
-    "democracyIndex": 0.75
+    "democracyIndex": 0.75,
+    "governance": {}
   },
   {
     "iso3": "SVN",
@@ -4779,7 +5258,8 @@
     "gdpPerCapita": 29000,
     "population": 2100000,
     "governmentType": "Liberal Democracy",
-    "democracyIndex": 0.78
+    "democracyIndex": 0.78,
+    "governance": {}
   },
   {
     "iso3": "SLB",
@@ -4810,7 +5290,8 @@
     "gdpPerCapita": 2300,
     "population": 740000,
     "governmentType": "Electoral Autocracy",
-    "democracyIndex": 0.5192885772835669
+    "democracyIndex": 0.5192885772835669,
+    "governance": {}
   },
   {
     "iso3": "SOM",
@@ -4841,7 +5322,15 @@
     "gdpPerCapita": 600,
     "population": 18100000,
     "governmentType": "Closed Autocracy",
-    "democracyIndex": 0.1
+    "democracyIndex": 0.1,
+    "governance": {
+      "VA": -1.59,
+      "PS": -2.38,
+      "GE": -1.98,
+      "RQ": -1.87,
+      "RL": -2.09,
+      "CC": -1.61
+    }
   },
   {
     "iso3": "ZAF",
@@ -4872,7 +5361,15 @@
     "gdpPerCapita": 6100,
     "population": 60400000,
     "governmentType": "Electoral Democracy",
-    "democracyIndex": 0.62
+    "democracyIndex": 0.62,
+    "governance": {
+      "VA": 0.57,
+      "PS": -0.24,
+      "GE": 0.09,
+      "RQ": 0.08,
+      "RL": -0.06,
+      "CC": -0.1
+    }
   },
   {
     "iso3": "SSD",
@@ -4902,7 +5399,8 @@
     "gdpPerCapita": 400,
     "population": 11100000,
     "governmentType": "Closed Autocracy",
-    "democracyIndex": 0.08
+    "democracyIndex": 0.08,
+    "governance": {}
   },
   {
     "iso3": "ESP",
@@ -4932,7 +5430,15 @@
     "gdpPerCapita": 32000,
     "population": 48100000,
     "governmentType": "Liberal Democracy",
-    "democracyIndex": 0.84
+    "democracyIndex": 0.84,
+    "governance": {
+      "VA": 1.05,
+      "PS": 0.31,
+      "GE": 0.96,
+      "RQ": 0.83,
+      "RL": 0.95,
+      "CC": 0.68
+    }
   },
   {
     "iso3": "LKA",
@@ -4963,7 +5469,8 @@
     "gdpPerCapita": 3800,
     "population": 22200000,
     "governmentType": "Electoral Autocracy",
-    "democracyIndex": 0.42
+    "democracyIndex": 0.42,
+    "governance": {}
   },
   {
     "iso3": "SDN",
@@ -4994,7 +5501,8 @@
     "gdpPerCapita": 600,
     "population": 48100000,
     "governmentType": "Closed Autocracy",
-    "democracyIndex": 0.08
+    "democracyIndex": 0.08,
+    "governance": {}
   },
   {
     "iso3": "SUR",
@@ -5025,7 +5533,8 @@
     "gdpPerCapita": 5700,
     "population": 620000,
     "governmentType": "Electoral Democracy",
-    "democracyIndex": 0.58
+    "democracyIndex": 0.58,
+    "governance": {}
   },
   {
     "iso3": "SWE",
@@ -5055,7 +5564,15 @@
     "gdpPerCapita": 56000,
     "population": 10500000,
     "governmentType": "Liberal Democracy",
-    "democracyIndex": 0.94
+    "democracyIndex": 0.94,
+    "governance": {
+      "VA": 1.58,
+      "PS": 0.86,
+      "GE": 1.68,
+      "RQ": 1.78,
+      "RL": 1.85,
+      "CC": 2.07
+    }
   },
   {
     "iso3": "CHE",
@@ -5083,7 +5600,15 @@
     "gdpPerCapita": 100000,
     "population": 8800000,
     "governmentType": "Liberal Democracy",
-    "democracyIndex": 0.91
+    "democracyIndex": 0.91,
+    "governance": {
+      "VA": 1.62,
+      "PS": 1.38,
+      "GE": 2.02,
+      "RQ": 1.83,
+      "RL": 1.94,
+      "CC": 2.02
+    }
   },
   {
     "iso3": "SYR",
@@ -5114,7 +5639,15 @@
     "gdpPerCapita": 500,
     "population": 23200000,
     "governmentType": "Closed Autocracy",
-    "democracyIndex": 0.05
+    "democracyIndex": 0.05,
+    "governance": {
+      "VA": -2.04,
+      "PS": -2.8,
+      "GE": -1.8,
+      "RQ": -1.68,
+      "RL": -1.87,
+      "CC": -1.46
+    }
   },
   {
     "iso3": "TJK",
@@ -5144,7 +5677,8 @@
     "gdpPerCapita": 1100,
     "population": 10100000,
     "governmentType": "Closed Autocracy",
-    "democracyIndex": 0.1
+    "democracyIndex": 0.1,
+    "governance": {}
   },
   {
     "iso3": "TZA",
@@ -5175,7 +5709,15 @@
     "gdpPerCapita": 1200,
     "population": 67400000,
     "governmentType": "Electoral Autocracy",
-    "democracyIndex": 0.35
+    "democracyIndex": 0.35,
+    "governance": {
+      "VA": -0.52,
+      "PS": -0.23,
+      "GE": -0.51,
+      "RQ": -0.32,
+      "RL": -0.33,
+      "CC": -0.46
+    }
   },
   {
     "iso3": "THA",
@@ -5206,7 +5748,15 @@
     "gdpPerCapita": 7200,
     "population": 72000000,
     "governmentType": "Electoral Autocracy",
-    "democracyIndex": 0.35
+    "democracyIndex": 0.35,
+    "governance": {
+      "VA": -0.88,
+      "PS": -0.45,
+      "GE": 0.42,
+      "RQ": 0.28,
+      "RL": 0.03,
+      "CC": -0.25
+    }
   },
   {
     "iso3": "TLS",
@@ -5237,7 +5787,8 @@
     "gdpPerCapita": 1900,
     "population": 1400000,
     "governmentType": "Electoral Democracy",
-    "democracyIndex": 0.5739401344847725
+    "democracyIndex": 0.5739401344847725,
+    "governance": {}
   },
   {
     "iso3": "TGO",
@@ -5268,7 +5819,8 @@
     "gdpPerCapita": 1000,
     "population": 9000000,
     "governmentType": "Electoral Democracy",
-    "democracyIndex": 0.6023629903566006
+    "democracyIndex": 0.6023629903566006,
+    "governance": {}
   },
   {
     "iso3": "TON",
@@ -5298,7 +5850,8 @@
     "gdpPerCapita": 5100,
     "population": 107000,
     "governmentType": "Closed Autocracy",
-    "democracyIndex": 0.33449010980187216
+    "democracyIndex": 0.33449010980187216,
+    "governance": {}
   },
   {
     "iso3": "TTO",
@@ -5329,7 +5882,8 @@
     "gdpPerCapita": 18000,
     "population": 1500000,
     "governmentType": "Electoral Democracy",
-    "democracyIndex": 0.65
+    "democracyIndex": 0.65,
+    "governance": {}
   },
   {
     "iso3": "TUN",
@@ -5360,7 +5914,8 @@
     "gdpPerCapita": 4200,
     "population": 12400000,
     "governmentType": "Electoral Autocracy",
-    "democracyIndex": 0.45
+    "democracyIndex": 0.45,
+    "governance": {}
   },
   {
     "iso3": "TUR",
@@ -5388,7 +5943,15 @@
     "gdpPerCapita": 10700,
     "population": 85400000,
     "governmentType": "Closed Autocracy",
-    "democracyIndex": 0.28
+    "democracyIndex": 0.28,
+    "governance": {
+      "VA": -0.91,
+      "PS": -1.12,
+      "GE": 0.04,
+      "RQ": -0.04,
+      "RL": -0.39,
+      "CC": -0.43
+    }
   },
   {
     "iso3": "TKM",
@@ -5419,7 +5982,8 @@
     "gdpPerCapita": 8800,
     "population": 6500000,
     "governmentType": "Closed Autocracy",
-    "democracyIndex": 0.05
+    "democracyIndex": 0.05,
+    "governance": {}
   },
   {
     "iso3": "TUV",
@@ -5449,7 +6013,8 @@
     "gdpPerCapita": 5500,
     "population": 11000,
     "governmentType": "Electoral Autocracy",
-    "democracyIndex": 0.36301819245866923
+    "democracyIndex": 0.36301819245866923,
+    "governance": {}
   },
   {
     "iso3": "UGA",
@@ -5480,7 +6045,8 @@
     "gdpPerCapita": 1100,
     "population": 48600000,
     "governmentType": "Closed Autocracy",
-    "democracyIndex": 0.28
+    "democracyIndex": 0.28,
+    "governance": {}
   },
   {
     "iso3": "UKR",
@@ -5508,7 +6074,15 @@
     "gdpPerCapita": 4500,
     "population": 37000000,
     "governmentType": "Electoral Autocracy",
-    "democracyIndex": 0.45
+    "democracyIndex": 0.45,
+    "governance": {
+      "VA": -0.01,
+      "PS": -1.9,
+      "GE": -0.25,
+      "RQ": -0.24,
+      "RL": -0.56,
+      "CC": -0.68
+    }
   },
   {
     "iso3": "ARE",
@@ -5539,7 +6113,15 @@
     "gdpPerCapita": 50000,
     "population": 9400000,
     "governmentType": "Closed Autocracy",
-    "democracyIndex": 0.12
+    "democracyIndex": 0.12,
+    "governance": {
+      "VA": -1.1,
+      "PS": 0.63,
+      "GE": 1.4,
+      "RQ": 1.1,
+      "RL": 0.79,
+      "CC": 1.23
+    }
   },
   {
     "iso3": "GBR",
@@ -5567,7 +6149,15 @@
     "gdpPerCapita": 48000,
     "population": 67700000,
     "governmentType": "Liberal Democracy",
-    "democracyIndex": 0.87
+    "democracyIndex": 0.87,
+    "governance": {
+      "VA": 1.32,
+      "PS": 0.48,
+      "GE": 1.36,
+      "RQ": 1.62,
+      "RL": 1.59,
+      "CC": 1.63
+    }
   },
   {
     "iso3": "USA",
@@ -5595,7 +6185,15 @@
     "gdpPerCapita": 80000,
     "population": 340000000,
     "governmentType": "Liberal Democracy",
-    "democracyIndex": 0.78
+    "democracyIndex": 0.78,
+    "governance": {
+      "VA": 1.01,
+      "PS": -0.09,
+      "GE": 1.45,
+      "RQ": 1.35,
+      "RL": 1.32,
+      "CC": 1.24
+    }
   },
   {
     "iso3": "URY",
@@ -5625,7 +6223,8 @@
     "gdpPerCapita": 21000,
     "population": 3400000,
     "governmentType": "Liberal Democracy",
-    "democracyIndex": 0.82
+    "democracyIndex": 0.82,
+    "governance": {}
   },
   {
     "iso3": "UZB",
@@ -5656,7 +6255,8 @@
     "gdpPerCapita": 2300,
     "population": 36000000,
     "governmentType": "Closed Autocracy",
-    "democracyIndex": 0.12
+    "democracyIndex": 0.12,
+    "governance": {}
   },
   {
     "iso3": "VUT",
@@ -5687,7 +6287,8 @@
     "gdpPerCapita": 3200,
     "population": 330000,
     "governmentType": "Electoral Autocracy",
-    "democracyIndex": 0.37583347821511176
+    "democracyIndex": 0.37583347821511176,
+    "governance": {}
   },
   {
     "iso3": "VEN",
@@ -5718,7 +6319,15 @@
     "gdpPerCapita": 3700,
     "population": 28400000,
     "governmentType": "Closed Autocracy",
-    "democracyIndex": 0.18
+    "democracyIndex": 0.18,
+    "governance": {
+      "VA": -1.45,
+      "PS": -1.26,
+      "GE": -1.6,
+      "RQ": -2.02,
+      "RL": -1.84,
+      "CC": -1.55
+    }
   },
   {
     "iso3": "VNM",
@@ -5749,7 +6358,15 @@
     "gdpPerCapita": 4300,
     "population": 100000000,
     "governmentType": "Closed Autocracy",
-    "democracyIndex": 0.15
+    "democracyIndex": 0.15,
+    "governance": {
+      "VA": -1.35,
+      "PS": 0.2,
+      "GE": 0.32,
+      "RQ": -0.14,
+      "RL": 0.16,
+      "CC": -0.17
+    }
   },
   {
     "iso3": "YEM",
@@ -5780,7 +6397,15 @@
     "gdpPerCapita": 600,
     "population": 34400000,
     "governmentType": "Closed Autocracy",
-    "democracyIndex": 0.1
+    "democracyIndex": 0.1,
+    "governance": {
+      "VA": -1.73,
+      "PS": -2.82,
+      "GE": -1.79,
+      "RQ": -1.47,
+      "RL": -1.72,
+      "CC": -1.47
+    }
   },
   {
     "iso3": "ZMB",
@@ -5811,7 +6436,8 @@
     "gdpPerCapita": 1200,
     "population": 20600000,
     "governmentType": "Electoral Autocracy",
-    "democracyIndex": 0.42
+    "democracyIndex": 0.42,
+    "governance": {}
   },
   {
     "iso3": "ZWE",
@@ -5842,6 +6468,7 @@
     "gdpPerCapita": 1800,
     "population": 16700000,
     "governmentType": "Closed Autocracy",
-    "democracyIndex": 0.18
+    "democracyIndex": 0.18,
+    "governance": {}
   }
 ]
