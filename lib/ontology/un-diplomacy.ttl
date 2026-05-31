@@ -285,3 +285,85 @@ un:era_NewColdWar a un:Era ;
   rdfs:label "New Cold War" ;
   un:year 2022 ;
   rdfs:comment "Russia-Ukraine, US-China competition, bloc re-formation 2022-present." .
+
+# ─── Extended Relationships (added 2026-05-31) ────────────────────────
+# These relationships are empirically shown to predict voting alignment.
+
+un:formerColonizerOf a owl:ObjectProperty ;
+  rdfs:label "former colonizer of" ;
+  rdfs:domain un:Country ;
+  rdfs:range un:Country ;
+  rdfs:comment "Historical colonial relationship. Predicts alignment on decolonization and sovereignty resolutions." .
+
+un:borders a owl:ObjectProperty ;
+  rdfs:label "borders" ;
+  rdfs:domain un:Country ;
+  rdfs:range un:Country ;
+  rdfs:comment "Geographic contiguity — land border between states. Neighbors often coordinate or systematically oppose." ;
+  owl:symmetricProperty true .
+
+un:memberOfAlliance a owl:ObjectProperty ;
+  rdfs:label "member of alliance" ;
+  rdfs:domain un:Country ;
+  rdfs:range un:Alliance ;
+  rdfs:comment "Membership in a formal security alliance (NATO, CSTO, SCO, AUKUS, etc.)." .
+
+un:armsSupplier a owl:ObjectProperty ;
+  rdfs:label "arms supplier" ;
+  rdfs:domain un:Country ;
+  rdfs:range un:Country ;
+  rdfs:comment "Major arms trade relationship. Recipients vote with suppliers on security resolutions (SIPRI data)." .
+
+un:aidDonor a owl:ObjectProperty ;
+  rdfs:label "aid donor" ;
+  rdfs:domain un:Country ;
+  rdfs:range un:Country ;
+  rdfs:comment "Official development assistance flow. Recipients show 12% higher voting alignment with donors (OECD DAC)." .
+
+un:engagedIn a owl:ObjectProperty ;
+  rdfs:label "engaged in" ;
+  rdfs:domain un:Country ;
+  rdfs:range un:Event ;
+  rdfs:comment "Country involvement in a geopolitical event (from GDELT)." .
+
+un:Alliance a owl:Class ;
+  rdfs:label "Security Alliance" ;
+  rdfs:comment "A formal security pact between states (NATO, CSTO, SCO, AUKUS, Five Eyes, BRICS)." .
+
+# ─── Extended Data Properties ─────────────────────────────────────────
+
+un:hasVetoPower a owl:DatatypeProperty ;
+  rdfs:label "has veto power" ;
+  rdfs:domain un:Country ;
+  rdfs:range xsd:boolean ;
+  rdfs:comment "Whether this country holds Security Council veto power (P5 only)." .
+
+un:govEffectiveness a owl:DatatypeProperty ;
+  rdfs:label "WGI Government Effectiveness" ;
+  rdfs:domain un:Country ;
+  rdfs:range xsd:float ;
+  rdfs:comment "World Bank WGI 2024 score [-2.5, +2.5]. Measures quality of public services, policy implementation." .
+
+un:govRuleOfLaw a owl:DatatypeProperty ;
+  rdfs:label "WGI Rule of Law" ;
+  rdfs:domain un:Country ;
+  rdfs:range xsd:float ;
+  rdfs:comment "World Bank WGI 2024 score. Measures confidence in rules of society, contract enforcement, courts." .
+
+un:govControlCorruption a owl:DatatypeProperty ;
+  rdfs:label "WGI Control of Corruption" ;
+  rdfs:domain un:Country ;
+  rdfs:range xsd:float ;
+  rdfs:comment "World Bank WGI 2024 score. Measures extent to which public power is exercised for private gain." .
+
+un:govVoiceAccountability a owl:DatatypeProperty ;
+  rdfs:label "WGI Voice and Accountability" ;
+  rdfs:domain un:Country ;
+  rdfs:range xsd:float ;
+  rdfs:comment "World Bank WGI 2024 score. Measures citizens' ability to select government, freedom of expression/association." .
+
+un:govPoliticalStability a owl:DatatypeProperty ;
+  rdfs:label "WGI Political Stability" ;
+  rdfs:domain un:Country ;
+  rdfs:range xsd:float ;
+  rdfs:comment "World Bank WGI 2024 score. Measures likelihood of political instability or politically-motivated violence." .
