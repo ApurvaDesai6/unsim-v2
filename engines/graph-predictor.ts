@@ -338,13 +338,16 @@ export function simulateWithGraph(
       WEIGHTS.idealPoint * idealScore * (1 + resIntensity * 0.3) +
       WEIGHTS.blocPressure * blocScore;
 
-    // Abstain calibration using empirical abstain rate from graph
+    // Abstain calibration using empirical abstain rate + governance quality
     const patterns = graphData.votingPatterns[country.iso3];
     const matchedTopic = findBestMatchingTopic(resolution.issueWeights);
     const empiricalAbstainRate = patterns?.[matchedTopic || ""]
       ? patterns[matchedTopic!].abstain / patterns[matchedTopic!].total
       : 0.1;
-    const abstainBias = empiricalAbstainRate * 1.5 + (1 - Math.abs(composite)) * 0.3;
+    // Higher democracy → more likely to abstain on contested resolutions (domestic pressure)
+    // Lower governance → more erratic (higher baseline abstention from missed votes)
+    const democracyAbstainBias = country.democracyIndex > 0.7 ? 0.05 : country.democracyIndex < 0.3 ? 0.08 : 0;
+    const abstainBias = empiricalAbstainRate * 1.5 + (1 - Math.abs(composite)) * 0.3 + democracyAbstainBias;
 
     const rawScores: [number, number, number] = [
       composite * 3.5,

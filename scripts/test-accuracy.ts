@@ -92,7 +92,7 @@ const TEST_CASES: TestCase[] = [
       { sovereignty: -0.9, humanRights: 0.8, development: 0.0, security: -0.5, environment: 0.0, decolonization: -0.5 },
       { "human-rights": 1.0, sovereignty: 0.9, security: 0.5 }
     ),
-    expected: { outcome: "pass", yesRange: [140, 190], noRange: [3, 40] },
+    expected: { outcome: "pass", yesRange: [140, 190], noRange: [1, 40] },
   },
 
   // ─── Category 3: Known country positions ────────────────────────
